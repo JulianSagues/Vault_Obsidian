@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "573d239d230d35ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "af033dec21c799c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8346de324968e9e8",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Materias/Analisis numerico/Analisis numerico.base",
+                "viewName": "Tabla"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Analisis numerico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d06c7dcc52eebee5",
+    "type": "split",
+    "children": [
+      {
+        "id": "37cd2fc2dce449ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66390372176216a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "e0ada8da01ef31ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "25e4a553d5f9b168",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e7021e504a7e478c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca1b476881afe639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b949bb0d1f1e4e73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "5ad6d0b5a59d2013",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "d57903d4c70ae5a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "239974a3019b01f9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "e077b00b07e27b34",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
+            }
+          },
+          {
+            "id": "6eafbe42771b0773",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-kanban:Create new board": false,
+      "callout-manager:Insert Callout": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "iconic:Abrir libro de reglas": false
+    }
+  },
+  "active": "8346de324968e9e8",
+  "lastOpenFiles": [
+    "Materias.base",
+    "Materias/Sistemas Operativos/Sistemas Operativos.base",
+    "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
+    "Materias/Economia/Economia.base",
+    "Materias/Diseño de sistemas/Diseño de sistemas.base",
+    "Materias/Desarrollo de software/Desarrollo de software.base",
+    "Materias/Comunicacion de datos/Comunicacion de datos.base",
+    "Materias/Base de datos/Base de datos.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
+    "Materias/Diseño de sistemas/Notas/Untitled.md",
+    "Materias/Desarrollo de software/Notas/Untitled.md",
+    "Materias/Comunicacion de datos/Notas/Untitled.md",
+    "Materias/Base de datos/Notas/Untitled.md",
+    "Materias/Analisis numerico/Notas/Untitled.md",
+    "Materias/Probabilidad y estadistica/Notas",
+    "Materias/Sistemas Operativos/Notas/1.md",
+    "Materias/Materias.md",
+    "Materias/Sistemas Operativos/Sistemas Operativos.md",
+    "Assets/Assets.md",
+    "Materias/Untitled.md",
+    "Untitled.md",
+    "Assets/Untitled Kanban.md",
+    "//Untitled.canvas",
+    "Untitled.canvas",
+    "Bienvenido.md"
+  ]
+}

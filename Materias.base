@@ -1,0 +1,11 @@
+formulas:
+  Sin título: ""
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.ext == "base"
+        - file.folder.contains("Materias")
+    order:
+      - file.name

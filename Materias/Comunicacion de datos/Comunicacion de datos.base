@@ -1,0 +1,6 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Comunicacion de datos/Notas")

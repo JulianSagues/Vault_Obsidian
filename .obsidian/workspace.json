@@ -11,13 +11,14 @@
             "id": "8346de324968e9e8",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Materias/Base de datos/Base de datos.base",
-                "viewName": "Tabla"
+                "file": "Materias/Analisis numerico/Notas/Hola.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Base de datos"
+              "icon": "lucide-file",
+              "title": "Hola"
             }
           }
         ]
@@ -163,12 +164,22 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
+            }
+          },
+          {
+            "id": "39d8e3008f4bee7f",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
               "icon": "bot-message-square",
               "title": "Copilot Chat"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -177,7 +188,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -196,6 +206,9 @@
   },
   "active": "8346de324968e9e8",
   "lastOpenFiles": [
+    "Materias/Analisis numerico/Notas/1.md",
+    "Materias/Analisis numerico/Notas/Hola.md",
+    "Materias/Base de datos/Base de datos.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Sistemas Operativos/Notas/1.md",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
@@ -208,11 +221,9 @@
     "Materias/Desarrollo de software/Notas/1.md",
     "Materias/Comunicacion de datos/Comunicacion de datos.base",
     "Materias/Comunicacion de datos/Notas/1.md",
-    "Materias/Base de datos/Base de datos.base",
     "Materias/Analisis numerico/Analisis numerico.base",
     "Materias.base",
     "Materias/Base de datos/Notas/1.md",
-    "Materias/Analisis numerico/Notas/1.md",
     "Nuevo Documento de texto.txt",
     "Assets/Assets.md",
     "README.md",

@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Analisis numerico/Analisis numerico.base",
+                "file": "Materias.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Analisis numerico"
+              "title": "Materias"
             }
           }
         ]
@@ -194,8 +194,10 @@
       "iconic:Abrir libro de reglas": false
     }
   },
-  "active": "66390372176216a1",
+  "active": "8346de324968e9e8",
   "lastOpenFiles": [
+    "Assets/Assets.md",
+    "README.md",
     "Materias/Analisis numerico/Analisis numerico.base",
     "Materias.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
@@ -214,7 +216,6 @@
     "Materias/Sistemas Operativos/Notas/1.md",
     "Materias/Materias.md",
     "Materias/Sistemas Operativos/Sistemas Operativos.md",
-    "Assets/Assets.md",
     "Materias/Untitled.md",
     "Untitled.md",
     "Assets/Untitled Kanban.md",

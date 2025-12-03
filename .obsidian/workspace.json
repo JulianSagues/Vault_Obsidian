@@ -177,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -193,8 +194,9 @@
       "iconic:Abrir libro de reglas": false
     }
   },
-  "active": "8346de324968e9e8",
+  "active": "66390372176216a1",
   "lastOpenFiles": [
+    "Materias/Analisis numerico/Analisis numerico.base",
     "Materias.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
@@ -203,7 +205,6 @@
     "Materias/Desarrollo de software/Desarrollo de software.base",
     "Materias/Comunicacion de datos/Comunicacion de datos.base",
     "Materias/Base de datos/Base de datos.base",
-    "Materias/Analisis numerico/Analisis numerico.base",
     "Materias/Diseño de sistemas/Notas/Untitled.md",
     "Materias/Desarrollo de software/Notas/Untitled.md",
     "Materias/Comunicacion de datos/Notas/Untitled.md",

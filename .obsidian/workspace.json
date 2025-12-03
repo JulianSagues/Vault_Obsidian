@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias.base",
+                "file": "Materias/Analisis numerico/Analisis numerico.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Materias"
+              "title": "Analisis numerico"
             }
           }
         ]
@@ -196,11 +196,11 @@
   },
   "active": "8346de324968e9e8",
   "lastOpenFiles": [
+    "Materias.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
     "Nuevo Documento de texto.txt",
     "Assets/Assets.md",
     "README.md",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
     "Materias/Economia/Economia.base",

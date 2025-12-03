@@ -7,6 +7,3 @@ Thumbs.db
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace-mobile
-
-# Configuración del plugin Git (Para que no se pisen el Autor/Email)
-.obsidian/plugins/obsidian-git/data.json

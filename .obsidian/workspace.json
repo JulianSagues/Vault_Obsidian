@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Analisis numerico/Analisis numerico.base",
+                "file": "Materias/Base de datos/Base de datos.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Analisis numerico"
+              "title": "Base de datos"
             }
           }
         ]
@@ -196,24 +196,31 @@
   },
   "active": "8346de324968e9e8",
   "lastOpenFiles": [
-    "Materias.base",
+    "Materias/Sistemas Operativos/Sistemas Operativos.base",
+    "Materias/Sistemas Operativos/Notas/1.md",
+    "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
+    "Materias/Probabilidad y estadistica/Notas/1.md",
+    "Materias/Economia/Economia.base",
+    "Materias/Economia/Notas/1.md",
+    "Materias/Diseño de sistemas/Diseño de sistemas.base",
+    "Materias/Diseño de sistemas/Notas/1.md",
+    "Materias/Desarrollo de software/Desarrollo de software.base",
+    "Materias/Desarrollo de software/Notas/1.md",
+    "Materias/Comunicacion de datos/Comunicacion de datos.base",
+    "Materias/Comunicacion de datos/Notas/1.md",
+    "Materias/Base de datos/Base de datos.base",
     "Materias/Analisis numerico/Analisis numerico.base",
+    "Materias.base",
+    "Materias/Base de datos/Notas/1.md",
+    "Materias/Analisis numerico/Notas/1.md",
     "Nuevo Documento de texto.txt",
     "Assets/Assets.md",
     "README.md",
-    "Materias/Sistemas Operativos/Sistemas Operativos.base",
-    "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
-    "Materias/Economia/Economia.base",
-    "Materias/Diseño de sistemas/Diseño de sistemas.base",
-    "Materias/Desarrollo de software/Desarrollo de software.base",
-    "Materias/Comunicacion de datos/Comunicacion de datos.base",
-    "Materias/Base de datos/Base de datos.base",
     "Materias/Diseño de sistemas/Notas/Untitled.md",
     "Materias/Desarrollo de software/Notas/Untitled.md",
     "Materias/Comunicacion de datos/Notas/Untitled.md",
     "Materias/Base de datos/Notas/Untitled.md",
     "Materias/Analisis numerico/Notas/Untitled.md",
-    "Materias/Probabilidad y estadistica/Notas",
     "Materias/Sistemas Operativos/Notas/1.md",
     "Materias/Materias.md",
     "Materias/Sistemas Operativos/Sistemas Operativos.md",

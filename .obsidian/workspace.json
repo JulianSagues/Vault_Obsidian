@@ -1,24 +1,23 @@
 {
   "main": {
-    "id": "573d239d230d35ab",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "af033dec21c799c7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "8346de324968e9e8",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Materias/Analisis numerico/Notas/Hola.md",
-                "mode": "source",
-                "source": false
+                "file": "Materias.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Hola"
+              "icon": "lucide-layout-grid",
+              "title": "Materias"
             }
           }
         ]
@@ -178,7 +177,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "homepage:Open homepage": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -192,13 +192,18 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "iconic:Abrir libro de reglas": false
+      "iconic:Abrir libro de reglas": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "8346de324968e9e8",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Materias/Base de datos/Base de datos.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
+    "Materias.base",
+    "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
+    "Materias/Analisis numerico/Notas/1.md",
     "Materias/Analisis numerico/Notas/Hola.md",
+    "Materias/Base de datos/Base de datos.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Sistemas Operativos/Notas/1.md",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
@@ -211,10 +216,7 @@
     "Materias/Desarrollo de software/Notas/1.md",
     "Materias/Comunicacion de datos/Comunicacion de datos.base",
     "Materias/Comunicacion de datos/Notas/1.md",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias.base",
     "Materias/Base de datos/Notas/1.md",
-    "Materias/Analisis numerico/Notas/1.md",
     "Nuevo Documento de texto.txt",
     "Assets/Assets.md",
     "README.md",

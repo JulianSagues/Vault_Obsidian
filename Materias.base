@@ -9,3 +9,5 @@ views:
         - file.folder.contains("Materias")
     order:
       - file.name
+    cardSize: 240
+    imageAspectRatio: 0.25

@@ -29,6 +29,13 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "Assets": {
+      "icon": "lucide-image",
+      "unsynced": [
+        "4294dfe616a0c7fa"
+      ],
+      "color": "green"
+    },
     "Materias": {
       "icon": "lucide-book-lock",
       "unsynced": [

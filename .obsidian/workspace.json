@@ -192,14 +192,13 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "iconic:Abrir libro de reglas": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false
+      "iconic:Abrir libro de reglas": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Materias/Analisis numerico/Analisis numerico.base",
     "Materias.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
     "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
     "Materias/Analisis numerico/Notas/1.md",
     "Materias/Analisis numerico/Notas/Hola.md",

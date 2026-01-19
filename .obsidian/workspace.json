@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Sistemas Operativos/Sistemas Operativos.base",
+                "file": "Materias/Materias.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Sistemas Operativos"
+              "title": "Materias"
             }
           }
         ]
@@ -185,8 +185,9 @@
       "iconic:Abrir libro de reglas": false
     }
   },
-  "active": "fdc709b926441844",
+  "active": "66390372176216a1",
   "lastOpenFiles": [
+    "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
     "Materias/Economia/Economia.base",
     "Materias/Diseño de sistemas/Diseño de sistemas.base",
@@ -197,7 +198,6 @@
     "Materias/Analisis numerico/Analisis numerico.base",
     "Materias/Materias.base",
     "Materias",
-    "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Analisis numerico/Notas/1.md",
     "Materias/Diseño de sistemas/Notas/Sin título.md",
     "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",

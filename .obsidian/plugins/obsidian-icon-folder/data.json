@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPaperclip",
+      "LiBook",
       "LiFolderCode",
       "LiCodeblockGlyph",
-      "LiPercent",
-      "LiCircleDollarSign",
-      "LiUser"
+      "LiPercent"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,5 +65,13 @@
   "Materias/Sistemas Operativos": {
     "iconName": "LiFolderCode",
     "iconColor": "#773e08"
+  },
+  "Materias": {
+    "iconName": "LiBook",
+    "iconColor": "#e9fa00"
+  },
+  "Assets": {
+    "iconName": "LiPaperclip",
+    "iconColor": "#00bfff"
   }
 }

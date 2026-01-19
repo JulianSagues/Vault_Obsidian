@@ -13,11 +13,24 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Sistemas Operativos/Material/Material.base",
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Material"
+              "title": "TP1"
+            }
+          },
+          {
+            "id": "538a0f32c5135bc4",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Notas/Notas.base",
+                "viewName": "Tabla"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Notas"
             }
           }
         ]
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materias/Sistemas Operativos/Material/Material.base",
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Material"
+              "title": "Enlaces entrantes de TP1"
             }
           },
           {
@@ -140,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Materias/Sistemas Operativos/Material/Material.base",
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Material"
+              "title": "Esquema de TP1"
             }
           }
         ],
@@ -179,17 +192,17 @@
   },
   "active": "fdc709b926441844",
   "lastOpenFiles": [
-    "Materias/Sistemas Operativos/Notas/Notas.base",
-    "Materias/Sistemas Operativos/Material/Material.base",
-    "Materias/Sistemas Operativos/Notas",
-    "Materias/Sistemas Operativos/Material",
+    "Materias/Diseño de sistemas/Notas/Notas.base",
+    "Materias/Diseño de sistemas/Material/TP1/TP1.base",
+    "Materias/Diseño de sistemas/Material/Material.base",
+    "Materias/Diseño de sistemas/Diseño de sistemas.base",
+    "Materias/Materias.base",
+    "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
-    "Materias/Probabilidad y estadistica/Material/Material.base",
-    "Materias/Probabilidad y estadistica/Notas/Notas.base",
-    "Materias/Probabilidad y estadistica/Notas",
-    "Materias/Economia/Material/Material.base",
-    "Materias/Probabilidad y estadistica/Material",
-    "Materias/Economia/Notas/Notas.base",
+    "Materias/Economia/Economia.base",
+    "Materias/Desarrollo de software/Desarrollo de software.base",
+    "Materias/Comunicacion de datos/Comunicacion de datos.base",
+    "Materias/Base de datos/Base de datos.base",
     "Assets/Untitled Diagram.svg",
     "Materias/Analisis numerico/Notas/1.md",
     "Materias/Diseño de sistemas/Notas/Sin título.md",

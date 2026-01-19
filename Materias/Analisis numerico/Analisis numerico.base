@@ -4,6 +4,4 @@ views:
     filters:
       and:
         - file.inFolder("Materias/Analisis numerico")
-        - '!file.inFolder("Materias/Analisis numerico/Material")'
-        - '!file.inFolder("Materias/Analisis numerico/Notas")'
         - file.basename != "Analisis numerico"

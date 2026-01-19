@@ -3,4 +3,7 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Comunicacion de datos/Notas")
+        - '!file.inFolder("Materias/Comunicacion de datos/Notas")'
+        - '!file.inFolder("Materias/Comunicacion de datos/Material")'
+        - file.inFolder("Materias/Comunicacion de datos")
+        - file.basename != "Comunicacion de datos"

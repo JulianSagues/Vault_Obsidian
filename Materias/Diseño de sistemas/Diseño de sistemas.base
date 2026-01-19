@@ -3,4 +3,9 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Diseño de sistemas/Notas")
+        - '!file.inFolder("Materias/Diseño de sistemas/Notas")'
+        - '!file.inFolder("Materias/Diseño de sistemas/Material")'
+        - file.inFolder("Materias/Diseño de sistemas")
+        - file.basename != "Diseño de sistemas"
+    cardSize: 200
+    imageAspectRatio: 1

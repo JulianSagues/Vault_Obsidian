@@ -3,4 +3,7 @@ views:
     name: Tabla
     filters:
       and:
-        - file.folder == "Materias/Sistemas Operativos/Notas"
+        - file.folder != "Materias/Sistemas Operativos/Notas"
+        - '!file.inFolder("Materias/Sistemas Operativos/Material")'
+        - file.inFolder("Materias/Sistemas Operativos")
+        - file.basename != "Sistemas Operativos"

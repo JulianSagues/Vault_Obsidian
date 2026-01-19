@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "0c3dadb8add7662a",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "fdc709b926441844",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias.base",
+                "file": "Materias/Sistemas Operativos/Sistemas Operativos.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Materias"
+              "title": "Sistemas Operativos"
             }
           }
         ]
@@ -148,17 +148,7 @@
             }
           },
           {
-            "id": "e077b00b07e27b34",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "github-copilot-chat-view"
-            }
-          },
-          {
-            "id": "6eafbe42771b0773",
+            "id": "f8ecd56d08661431",
             "type": "leaf",
             "state": {
               "type": "github-copilot-chat-view",
@@ -168,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,28 +185,30 @@
       "iconic:Abrir libro de reglas": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "fdc709b926441844",
   "lastOpenFiles": [
-    "Materias.base",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
-    "Materias/Analisis numerico/Notas/1.md",
-    "Materias/Analisis numerico/Notas/Hola.md",
-    "Materias/Base de datos/Base de datos.base",
-    "Materias/Sistemas Operativos/Sistemas Operativos.base",
-    "Materias/Sistemas Operativos/Notas/1.md",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
-    "Materias/Probabilidad y estadistica/Notas/1.md",
     "Materias/Economia/Economia.base",
-    "Materias/Economia/Notas/1.md",
     "Materias/Diseño de sistemas/Diseño de sistemas.base",
-    "Materias/Diseño de sistemas/Notas/1.md",
     "Materias/Desarrollo de software/Desarrollo de software.base",
-    "Materias/Desarrollo de software/Notas/1.md",
+    "Assets/Untitled Diagram.svg",
     "Materias/Comunicacion de datos/Comunicacion de datos.base",
+    "Materias/Base de datos/Base de datos.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
+    "Materias/Materias.base",
+    "Materias",
+    "Materias/Sistemas Operativos/Sistemas Operativos.base",
+    "Materias/Analisis numerico/Notas/1.md",
+    "Materias/Diseño de sistemas/Notas/Sin título.md",
+    "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
+    "Materias/Analisis numerico/Notas/Hola.md",
+    "Materias/Sistemas Operativos/Notas/1.md",
+    "Materias/Probabilidad y estadistica/Notas/1.md",
+    "Materias/Economia/Notas/1.md",
+    "Materias/Diseño de sistemas/Notas/1.md",
+    "Materias/Desarrollo de software/Notas/1.md",
     "Materias/Comunicacion de datos/Notas/1.md",
     "Materias/Base de datos/Notas/1.md",
-    "Nuevo Documento de texto.txt",
     "Assets/Assets.md",
     "README.md",
     "Materias/Diseño de sistemas/Notas/Untitled.md",

@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiFolderCode",
+      "LiCodeblockGlyph",
+      "LiPercent",
+      "LiCircleDollarSign",
+      "LiUser"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Materias/Analisis numerico": {
+    "iconName": "LiFunctionSquare",
+    "iconColor": "#a82de1"
+  },
+  "Materias/Base de datos": {
+    "iconName": "LiDatabase",
+    "iconColor": "#94d41c"
+  },
+  "Materias/Comunicacion de datos": {
+    "iconName": "LiWifi",
+    "iconColor": "#ffab1a"
+  },
+  "Materias/Desarrollo de software": {
+    "iconName": "LiCode",
+    "iconColor": "#31e3a7"
+  },
+  "Materias/Diseño de sistemas": {
+    "iconName": "LiUser",
+    "iconColor": "#e20808"
+  },
+  "Materias/Economia": {
+    "iconName": "LiCircleDollarSign",
+    "iconColor": "#3fff0a"
+  },
+  "Materias/Probabilidad y estadistica": {
+    "iconName": "LiPercent",
+    "iconColor": "#1a90ff"
+  },
+  "Materias/Sistemas Operativos": {
+    "iconName": "LiFolderCode",
+    "iconColor": "#773e08"
+  }
+}

@@ -3,4 +3,7 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Desarrollo de software/Notas")
+        - '!file.inFolder("Materias/Desarrollo de software/Notas")'
+        - '!file.inFolder("Materias/Desarrollo de software/Material")'
+        - file.inFolder("Materias/Desarrollo de software")
+        - file.basename != "Desarrollo de software"

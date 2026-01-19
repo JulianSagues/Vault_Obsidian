@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Probabilidad y estadistica/Material")
+        - file.basename != "Material"

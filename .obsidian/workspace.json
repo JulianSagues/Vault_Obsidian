@@ -13,7 +13,7 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Analisis numerico/Material.base",
+                "file": "Materias/Sistemas Operativos/Material/Material.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materias/Analisis numerico/Material.base",
+                "file": "Materias/Sistemas Operativos/Material/Material.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Materias/Analisis numerico/Material.base",
+                "file": "Materias/Sistemas Operativos/Material/Material.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -179,18 +179,18 @@
   },
   "active": "fdc709b926441844",
   "lastOpenFiles": [
-    "Materias/Analisis numerico/Material.base",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias/Materias.base",
-    "Materias/Sistemas Operativos/Sistemas Operativos.base",
+    "Materias/Sistemas Operativos/Notas/Notas.base",
+    "Materias/Sistemas Operativos/Material/Material.base",
+    "Materias/Sistemas Operativos/Notas",
+    "Materias/Sistemas Operativos/Material",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
-    "Materias/Economia/Economia.base",
-    "Materias/Diseño de sistemas/Diseño de sistemas.base",
-    "Materias/Desarrollo de software/Desarrollo de software.base",
+    "Materias/Probabilidad y estadistica/Material/Material.base",
+    "Materias/Probabilidad y estadistica/Notas/Notas.base",
+    "Materias/Probabilidad y estadistica/Notas",
+    "Materias/Economia/Material/Material.base",
+    "Materias/Probabilidad y estadistica/Material",
+    "Materias/Economia/Notas/Notas.base",
     "Assets/Untitled Diagram.svg",
-    "Materias/Comunicacion de datos/Comunicacion de datos.base",
-    "Materias/Base de datos/Base de datos.base",
-    "Materias",
     "Materias/Analisis numerico/Notas/1.md",
     "Materias/Diseño de sistemas/Notas/Sin título.md",
     "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",

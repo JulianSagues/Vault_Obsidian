@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Materias.base",
+                "file": "Materias/Analisis numerico/Material.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Materias"
+              "title": "Material"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Materias/Analisis numerico/Material.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Material"
             }
           },
           {
@@ -139,26 +140,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Materias/Analisis numerico/Material.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
-            }
-          },
-          {
-            "id": "f8ecd56d08661431",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "title": "Esquema de Material"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,8 +177,11 @@
       "iconic:Abrir libro de reglas": false
     }
   },
-  "active": "66390372176216a1",
+  "active": "fdc709b926441844",
   "lastOpenFiles": [
+    "Materias/Analisis numerico/Material.base",
+    "Materias/Analisis numerico/Analisis numerico.base",
+    "Materias/Materias.base",
     "Materias/Sistemas Operativos/Sistemas Operativos.base",
     "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
     "Materias/Economia/Economia.base",
@@ -195,8 +190,6 @@
     "Assets/Untitled Diagram.svg",
     "Materias/Comunicacion de datos/Comunicacion de datos.base",
     "Materias/Base de datos/Base de datos.base",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias/Materias.base",
     "Materias",
     "Materias/Analisis numerico/Notas/1.md",
     "Materias/Diseño de sistemas/Notas/Sin título.md",

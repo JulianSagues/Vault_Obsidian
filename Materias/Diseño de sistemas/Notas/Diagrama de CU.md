@@ -17,3 +17,6 @@ Para realizar este caso de uso el convenio debe estar registrado. El socio respo
 
 ---
 [[CU - Aprobar servicio.docx|Aprobar servicio]]
+Para realizar este convenio el servicio debe estar terminado. El cliente comprobara que el servicio realizado tiene todo lo que el profesional dijo que realizado. De confirmarlo el servicio pasa a aprobado, en caso contrario vuelve a estar en proceso.
+
+---

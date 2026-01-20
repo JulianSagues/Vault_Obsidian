@@ -3,4 +3,5 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Economia/Notas")
+        - file.inFolder("Materias/Economia")
+        - file.basename != "Economia"

@@ -1,26 +1,132 @@
 {
   "main": {
-    "id": "573d239d230d35ab",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "af033dec21c799c7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 51.279317697228144,
         "children": [
           {
-            "id": "8346de324968e9e8",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
+                "viewName": "Tabla"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "TP1"
+            }
+          },
+          {
+            "id": "6036c5eb1c91bbc7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+<<<<<<< HEAD
                 "file": "Materias/Desarrollo de software/Desarrollo de software.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
               "title": "Desarrollo de software"
+=======
+                "file": "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Explicación Consultoría"
+            }
+          },
+          {
+            "id": "dd4a7f4ba4342a6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diagrama de CU"
+>>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "e405a07ece6aee42",
+        "type": "tabs",
+        "dimension": 48.720682302771856,
+        "children": [
+          {
+            "id": "08e4fef71079575c",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-Diagrama de Casos de Uso.drawio"
+            }
+          },
+          {
+            "id": "4400f3b89e876236",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-Diagrama de Clases.drawio"
+            }
+          },
+          {
+            "id": "6ec0c712cf0f17d9",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-DTE - Convenio.drawio"
+            }
+          },
+          {
+            "id": "6c8f4e5d34747e34",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-DTE - Servicio.drawio"
+            }
+          },
+          {
+            "id": "346110ae4f7804c9",
+            "type": "leaf",
+            "state": {
+              "type": "docx-view",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU10 - Aprobar servicio/CU - Aprobar servicio.docx"
+              },
+              "icon": "lucide-file",
+              "title": "CU - Aprobar servicio"
+            }
+          }
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e7021e504a7e478c",
@@ -93,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de TP1"
             }
           },
           {
@@ -139,36 +247,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
-            }
-          },
-          {
-            "id": "e077b00b07e27b34",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "github-copilot-chat-view"
-            }
-          },
-          {
-            "id": "6eafbe42771b0773",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "title": "Esquema de TP1"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,6 +266,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+<<<<<<< HEAD
+=======
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "homepage:Open homepage": false,
+>>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -189,12 +283,12 @@
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "iconic:Abrir libro de reglas": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8346de324968e9e8",
+  "active": "dd4a7f4ba4342a6f",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Materias/Desarrollo de software/Notas/1.md",
     "Materias/Analisis numerico/Notas/Hola.md",
     "Materias/Base de datos/Base de datos.base",
@@ -212,8 +306,35 @@
     "Materias/Analisis numerico/Analisis numerico.base",
     "Materias.base",
     "Materias/Base de datos/Notas/1.md",
+=======
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU10 - Aprobar servicio/CU - Aprobar servicio.docx",
+    "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio",
+    "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
+    "Materias/Diseño de sistemas/Material/TP1/TP1.base",
+    "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio",
+    "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio",
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/Viejos-Borradores/CU - Administrar TipoServicio (Santi_Agus).docx",
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/CU - Aceptar convenio.docx",
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio",
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/Otros/CU - Aceptar convenio (Maxi).docx",
+    "Materias/Diseño de sistemas/Material/TP1/Trabajo Práctico Nº1 - Primera parte - Eje 1.docx",
+    "Assets/2026-01-20.md",
+    "Materias/Diseño de sistemas/Material/TP1/Trabajo Práctico Nº1 - Primera parte - Eje 1.md",
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.svg",
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio.svg",
+    "Assets/Untitled Diagram.svg",
+>>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
     "Materias/Analisis numerico/Notas/1.md",
-    "Nuevo Documento de texto.txt",
+    "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
+    "Materias/Analisis numerico/Notas/Hola.md",
+    "Materias/Sistemas Operativos/Notas/1.md",
+    "Materias/Probabilidad y estadistica/Notas/1.md",
+    "Materias/Economia/Notas/1.md",
+    "Materias/Diseño de sistemas/Notas/1.md",
+    "Materias/Desarrollo de software/Notas/1.md",
+    "Materias/Comunicacion de datos/Notas/1.md",
+    "Materias/Base de datos/Notas/1.md",
     "Assets/Assets.md",
     "README.md",
     "Materias/Diseño de sistemas/Notas/Untitled.md",
@@ -225,10 +346,7 @@
     "Materias/Materias.md",
     "Materias/Sistemas Operativos/Sistemas Operativos.md",
     "Materias/Untitled.md",
-    "Untitled.md",
-    "Assets/Untitled Kanban.md",
     "//Untitled.canvas",
-    "Untitled.canvas",
-    "Bienvenido.md"
+    "Untitled.canvas"
   ]
 }

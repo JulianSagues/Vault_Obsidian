@@ -3,4 +3,5 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Analisis numerico/Notas")
+        - file.inFolder("Materias/Analisis numerico")
+        - file.basename != "Analisis numerico"

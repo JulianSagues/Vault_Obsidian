@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Analisis numerico/Notas")
+        - file.basename != "Notas"

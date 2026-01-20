@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de trancisión de estados">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="q1fxsmbe-Q1ugtqxtoW6-0" value="Simulado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1fxsmbe-Q1ugtqxtoW6-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q1fxsmbe-Q1ugtqxtoW6-3" target="q1fxsmbe-Q1ugtqxtoW6-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="240" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1fxsmbe-Q1ugtqxtoW6-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="170" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d5u4WRqp4w1pd1V1DSH-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q1fxsmbe-Q1ugtqxtoW6-0" target="LVrUN8E_huyVQYfboB7S-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d5u4WRqp4w1pd1V1DSH-24" value="" style="group" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="687" y="570" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d5u4WRqp4w1pd1V1DSH-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="3d5u4WRqp4w1pd1V1DSH-24">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d5u4WRqp4w1pd1V1DSH-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#000000,#000000);strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="3d5u4WRqp4w1pd1V1DSH-24">
+          <mxGeometry x="7.5" y="7.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3d5u4WRqp4w1pd1V1DSH-38" value="Iniciar proceso de facturación" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="555" y="235" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="civfep1edQMp925DtWbi-0" value="DIAGRAMA DE TRANSICIÓN DE ESTADOS (DTE) - &lt;u&gt;Proceso de Facturación&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontStyle=1;textShadow=0;labelBorderColor=none;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="120" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-0" value="Incompleto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="353" y="433" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-1" value="Completo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="657" y="433" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="q1fxsmbe-Q1ugtqxtoW6-0" target="LVrUN8E_huyVQYfboB7S-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="459" as="sourcePoint" />
+            <mxPoint x="652" y="562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-5" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Gestionar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;proceso de&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;facturación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;[Enviar proceso,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;con fallas]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="393" y="324" width="60" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="345" as="sourcePoint" />
+            <mxPoint x="664" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LVrUN8E_huyVQYfboB7S-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664" y="345" as="sourcePoint" />
+            <mxPoint x="664" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xln9wyvBMWaVEmKlP7cZ-4" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LVrUN8E_huyVQYfboB7S-1" target="LVrUN8E_huyVQYfboB7S-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="500" as="sourcePoint" />
+            <mxPoint x="639" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QjVweLJHRB_NbzJj6X3C-0" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Gestionar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;proceso de&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;facturación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;[Reenviar proceso]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="523" y="375" width="60" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="QjVweLJHRB_NbzJj6X3C-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LVrUN8E_huyVQYfboB7S-1" target="3d5u4WRqp4w1pd1V1DSH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="797" y="470" as="sourcePoint" />
+            <mxPoint x="593" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-0" value="Anulado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="503" y="575" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LVrUN8E_huyVQYfboB7S-1" target="OZynPy3eE3IWJDNv-IyR-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661" y="478" as="sourcePoint" />
+            <mxPoint x="661" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LVrUN8E_huyVQYfboB7S-0" target="OZynPy3eE3IWJDNv-IyR-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="472" as="sourcePoint" />
+            <mxPoint x="547" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OZynPy3eE3IWJDNv-IyR-0" target="3d5u4WRqp4w1pd1V1DSH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="617.0002040816325" y="511" as="sourcePoint" />
+            <mxPoint x="663.49" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-7" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Gestionar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;proceso de&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;facturación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;[Anular proceso]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="378" y="495" width="60" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="OZynPy3eE3IWJDNv-IyR-8" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Gestionar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;proceso de&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;facturación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;[Anular proceso]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="555" y="480" width="60" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="m5Eop1Gp0SYxIZmWnzS9-1" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Gestionar&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;proceso de&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;facturación&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;[Enviar proceso,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;sin fallas]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="651" y="328" width="60" height="53" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

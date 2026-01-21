@@ -13,44 +13,28 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Materias/Materias.base",
+                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Materias"
+              "title": "TP1"
             }
           },
           {
-            "id": "8c1a79e70c7d3cc3",
+            "id": "5df8d97251b39147",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.11.5"
-=======
               "type": "bases",
               "state": {
-<<<<<<< HEAD
-                "file": "Materias/Desarrollo de software/Desarrollo de software.base",
+                "file": "Materias/Diseño de sistemas/Notas/Notas.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-layout-grid",
-              "title": "Desarrollo de software"
-=======
-                "file": "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Explicación Consultoría"
+              "title": "Notas"
             }
           },
           {
-            "id": "dd4a7f4ba4342a6f",
+            "id": "a60a2745eedb2e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -61,26 +45,93 @@
               },
               "icon": "lucide-file",
               "title": "Diagrama de CU"
->>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
->>>>>>> 478ee694a90cb565c6d047908358e4769f560509
+            }
+          },
+          {
+            "id": "1e4b8e72456db347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Explicación Consultoría"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "176daec53dcd82b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73f83935421128fa",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-Diagrama de Casos de Uso.drawio"
+            }
+          },
+          {
+            "id": "94bc8c6e3647f948",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-Diagrama de Clases.drawio"
+            }
+          },
+          {
+            "id": "e3a98e832a46dee2",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-DTE - Convenio.drawio"
+            }
+          },
+          {
+            "id": "5e4f00249ba13ae3",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio"
+              },
+              "icon": "lucide-file",
+              "title": "1-DTE - Servicio.drawio"
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d06c7dcc52eebee5",
+    "id": "151c7b31501f03fd",
     "type": "split",
     "children": [
       {
-        "id": "37cd2fc2dce449ff",
+        "id": "421135cf291a04d1",
         "type": "tabs",
         "children": [
           {
-            "id": "66390372176216a1",
+            "id": "7dd0e24a87cd2411",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -93,7 +144,7 @@
             }
           },
           {
-            "id": "e0ada8da01ef31ee",
+            "id": "87817f01d1be558b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -110,7 +161,7 @@
             }
           },
           {
-            "id": "25e4a553d5f9b168",
+            "id": "55aecd3903269176",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -127,20 +178,20 @@
     "collapsed": true
   },
   "right": {
-    "id": "e7021e504a7e478c",
+    "id": "f5ce86f74721dd35",
     "type": "split",
     "children": [
       {
-        "id": "ca1b476881afe639",
+        "id": "645adac77b95535c",
         "type": "tabs",
         "children": [
           {
-            "id": "b949bb0d1f1e4e73",
+            "id": "89161923276b83d2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
+                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,11 +201,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de TP1"
+              "title": "Enlaces entrantes de 1-DTE - Servicio"
             }
           },
           {
-            "id": "5ad6d0b5a59d2013",
+            "id": "4d34bfc69d900f10",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -167,7 +218,7 @@
             }
           },
           {
-            "id": "d57903d4c70ae5a4",
+            "id": "843a15927e987e84",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,22 +233,20 @@
             }
           },
           {
-            "id": "239974a3019b01f9",
+            "id": "fb724d61f0a7cb29",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/TP1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de TP1"
+              "title": "Esquema"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,11 +255,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
-=======
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "homepage:Open homepage": false,
->>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -223,74 +267,22 @@
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "8c1a79e70c7d3cc3",
+  "active": "5e4f00249ba13ae3",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Materias/Materias.base",
-    "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
-=======
-<<<<<<< HEAD
-    "Materias/Desarrollo de software/Notas/1.md",
-    "Materias/Analisis numerico/Notas/Hola.md",
-    "Materias/Base de datos/Base de datos.base",
-    "Materias/Sistemas Operativos/Sistemas Operativos.base",
-    "Materias/Sistemas Operativos/Notas/1.md",
-    "Materias/Probabilidad y estadistica/Probabilidad y estadistica.base",
-    "Materias/Probabilidad y estadistica/Notas/1.md",
-    "Materias/Economia/Economia.base",
-    "Materias/Economia/Notas/1.md",
-    "Materias/Diseño de sistemas/Diseño de sistemas.base",
-    "Materias/Diseño de sistemas/Notas/1.md",
-    "Materias/Desarrollo de software/Desarrollo de software.base",
-    "Materias/Comunicacion de datos/Comunicacion de datos.base",
-    "Materias/Comunicacion de datos/Notas/1.md",
-    "Materias/Analisis numerico/Analisis numerico.base",
-    "Materias.base",
-    "Materias/Base de datos/Notas/1.md",
-=======
->>>>>>> 478ee694a90cb565c6d047908358e4769f560509
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU10 - Aprobar servicio/CU - Aprobar servicio.docx",
-    "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio",
     "Materias/Diseño de sistemas/Material/TP1/TP1.base",
-    "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
-    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio",
     "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio",
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/Viejos-Borradores/CU - Administrar TipoServicio (Santi_Agus).docx",
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/CU - Aceptar convenio.docx",
     "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio",
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/Otros/CU - Aceptar convenio (Maxi).docx",
-    "Materias/Diseño de sistemas/Material/TP1/Trabajo Práctico Nº1 - Primera parte - Eje 1.docx",
-    "Assets/2026-01-20.md",
-    "Materias/Diseño de sistemas/Material/TP1/Trabajo Práctico Nº1 - Primera parte - Eje 1.md",
-    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.svg",
-    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio.svg",
-    "Assets/Untitled Diagram.svg",
->>>>>>> 903889ff2f5f6a57ca07bac768002279d2194d2c
-    "Materias/Analisis numerico/Notas/1.md",
-    "Materias/Analisis numerico/Drawing 2025-12-04 15.43.51.excalidraw.md",
-    "Materias/Analisis numerico/Notas/Hola.md",
-    "Materias/Sistemas Operativos/Notas/1.md",
-    "Materias/Probabilidad y estadistica/Notas/1.md",
-    "Materias/Economia/Notas/1.md",
-    "Materias/Diseño de sistemas/Notas/1.md",
-    "Materias/Desarrollo de software/Notas/1.md",
-    "Materias/Comunicacion de datos/Notas/1.md",
-    "Materias/Base de datos/Notas/1.md",
-    "Assets/Assets.md",
-    "README.md",
-    "Materias/Diseño de sistemas/Notas/Untitled.md",
-    "Materias/Desarrollo de software/Notas/Untitled.md",
-    "Materias/Comunicacion de datos/Notas/Untitled.md",
-    "Materias/Base de datos/Notas/Untitled.md",
-    "Materias/Analisis numerico/Notas/Untitled.md",
-    "Materias/Sistemas Operativos/Notas/1.md",
-    "Materias/Materias.md",
-    "Materias/Sistemas Operativos/Sistemas Operativos.md",
-    "Materias/Untitled.md",
-    "//Untitled.canvas",
-    "Untitled.canvas"
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio",
+    "Materias/Diseño de sistemas/Material/Material.base",
+    "Materias/Diseño de sistemas/Diseño de sistemas.base",
+    "Materias/Diseño de sistemas/Notas/Notas.base",
+    "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
+    "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
+    "Materias/Materias.base"
   ]
 }

@@ -41,22 +41,11 @@
               "state": {
                 "file": "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Diagrama de CU"
-            }
-          },
-          {
-            "id": "c584f3db229c3877",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Assets/Untitled Diagram 1.svg"
-              },
-              "icon": "lucide-file",
-              "title": "Untitled Diagram 1.svg"
             }
           },
           {
@@ -75,73 +64,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "176daec53dcd82b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "73f83935421128fa",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio"
-              },
-              "icon": "lucide-file",
-              "title": "1-Diagrama de Casos de Uso.drawio"
-            }
-          },
-          {
-            "id": "a9977439145cf65e",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio"
-              },
-              "icon": "lucide-file",
-              "title": "1-Diagrama de Clases.drawio"
-            }
-          },
-          {
-            "id": "e3a98e832a46dee2",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio"
-              },
-              "icon": "lucide-file",
-              "title": "1-DTE - Convenio.drawio"
-            }
-          },
-          {
-            "id": "5e4f00249ba13ae3",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio"
-              },
-              "icon": "lucide-file",
-              "title": "1-DTE - Servicio.drawio"
-            }
-          },
-          {
-            "id": "c83ce5952df6e658",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU6 - Cancelar convenio/Otros/CU - Cancelar convenio (Maxi).docx"
-              },
-              "icon": "lucide-file",
-              "title": "CU - Cancelar convenio (Maxi)"
-            }
-          }
-        ],
-        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -198,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f5ce86f74721dd35",
@@ -298,19 +219,19 @@
   },
   "active": "a60a2745eedb2e39",
   "lastOpenFiles": [
-    "Materias/Diseño de sistemas/Notas/Notas.base",
+    "Assets/Aprobar servicio.svg",
     "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
-    "Assets/Untitled Diagram 1.svg",
-    "Materias/Diseño de sistemas/Material/TP3/TP3.base",
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU10 - Aprobar servicio/CU - Aprobar servicio.docx",
-    "Assets/Untitled Diagram.svg",
-    "Materias/Diseño de sistemas/Material/TP1/TP1.base",
-    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio",
+    "Assets/Aceptar Convenio.svg",
     "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Casos de Uso.drawio",
     "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU6 - Cancelar convenio/Otros/CU - Cancelar convenio (Maxi).docx",
-    "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
-    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/Otros/CU - Aceptar convenio (Maxi).docx",
     "Materias/Diseño de sistemas/Material/TP1/1-DTE - Convenio.drawio",
-    "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio"
+    "Materias/Diseño de sistemas/Material/TP1/1-DTE - Servicio.drawio",
+    "Materias/Diseño de sistemas/Notas/Notas.base",
+    "Materias/Diseño de sistemas/Material/TP3/TP3.base",
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU10 - Aprobar servicio/CU - Aprobar servicio.docx",
+    "Materias/Diseño de sistemas/Material/TP1/TP1.base",
+    "Materias/Diseño de sistemas/Material/TP1/1-Diagrama de Clases.drawio",
+    "Materias/Diseño de sistemas/Notas/Explicación Consultoría.md",
+    "Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU2 - Aceptar convenio/Otros/CU - Aceptar convenio (Maxi).docx"
   ]
 }

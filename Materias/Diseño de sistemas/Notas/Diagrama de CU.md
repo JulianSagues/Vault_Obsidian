@@ -15,8 +15,16 @@
 [[CU - Aceptar convenio (Maxi).docx|Aceptar Convenio]]
 Para realizar este caso de uso el convenio debe estar registrado. El socio responsable deberá ingresar el numero de convenio. Una vez ingresado se verifica que el profesional tenga una disponibilidad horaria compatible con las pedidas por el tipo de servicio solicitado por el cliente, de ser así, se acepta el convenio y queda en estado aceptado. En caso contrario el convenio quedara rechazado. De ser aceptado se comienza con la primera iteración del servicio.
 
+![[Untitled Diagram.svg]]
+
 ---
 [[CU - Aprobar servicio.docx|Aprobar servicio]]
 Para realizar este convenio el servicio debe estar terminado. El cliente comprobara que el servicio realizado tiene todo lo que el profesional dijo que realizado. De confirmarlo el servicio pasa a aprobado, en caso contrario vuelve a estar en proceso.
+
+![[Untitled Diagram 1.svg]]
+
+---
+[[CU - Cancelar convenio (Maxi).docx|Cancelar convenio]]
+
 
 ---

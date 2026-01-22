@@ -1,4 +1,4 @@
-El alberto es gay
+
 ---
 [[Trabajo Práctico Nº1 - Primera parte - Eje 1.docx]]
 

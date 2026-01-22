@@ -28,5 +28,14 @@ Para realizar este convenio el servicio debe estar terminado. El cliente comprob
 ---
 [[CU - Cancelar convenio (Maxi).docx|Cancelar convenio]]
 
+un convenio podrá cancelarse si se encuentra aprobado, firmado o en progreso. En el caso de estar en progreso se deberán cancelar todos los servicios que se están realizando pasando de en progreso a terminados y los servicios asignados pasaran a estar cancelados.
+
+---
+[[CU - Configurar tarifas.docx|Configurar tarifas]]
+el profesional podrá agregar y modificar las tarifas de un tipo de servicio. Si modifica podra elegir entre modificar el monto, las fechas o agregar una instancia de tipo servicio
+
+---
+[[CU - Entregar servicio (Maxi).docx|Entregar servicio]]
+El profesional podra entregar aquellos servicios que esten en estado en progreso, de ahi se actualizaran las horas efectuadas totales teniendo en cuenta las tareas realizadas y agregara las observaciones pertinentes.
 
 ---

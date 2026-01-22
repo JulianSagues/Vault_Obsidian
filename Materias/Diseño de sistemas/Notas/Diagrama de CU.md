@@ -39,3 +39,11 @@ el profesional podrá agregar y modificar las tarifas de un tipo de servicio. Si
 El profesional podra entregar aquellos servicios que esten en estado en progreso, de ahi se actualizaran las horas efectuadas totales teniendo en cuenta las tareas realizadas y agregara las observaciones pertinentes.
 
 ---
+[[CU - Firmar convenio.docx|Firmar Convenio]]
+El cliente  decide firmar para empezar a trabajar en el
+
+---
+[[CU - Gestionar convenios (Maxi).docx|Gestionar convenios]]
+Se puede modificar y registrar un convenio que no este aceptado. Se puede modificar los servicios, cliente, proyecto y fechas del convenio. Un servicio se puede agregar o eliminar, ademas de modificar el servicio como tal. 
+
+---

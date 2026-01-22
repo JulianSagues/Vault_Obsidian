@@ -48,4 +48,3 @@ Se puede modificar y registrar un convenio que no este aceptado. Se puede modifi
 
 ---
 
-asdasdasd

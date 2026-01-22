@@ -4,7 +4,20 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "obsidian-git:push",
+      "icon": "lucide-a-arrow-up",
+      "name": "Git: Commit-and-sync",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "lucide-a-arrow-down",
+      "name": "Git: Pull",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],

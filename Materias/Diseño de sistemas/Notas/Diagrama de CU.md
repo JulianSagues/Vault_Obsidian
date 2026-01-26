@@ -51,15 +51,18 @@ Se puede modificar y registrar un convenio que no este aceptado. Se puede modifi
 
 ---
 [[Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU5 - Gestionar servicios/CU - Gestionar servicios.docx|Gestionar servicios]]
+Segun el rol del usuario se mostraran y podra realizar cosas teniendo en cuenta lo determinado por el sistema. Por ejemplo un cliente podra aprobar un servicio
 
 ---
 [[CU - Iniciar proceso de facturación.docx|Iniciar Proceso de facturacion]]
 
 ---
 [[CU - Iniciar sesión.docx|Iniciar sesion]]
+se explica solo
 
 ---
 [[Materias/Diseño de sistemas/Material/TP3/CU - Registrar tarea.docx|Registrar tarea]]
+En 
 
 ---
 [[CU - Solicitar servicio.docx|Solicitar servicio]]

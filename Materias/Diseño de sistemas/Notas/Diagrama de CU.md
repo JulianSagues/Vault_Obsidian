@@ -47,4 +47,4 @@ El cliente  decide firmar para empezar a trabajar en el
 Se puede modificar y registrar un convenio que no este aceptado. Se puede modificar los servicios, cliente, proyecto y fechas del convenio. Un servicio se puede agregar o eliminar, ademas de modificar el servicio como tal. 
 
 ---
-
+[[CU - Gestionar proceso de facturación.docx|Gestionar proceso de facturacion]]

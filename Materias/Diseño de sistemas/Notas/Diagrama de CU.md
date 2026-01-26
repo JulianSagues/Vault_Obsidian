@@ -62,9 +62,10 @@ se explica solo
 
 ---
 [[Materias/Diseño de sistemas/Material/TP3/CU - Registrar tarea.docx|Registrar tarea]]
-En 
+El profesional puede registrar la tarea de un servicio. En el caso de ser la primera tarea de un servicio, el mismo pasara a estar en progreso
 
 ---
 [[CU - Solicitar servicio.docx|Solicitar servicio]]
+El cliente solicita servicios, para ello determina el tipo de servicio que desea, las horas promedio que necesita. A partir de eso se verificara que haya disponibilidad horario, en el caso de haberla debera ingresar la descripcion de lo que desea.
 
 ---

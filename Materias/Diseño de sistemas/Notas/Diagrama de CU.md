@@ -55,6 +55,7 @@ Segun el rol del usuario se mostraran y podra realizar cosas teniendo en cuenta 
 
 ---
 [[CU - Iniciar proceso de facturación.docx|Iniciar Proceso de facturacion]]
+El demonio se encarga de buscar convenios firmados, terminados, en proceso o cancelados para cobrar aquellos servcios que esten en proceso o terminados
 
 ---
 [[CU - Iniciar sesión.docx|Iniciar sesion]]

@@ -73,7 +73,7 @@ El cliente solicita servicios, para ello determina el tipo de servicio que desea
 ---
 ## Dudas
 Cuando se anula una facturacion
-Porque se factura un convenio firmado
+Por que se factura un convenio firmado
 donde esta la nota de credito o en que parte se realiza
 
 ---

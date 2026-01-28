@@ -48,6 +48,7 @@ Se puede modificar y registrar un convenio que no este aceptado. Se puede modifi
 
 ---
 [[CU - Gestionar proceso de facturación.docx|Gestionar proceso de facturacion]]
+Para poder facturar debe haberse iniciado el rpoceso de facturacion. Se puede visualizar, enviar, reenviar y anular. Para enviar se debe tener el resultado del CU iniciar proceso de facturacion. Este proceso puede fallar o no, en el caso de fallar se realizan 3 intentos y si no se logra comunicar con arca, el procesos queda como fallido, pero en el caso de funcionar se completan los datos faltantes de las clases correspondientes. El porceso fallido se puede intentar reenviar para realizar la facturacion.
 
 ---
 [[Materias/Diseño de sistemas/Material/TP1/Flujos de sucesos/CU5 - Gestionar servicios/CU - Gestionar servicios.docx|Gestionar servicios]]
@@ -68,5 +69,11 @@ El profesional puede registrar la tarea de un servicio. En el caso de ser la pri
 ---
 [[CU - Solicitar servicio.docx|Solicitar servicio]]
 El cliente solicita servicios, para ello determina el tipo de servicio que desea, las horas promedio que necesita. A partir de eso se verificara que haya disponibilidad horario, en el caso de haberla debera ingresar la descripcion de lo que desea.
+
+---
+## Dudas
+Cuando se anula una facturacion
+Porque se factura un convenio firmado
+donde esta la nota de credito o en que parte se realiza
 
 ---

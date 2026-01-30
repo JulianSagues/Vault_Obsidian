@@ -1,2 +1,2 @@
 ¿Como funciona el sistema?
-- El cliente lelga con un proyecto el cual quiere llevar a cabo
+- El cliente llega con un proyecto el cual quiere llevar a cabo

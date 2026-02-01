@@ -32,11 +32,11 @@ un convenio podrá cancelarse si se encuentra aprobado, firmado o en progreso. E
 
 ---
 [[CU - Configurar tarifas.docx|Configurar tarifas]]
-el profesional podrá agregar y modificar las tarifas de un tipo de servicio. Si modifica podra elegir entre modificar el monto, las fechas o agregar una instancia de tipo servicio
+el profesional podrá agregar y modificar las tarifas de un tipo de servicio. Si modifica podrá elegir entre modificar el monto, las fechas o agregar una instancia de tipo servicio
 
 ---
 [[CU - Entregar servicio (Maxi).docx|Entregar servicio]]
-El profesional podra entregar aquellos servicios que esten en estado en progreso, de ahi se actualizaran las horas efectuadas totales teniendo en cuenta las tareas realizadas y agregara las observaciones pertinentes.
+El profesional podrá entregar aquellos servicios que estén en estado en progreso, de ahí se actualizaran las horas efectuadas totales teniendo en cuenta las tareas realizadas y agregara las observaciones pertinentes.
 
 ---
 [[CU - Firmar convenio.docx|Firmar Convenio]]

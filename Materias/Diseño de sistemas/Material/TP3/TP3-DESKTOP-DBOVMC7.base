@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Diseño de sistemas/Material/TP3")
+        - '!file.basename.startsWith("TP")'

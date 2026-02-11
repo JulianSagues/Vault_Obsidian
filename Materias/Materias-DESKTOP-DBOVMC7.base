@@ -1,0 +1,15 @@
+formulas:
+  Sin título: ""
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.ext == "base"
+        - file.inFolder("Materias")
+        - '!file.path.contains("Notas")'
+        - '!file.path.contains("Material")'
+    order:
+      - file.name
+    cardSize: 240
+    imageAspectRatio: 0.25

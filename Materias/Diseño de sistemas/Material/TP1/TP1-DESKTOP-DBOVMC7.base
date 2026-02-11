@@ -1,0 +1,8 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Diseño de sistemas/Material/TP1")
+        - '!file.basename.startsWith("TP")'
+    cardSize: 380

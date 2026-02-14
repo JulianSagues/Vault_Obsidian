@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/JPA\\|JPA]]"
+  - "[[Materias/Desarrollo de software/JPA\\|JPA]]"
 ---
 Claro. Este es un concepto fundamental en JPA (Java Persistence API) para resolver el problema de cómo almacenar jerarquías de herencia de la Programación Orientada a Objetos (POO) en bases de datos relacionales (que no tienen un concepto nativo de herencia).
 

@@ -16,8 +16,8 @@ La multiplexación por división de tiempo (MDT) o (TDM), del inglés Time Divis
 
 - En Europa, el Sector de Normalización de las Telecomunicaciones de la UIT (UIT-T), antiguo Comité Consultivo Telefónico y Telegráfico (CCITT), acepta como estándar de transmisión digital TDM un multiplex con tramas de 30 canales vocales, a los que se les incorpora un canal para señalización y otro para alineación, generándose una trama final de 32 canales o muestras.
 
-![[Assets/image 437.png|image 437.png]]
+![[Assets/image 54.png|image 54.png]]
 
-![[Assets/image 1 30.png|image 1 30.png]]
+![[Assets/image 1 29.png|image 1 29.png]]
 
 ![[Assets/image 2 27.png|image 2 27.png]]

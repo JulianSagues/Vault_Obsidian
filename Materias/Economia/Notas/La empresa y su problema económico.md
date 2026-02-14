@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/empresa 2.pdf|empresa 2.pdf]]"
+  - "[[Assets/empresa.pdf|empresa.pdf]]"
 Categoria:
   - Microeconomia
 ---
@@ -16,7 +16,7 @@ Categoria:
 
 - Hacer máxima la diferencia entre ingresos y costos.
 
-![[Assets/image 409.png|image 409.png]]
+![[Assets/image 26.png|image 26.png]]
 
 ### El financiamiento de la empresa
 
@@ -71,7 +71,7 @@ En todos los casos, se espera que la actividad de la empresa retribuya el uso de
 
 **Producto medio, marginal, costo medio y costo marginal**
 
-![[Assets/image 1 8.png|image 1 8.png]]
+![[Assets/image 1 7.png|image 1 7.png]]
 
 Piense en su proyecto:
 

@@ -1,16 +1,16 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
+  - "[[Materias/Desarrollo de software/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
 ---
 **🎯 ¿Por qué necesitamos APIs?**
 
-![[Assets/image 461.png|image 461.png]]
+![[Assets/image 78.png|image 78.png]]
 
   
 Hoy en día, ninguna aplicación trabaja sola. Un frontend (como React) necesita datos de un backend; un e-commerce se compone de microservicios (pagos, usuarios, envíos) que deben comunicarse.**REST** actúa como el **"idioma común"** o el conjunto de reglas predecibles que permite que todos estos sistemas (clientes y servidores) hablen entre sí de manera clara y estandarizada, evitando un caos de integración.  
 **🚀 Conceptos Fundamentales: API y REST**
 
-![[Assets/image 1 53.png|image 1 53.png]]
+![[Assets/image 1 52.png|image 1 52.png]]
 
   
 **1. ¿Qué es una API?**  
@@ -43,7 +43,7 @@ Para que una API sea considerada "RESTfull", debe seguir varios principios. Los 
 REST reutiliza los métodos estándar del protocolo HTTP para definir qué acción queremos realizar sobre un recurso. Los más comunes son:**MétodoAcciónEjemplo de URLDescripciónGETLeer**`GET /users/123`Obtiene la información del usuario con ID 123.**POSTCrear**`POST /users`Crea un nuevo usuario (los datos van en el cuerpo).**PUTReemplazar**`PUT /users/123`Reemplaza _completamente_ el usuario con ID 123.**DELETEBorrar**`DELETE /users/123`Elimina el usuario con ID 123.**Clave:** Una API RESTful usa `POST /users` para crear. Una API que no sigue REST podría usar algo como `POST /createNewUser`, lo cual no es estándar y genera confusión.  
 **📬 ¿Qué recibimos? Códigos de Estado HTTP**  
 
-![[Assets/image 4 36.png|image 4 36.png]]
+![[Assets/image 4 35.png|image 4 35.png]]
 
   
 Cada respuesta del servidor incluye un **código numérico (Status Code)** que nos dice qué pasó. Es fundamental saber leerlos:
@@ -72,7 +72,7 @@ Cada respuesta del servidor incluye un **código numérico (Status Code)** que n
 3. Es nativo de JavaScript y tiene librerías en todos los lenguajes (Java, Python, etc.).  
 **🛠️ Herramienta Práctica: Postman**  
 
-![[Assets/image 7 21.png|image 7 21.png]]
+![[Assets/image 7 20.png|image 7 20.png]]
 
   
 • **¿Qué es?** Es una herramienta (una "navaja suiza") indispensable para probar APIs.  
@@ -81,7 +81,7 @@ Cada respuesta del servidor incluye un **código numérico (Status Code)** que n
 
   
 
-![[Assets/image 8 17.png|image 8 17.png]]
+![[Assets/image 8 16.png|image 8 16.png]]
 
   
 **✅ Conclusión y Próximos Pasos**  

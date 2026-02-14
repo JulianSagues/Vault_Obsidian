@@ -2,13 +2,13 @@ Se conoce como DATO a cualquier elemento informativo que tenga relevancia para e
 
 Una base de datos es un conjunto de datos almacenados en memoria externa que están organizados mediante una estructura de datos. Cada base de datos ha sido diseñada para satisfacer los requisitos de información de una empresa u otro tipo de organización, como por ejemplo, una universidad o un hospital.
 
-
+![[Assets/image 29.png|image 29.png]]
 
 ### SISTEMA GESTOR DE BASES DE DATOS
 
 Un sistema gestor de bases de datos o SGBD (aunque se suele utilizar más a menudo las siglas DBMS procedentes del inglés, Data Base Management System) es el software que permite a los usuarios procesar, describir, administrar y recuperar los datos almacenados en una base de datos.
 
-
+![[Assets/image 1 10.png|image 1 10.png]]
 
 Un Sistema De Bases De Datos sirve para integrar los datos. Lo componen los siguientes elementos:
 
@@ -94,7 +94,7 @@ En el modelo ANSI se indica que hay tres modelos: externo, conceptual e interno.
 
 - ESQUEMA FÍSICO. Representa los datos según son almacenados en el medio físico (en los discos). contiene información sobre cómo están almacenados los datos en disco. Es el esquema más cercano a la organización real de los datos
 
-
+![[Assets/image 2 11.png|image 2 11.png]]
 
 ### MODELOS DE DATOS
 

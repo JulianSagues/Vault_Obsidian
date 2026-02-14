@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/intro25 2.pdf|intro25 2.pdf]]"
+  - "[[Assets/intro25.pdf|intro25.pdf]]"
 Categoria:
   - Microeconomia
 ---
@@ -131,9 +131,9 @@ La Economía se ocupa
 
 - Supuesto clave: Ley de los Rendimientos
 
-![[Assets/image 412.png|image 412.png]]
+![[Assets/image 29.png|image 29.png]]
 
-![[Assets/image 1 11.png|image 1 11.png]]
+![[Assets/image 1 10.png|image 1 10.png]]
 
 ### Modelo 2: flujo circular de la renta
 

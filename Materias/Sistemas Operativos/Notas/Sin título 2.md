@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Comandos-Llamadas TP\\|Comandos-Llamadas TP]]"
+  - "[[Materias/Sistemas Operativos/Comandos-Llamadas TP\\|Comandos-Llamadas TP]]"
 ---
 `strace -o output.txt ls -la`
 
@@ -42,7 +42,7 @@ Parent item:
 
 `ps -e`
 
-![[Assets/image 406.png|image 406.png]]
+![[Assets/image 6.png|image 6.png]]
 
 ### 1. **PID (Process ID)**
 
@@ -97,7 +97,7 @@ Parent item:
 
 `ps -ef`
 
-![[Assets/image 1 5.png|image 1 5.png]]
+![[Assets/image 1 4.png|image 1 4.png]]
 
 - **UID (User ID)**
     
@@ -206,7 +206,7 @@ Aquí ves la RAM física (Mem) y la memoria virtual/intercambio (Swap).
 
 `htop`
 
-![[Assets/image 4 3.png|image 4 3.png]]
+![[Assets/image 4 2.png|image 4 2.png]]
 
 ### **Parte 1: Cabecera (Recursos del Sistema)**
 
@@ -319,7 +319,7 @@ Esta es la gran diferencia y **ventaja clave para tu TP**. En lugar de memorizar
 
 `free`
 
-![[Assets/image 7 2.png|image 7 2.png]]
+![[image 7.png]]
 
 ### **Filas (Tipos de Memoria)**
 
@@ -348,7 +348,7 @@ Los valores en tu imagen están expresados en **Kilobytes (KB)** (el formato por
 
 `smem -r -k`
 
-![[Assets/image 8 2.png|image 8 2.png]]
+![[image 8.png]]
 
 ### **Columnas Generales**
 
@@ -375,7 +375,7 @@ La gran ventaja de `smem` es que distingue entre memoria única y compartida. F�
 
 `vmstat`
 
-![[Assets/image 9 2.png|image 9 2.png]]
+![[image 9.png]]
 
 ### **1. Procs (Procesos)**
 
@@ -465,13 +465,13 @@ Muestra en qué gasta el tiempo tu procesador (en porcentajes del tiempo total d
 
 `cat /proc/meminfo`
 
-![[Assets/image 10 2.png|image 10 2.png]]
+![[image 10.png]]
 
 ---
 
 `cat /etc/fstab/`
 
-![[Assets/image 11 2.png|image 11 2.png]]
+![[image 11.png]]
 
 |   |   |   |
 |---|---|---|
@@ -487,7 +487,7 @@ Muestra en qué gasta el tiempo tu procesador (en porcentajes del tiempo total d
 
 `lsblk -f`
 
-![[Assets/image 12 2.png|image 12 2.png]]
+![[image 12.png]]
 
 **1. Columnas Principales:**
 
@@ -532,7 +532,7 @@ Muestra en qué gasta el tiempo tu procesador (en porcentajes del tiempo total d
 
 `ls -l /dev | grep '^c’`
 
-![[Assets/image 13 2.png|image 13 2.png]]
+![[image 13.png]]
 
 Tomemos como ejemplo la línea:  
 `crw-rw-rw- 1 root root 1, 7 Nov 27 22:50 full`
@@ -566,7 +566,7 @@ Tomemos como ejemplo la línea:
 
 `cat /proc/devices`
 
-![[Assets/image 14 2.png|image 14 2.png]]
+![[image 14.png]]
 
 ### **1. Estructura de la Salida**
 

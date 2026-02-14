@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/macro_spublico 2.pdf|macro_spublico 2.pdf]]"
+  - "[[Assets/macro_spublico.pdf|macro_spublico.pdf]]"
 Categoria:
   - Macroeconomia
 ---
@@ -88,7 +88,7 @@ Ecuación macroeconómica fundamental: OA=Y= C + G + I + E - I
 
 ### Equilibrio OA = DA
 
-![[Assets/image 415.png|image 415.png]]
+![[Assets/image 32.png|image 32.png]]
 
 ### Importancia de la contabilidad nacional
 

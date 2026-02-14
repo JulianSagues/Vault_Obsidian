@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 🎯 El Problema Original (Spring Framework Clásico)
 
-![[Assets/image 453.png|image 453.png]]
+![[Assets/image 70.png|image 70.png]]
 
 Antes de Spring Boot, configurar un proyecto con Spring Framework (o Java EE) era un proceso complejo y lento:
 
@@ -24,7 +24,7 @@ Antes de Spring Boot, configurar un proyecto con Spring Framework (o Java EE) er
 
 ### 1. ¿Qué es Spring Framework? (La Base)
 
-![[Assets/image 1 45.png|image 1 45.png]]
+![[Assets/image 1 44.png|image 1 44.png]]
 
 - Es un contenedor de **Inversión de Control (IoC)** y **Inyección de Dependencias (DI)**.
 
@@ -44,7 +44,7 @@ Antes de Spring Boot, configurar un proyecto con Spring Framework (o Java EE) er
 
 - Su objetivo es permitir al desarrollador enfocarse en la **lógica de negocio** y no en la infraestructura.
 
-![[Assets/image 4 30.png|image 4 30.png]]
+![[Assets/image 4 29.png|image 4 29.png]]
 
   
 
@@ -83,7 +83,7 @@ Spring Boot logra esta simplificación gracias a dos conceptos principales:
 
 ### ✅ Beneficios y Conclusión
 
-![[Assets/image 7 18.png|image 7 18.png]]
+![[Assets/image 7 17.png|image 7 17.png]]
 
 El cambio radical de Spring Boot se resume en:
 
@@ -97,4 +97,4 @@ El cambio radical de Spring Boot se resume en:
 
 **Conclusión del video:** Spring Framework es la base, y Spring Boot es la evolución que lo hace simple de usar.
 
-![[Assets/image 8 15.png|image 8 15.png]]
+![[Assets/image 8 14.png|image 8 14.png]]

@@ -1,4 +1,8 @@
-![[Assets/image 425.png|image 425.png]]
+---
+Material de Estudio:
+  - "[[Gua_estudio_practica_2_Modelos-ER.pdf]]"
+---
+![[Assets/image 42.png|image 42.png]]
 
 Pasos para el diseño
 
@@ -22,7 +26,7 @@ Una ENTIDAD es una cosa u objeto concreto o abstracto que existe en el mundo, re
 
 CONJUNTO DE ENTIDADES es la clase o tipo al que pertenecen entidades con características comunes. Es decir, las entidades que poseen las mismas propiedades forman conjuntos de entidades.
 
-![[Assets/image 1 20.png|image 1 20.png]]
+![[Assets/image 1 19.png|image 1 19.png]]
 
 ### Dependencia de existencia
 
@@ -58,7 +62,7 @@ Notación Barker: El valor de un atributo que debe ser siempre conocido, se repr
 
 Se manejan varios tipos distintos de atributos: simples o compuestos; monovaluados o multivaluados y almacenados o derivados.
 
-![[Assets/image 4 13.png|image 4 13.png]]
+![[Assets/image 4 12.png|image 4 12.png]]
 
 Los atributos compuestos son útiles para modelar situaciones en las que un usuario en unas ocasiones hace referencia al atributo compuesto como una unidad, pero otras veces se refiere específicamente a sus componentes. Si solo se hace referencia al atributo compuesto como un todo, no hay necesidad de subdividirlo en sus atributos componentes.
 
@@ -113,7 +117,7 @@ Una relación es una asociación nombrable, significativa entre dos entidades.
 
 Interrelación: es la asociación o conexión entre conjuntos de entidades.
 
-![[Assets/image 7 6.png|image 7 6.png]]
+![[Assets/image 7 5.png|image 7 5.png]]
 
 Toda relación tiene dos extremos, para cada uno de los cuales existen:
 
@@ -125,17 +129,17 @@ Toda relación tiene dos extremos, para cada uno de los cuales existen:
 
 Grado: número de conjuntos de entidades que intervienen en una interrelación
 
-![[Assets/image 8 5.png|image 8 5.png]]
+![[Assets/image 8 4.png|image 8 4.png]]
 
 Existen además tres tipos distintos de interelaciones binarias, dependiendo del número de entidades del primer conjunto de entidades y del segundo. Así hablaremos de interrelaciones 1:1 (uno a uno), 1:N (uno a muchos) y N:M (muchos a muchos).
 
 Los ROLES representan el papel que juega una entidad en una determinada relación. Ejemplo:  
 
-![[Assets/image 9 4.png|image 9 4.png]]
+![[Assets/image 9 3.png|image 9 3.png]]
 
 NOTACIÓN BARKER: Una relación se representa mediante una línea que conecta las cajas correspondientes a las dos entidades o que conecte recursivamente a una caja consigo misma El nombre de cada relación se coloca en minúscula junto al extremo apropiado, como se muestra.
 
-![[Assets/image 10 4.png|image 10 4.png]]
+![[Assets/image 10 3.png|image 10 3.png]]
 
 Cuando el extremo de la relación es obligatoria se emplea el verbo debe antes del nombre de la relación. Para relaciones opcionales, se emplea el verbo puede.
 
@@ -151,7 +155,7 @@ La relación más común es la de grado 1:N, obligatoria en el extremo N y opcio
 
 Una relación recursiva suele representar jerarquías definidas sobre una misma entidad, como se muestra en el siguiente diagrama.
 
-![[Assets/image 11 4.png|image 11 4.png]]
+![[Assets/image 11 3.png|image 11 3.png]]
 
 Este diagrama podría corresponder, por ejemplo, a una jerarquía de cargos en una empresa (jefes y subordinados).
 
@@ -159,7 +163,7 @@ El plural del nombre de la entidad se emplea cuando el grado es muchos.
 
 Al elaborar diagramas entidad-relación se logra mayor legibilidad al colocar el extremo abierto (muchos) en el lado izquierdo o superior. Adicionalmente, el uso de los verbos ser y estar provee nombres de la relación más significativos y útiles.
 
-![[Assets/image 12 4.png|image 12 4.png]]
+![[Assets/image 12 3.png|image 12 3.png]]
 
 ### Cardinalidad
 
@@ -171,25 +175,25 @@ Se anota en términos de:
 
 - cardinalidad máxima. Indica el número máximo de relaciones en las que puede aparecer cada ejemplar de la entidad (puede ser uno o muchos)
 
-![[Assets/image 13 4.png|image 13 4.png]]
+![[Assets/image 13 3.png|image 13 3.png]]
 
-![[Assets/image 14 4.png|image 14 4.png]]
+![[Assets/image 14 3.png|image 14 3.png]]
 
 ![[Assets/image 15 3.png|image 15 3.png]]
 
-![[Assets/image 16 3.png|image 16 3.png]]
+![[Assets/image 16 2.png|image 16 2.png]]
 
-![[Assets/image 17 3.png|image 17 3.png]]
+![[Assets/image 17 2.png|image 17 2.png]]
 
-![[Assets/image 18 3.png|image 18 3.png]]
+![[Assets/image 18 2.png|image 18 2.png]]
 
-![[Assets/image 19 3.png|image 19 3.png]]
+![[Assets/image 19 2.png|image 19 2.png]]
 
 ### ATRIBUTOS DE LOS TIPOS DE RELACIÓN
 
-![[Assets/image 20 3.png|image 20 3.png]]
+![[Assets/image 20 2.png|image 20 2.png]]
 
-![[Assets/image 21 3.png|image 21 3.png]]
+![[Assets/image 21 2.png|image 21 2.png]]
 
 Resumiendo, los atributos de los tipos de relación 1:N y 1:1 se pueden trasladar a al menos uno de los tipos de entidad participantes. En el caso de 1:1 a cualquiera de los dos tipos de entidad participantes, mientras que en el caso 1:N se puede trasladar al tipo de entidad que tiene una participación con cardinalidad 1.
 

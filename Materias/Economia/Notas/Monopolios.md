@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/monopolio 2.pdf|monopolio 2.pdf]]"
+  - "[[Assets/monopolio.pdf|monopolio.pdf]]"
 Categoria:
   - Microeconomia
 ---
@@ -16,7 +16,7 @@ Categoria:
 
 - A diferencia del caso de mercados competitivos, la empresa puede modificar unilateralmente el precio porque tiene un cliente “cautivo”(no vende bienes con sustitutos cercanos).
 
-![[Assets/image 410.png|image 410.png]]
+![[Assets/image 27.png|image 27.png]]
 
 ### La demanda del monopolio
 
@@ -38,7 +38,7 @@ Categoria:
 
 ### El ingreso marginal del monopolio
 
-![[Assets/image 1 9.png|image 1 9.png]]
+![[Assets/image 1 8.png|image 1 8.png]]
 
 ### Maximización de beneficios: MONOPOLIO
 
@@ -84,7 +84,7 @@ Categoria:
 
 - Esta perdida, es el denominado costo social del monopolio o perdida irrecuperable de eficiencia, que esta dada por la suma de la perdida del excedente del consumidor, y del excedente del producto
 
-![[Assets/image 4 6.png|image 4 6.png]]
+![[Assets/image 4 5.png|image 4 5.png]]
 
 ### Regulación del monopolio
 

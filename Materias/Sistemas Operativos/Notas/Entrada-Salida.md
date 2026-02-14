@@ -4,5 +4,5 @@ Material de Estudio:
 Categoria:
   - Unidad 5
 Sub-item:
-  - "[[Clase 1 5]]"
+  - "[[Materias/Sistemas Operativos/Clase 1 5\\|Clase 1 5]]"
 ---

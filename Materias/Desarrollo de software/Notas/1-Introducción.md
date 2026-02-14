@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen de Junit videos\\|Resumen de Junit videos]]"
+  - "[[Materias/Desarrollo de software/Resumen de Junit videos\\|Resumen de Junit videos]]"
 ---
 ## Introducción
 
@@ -38,13 +38,13 @@ También podríamos controlar tiempos de ejecución, eso es clave en el sentido 
 
 Ejemplo de proyecto:
 
-![[Assets/image 447.png|image 447.png]]
+![[Assets/image 64.png|image 64.png]]
 
 Nosotros en los proyectos vamos a tener dentro la carpeta source, una carpeta main y otra test, bueno todos nuestros códigos van a terminar en una carpeta test, pero la invocación de métodos o de clases, digamos las clases en las que nosotros estemos invocando para testear justamente, van a estar en la clase main.
 
   
 
-![[Assets/image 1 39.png|image 1 39.png]]
+![[Assets/image 1 38.png|image 1 38.png]]
 
 Entonces nosotros tenemos en la clase principal acá es donde está nuestro código fuente, el código que nosotros queremos cuidar.
 
@@ -66,7 +66,7 @@ Entonces lo primero que hacemos es generar una nueva clase que la vamos a llamar
 
 La vieja manera de hacerlo y lo que está totalmente desaprobado es generar acá un método que sea público, static void main string args y acá poder hacer la invocación clásica de si voy a generar una variable que sea calculadora calc igual new calculadora y sobre calc ejecutar tal vez el método sumar calculadora.
 
-![[Assets/image 4 24.png|image 4 24.png]]
+![[Assets/image 4 23.png|image 4 23.png]]
 
   
 
@@ -88,13 +88,13 @@ Lo único que nosotros necesitamos sí o sí para asegurar que se ejecute es agr
 
 Como buenas prácticas siempre hay que revisar el pom
 
-![[Assets/image 7 14.png|image 7 14.png]]
+![[Assets/image 7 13.png|image 7 13.png]]
 
   
 
 En este caso en el pom fíjense que dice versión 8 y nosotros queremos trabajar con la versión 11
 
-![[Assets/image 8 12.png|image 8 12.png]]
+![[Assets/image 8 11.png|image 8 11.png]]
 
   
 
@@ -104,13 +104,13 @@ Otra cosa que deberíamos de tener siempre presente es de agregar un plugin que 
 
   
 
-![[Assets/image 9 11.png|image 9 11.png]]
+![[Assets/image 9 10.png|image 9 10.png]]
 
   
 
 Entonces para retomar el test simplemente vamos a hacer una invocación vamos a generar una instancia de calculadora.
 
-![[Assets/image 10 9.png|image 10 9.png]]
+![[Assets/image 10 8.png|image 10 8.png]]
 
   
 
@@ -118,13 +118,13 @@ Entonces para retomar el test simplemente vamos a hacer una invocación vamos a 
 
 Es sencillo botón derecho:
 
-![[Assets/image 11 9.png|image 11 9.png]]
+![[Assets/image 11 8.png|image 11 8.png]]
 
   
 
 Una vez que ejecutamos nos sale esto:
 
-![[Assets/image 12 7.png|image 12 7.png]]
+![[Assets/image 12 6.png|image 12 6.png]]
 
 Lo que nos está pasando es lo siguiente nosotros hemos actualizado el archivo pom, de manera que pueda hacerlo con el plugin.
 
@@ -132,11 +132,11 @@ Lo que nos está pasando es lo siguiente nosotros hemos actualizado el archivo p
 
 Otra manera de ejecutar es apretando las teclas shift alt d y posteriormente la tecla t
 
-![[Assets/image 13 7.png|image 13 7.png]]
+![[Assets/image 13 6.png|image 13 6.png]]
 
 Entonces lo ejecutamos y nos devuelve este:
 
-![[Assets/image 14 7.png|image 14 7.png]]
+![[Assets/image 14 6.png|image 14 6.png]]
 
 Se ejecutó el test y el resultado es 5.
 
@@ -156,19 +156,19 @@ Dentro de CalculadoraTest
 
   
 
-![[Assets/image 16 6.png|image 16 6.png]]
+![[Assets/image 16 5.png|image 16 5.png]]
 
   
 
-![[Assets/image 17 6.png|image 17 6.png]]
+![[Assets/image 17 5.png|image 17 5.png]]
 
   
 
-![[Assets/image 18 6.png|image 18 6.png]]
+![[Assets/image 18 5.png|image 18 5.png]]
 
 Entonces ejecutamos y nos queda esto:
 
-![[Assets/image 19 6.png|image 19 6.png]]
+![[Assets/image 19 5.png|image 19 5.png]]
 
 @BeforeAll: Se ejecuta una vez antes de todas las pruebas.  
 @AfterAll: Se ejecuta una vez después de todas las pruebas.  

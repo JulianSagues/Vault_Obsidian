@@ -4,7 +4,7 @@ Material de Estudio:
 Categoria:
   - Proyecto de inversion
 Sub-item:
-  - "[[Materias/Economia/Notas/Ej\\|Ej]]"
+  - "[[Materias/Economía/Ej\\|Ej]]"
 ---
 ### Proyectos de Inversión
 

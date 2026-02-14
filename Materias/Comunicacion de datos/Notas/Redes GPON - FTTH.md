@@ -4,11 +4,11 @@ Categoria:
 ---
 ### Terminología
 
-![[Assets/image 442.png|image 442.png]]
+![[Assets/image 59.png|image 59.png]]
 
 ### Características GPON
 
-![[Assets/image 1 35.png|image 1 35.png]]
+![[Assets/image 1 34.png|image 1 34.png]]
 
 ### Cómo funciona
 
@@ -20,7 +20,7 @@ Categoria:
 
 ### Upstream
 
-![[Assets/image 4 21.png|image 4 21.png]]
+![[Assets/image 4 20.png|image 4 20.png]]
 
 Servicios
 
@@ -30,7 +30,7 @@ Servicios
 
 ### Parámetros de Rendimiento
 
-![[Assets/image 7 12.png|image 7 12.png]]
+![[Assets/image 7 11.png|image 7 11.png]]
 
 ### Ejemplo de diseño de Red.
 
@@ -44,16 +44,16 @@ Realizaremos el diseño de una red de distribución de datos para proveer servic
 
 ### Comparativa que explica la tendencia de utilizar PON
 
-![[Assets/image 8 10.png|image 8 10.png]]
+![[Assets/image 8 9.png|image 8 9.png]]
 
 ### Parámetros básicos Downstream
 
-![[Assets/image 9 9.png|image 9 9.png]]
+![[Assets/image 9 8.png|image 9 8.png]]
 
 ### Parámetros básicos Upstream
 
-![[Assets/image 10 8.png|image 10 8.png]]
+![[Assets/image 10 7.png|image 10 7.png]]
 
 ### Splitters, valores de atenuación por norma
 
-![[Assets/image 11 8.png|image 11 8.png]]
+![[Assets/image 11 7.png|image 11 7.png]]

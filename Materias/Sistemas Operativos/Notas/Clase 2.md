@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Procesos e hilos\\|Procesos e hilos]]"
+  - "[[Materias/Sistemas Operativos/Procesos e hilos\\|Procesos e hilos]]"
 ---
 Al planificador lo dispara el S.O
 
@@ -24,7 +24,7 @@ Ahora hay un bloque de control para cada hilo
 
 Los hilos tienen:
 
-![[Assets/temp_image_1757107221910 2.jpg|temp_image_1757107221910 2.jpg]]
+![[temp_image_1757107221910.jpg]]
 
   
 
@@ -106,7 +106,7 @@ La region critica (codigo a nivel ISA) es una porcion de codigo que modifca un r
 
   
 
-![[Assets/temp_image_1757109174411 2.jpg|temp_image_1757109174411 2.jpg]]
+![[temp_image_1757109174411.jpg]]
 
   
 

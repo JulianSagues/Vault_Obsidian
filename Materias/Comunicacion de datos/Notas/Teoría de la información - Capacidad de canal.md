@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[2_Teora_de_Informacin_-_Capacidad_de_Canal.pdf]]"
+  - "[[Assets/2_Teora_de_Informacin_-_Capacidad_de_Canal.pdf|2_Teora_de_Informacin_-_Capacidad_de_Canal.pdf]]"
 Categoria:
   - Unidad 2
 ---
@@ -16,7 +16,7 @@ Categoria:
 
 $B=f1-f2 [Hertz]$
 
-![[Assets/image 428.png|image 428.png]]
+![[Assets/image 45.png|image 45.png]]
 
 ### Capacidad de Canal – Límite de la velocidad de datos
 
@@ -94,7 +94,7 @@ De esta forma vemos que la expresión de Nyquits no representa los efectos causa
 
 En la siguiente imagen se muestra la representación del propio Shannon de dicho sistema general de comunicaciones.
 
-![[Assets/image 1 22.png|image 1 22.png]]
+![[Assets/image 1 21.png|image 1 21.png]]
 
 $C= B .log_2(1+s/n)$
 

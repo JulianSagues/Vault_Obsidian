@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/HTML\\|HTML]]"
+  - "[[Materias/Desarrollo de software/HTML\\|HTML]]"
 ---
 ### 1. ¿Qué es un Formulario?
 

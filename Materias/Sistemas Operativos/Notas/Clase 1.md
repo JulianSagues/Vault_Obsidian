@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Memoria\\|Memoria]]"
+  - "[[Materias/Sistemas Operativos/Memoria\\|Memoria]]"
 ---
 ## **Gestión de memoria**
 
@@ -14,7 +14,7 @@ Vamos a tener una tabla de segmentos con una longitud fija por ejemplo en Kb.
 
   
 
-![[Assets/temp_image_1757111386202 2.jpg|temp_image_1757111386202 2.jpg]]
+![[temp_image_1757111386202.jpg]]
 
   
 
@@ -46,7 +46,7 @@ Direccion logica: Es una direccion dada por el procesasdor que atraves de un alg
 
   
 
-![[Assets/temp_image_1757113017470 2.jpg|temp_image_1757113017470 2.jpg]]
+![[temp_image_1757113017470.jpg]]
 
   
 

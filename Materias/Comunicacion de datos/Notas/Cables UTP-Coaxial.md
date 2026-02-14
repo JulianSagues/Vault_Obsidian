@@ -50,11 +50,11 @@ La asociación de industrias electrónicas (EIA) ha desarrollado estándares par
 
 ### Tipos de cable (en función de cubierta y blindaje)
 
-![[Assets/image 441.png|image 441.png]]
+![[Assets/image 58.png|image 58.png]]
 
 ### Tabla tipos de cables por categoría (Ampliada)
 
-![[Assets/image 1 34.png|image 1 34.png]]
+![[Assets/image 1 33.png|image 1 33.png]]
 
 ### CONECTORES
 

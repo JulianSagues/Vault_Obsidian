@@ -4,6 +4,6 @@ Material de Estudio:
 Categoria:
   - Unidad 2
 Sub-item:
-  - "[[Materias/Sistemas Operativos/Notas/Clase 1 3\\|Clase 1 3]]"
-  - "[[Materias/Sistemas Operativos/Notas/Clase 2\\|Clase 2]]"
+  - "[[Materias/Sistemas Operativos/Clase 1 3\\|Clase 1 3]]"
+  - "[[Materias/Sistemas Operativos/Clase 2\\|Clase 2]]"
 ---

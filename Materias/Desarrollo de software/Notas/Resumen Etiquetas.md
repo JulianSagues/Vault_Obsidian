@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/JPA\\|JPA]]"
+  - "[[Materias/Desarrollo de software/JPA\\|JPA]]"
 ---
 ### Anotaciones Fundamentales de Entidades
 

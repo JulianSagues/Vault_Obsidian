@@ -16,9 +16,9 @@ Una de las técnicas más habituales para cambiar una señal analógica a digita
 
 1. Los valores cuantificados son Codificados como flujos de bits
 
-![[Assets/image 436.png|image 436.png]]
+![[Assets/image 53.png|image 53.png]]
 
-![[Assets/image 1 29.png|image 1 29.png]]
+![[Assets/image 1 28.png|image 1 28.png]]
 
 ### Muestreo
 
@@ -37,7 +37,7 @@ Conclusión del teorema de Nyquist, también denominado teorema del muestreo:
 
 ![[Assets/image 3 22.png|image 3 22.png]]
 
-![[Assets/image 4 18.png|image 4 18.png]]
+![[Assets/image 4 17.png|image 4 17.png]]
 
 Recuperación de una señal sinusoidal muestreada con diferentes tasas de muestreo.
 
@@ -47,14 +47,14 @@ Recuperación de una señal sinusoidal muestreada con diferentes tasas de muestr
 
 ![[Assets/image 6 10.png|image 6 10.png]]
 
-![[Assets/image 7 9.png|image 7 9.png]]
+![[Assets/image 7 8.png|image 7 8.png]]
 
 Error de cuantificación:
 
-![[Assets/image 8 7.png|image 8 7.png]]
+![[Assets/image 8 6.png|image 8 6.png]]
 
 ### Codificación
 
 La codificación es la última etapa en PCM. Luego de que la muestra ha sido cuantificada, y se ha decidido el número de bits a utilizar por muestra, a cada muestra se le asigna una palabra de un código de “n bits”.
 
-![[Assets/image 9 6.png|image 9 6.png]]
+![[Assets/image 9 5.png|image 9 5.png]]

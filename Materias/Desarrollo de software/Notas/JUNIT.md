@@ -1,6 +1,6 @@
 ---
 Sub-item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen de Junit videos\\|Resumen de Junit videos]]"
+  - "[[Materias/Desarrollo de software/Resumen de Junit videos\\|Resumen de Junit videos]]"
 ---
 # Testing Unitario (JUnit y Mockito)
 

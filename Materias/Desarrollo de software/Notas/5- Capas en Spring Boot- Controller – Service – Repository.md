@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
+  - "[[Materias/Desarrollo de software/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
 ---
 ### 🎯 El Problema: "Todo en el Controlador"
 
-![[Assets/image 459.png|image 459.png]]
+![[Assets/image 76.png|image 76.png]]
 
 Si seguimos poniendo toda la lógica en el controlador, el proyecto se vuelve un "lío" (un "controller gordo"):
 
@@ -24,7 +24,7 @@ La arquitectura en 3 capas resuelve esto asignando un rol claro a cada component
 
 ### 1. La Capa Controller (`@RestController`)
 
-![[Assets/image 1 51.png|image 1 51.png]]
+![[Assets/image 1 50.png|image 1 50.png]]
 
 - Es la **"puerta de entrada"**. Es la capa más externa.
 
@@ -87,7 +87,7 @@ La arquitectura en 3 capas resuelve esto asignando un rol claro a cada component
 
 El flujo de una petición ahora sigue un orden estricto:
 
-![[Assets/image 4 34.png|image 4 34.png]]
+![[Assets/image 4 33.png|image 4 33.png]]
 
 **Cliente (Postman)** → `HTTP Request` → **(Capa 1) Controller** → `Llama al` → **(Capa 2) Service** → `Llama al` → **(Capa 3) Repository** → **Base de Datos**
 

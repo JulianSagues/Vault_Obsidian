@@ -1,22 +1,22 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen Videos\\|Resumen Videos]]"
+  - "[[Materias/Desarrollo de software/Resumen Videos\\|Resumen Videos]]"
 ---
-![[Assets/image1 16.png|image1 16.png]]
+![[Assets/image1 7.png|image1 7.png]]
 
-![[Assets/image2 16.png|image2 16.png]]
+![[Assets/image2 7.png|image2 7.png]]
 
-![[Assets/image3 22.png|image3 22.png]]
+![[Assets/image3 7.png|image3 7.png]]
 
 Cuando creamos una entidad cada atributo se convierte en una columna de la tabla, por
 
 defecto el nombre de la columna es igual al del atributo.
 
-![[Assets/image4 22.png|image4 22.png]]
+![[Assets/image4 7.png|image4 7.png]]
 
 Con esto le damos a JPA un manual de instrucciones de como queremos la columna.
 
-![[Assets/image5 18.png|image5 18.png]]
+![[Assets/image5 7.png|image5 7.png]]
 
 A veces en nuestra clase tenemos campos que usamos dentro de la aplicación. Pero no queremos guardarlo en la base de datos. Puede ser un valor calculado, un
 
@@ -28,7 +28,7 @@ Para eso nosotros tenemos una anotación @Transient, que es como decirle a JPA. 
 
 Como se ve en el ejemplo, tenemos el stock disponible calculado. Aunque exista en la clase, al estar mapeado con esa anotación, JPA no lo va a convertir en una columna.
 
-![[Assets/image6 20.png|image6 20.png]]
+![[Assets/image6 7.png|image6 7.png]]
 
 En Java tenemos algo llamado Enum que nos sirve para representar un conjunto limitado de valores posibles.
 
@@ -36,7 +36,7 @@ Cuando nosotros guardamos un Enum en la base de datos,
 
 por defecto, JPA lo usa como un número, el índice de la posición. Esto no es muy legible y puede ser un problema si nosotros cambiamos después el orden de los valores. Por eso, lo más recomendable en el caso de usar enum es guardar el nombre como texto y para eso usamos la anotación @enumerated enum type string.
 
-![[Assets/image7 19.png|image7 19.png]]
+![[Assets/image7 7.png|image7 7.png]]
 
 Como se ve en el ejemplo, tenemos la clase con las siguientes características:• @Entity: Marca que la clase será una entidad JPA.
 
@@ -56,6 +56,6 @@ Como se ve en el ejemplo, tenemos la clase con las siguientes características:�
 
 - @Transient: En el caso del stock disponible, se usa para indicar que ese campo no se va a mapear en la tabla.
 
-![[Assets/image8 21.png|image8 21.png]]
+![[Assets/image8 7.png|image8 7.png]]
 
 6- Ciclo de vida de una entidad

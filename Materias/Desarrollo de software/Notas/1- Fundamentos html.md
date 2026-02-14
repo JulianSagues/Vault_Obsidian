@@ -1,8 +1,8 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/HTML\\|HTML]]"
+  - "[[Materias/Desarrollo de software/HTML\\|HTML]]"
 ---
-![[Assets/image 449.png|image 449.png]]
+![[Assets/image 66.png|image 66.png]]
 
 ### 1. ¿Qué es HTML?
 
@@ -16,7 +16,7 @@ Parent item:
 
   
 
-![[Assets/image 1 41.png|image 1 41.png]]
+![[Assets/image 1 40.png|image 1 40.png]]
 
 ### 2. La Analogía del Esqueleto
 
@@ -68,7 +68,7 @@ La sección `<head>` le da información importante al navegador:
 
 - `<title>...</title>`: Define el texto que aparece en la **pestaña del navegador**.
 
-![[Assets/image 4 26.png|image 4 26.png]]
+![[Assets/image 4 25.png|image 4 25.png]]
 
 En el body va toda la estructura de mi pagina html.
 
@@ -82,7 +82,7 @@ En el body va toda la estructura de mi pagina html.
 
   
 
-![[Assets/image 7 16.png|image 7 16.png]]
+![[Assets/image 7 15.png|image 7 15.png]]
 
 ### 6. Anatomía de una Etiqueta HTML
 
@@ -102,7 +102,7 @@ Las etiquetas son las instrucciones que usa HTML.
 
   
 
-![[Assets/image 8 14.png|image 8 14.png]]
+![[Assets/image 8 13.png|image 8 13.png]]
 
 ### 7. Primeras Etiquetas Clave (Dentro del `<body>`)
 

@@ -13,14 +13,14 @@ A éstos se les llama modos de transmisión. Hay tres modos de transmisión posi
 
 Con el funcionamiento símplex, las transmisiones sólo se hacen en una dirección. A veces, a los sistemas símplex se les llama sólo en unsentido, sólo recibir o sólo transmitir. Una estación puede ser un transmisor o un receptor, pero no ambos a la vez. Como ejemplo de transmisión símplex está la emisión comercial de radio o televisión: la estación de radio sólo transmite a uno, y uno siempre recibe.
 
-![[Assets/image 429.png|image 429.png]]
+![[Assets/image 46.png|image 46.png]]
 
 ### Semidúplex (HDX, de half duplex)
 
 En el funcionamiento semidúplex, las transmisiones se pueden hacer en ambas direcciones, pero no al mismo tiempo. A veces, a los sistemas semidúplex se les llama de alternar en ambos sentidos,  
 en uno de los sentidos, o de cambio y fuera. Una estación puede ser transmisora y receptora, pero no al mismo tiempo. Los sistemas de radio en dos sentidos que usan botones para hablar (PTT, de push-totalk) para conectar sus transmisores, como son los radios de banda civil y de policía, son ejemplos de transmisión en semidúplex.
 
-![[Assets/image 1 23.png|image 1 23.png]]
+![[Assets/image 1 22.png|image 1 22.png]]
 
 ### Dúplex total (FDX, de full dúplex)
 
@@ -59,4 +59,4 @@ La transmisión de datos binarios por un medio de enlace se puede realizar en Mo
 
 - Como principal desventaja es que, como la comunicación dentro de los dispositivos es paralela, es necesario usar dispositivos de conversión de interfaz entre emisor y la línea (paralelo a serie) y entre la línea y el receptor (serie a paralelo).
 
-![[Assets/image 4 14.png|image 4 14.png]]
+![[Assets/image 4 13.png|image 4 13.png]]

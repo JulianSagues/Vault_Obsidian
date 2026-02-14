@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[4_Transmisin_Banda_Base_Banda_Pasante.pdf]]"
+  - "[[Assets/4_Transmisin_Banda_Base_Banda_Pasante.pdf|4_Transmisin_Banda_Base_Banda_Pasante.pdf]]"
 Categoria:
   - Unidad 2
 ---
@@ -10,11 +10,11 @@ En Comunicaciones, el término banda base se refiere a la banda de frecuencias p
 
 La banda base es la señal de una sola transmisión de canal
 
-![[Assets/image 432.png|image 432.png]]
+![[Assets/image 49.png|image 49.png]]
 
 ### Tipos de Banda Base
 
-![[Assets/image 1 25.png|image 1 25.png]]
+![[Assets/image 1 24.png|image 1 24.png]]
 
 ### Comparativa BB - BP
 

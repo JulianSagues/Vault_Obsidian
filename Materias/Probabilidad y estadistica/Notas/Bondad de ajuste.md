@@ -2,13 +2,13 @@
 Categoria:
   - Unidad 6
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Pruebas de hipótesis\\|Pruebas de hipótesis]]"
+  - "[[Materias/Probabilidad y Estadística/Pruebas de hipótesis\\|Pruebas de hipótesis]]"
 ---
-![[Assets/70ee8065-fb41-4e3c-8fbc-bb9cf9354824 2.png|70ee8065-fb41-4e3c-8fbc-bb9cf9354824 2.png]]
+![[70ee8065-fb41-4e3c-8fbc-bb9cf9354824.png]]
 
-![[Assets/4317f2c4-b32a-4bbc-95ea-340f563dc80e 2.png|4317f2c4-b32a-4bbc-95ea-340f563dc80e 2.png]]
+![[4317f2c4-b32a-4bbc-95ea-340f563dc80e.png]]
 
-![[Assets/cf4af7dc-2253-45b2-b6ff-14b821f69a5a 2.png|cf4af7dc-2253-45b2-b6ff-14b821f69a5a 2.png]]
+![[cf4af7dc-2253-45b2-b6ff-14b821f69a5a.png]]
 
 - interpretación teórica: según la evidencia muestral, decido aceptar la hipótesis nula. Aunque el valor observado en la muestra (promedio = 7) es mayor al hipotetizado ( h_0 = promedio=7) no es significativamente mayor, a un nivel de significancia de (0,02)
 

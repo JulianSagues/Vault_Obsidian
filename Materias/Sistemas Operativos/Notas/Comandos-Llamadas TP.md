@@ -1,6 +1,6 @@
 ---
 Sub-item:
-  - "[[Sin título 2]]"
+  - "[[Materias/Sistemas Operativos/Sin título 2\\|Sin título 2]]"
 ---
 ## Guía Práctica N°1 – Generalidades de Sistemas Operativos
 

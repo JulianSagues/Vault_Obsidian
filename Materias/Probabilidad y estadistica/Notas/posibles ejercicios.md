@@ -1,14 +1,14 @@
 ---
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
+  - "[[Materias/Probabilidad y Estadística/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
 ---
-![[Assets/image 424.png|image 424.png]]
+![[Assets/image 41.png|image 41.png]]
 
 nos da una funcion y su acumulada
 
 - para verificar si de un porcentaje el x es tanto, se iguala la funcion acumulada a la probabilidad dada
 
-![[Assets/image 1 19.png|image 1 19.png]]
+![[Assets/image 1 18.png|image 1 18.png]]
 
 - en a) igualamos a 0,50. en b) a 0,98
 
@@ -30,7 +30,7 @@ nos da una funcion y su acumulada
 
 ---
 
-![[Assets/image 4 12.png|image 4 12.png]]
+![[Assets/image 4 11.png|image 4 11.png]]
 
 - sabemos que percentil 98 es 0,98≤39 y 0,02≥39
 

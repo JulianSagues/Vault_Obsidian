@@ -12,7 +12,7 @@ El conmutador es un dispositivo importante en toda red de comunicación, porque 
 
 - Debe ser rápida
 
-![[Assets/image 440.png|image 440.png]]
+![[Assets/image 57.png|image 57.png]]
 
 ### Conmutación de Circuitos:
 
@@ -106,7 +106,7 @@ El proceso de Encapsulamiento consiste en agregar a la información (Datos) el e
 
 ### Equivalencia entre el Modelo OSI y Modelo TCP/IP
 
-![[Assets/image 1 33.png|image 1 33.png]]
+![[Assets/image 1 32.png|image 1 32.png]]
 
 ### Aplicación MPLS
 

@@ -4,7 +4,7 @@ Material de Estudio:
 Categoria:
   - Unidad 1
 ---
-![[Assets/image 430.png|image 430.png]]
+![[Assets/image 47.png|image 47.png]]
 
 Componentes:
 
@@ -38,4 +38,4 @@ Los contaminantes del sistema son efectos indeseados e inevitables, que se puede
 
 - El ruido: es una señal aleatoria e impredecible originada de forma natural. No existe solución a éste problema, ya que el ruido no puede ser eliminado, pero si lo podemos tener presente para compensar.
 
-![[Assets/image 1 24.png|image 1 24.png]]
+![[Assets/image 1 23.png|image 1 23.png]]

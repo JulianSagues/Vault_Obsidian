@@ -1,22 +1,22 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen Videos\\|Resumen Videos]]"
+  - "[[Materias/Desarrollo de software/Resumen Videos\\|Resumen Videos]]"
 ---
-![[Assets/image1 19.png|image1 19.png]]
+![[Assets/image1 10.png|image1 10.png]]
 
 JPA actúa como el puente entre el modelo de objetos (JAVA) y el modelo relacional (SQL). Es como un traductor que entiende ambos idiomas.
 
-![[Assets/image2 19.png|image2 19.png]]
+![[Assets/image2 10.png|image2 10.png]]
 
-![[Assets/image3 25.png|image3 25.png]]
+![[Assets/image3 10.png|image3 10.png]]
 
 JPA define el "QUE" y el proveedor de JPA define el "COMO" se hace.
 
-![[Assets/image4 25.png|image4 25.png]]
+![[Assets/image4 10.png|image4 10.png]]
 
 En la vida real se usa una combinación de las dos.
 
-![[Assets/image5 21.png|image5 21.png]]
+![[Assets/image5 10.png|image5 10.png]]
 
 Entidades->Son las clases de JPA que van a representar las tablas de la base de datos.
 
@@ -28,7 +28,7 @@ Unidad de persistencia -> Agrupa un conjunto de entidades y define la configurac
 
 JPQL -> Es un lenguaje de consulta orientado a objetos., que nos permitira hacer busquedas con nuestras entidades de JAVA.
 
-![[Assets/image6 23.png|image6 23.png]]
+![[Assets/image6 10.png|image6 10.png]]
 
 Básicamente son las clases normales de JAVA que tenemos, pero con un par de detalles extras. Por ejemplo para esto se marca con @Entity una clase para que JPA lo represente como una tabla en la base de datos, donde cada campo de la clase se va a mapear automáticamente en una tabla en la BD.
 
@@ -36,7 +36,7 @@ También tendrá clave primaria que se marcara con @Id
 
 Ejemplo con clase Persona:
 
-![[Assets/image7 22.png|image7 22.png]]
+![[Assets/image7 10.png|image7 10.png]]
 
 @Entity -> mapea la clase en el modelo relacional.
 
@@ -44,33 +44,33 @@ Ejemplo con clase Persona:
 
 @OneToMany es para mapear en el modelo relacional la relación de 1 a N con la clase Inscripción.
 
-![[Assets/image8 24.png|image8 24.png]]
+![[Assets/image8 10.png|image8 10.png]]
 
 Con estos 5 métodos podremos gestionar el 90% de los datos de la BD.
 
-![[Assets/image9 18.png|image9 18.png]]
+![[Assets/image9 9.png|image9 9.png]]
 
 Debe instanciarse una única vez cuando se arranque la aplicación y que se use durante todo el
 
 ciclo de vida de la aplicación.
 
-![[Assets/image10 17.png|image10 17.png]]
+![[Assets/image10 9.png|image10 9.png]]
 
 Es como la zona de trabajo de JPA donde agrupa todas las entidades y define la configuración de conexión con el famoso archivo persistence.xml que va a crear una carpeta META-INF, done ahí le vamos a decir a JPA que entidades usar, como conectarse a la BD y que proveedor de JPA estamos usando.
 
-![[Assets/image11 17.png|image11 17.png]]
+![[Assets/image11 9.png|image11 9.png]]
 
 JPQL es como SQL pero orientado a objetos, en vez de hablar de tablas y columnas vamos a hablar de entidades y atributos.
 
-![[Assets/image12 17.png|image12 17.png]]
+![[Assets/image12 9.png|image12 9.png]]
 
 Para usar JPA necesitamos algún proveedor que implemente esas reglas. Hibernate es el más
 
 común.
 
-![[Assets/image13 17.png|image13 17.png]]
+![[Assets/image13 9.png|image13 9.png]]
 
-![[Assets/image14 20.png|image14 20.png]]
+![[Assets/image14 9.png|image14 9.png]]
 
 Entonces JPA es como un asistente técnico mientras nosotros nos concentramos en resolver problemas reales de los usuarios, ósea evita que tengamos que ir gestionando la BD manualmente.
 

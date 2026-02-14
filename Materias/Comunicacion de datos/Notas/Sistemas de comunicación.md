@@ -15,7 +15,7 @@ La fuente original de información puede estar en forma analógica (continua), e
 
 El diagrama en bloques simplificado de un sistema electrónico de comunicaciones lo compone un transmisor, un medio de transmisión y un receptor
 
-![[Assets/image 434.png|image 434.png]]
+![[Assets/image 51.png|image 51.png]]
 
 - Transmisor: Es un conjunto de uno o más dispositivos o circuitos electrónicos que convierte la información de la fuente original en una señal que se presta más a su transmisión a través de determinado medio de transmisión.
 
@@ -49,7 +49,7 @@ La demodulación es el proceso inverso a la modulación, y reconvierte a la port
 
 La expresión es la descripción general de una onda senoidal de voltaje, variable en el tiempo, como puede ser una señal portadora de alta frecuencia.
 
-![[Assets/image 1 27.png|image 1 27.png]]
+![[Assets/image 1 26.png|image 1 26.png]]
 
 - Si la señal de información es analógica, y la amplitud (V) de la portadora es proporcional a ella, se produce la modulación de Amplitud (AM, por amplitude modulation).
 
@@ -73,7 +73,7 @@ La expresión es la descripción general de una onda senoidal de voltaje, variab
 
 ### Diagrama en bloques de un Sistema de Comunicaciones (simplificado)
 
-![[Assets/image 4 16.png|image 4 16.png]]
+![[Assets/image 4 15.png|image 4 15.png]]
 
 El diagrama simplificado de bloques de un sistema de comunicaciones, donde se ven las relaciones entre la señal moduladora, la portadora de alta frecuencia y la onda modulada.
 

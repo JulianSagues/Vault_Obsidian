@@ -1,17 +1,17 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/JPA\\|JPA]]"
+  - "[[Materias/Desarrollo de software/JPA\\|JPA]]"
 Sub-item:
-  - "[[Materias/Desarrollo de software/Notas/1-JPA\\|1-JPA]]"
-  - "[[Materias/Desarrollo de software/Notas/2- H2 Database\\|2- H2 Database]]"
-  - "[[Materias/Desarrollo de software/Notas/3-persistense.xml\\|3-persistense.xml]]"
-  - "[[Materias/Desarrollo de software/Notas/4- JPA paso a paso\\|4- JPA paso a paso]]"
-  - "[[Materias/Desarrollo de software/Notas/5- Anotaciones Básicas de JPA\\|5- Anotaciones Básicas de JPA]]"
-  - "[[6- Ciclo de vida de una entidad\\|6- Ciclo de vida de una entidad]]"
-  - "[[Materias/Desarrollo de software/Notas/7- Relaciones Unidireccionales en JPA\\|7- Relaciones Unidireccionales en JPA]]"
-  - "[[Materias/Desarrollo de software/Notas/8- Relaciones Bidireccionales en JPA\\|8- Relaciones Bidireccionales en JPA]]"
-  - "[[Materias/Desarrollo de software/Notas/9- CascadeType y orphanRemoval\\|9- CascadeType y orphanRemoval]]"
-  - "[[Materias/Desarrollo de software/Notas/10- FetchType LAZY vs EAGER\\|10- FetchType LAZY vs EAGER]]"
+  - "[[1-JPA\\|1-JPA]]"
+  - "[[2- H2 Database\\|2- H2 Database]]"
+  - "[[3-persistense.xml\\|3-persistense.xml]]"
+  - "[[4- JPA paso a paso\\|4- JPA paso a paso]]"
+  - "[[Materias/Desarrollo de software/5- Anotaciones Básicas de JPA\\|5- Anotaciones Básicas de JPA]]"
+  - "[[Materias/Desarrollo de software/6- Ciclo de vida de una entidad\\|6- Ciclo de vida de una entidad]]"
+  - "[[Materias/Desarrollo de software/7- Relaciones Unidireccionales en JPA\\|7- Relaciones Unidireccionales en JPA]]"
+  - "[[Materias/Desarrollo de software/8- Relaciones Bidireccionales en JPA\\|8- Relaciones Bidireccionales en JPA]]"
+  - "[[Materias/Desarrollo de software/9- CascadeType y orphanRemoval\\|9- CascadeType y orphanRemoval]]"
+  - "[[Materias/Desarrollo de software/10- FetchType LAZY vs EAGER\\|10- FetchType LAZY vs EAGER]]"
 ---
 ### 1 - ¿Qué es JPA?
 

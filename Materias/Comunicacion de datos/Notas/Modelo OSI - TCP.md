@@ -6,7 +6,7 @@ Categoria:
 
 El modelo OSI, de siete capas, es un modelo conceptual que caracteriza y estandariza la manera en la que los diferentes componentes de software y hardware involucrados en una comunicación de red deben dividir la mano de obra e interactuar entre sí.
 
-![[Assets/image 443.png|image 443.png]]
+![[Assets/image 60.png|image 60.png]]
 
 La PDU (Protocol Data Unit) es un término utilizado en el modelo OSI para referirse a los bloques de datos que se intercambian entre capas. Cada capa del modelo OSI tiene su propia PDU, que contiene información específica para esa capa.
 
@@ -65,7 +65,7 @@ Cada PDU contiene la información necesaria para que la capa correspondiente pue
 
 El modelo TCP solamente tiene cuatro capas y es conocido generalmente como TCP/IP, ya que estos son sus dos protocolos más importantes.
 
-![[Assets/image 1 36.png|image 1 36.png]]
+![[Assets/image 1 35.png|image 1 35.png]]
 
 ### Capa 4: Capa de aplicación
 

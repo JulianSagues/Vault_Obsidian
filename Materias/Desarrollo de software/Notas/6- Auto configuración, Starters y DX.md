@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 🎯 El Problema Antes de Spring Boot
 

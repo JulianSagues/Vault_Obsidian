@@ -2,7 +2,7 @@
 Categoria:
   - Unidad 1
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Estadistica descriptiva\\|Estadistica descriptiva]]"
+  - "[[Materias/Probabilidad y Estadística/Estadistica descriptiva\\|Estadistica descriptiva]]"
 ---
 El método de regresión y correlación no me permite determinar la dependencia de las variables
 

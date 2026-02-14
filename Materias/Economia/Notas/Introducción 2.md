@@ -1,10 +1,10 @@
 ---
 Material de Estudio:
-  - "[[Assets/macro_introduccion 2.pdf|macro_introduccion 2.pdf]]"
+  - "[[Assets/macro_introduccion.pdf|macro_introduccion.pdf]]"
 Categoria:
   - Macroeconomia
 Sub-item:
-  - "[[Materias/Economia/Notas/Practica Parcial Macro\\|Practica Parcial Macro]]"
+  - "[[Materias/Economía/Practica Parcial Macro\\|Practica Parcial Macro]]"
 ---
 Ideas generales
 

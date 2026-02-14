@@ -1,12 +1,12 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
+  - "[[Materias/Desarrollo de software/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
 ---
 ### 🔁 Repaso: Los 4 Métodos HTTP Principales (CRUD)
 
 El video repasa la responsabilidad de cada método, que son la base de cualquier API REST:
 
-![[Assets/image 457.png|image 457.png]]
+![[Assets/image 74.png|image 74.png]]
 
 |   |   |   |   |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Exportar a Hojas de cálculo
 
 Spring Boot simplifica la implementación con anotaciones específicas para cada método (todas son atajos de la anotación `@RequestMapping` general):
 
-![[Assets/image 1 49.png|image 1 49.png]]
+![[Assets/image 1 48.png|image 1 48.png]]
 
 - `@GetMapping`
 

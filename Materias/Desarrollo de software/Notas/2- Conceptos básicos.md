@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen de Junit videos\\|Resumen de Junit videos]]"
+  - "[[Materias/Desarrollo de software/Resumen de Junit videos\\|Resumen de Junit videos]]"
 ---
 ## Aserciones
 
@@ -18,7 +18,7 @@ Entonces vamos a volver a la calculadora, tenemos un método sumar que devuelve 
 
 **Refactorización de** `**sumar**`**:**
 
-![[Assets/image 446.png|image 446.png]]
+![[Assets/image 63.png|image 63.png]]
 
 - Cambia los tipos de datos de los parámetros y el valor de retorno de `int` (primitivo) a `Integer` (clase wrapper).
 
@@ -28,7 +28,7 @@ Entonces vamos a volver a la calculadora, tenemos un método sumar que devuelve 
 
 **Creación del método** `**dividir**`**:**
 
-![[Assets/image 1 38.png|image 1 38.png]]
+![[Assets/image 1 37.png|image 1 37.png]]
 
 - Implementa un nuevo método `dividir` que inicialmente usa `Integer`.
 
@@ -62,7 +62,7 @@ El instructor pasa a la clase `CalculadoraTest` y la modifica para mejorar su es
     
     - Para solucionarlo, introduce la anotación `**@TestMethodOrder**` a nivel de clase.
     
-    ![[Assets/image 4 23.png|image 4 23.png]]
+    ![[Assets/image 4 22.png|image 4 22.png]]
     
     - Luego, usa la anotación `**@Order**` en cada método de prueba (p.ej., `@Order(1)` para `testSumar` y `@Order(2)` para `testDividir`) para forzar una secuencia de ejecución específica.
     
@@ -75,9 +75,9 @@ El instructor pasa a la clase `CalculadoraTest` y la modifica para mejorar su es
 
 - **Refactorización de Tests:** Para evitar duplicar código (específicamente `Calculadora calc = new Calculadora();` en cada test), mueve la declaración de `calc` como una variable de instancia de la clase. Menciona que esta variable se puede inicializar _antes de cada prueba_ (sugiriendo el uso de `@BeforeEach`, aunque no lo implementa explícitamente en este video).
 
-![[Assets/image 7 13.png|image 7 13.png]]
+![[Assets/image 7 12.png|image 7 12.png]]
 
-![[Assets/image 8 11.png|image 8 11.png]]
+![[Assets/image 8 10.png|image 8 10.png]]
 
 Se crea una sola vez y después la inicio cuando la necesite. Entonces haciendo esto tengo menos código para mantener y teniendo a la variable calc con un solo valor.
 
@@ -89,7 +89,7 @@ Esta es la parte central del tutorial, donde se reemplaza la verificación manua
 
 - `**Assertions.assertEquals**`**:**
 
-![[Assets/image 9 10.png|image 9 10.png]]
+![[Assets/image 9 9.png|image 9 9.png]]
 
 - Es la aserción principal que se introduce. Se utiliza para comparar un valor esperado con el valor real devuelto por el método.
 

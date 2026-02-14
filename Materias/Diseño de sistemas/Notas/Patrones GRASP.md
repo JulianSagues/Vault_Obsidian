@@ -1,14 +1,14 @@
 ---
 Parent item:
-  - "[[Materias/Diseño de sistemas/Notas/Patrones\\|Patrones]]"
+  - "[[Materias/Diseño de sistemas/Patrones\\|Patrones]]"
 ---
 GRASP = General Resposability Assignment Software Patterns
 
-![[Assets/image 407.png|image 407.png]]
+![[Assets/image 15.png|image 15.png]]
 
 # Experto en Información
 
-![[Assets/image 1 6.png|image 1 6.png]]
+![[Assets/image 1 5.png|image 1 5.png]]
 
 ![[Assets/image 2 6.png|image 2 6.png]]
 
@@ -16,7 +16,7 @@ GRASP = General Resposability Assignment Software Patterns
 
 ![[Assets/image 3 4.png|image 3 4.png]]
 
-![[Assets/image 4 4.png|image 4 4.png]]
+![[Assets/image 4 3.png|image 4 3.png]]
 
 ![[Assets/image 5 3.png|image 5 3.png]]
 
@@ -24,50 +24,50 @@ GRASP = General Resposability Assignment Software Patterns
 
 ![[Assets/image 6 3.png|image 6 3.png]]
 
-![[Assets/image 7 3.png|image 7 3.png]]
+![[Assets/image 7 2.png|image 7 2.png]]
 
 # Alta cohesión
 
-![[Assets/image 8 3.png|image 8 3.png]]
+![[Assets/image 8 2.png|image 8 2.png]]
 
-![[Assets/image 9 3.png|image 9 3.png]]
+![[Assets/image 9 2.png|image 9 2.png]]
 
-![[Assets/image 10 3.png|image 10 3.png]]
+![[Assets/image 10 2.png|image 10 2.png]]
 
 # Controlador
 
-![[Assets/image 11 3.png|image 11 3.png]]
+![[Assets/image 11 2.png|image 11 2.png]]
 
-![[Assets/image 12 3.png|image 12 3.png]]
+![[Assets/image 12 2.png|image 12 2.png]]
 
-![[Assets/image 13 3.png|image 13 3.png]]
+![[Assets/image 13 2.png|image 13 2.png]]
 
-![[Assets/image 14 3.png|image 14 3.png]]
+![[Assets/image 14 2.png|image 14 2.png]]
 
 ![[Assets/image 15 2.png|image 15 2.png]]
 
 # Polimorfismo
 
-![[Assets/image 16 2.png|image 16 2.png]]
+![[image 16.png]]
 
-![[Assets/image 17 2.png|image 17 2.png]]
+![[image 17.png]]
 
 # Fabricación Pura
 
-![[Assets/image 18 2.png|image 18 2.png]]
+![[image 18.png]]
 
-![[Assets/image 19 2.png|image 19 2.png]]
+![[image 19.png]]
 
 # Indirección
 
-![[Assets/image 20 2.png|image 20 2.png]]
+![[image 20.png]]
 
-![[Assets/image 21 2.png|image 21 2.png]]
+![[image 21.png]]
 
 # Variaciones Protegidas
 
-![[Assets/image 22 2.png|image 22 2.png]]
+![[image 22.png]]
 
-![[Assets/image 23 2.png|image 23 2.png]]
+![[image 23.png]]
 
-![[Assets/image 24 2.png|image 24 2.png]]
+![[image 24.png]]

@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/HTML\\|HTML]]"
+  - "[[Materias/Desarrollo de software/HTML\\|HTML]]"
 ---
 ### 1. ¿Qué es una Tabla y Cuándo Usarla?
 
-![[Assets/image 448.png|image 448.png]]
+![[Assets/image 65.png|image 65.png]]
 
 Una tabla es una estructura que permite **organizar datos en filas y columnas**, facilitando la representación de información de manera ordenada.
 
@@ -26,7 +26,7 @@ Una tabla es una estructura que permite **organizar datos en filas y columnas**,
 
 ### 2. Elementos Básicos de una Tabla
 
-![[Assets/image 1 40.png|image 1 40.png]]
+![[Assets/image 1 39.png|image 1 39.png]]
 
 Estos son los componentes fundamentales para crear cualquier tabla:
 
@@ -58,7 +58,7 @@ Para tablas más complejas y semánticamente correctas (mejor para accesibilidad
 
 ### Ventajas de usar `<thead>`, `<tbody>` y `<tfoot>`
 
-![[Assets/image 4 25.png|image 4 25.png]]
+![[Assets/image 4 24.png|image 4 24.png]]
 
 - **Mejor Semántica:** Ayuda al navegador y a los motores de búsqueda a entender mejor la estructura de los datos.
 
@@ -82,14 +82,14 @@ Permiten que una celda ocupe el espacio de varias columnas o filas.
 
   
 
-![[Assets/image 7 15.png|image 7 15.png]]
+![[Assets/image 7 14.png|image 7 14.png]]
 
   
 
 - `rowspan="2"`: (Row Span). Hace que una celda se expanda **verticalmente** para ocupar el espacio de un número determinado de **filas** (ej: 2 filas).
 
-![[Assets/image 8 13.png|image 8 13.png]]
+![[Assets/image 8 12.png|image 8 12.png]]
 
   
 
-![[Assets/image 9 12.png|image 9 12.png]]
+![[Assets/image 9 11.png|image 9 11.png]]

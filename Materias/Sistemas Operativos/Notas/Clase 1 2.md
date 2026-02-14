@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Introduccion\\|Introduccion]]"
+  - "[[Materias/Sistemas Operativos/Introduccion\\|Introduccion]]"
 ---
 Sergio faccio: sdfaccio@yahoo.com.ar
 
@@ -78,7 +78,7 @@ Shell va casi de la mano con el S.O.
 
 CUIDADO QUE ACA NO PUSO EL KERNEL, EL PROFE ORTIZ LO HIZO MAS COMPLETO ABAJO.
 
-![[Assets/1000143615 2.jpg|1000143615 2.jpg]]
+![[1000143615.jpg]]
 
 En linux el mas usado para shell es sh (interfaz mas simple).
 
@@ -124,7 +124,7 @@ Shell le pide al S.O, mediante una llamada al sist (call system), para usar el h
 
 CPU trabaja a nivel ISA
 
-![[Assets/1000143616 2.jpg|1000143616 2.jpg]]
+![[1000143616.jpg]]
 
   
 
@@ -220,7 +220,7 @@ Tiempo compartido, para eso esta swap para tener procesos en memoria y despues e
 
   
 
-![[Assets/1000143622 2.jpg|1000143622 2.jpg]]
+![[1000143622.jpg]]
 
   
 
@@ -260,7 +260,7 @@ supongamos que el proceso A solicita algo de internet en la web y B algo en disc
 
 Para pedir algo USA MECANISMO DE INTERRUPCIONES——→ repasar porque lo toma.
 
-![[Assets/1000143624 2.jpg|1000143624 2.jpg]]
+![[1000143624.jpg]]
 
   
 
@@ -278,7 +278,7 @@ Hay tres metodos de E/S…
 
 ## **Máquina Multinivel**
 
-![[Assets/image 402.png|image 402.png]]
+![[image.png]]
 
 Tenemos un programa (secuencia de instrucciones)
 
@@ -286,7 +286,7 @@ Pseudo código (profe):
 
   
 
-![[Assets/1000143631 2.jpg|1000143631 2.jpg]]
+![[1000143631.jpg]]
 
   
 
@@ -324,7 +324,7 @@ ESTUDIAR MÁQUINA MULTINIVEL——→
 
 ## **Modo usuario y Modo kernel**
 
-![[Assets/1000143634 2.jpg|1000143634 2.jpg]]
+![[1000143634.jpg]]
 
   
 
@@ -356,7 +356,7 @@ superuser———> Podes dar instrucciones con llamadas al sistema, matar proce
 
   
 
-![[Assets/1000143634 1 2.jpg|1000143634 1 2.jpg]]
+![[1000143634 1.jpg]]
 
 “Todos los dispositivos tienen cache”
 
@@ -366,7 +366,7 @@ Funcionamiento de disco (imagen): Consultar por la imagen despues.
 
   
 
-![[Assets/1000143637 2.jpg|1000143637 2.jpg]]
+![[1000143637.jpg]]
 
   
 
@@ -486,7 +486,7 @@ La interfaz visual es un complemento para el S.O.
 
   
 
-![[Assets/1000143654 2.jpg|1000143654 2.jpg]]
+![[1000143654.jpg]]
 
 El rectangulo entre el KERNEL y el HARDWARE SON LOS DRIVERS.
 

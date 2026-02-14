@@ -87,7 +87,7 @@ Es simplemente lo que produce la fuente para transferir al usuario
 
 - La entropía de los mensajes codificados de la fuente H se puede obtener como:
 
-![[Assets/image 427.png|image 427.png]]
+![[Assets/image 44.png|image 44.png]]
 
 - De esta forma definimos la fuente en términos de la información promedio producida.
 

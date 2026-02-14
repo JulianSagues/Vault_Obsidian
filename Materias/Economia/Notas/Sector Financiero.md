@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/sfinanciero 2.pdf|sfinanciero 2.pdf]]"
+  - "[[Assets/sfinanciero.pdf|sfinanciero.pdf]]"
 Categoria:
   - Macroeconomia
 ---
@@ -159,7 +159,7 @@ Tal como se ha analizado para otros mercados, la condición de equilibrio determ
 
 El eje de las ordenadas mide la tasa de interés real, el eje de las abscisas los saldos monetarios reales (esto es M/P). La demanda también está medida en términos reales (demanda de saldos monetarios/nivel de precios). Luego la tasa de interés de equilibrio, así como los saldos de equilibrio están son reales, no nominales.
 
-![[Assets/image 416.png|image 416.png]]
+![[Assets/image 33.png|image 33.png]]
 
 ### Aumentos en la Oferta Monetaria
 
@@ -183,7 +183,7 @@ Luego, la tasa de interés se determina en el mercado monetario, y una vez que s
 
 ### La inversión como función decreciente de la tasa de interés
 
-![[Assets/image 1 14.png|image 1 14.png]]
+![[Assets/image 1 13.png|image 1 13.png]]
 
 ### El consumo
 
@@ -258,4 +258,4 @@ Se llega al equilibrio de Largo Plazo.
 
 ### Efectos de la Política Monetaria Expansiva en una Economía Clásica en el Largo Plazo
 
-![[Assets/image 4 8.png|image 4 8.png]]
+![[Assets/image 4 7.png|image 4 7.png]]

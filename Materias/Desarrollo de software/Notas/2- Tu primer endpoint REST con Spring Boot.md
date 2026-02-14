@@ -1,12 +1,12 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
+  - "[[Materias/Desarrollo de software/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
 ---
 ### 🎯 Conceptos Teóricos Clave
 
 ### 1. ¿Qué es un Endpoint REST?
 
-![[Assets/image 458.png|image 458.png]]
+![[Assets/image 75.png|image 75.png]]
 
 - Es básicamente una **URL** (como `/saludo` o `/usuario`) que "escucha" peticiones HTTP.
 
@@ -16,7 +16,7 @@ Parent item:
 
 ### 2. El Controlador: @RestController
 
-![[Assets/image 1 50.png|image 1 50.png]]
+![[Assets/image 1 49.png|image 1 49.png]]
 
 - En Spring Boot, los _endpoints_ viven dentro de clases anotadas con `**@RestController**`.
 

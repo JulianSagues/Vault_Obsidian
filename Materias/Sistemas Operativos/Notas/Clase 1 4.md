@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Archivos\\|Archivos]]"
+  - "[[Materias/Sistemas Operativos/Archivos\\|Archivos]]"
 ---
 ## Sistemas de archivos
 
@@ -78,7 +78,7 @@ En linux, se trabaja con los nodos indice o i-nodos:
 
   
 
-![[Assets/image 404.png|image 404.png]]
+![[Assets/image 3.png|image 3.png]]
 
   
 
@@ -86,7 +86,7 @@ En linux, se trabaja con los nodos indice o i-nodos:
 
   
 
-![[Assets/0c9b7a46-6882-47c2-a2a8-b94b780e80bd 2.png|0c9b7a46-6882-47c2-a2a8-b94b780e80bd 2.png]]
+![[0c9b7a46-6882-47c2-a2a8-b94b780e80bd.png]]
 
 - El primer corchete son los permisos de usuario
 
@@ -126,7 +126,7 @@ Es una tabla que tiene nombres de archivos y índices, root es el padre de todos
 
 Directorios de un solo nivel:
 
-![[Assets/image 1 3.png|image 1 3.png]]
+![[Assets/image 1 2.png|image 1 2.png]]
 
   
 
@@ -202,11 +202,11 @@ SISTEMA DE ARCHIVOS MS-DOS:
 
   
 
-![[Assets/77c0380a-77bc-492f-9a7f-799c663ef561 2.png|77c0380a-77bc-492f-9a7f-799c663ef561 2.png]]
+![[77c0380a-77bc-492f-9a7f-799c663ef561.png]]
 
   
 
-![[Assets/image 4 2.png|image 4 2.png]]
+![[image 4.png]]
 
   
 
@@ -230,7 +230,7 @@ Fragmentacion es cuando tenes un segmento de 4k y tenia que ponerle algo de 3k, 
 
 Por cada file system voy a tener una tabla de archivos esa tabla tiene:
 
-![[Assets/temp_image_1759530411534 2.jpg|temp_image_1759530411534 2.jpg]]
+![[temp_image_1759530411534.jpg]]
 
   
 
@@ -262,7 +262,7 @@ Como montar un file system a otro
 
   
 
-![[Assets/temp_image_1759531730109 2.jpg|temp_image_1759531730109 2.jpg]]
+![[temp_image_1759531730109.jpg]]
 
   
 
@@ -280,7 +280,7 @@ Links |—HARD (dentro del mismo sistema de archivos)
 
 HARD LINK
 
-![[Assets/temp_image_1759532581872 2.jpg|temp_image_1759532581872 2.jpg]]
+![[temp_image_1759532581872.jpg]]
 
 Tenemos HARD link cuando dos o más punteros apuntan al mismo i-nodo.
 
@@ -288,7 +288,7 @@ Tenemos HARD link cuando dos o más punteros apuntan al mismo i-nodo.
 
 SOFT LINK
 
-![[Assets/temp_image_1759532790402 2.jpg|temp_image_1759532790402 2.jpg]]
+![[temp_image_1759532790402.jpg]]
 
 El i-nodo 50 (Pedro) que apunta a los metadatos, después en la tabla de los metadatos lo punteros de esa tabla apuntan a un bloque que tiene el PATH (ruta) al archivo de Luis o i-nodo de Luis
 

@@ -17,7 +17,7 @@ El espectro total útil de radiofrecuencias (RF) se divide en bandas de frecuenc
 
 Cuando se manejan ondas de radio se usa unidades de longitud de onda, y no de frecuencia. La longitud de onda es la distancia que ocupa en el espacio un ciclo de una onda electromagnética. Es decir, la distancia entre los puntos correspondientes en una onda repetitiva. La longitud de onda es inversamente proporcional a la frecuencia de la onda, y directamente proporcional a su velocidad de propagación. La velocidad de propagación de la energía electromagnética en el espacio libre es:
 
-![[Assets/image 431.png|image 431.png]]
+![[Assets/image 48.png|image 48.png]]
 
 ### ADMINISTRACIÓN DEL ESPECTRO ELECTROMAGNÉTICO
 

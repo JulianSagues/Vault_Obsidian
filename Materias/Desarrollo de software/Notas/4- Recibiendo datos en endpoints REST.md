@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
+  - "[[Materias/Desarrollo de software/API REST SPRING BOOT\\|API REST SPRING BOOT]]"
 ---
 ### 🎯 El Problema: Endpoints Rígidos
 
-![[Assets/image 460.png|image 460.png]]
+![[Assets/image 77.png|image 77.png]]
 
 Una API que no puede recibir datos de entrada es inútil. No podríamos buscar un usuario por su ID, filtrar productos por categoría, o crear un nuevo registro. Este video soluciona eso.
 
@@ -12,7 +12,7 @@ Una API que no puede recibir datos de entrada es inútil. No podríamos buscar u
 
 ### 💡 Las 3 Formas de Recibir Datos en Spring Boot
 
-![[Assets/image 1 52.png|image 1 52.png]]
+![[Assets/image 1 51.png|image 1 51.png]]
 
 ![[Assets/image 2 49.png|image 2 49.png]]
 
@@ -20,7 +20,7 @@ Una API que no puede recibir datos de entrada es inútil. No podríamos buscar u
 
   
 
-![[Assets/image 4 35.png|image 4 35.png]]
+![[Assets/image 4 34.png|image 4 34.png]]
 
   
 

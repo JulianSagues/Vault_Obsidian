@@ -1,16 +1,16 @@
 ---
 Parent item:
-  - "[[Materias/Diseño de sistemas/Notas/Patrones\\|Patrones]]"
+  - "[[Materias/Diseño de sistemas/Patrones\\|Patrones]]"
 ---
 GOF = Gang Of Four
 
 # Singleton
 
-![[Assets/image 408.png|image 408.png]]
+![[Assets/image 25.png|image 25.png]]
 
 # DTO (Data Transfer Object)
 
-![[Assets/image 1 7.png|image 1 7.png]]
+![[Assets/image 1 6.png|image 1 6.png]]
 
 # Estrategia
 
@@ -22,7 +22,7 @@ GOF = Gang Of Four
 
 # Factoria
 
-![[Assets/image 4 5.png|image 4 5.png]]
+![[Assets/image 4 4.png|image 4 4.png]]
 
 Adaptador (Adapter)
 

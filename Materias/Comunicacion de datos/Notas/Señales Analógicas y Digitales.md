@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[3_Seales_Analgicaas_y_Digitales.pdf]]"
+  - "[[Assets/3_Seales_Analgicaas_y_Digitales.pdf|3_Seales_Analgicaas_y_Digitales.pdf]]"
 Categoria:
   - Unidad 2
 ---

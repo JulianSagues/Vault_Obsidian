@@ -28,11 +28,11 @@ Algunas de las propiedades de los códigos de línea:
 
 - Eficiencia: La eficiencia puede ser determinada comparando la capacidad de la información original y de su código equivalente. (Probabilidad de cada evento; Probabilidad de cada nivel del código)
 
-![[Assets/image 439.png|image 439.png]]
+![[Assets/image 56.png|image 56.png]]
 
 ### Codificación Unipolar
 
-![[Assets/image 1 32.png|image 1 32.png]]
+![[Assets/image 1 31.png|image 1 31.png]]
 
 ### Codificación Unipolar – Desventajas
 
@@ -76,7 +76,7 @@ El nivel de tensión se mantiene constante y a la mitad de la del bit hay una tr
 
 Trabaja por Nivel, es decir, dando un valor de nivel positivo al bit 1 y un valor de nivel negativo al bit 0 (o viceversa).
 
-![[Assets/image 4 20.png|image 4 20.png]]
+![[Assets/image 4 19.png|image 4 19.png]]
 
 ### NRZ – I : Non Return to ZERO - Inverted
 
@@ -116,14 +116,14 @@ El problema con estos códigos es que las secuencias largas de ceros todavía pu
     - Hacen un cambio de nivel a la mitad del período del bit, de esa manera mantienen el sincronismo. Se utiliza un patrón para representar el bit 1 y otro para representar el bit 0.
     
 
-![[Assets/image 7 11.png|image 7 11.png]]
+![[Assets/image 7 10.png|image 7 10.png]]
 
 ### Codificación Bifásica – Código Manchester Diferencial
 
 Este código es igual al Manchester con la diferencia de que en lugar de seguir un patrón para indicar el bit 1 y el 0, hace una transición de positivo a negativo, o viceversa, al comienzo del período del bit para indicar que es un bit 1, y si se trata de un bit 0, no cambia el valor de voltaje que traía del período anterior. La transición a la mitad del período del bit se mantiene  
 siempre.
 
-![[Assets/image 8 9.png|image 8 9.png]]
+![[Assets/image 8 8.png|image 8 8.png]]
 
 ### Codificación Bipolar
 
@@ -144,11 +144,11 @@ siempre.
 
 - Una secuencia larga de ceros puede causar problema.
 
-![[Assets/image 9 8.png|image 9 8.png]]
+![[Assets/image 9 7.png|image 9 7.png]]
 
 ### AMI (Alternate Mark Inversion) - RZ
 
-![[Assets/image 10 7.png|image 10 7.png]]
+![[Assets/image 10 6.png|image 10 6.png]]
 
 ### HDB-3 (High Density Bipolar 3 zeros)
 
@@ -169,11 +169,11 @@ siempre.
 
 HDB-3 basado en un AMI Sin Retorno a Zero.
 
-![[Assets/image 11 7.png|image 11 7.png]]
+![[Assets/image 11 6.png|image 11 6.png]]
 
 HDB-3 basado en un AMI Con Retorno a Zero.
 
-![[Assets/image 12 6.png|image 12 6.png]]
+![[Assets/image 12 5.png|image 12 5.png]]
 
 ### MLT-3
 
@@ -181,7 +181,7 @@ HDB-3 basado en un AMI Con Retorno a Zero.
 
 - Es un código de cambio de nivel, codifica el bit 1 cambiando de nivel positivo a cero, de cero a negativo y luego en el sentido inverso, solamente si se trata de un bit 1. Los bits 0 no se codifican, es decir no se cambia el valor de voltaje que traía.
 
-![[Assets/image 13 6.png|image 13 6.png]]
+![[Assets/image 13 5.png|image 13 5.png]]
 
 ### Codificación en placas de red
 
@@ -259,7 +259,7 @@ HDB-3 basado en un AMI Con Retorno a Zero.
 
 Códigos de Nivel
 
-![[Assets/image 14 6.png|image 14 6.png]]
+![[Assets/image 14 5.png|image 14 5.png]]
 
 De las formas de envío de códigos conviene usar el polar con retorno a cero, porque el nivel de continua permanece aproximadamente igual a 0.
 
@@ -284,7 +284,7 @@ Código MLT-3:
 
 - Es un código de 3 niveles: positivo, 0 y negativo. Cada vez que viene un 1, cambia. Si viene un 0 no cambia. Va de arriba hacia abajo, y de abajo hacia arriba. En la principio del tiempo de bit se produce la transición. Se utilizó en redes LAN de 100 Mbps.
 
-![[Assets/image 16 5.png|image 16 5.png]]
+![[Assets/image 16 4.png|image 16 4.png]]
 
 ### Códigos de Línea para redes WAN
 
@@ -292,7 +292,7 @@ AMI (Inversión de Marcas Alternadas)
 
 - Codifica solamente los 1, y lo hace de forma alternada. El nivel de continua en este código es 0. Tiene como problema, que cuando vienen muchos ceros seguidos perdemos el clock. El código AMI fue usado extensamente en la primera generación de redes PCM, Más utilizado por las normas norteamericanas, la trama TDM T1 (1.544 Mbps).
 
-![[Assets/image 17 5.png|image 17 5.png]]
+![[Assets/image 17 4.png|image 17 4.png]]
 
 HDB-3 (Alta Densidad Bipolar – 3 Ceros)
 
@@ -300,7 +300,7 @@ HDB-3 (Alta Densidad Bipolar – 3 Ceros)
 
 - El receptor, para analizar lo leído, toma la decisión 3 tiempos después, para poder distinguir entre violación, relleno, y bit común.
 
-![[Assets/image 18 5.png|image 18 5.png]]
+![[Assets/image 18 4.png|image 18 4.png]]
 
 ### Códigos de Bloque
 
@@ -328,4 +328,4 @@ HDB-3 (Alta Densidad Bipolar – 3 Ceros)
 - Ej: de Sustitución por 4B5B y aplicación de MLT-3 al tren de pulsos  
     resultante
 
-![[Assets/image 19 5.png|image 19 5.png]]
+![[Assets/image 19 4.png|image 19 4.png]]

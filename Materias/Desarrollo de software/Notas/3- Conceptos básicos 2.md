@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen de Junit videos\\|Resumen de Junit videos]]"
+  - "[[Materias/Desarrollo de software/Resumen de Junit videos\\|Resumen de Junit videos]]"
 ---
 ### 1. Pruebas de Excepciones (`Assertions.assertThrows`)
 
@@ -12,7 +12,7 @@ Parent item:
     
     - **Sintaxis:** `Exception exception = Assertions.assertThrows(TipoDeExcepcionEsperada.class, () -> { /* Código que debe lanzar la excepción */ });`
     
-    ![[Assets/image 445.png|image 445.png]]
+    ![[Assets/image 62.png|image 62.png]]
     
     - **Funcionamiento:**
         

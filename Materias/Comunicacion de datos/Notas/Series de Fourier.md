@@ -6,11 +6,11 @@ Categoria:
 ---
 Este estudio es válido para ondas periódicas no senoidales o cosenoidales. Cualquier forma de onda periódica está formada por un componente promedio, valor constante, y una serie de ondas senoidales y cosenoidales relacionadas armónicamente. Una armónica es un múltiplo entero de la frecuencia fundamental. La frecuencia fundamental es la primera armónica.
 
-![[Assets/image 433.png|image 433.png]]
+![[Assets/image 50.png|image 50.png]]
 
 **Simetría de onda.** Dicho en términos sencillos, la simetría de la onda describe la simetría de una forma de onda en el dominio del tiempo, esto es, su posición relativa con respecto a los ejes horizontal (tiempo) y vertical (amplitud).
 
-![[Assets/image 1 26.png|image 1 26.png]]
+![[Assets/image 1 25.png|image 1 25.png]]
 
 **Simetría par.** Si una forma de onda periódica de voltaje es simétrica respecto al eje vertical (amplitud) se dice que tiene simetría especular, o de ejes, y se llama función par. Para todas las funciones pares, los coeficientes B de la ecuación de Fourier son cero. Por consiguiente, la señal sólo contiene un componente de cd y los términos cosenoidales.
 
@@ -24,7 +24,7 @@ La suma de una serie de funciones pares es una función par. Las funciones pares
 
 **Simetría de media onda**. Si una forma de onda periódica de voltaje es tal que la onda del primer medio ciclo (t = 0 a t = T/2) se repite, pero con signo contrario, durante el segundo medio ciclo (t = T/2 a t = T), se dice que tiene simetría de media onda. Para todas las formas de onda con simetría de media onda, las armónicas pares de la serie, en los términos en seno y en coseno, son cero. Por consiguiente, las funciones de media onda cumplen con la condición:
 
-![[Assets/image 4 15.png|image 4 15.png]]
+![[Assets/image 4 14.png|image 4 14.png]]
 
 Los coeficientes A0, B1 a Bn, y A1 a An se pueden evaluar con las siguientes fórmulas integrales :
 
@@ -34,4 +34,4 @@ La solución para la onda cuadrada es:
 
 ![[Assets/image 6 8.png|image 6 8.png]]
 
-![[Assets/image 7 7.png|image 7 7.png]]
+![[Assets/image 7 6.png|image 7 6.png]]

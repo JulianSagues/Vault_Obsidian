@@ -48,7 +48,7 @@ El procesamiento digital puede introducir latencia en la transmisión de datos. 
 
 ### Tipos de Modulaciones
 
-![[Assets/image 435.png|image 435.png]]
+![[Assets/image 52.png|image 52.png]]
 
 ### Modulación Digital
 
@@ -56,7 +56,7 @@ El procesamiento digital puede introducir latencia en la transmisión de datos. 
 
 - Banda base digital: moduladora
 
-![[Assets/image 1 28.png|image 1 28.png]]
+![[Assets/image 1 27.png|image 1 27.png]]
 
 Si la banda base es digital, en tal caso tenemos modulación digital
 
@@ -163,7 +163,7 @@ Un diagrama de constelación es una representación gráfica utilizada en las mo
 
 1. Puntos de la Constelación: Cada punto en el diagrama corresponde a un símbolo de modulación. La posición de estos puntos depende del esquema de modulación utilizado, como QAM (Modulación de Amplitud en Cuadratura) o PSK (Modulación por Desplazamiento de Fase).
 
-![[Assets/image 4 17.png|image 4 17.png]]
+![[Assets/image 4 16.png|image 4 16.png]]
 
 **Interpretación del Diagrama**
 
@@ -235,9 +235,9 @@ respectivos:
 
 En conclusión tendremos dos valores de frecuencia que conmutaran debido a la señal modulante.
 
-![[Assets/image 7 8.png|image 7 8.png]]
+![[Assets/image 7 7.png|image 7 7.png]]
 
-![[Assets/image 8 6.png|image 8 6.png]]
+![[Assets/image 8 5.png|image 8 5.png]]
 
 ### Ventajas y Desventajas
 
@@ -257,9 +257,9 @@ En conclusión tendremos dos valores de frecuencia que conmutaran debido a la se
 
 La modulación por desplazamiento de fase o PSK consiste en hacer variar la fase de la portadora entre dos valores discretos.
 
-![[Assets/image 9 5.png|image 9 5.png]]
+![[Assets/image 9 4.png|image 9 4.png]]
 
-![[Assets/image 10 5.png|image 10 5.png]]
+![[Assets/image 10 4.png|image 10 4.png]]
 
 En este caso existe un desplazamiento de fase entre los símbolos de este sistema de modulación, ver diagrama de constelación.
 
@@ -304,7 +304,7 @@ Codificación M-aria
 
 - La modulación QAM resulta de combinar ASK y PSK:
 
-![[Assets/image 11 5.png|image 11 5.png]]
+![[Assets/image 11 4.png|image 11 4.png]]
 
 ### Modulación multinivel por desplazamiento de pase m-PSK
 
@@ -322,9 +322,9 @@ Puesto que utilizamos 2 bits para la codificación un símbolo a la salida, la r
 
 Para modular en QPSK se convierte el dibit en dos señales independientes en paralelo, cada una de las cuales modula en BPSK una portadora. Estas portadoras están defasadas 90° entre sí. Luego las señales moduladas se suman, y se obtiene QPSK.
 
-![[Assets/image 12 5.png|image 12 5.png]]
+![[Assets/image 12 4.png|image 12 4.png]]
 
-![[Assets/image 13 5.png|image 13 5.png]]
+![[Assets/image 13 4.png|image 13 4.png]]
 
 En el diagrama de constelación de este sistemas vemos que existen 4 símbolos: 00, 01, 10 y 11. Lo que denominamos área de decisión, en línea punteada, se ha reducido respecto a PSK o BPSK. Esto significa que se ha reducido el margen de ruido. También se ve que se ha modulado en fase y no en amplitud, puesto que la distancia de los 4 símbolos al origen sigue siendo la unidad.
 
@@ -336,7 +336,7 @@ Puesto que se utilizan 3 bits para la codificación de un símbolo en la salida,
 
 Para el diagrama de constelación de este sistema tenemos 8 símbolos 000, 001, 010, 011, 100, 101, 110 y 111. El área de decisión se recude comparado con 4PSK, y más aún respecto a BPSK. Lo que significa que se ha reducido más el margen de ruido.
 
-![[Assets/image 14 5.png|image 14 5.png]]
+![[Assets/image 14 4.png|image 14 4.png]]
 
 ### MPSK
 
@@ -356,13 +356,13 @@ En este sistema de modulación tenemos M=4 y N=2. Comparado con 4PSK, aparte de 
 
 Lo importante es que variando las dos amplitudes posibles podemos obtener un mejor margen de ruido, respecto a igual nivel de MPSK.
 
-![[Assets/image 16 4.png|image 16 4.png]]
+![[Assets/image 16 3.png|image 16 3.png]]
 
 - Al utilizar dibits (dos bits) el BW mínimo necesario :
 
 - Este tipo de modulación provee una reducción del BM mínimo necesario y un buen control (mejor que en QPSK) sobre el margen de ruido
 
-![[Assets/image 17 4.png|image 17 4.png]]
+![[Assets/image 17 3.png|image 17 3.png]]
 
 ### 8QAM
 
@@ -372,7 +372,7 @@ Lo importante es que variando las dos amplitudes posibles podemos obtener un mej
 
 - Por el diagrama de constelación vemos 4 fases distintas y 2 amplitudes posibles, lo cual equivale a dos sistemas 4PSK combinados. Es decir, logramos reducción el BW mínimo controlando mejor el margen de ruido que necesitamos.
 
-![[Assets/image 18 4.png|image 18 4.png]]
+![[Assets/image 18 3.png|image 18 3.png]]
 
 ### 16QAM
 
@@ -386,8 +386,8 @@ Lo importante es que variando las dos amplitudes posibles podemos obtener un mej
 
 - Con buen control sobre el margen de ruido.
 
-![[Assets/image 19 4.png|image 19 4.png]]
+![[Assets/image 19 3.png|image 19 3.png]]
 
 ### Tabla comparativa – Sistemas de Modulación
 
-![[Assets/image 20 4.png|image 20 4.png]]
+![[Assets/image 20 3.png|image 20 3.png]]

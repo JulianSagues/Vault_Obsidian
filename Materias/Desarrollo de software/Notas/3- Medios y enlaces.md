@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/HTML\\|HTML]]"
+  - "[[Materias/Desarrollo de software/HTML\\|HTML]]"
 ---
 ### 1. Concepto Clave: Rutas (Paths)
 
-![[Assets/image 451.png|image 451.png]]
+![[Assets/image 68.png|image 68.png]]
 
 Antes de insertar multimedia, es fundamental entender las rutas. El atributo `src` (source) es el que indica dónde se encuentra el archivo (imagen, video, etc.).
 
@@ -22,7 +22,7 @@ Antes de insertar multimedia, es fundamental entender las rutas. El atributo `sr
 
 ### 2. Imágenes
 
-![[Assets/image 1 43.png|image 1 43.png]]
+![[Assets/image 1 42.png|image 1 42.png]]
 
 - **Etiqueta:** `<img>` (es una etiqueta de autocierre, no necesita `</img>`).
 
@@ -98,7 +98,7 @@ Antes de insertar multimedia, es fundamental entender las rutas. El atributo `sr
 
 ### 5. Enlaces (Hipervínculos)
 
-![[Assets/image 4 28.png|image 4 28.png]]
+![[Assets/image 4 27.png|image 4 27.png]]
 
 - **Etiqueta:** `<a>...</a>` (Anchor o Ancla). El texto _dentro_ de la etiqueta es lo que el usuario ve y en lo que puede hacer clic.
 

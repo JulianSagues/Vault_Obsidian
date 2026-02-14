@@ -39,10 +39,10 @@ DEFINICIÓN CLÁSICA O REGLA DE LAPLACE
     
     - El espacio muestral es finito
     
-    ![[Assets/image 420.png|image 420.png]]
+    ![[Assets/image 37.png|image 37.png]]
     
 
-![[Assets/image 1 17.png|image 1 17.png]]
+![[Assets/image 1 16.png|image 1 16.png]]
 
 PROBABILIDAD FRECUENCIAL
 
@@ -60,7 +60,7 @@ Reglas aditivas
 
 ![[Assets/image 3 12.png|image 3 12.png]]
 
-![[Assets/image 4 11.png|image 4 11.png]]
+![[Assets/image 4 10.png|image 4 10.png]]
 
 Dos eventos son independientes si la probabilidad que uno ocurra no altera o modifica la probabilidad de ocurrencia del otro
 
@@ -74,4 +74,4 @@ Teorema de la probabilidad total
 
 Teorema de Bayes  
 
-![[Assets/image 7 5.png|image 7 5.png]]
+![[Assets/image 7 4.png|image 7 4.png]]

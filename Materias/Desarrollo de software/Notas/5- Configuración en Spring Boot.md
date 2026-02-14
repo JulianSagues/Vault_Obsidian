@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 🎯 El Problema: "Hardcodear" Valores
 
-![[Assets/image 452.png|image 452.png]]
+![[Assets/image 69.png|image 69.png]]
 
 - Poner valores fijos (como URLs de bases de datos, puertos o credenciales) directamente en el código es una mala práctica.
 
@@ -16,7 +16,7 @@ Spring Boot soluciona esto centralizando toda la configuración en archivos espe
 
 ### 1. `application.properties`
 
-![[Assets/image 1 44.png|image 1 44.png]]
+![[Assets/image 1 43.png|image 1 43.png]]
 
 - **Formato:** Es el tradicional de Java. Usa una sintaxis simple de `clave=valor`.
 
@@ -50,7 +50,7 @@ Una vez definidos los valores en esos archivos, hay dos formas principales de us
 
 ### 1. Con `@Value` (Para valores individuales)
 
-![[Assets/image 4 29.png|image 4 29.png]]
+![[Assets/image 4 28.png|image 4 28.png]]
 
 - **Qué hace:** Inyecta un valor puntual de una propiedad.
 
@@ -104,7 +104,7 @@ Los **Perfiles** son la característica clave para manejar distintos entornos. P
 
 - **Cómo activar un perfil:**
     
-    ![[Assets/image 7 17.png|image 7 17.png]]
+    ![[Assets/image 7 16.png|image 7 16.png]]
     
 
 - Se define en el archivo principal `application.yml` (o `.properties`).

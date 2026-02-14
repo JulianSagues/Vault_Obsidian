@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/elasticidades_incidencia 2.pdf|elasticidades_incidencia 2.pdf]]"
+  - "[[Assets/elasticidades_incidencia.pdf|elasticidades_incidencia.pdf]]"
 Categoria:
   - Microeconomia
 ---

@@ -90,7 +90,7 @@ Registro sistemático de las transacciones económicas realizadas en un período
 
 - Errores u omisiones
 
-![[Assets/image 417.png|image 417.png]]
+![[Assets/image 34.png|image 34.png]]
 
 ### Saldo de la balanza de pagos
 
@@ -120,7 +120,7 @@ Algunos conceptos
 
 - Demanda de divisas: importadores, turistas argentinos en el extranjero, inversores argentinos que invierten en el extranjero, etc
 
-![[Assets/image 1 15.png|image 1 15.png]]
+![[Assets/image 1 14.png|image 1 14.png]]
 
 ### Regímen cambiario
 
@@ -145,4 +145,4 @@ Implica una estrategia o decisión por parte de la autoridad económica, de la d
 
 ### Flotación sucia o administrada (incremento demanda de divisas)
 
-![[Assets/image 4 9.png|image 4 9.png]]
+![[Assets/image 4 8.png|image 4 8.png]]

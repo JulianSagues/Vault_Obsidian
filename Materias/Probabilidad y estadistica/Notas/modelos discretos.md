@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
+  - "[[Materias/Probabilidad y Estadística/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
 ---
-![[Assets/Imagen_de_WhatsApp_2025-04-29_a_las_17.50.57_9b78e60c 2.jpg|Imagen_de_WhatsApp_2025-04-29_a_las_17.50.57_9b78e60c 2.jpg]]
+![[Imagen_de_WhatsApp_2025-04-29_a_las_17.50.57_9b78e60c.jpg]]
 
-![[Assets/b62f4465-b550-4b2b-9716-9e4009dbba13 2.png|b62f4465-b550-4b2b-9716-9e4009dbba13 2.png]]
+![[b62f4465-b550-4b2b-9716-9e4009dbba13.png]]
 
 |   |   |   |   |   |   |
 |---|---|---|---|---|---|

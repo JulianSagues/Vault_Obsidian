@@ -1,8 +1,8 @@
 ---
 Sub-item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen Videos\\|Resumen Videos]]"
-  - "[[Materias/Desarrollo de software/Notas/Resumen Etiquetas\\|Resumen Etiquetas]]"
-  - "[[Materias/Desarrollo de software/Notas/Relaciones de persistencia con JPA y las Técnicas de Herencia\\|Relaciones de persistencia con JPA y las Técnicas de Herencia]]"
+  - "[[Materias/Desarrollo de software/Resumen Videos\\|Resumen Videos]]"
+  - "[[Materias/Desarrollo de software/Resumen Etiquetas\\|Resumen Etiquetas]]"
+  - "[[Materias/Desarrollo de software/Relaciones de persistencia con JPA y las Técnicas de Herencia\\|Relaciones de persistencia con JPA y las Técnicas de Herencia]]"
 ---
 # Relaciones de persistencia en JPA
 

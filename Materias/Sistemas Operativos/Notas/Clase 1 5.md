@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Entrada-Salida\\|Entrada-Salida]]"
+  - "[[Materias/Sistemas Operativos/Entrada-Salida\\|Entrada-Salida]]"
 ---
 Driver → Software ( se encuentra en SO)
 
@@ -36,7 +36,7 @@ El driver es el intermediario o traductor entre el S.O y el dispositivo.
 
 La dif entre un driver y una controladora, es que el driver trabaja a nivel de hardware en cambio la controladora no.
 
-![[Assets/60db197f-e369-4a51-90eb-2f088cf0be55 2.png|60db197f-e369-4a51-90eb-2f088cf0be55 2.png]]
+![[60db197f-e369-4a51-90eb-2f088cf0be55.png]]
 
   
 
@@ -118,13 +118,13 @@ Si se llena el disco y quiero guardar algo el que me tira el error es el S.O. El
 
   
 
-![[Assets/image 405.png|image 405.png]]
+![[Assets/image 5.png|image 5.png]]
 
   
 
   
 
-![[Assets/image 1 4.png|image 1 4.png]]
+![[Assets/image 1 3.png|image 1 3.png]]
 
 mknot es comando para dispositivos en linux.
 

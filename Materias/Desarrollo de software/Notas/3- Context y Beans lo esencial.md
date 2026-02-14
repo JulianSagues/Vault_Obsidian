@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 📦 El Corazón de Spring: Application Context
 
-![[Assets/image 455.png|image 455.png]]
+![[Assets/image 72.png|image 72.png]]
 
 - El **Application Context** (o Contexto de la Aplicación) es el **contenedor central** de Spring.
 
@@ -14,7 +14,7 @@ Parent item:
 
 - Administra el **ciclo de vida completo** de estos objetos, desde su creación hasta su destrucción.
 
-![[Assets/image 1 47.png|image 1 47.png]]
+![[Assets/image 1 46.png|image 1 46.png]]
 
 ---
 
@@ -36,7 +36,7 @@ Parent item:
 
 ### 🔍 ¿Cómo sabe Spring qué clases convertir en Beans?
 
-![[Assets/image 4 32.png|image 4 32.png]]
+![[Assets/image 4 31.png|image 4 31.png]]
 
 La magia ocurre gracias al **Component Scan** (Escaneo de Componentes):
 
@@ -81,7 +81,7 @@ Spring gestiona un ciclo de vida ordenado para cada Bean:
 
 ---
 
-![[Assets/image 7 19.png|image 7 19.png]]
+![[Assets/image 7 18.png|image 7 18.png]]
 
 ### 💻 Demostración Práctica del Video
 
@@ -89,7 +89,7 @@ Para demostrar esto, el video realiza dos pruebas:
 
 **1. Creación y Uso de un Bean:**
 
-![[Assets/image 8 16.png|image 8 16.png]]
+![[Assets/image 8 15.png|image 8 15.png]]
 
 - Se crea una nueva clase `SaludoService`.
 
@@ -101,13 +101,13 @@ Para demostrar esto, el video realiza dos pruebas:
 
 - **Resultado:** Funciona, demostrando que Spring detectó, creó y gestionó el objeto `SaludoService` automáticamente.
 
-![[Assets/image 9 13.png|image 9 13.png]]
+![[Assets/image 9 12.png|image 9 12.png]]
 
-![[Assets/image 10 10.png|image 10 10.png]]
+![[Assets/image 10 9.png|image 10 9.png]]
 
 **2. Demostración del Ciclo de Vida:**
 
-![[Assets/image 11 10.png|image 11 10.png]]
+![[Assets/image 11 9.png|image 11 9.png]]
 
 - Se añade un `System.out.println` en el **constructor** de `SaludoService`.
 
@@ -115,7 +115,7 @@ Para demostrar esto, el video realiza dos pruebas:
 
 - **Resultado en consola:** Se ve claramente el orden:
 
-![[Assets/image 12 8.png|image 12 8.png]]
+![[Assets/image 12 7.png|image 12 7.png]]
 
 1. Se imprime el mensaje del **Constructor**.
 
@@ -129,7 +129,7 @@ Para demostrar esto, el video realiza dos pruebas:
 
 ### ✅ Resumen y Próximos Pasos
 
-![[Assets/image 13 8.png|image 13 8.png]]
+![[Assets/image 13 7.png|image 13 7.png]]
 
 - **Application Context:** Es el contenedor que gestiona todo.
 

@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Procesos e hilos\\|Procesos e hilos]]"
+  - "[[Materias/Sistemas Operativos/Procesos e hilos\\|Procesos e hilos]]"
 ---
 ## **Procesos**
 
@@ -74,13 +74,13 @@ Los datos varian segun en la matriz en que se los lleve.
 
 **Espacios de direcciones, tengo que saber el espacio de direcciones del proceso.**
 
-![[Assets/temp_image_1756501188609 2.jpg|temp_image_1756501188609 2.jpg]]
+![[temp_image_1756501188609.jpg]]
 
   
 
 Memoria virtual: Uso pedacitos del proceso y los voy llamando cuando lo necesite.
 
-![[Assets/temp_image_1756501434876 2.jpg|temp_image_1756501434876 2.jpg]]
+![[temp_image_1756501434876.jpg]]
 
   
 
@@ -106,7 +106,7 @@ Cuando bootea corre un proceso que se llama init (es el padre de todos los proce
 
   
 
-![[Assets/temp_image_1756503460357 2.jpg|temp_image_1756503460357 2.jpg]]
+![[temp_image_1756503460357.jpg]]
 
   
 
@@ -138,7 +138,7 @@ Segundo plano: No puedo ver al proceso, no interactua con el.
 
 > [!important]
 > 
-> ![[Assets/image 403.png|image 403.png]]
+> ![[Assets/image 2.png|image 2.png]]
 
   
 
@@ -158,7 +158,7 @@ Como términa un proceso:
 
 > [!important]
 > 
-> ![[Assets/image 1 2.png|image 1 2.png]]
+> ![[image 1.png]]
 
   
 
@@ -192,7 +192,7 @@ Leer ORG DE COMPUTADORAS UN ENFOQUE ESTRUCTURADO ——> con las páginas que di
 
   
 
-![[Assets/temp_image_1756505749406 2.jpg|temp_image_1756505749406 2.jpg]]
+![[temp_image_1756505749406.jpg]]
 
   
 

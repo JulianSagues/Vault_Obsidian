@@ -36,13 +36,13 @@ At. Up Link : Atenuación Subida, At. Down Link: Atenuación Bajada
 
 ### Frecuencias y Bandas Satelitales
 
-![[Assets/image 444.png|image 444.png]]
+![[Assets/image 61.png|image 61.png]]
 
 ### Tipo de antenas satelitales
 
 - Antena parabólica de foco primario: La superficie de la antena es un raboloide de revolución (parábola circular). Todas las ondas inciden paralelamente al eje principal, se reflejan y van a parar al Foco. El Foco está centrado en el paraboloide. Tiene un rendimiento máximo del 60% aproximadamente, es decir, de toda la energía que llega a la superficie de la antena, el 60% llega al foco y se aprovecha, el resto no llega al foco y se pierde. Se suelen ver de tamaño grande, aproximadamente de 1,5 m de diámetro.
 
-![[Assets/image 1 37.png|image 1 37.png]]
+![[Assets/image 1 36.png|image 1 36.png]]
 
 - Antena parabólica OFFSET: Este tipo de antena se obtiene recortando grandes antenas parabólicas de forma esférica. Tienen el Foco desplazado hacia abajo, de tal forma que queda fuera de la superficie de la antena. Debido a esto, el rendimiento es algo mayor que en la de Foco primario, y llega a ser de un 70% o algo más. El diámetro de las antenas es de 0,6 a 1,8 metros y se utilizan mucho en Banda Ku, ejemplo DTV.
 
@@ -54,4 +54,4 @@ At. Up Link : Atenuación Subida, At. Down Link: Atenuación Bajada
 
 ### Ventajas y desventajas de las Bandas más utilizadas
 
-![[Assets/image 4 22.png|image 4 22.png]]
+![[Assets/image 4 21.png|image 4 21.png]]

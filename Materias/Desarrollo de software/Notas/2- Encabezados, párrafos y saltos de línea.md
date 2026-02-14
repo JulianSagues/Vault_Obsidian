@@ -1,14 +1,14 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/HTML\\|HTML]]"
+  - "[[Materias/Desarrollo de software/HTML\\|HTML]]"
 ---
-![[Assets/image 450.png|image 450.png]]
+![[Assets/image 67.png|image 67.png]]
 
 ### 1. Elementos Básicos de Formato
 
 Este video profundiza en las etiquetas de texto, expandiendo lo visto en el video anterior.
 
-![[Assets/image 1 42.png|image 1 42.png]]
+![[Assets/image 1 41.png|image 1 41.png]]
 
 ### Encabezados (`<h1>` - `<h6>`)
 
@@ -103,7 +103,7 @@ Es importante diferenciar entre etiquetas que dan **importancia semántica** (le
 
 Ejemplo con las etiquetas mostradas:
 
-![[Assets/image 4 27.png|image 4 27.png]]
+![[Assets/image 4 26.png|image 4 26.png]]
 
   
 

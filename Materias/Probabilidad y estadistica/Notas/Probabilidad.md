@@ -2,9 +2,9 @@
 Categoria:
   - Unidad 1
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Estadistica descriptiva\\|Estadistica descriptiva]]"
+  - "[[Materias/Probabilidad y Estadística/Estadistica descriptiva\\|Estadistica descriptiva]]"
 ---
-![[Assets/image 418.png|image 418.png]]
+![[Assets/image 35.png|image 35.png]]
 
   
 

@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 🛠️ ¿Qué es Spring Initializr?
 
-![[Assets/image 454.png|image 454.png]]
+![[Assets/image 71.png|image 71.png]]
 
 - Es una **herramienta web oficial** (disponible en `start.spring.io`) que genera la estructura inicial de un proyecto Spring Boot.
 
@@ -27,7 +27,7 @@ Parent item:
 
 ### 👣 Paso a Paso: Creación del Proyecto
 
-![[Assets/image 1 46.png|image 1 46.png]]
+![[Assets/image 1 45.png|image 1 45.png]]
 
 El video sigue estos pasos para generar la aplicación:
 
@@ -132,4 +132,4 @@ La clase principal (la que tiene el método `main`) es lo más importante al arr
 
 - **Próximo Video:** Se profundizará en qué pasa "detrás de escena" al arrancar, explorando el **Application Context**, el concepto de **Beans** y la **Inyección de Dependencias**.
 
-![[Assets/image 4 31.png|image 4 31.png]]
+![[Assets/image 4 30.png|image 4 30.png]]

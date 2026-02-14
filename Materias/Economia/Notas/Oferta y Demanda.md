@@ -1,6 +1,6 @@
 ---
 Material de Estudio:
-  - "[[Assets/oferta_demanda 2.pdf|oferta_demanda 2.pdf]]"
+  - "[[Assets/oferta_demanda.pdf|oferta_demanda.pdf]]"
 Categoria:
   - Microeconomia
 ---
@@ -49,7 +49,7 @@ Mercado en el que hay múltiples compradores y vendedores y, por tanto, individu
 
 - Esta es una representación estática de la curva de oferta: asume que los demás factores que la determinan permanecen constantes (ceteris paribus)
 
-![[Assets/image 411.png|image 411.png]]
+![[Assets/image 28.png|image 28.png]]
 
 ### Factores Subyacentes
 
@@ -75,7 +75,7 @@ Estos factores son:
 
 - Movimiento a lo largo de la curva: cambios en precio/cantidades dentro de la misma función de oferta.
 
-![[Assets/image 1 10.png|image 1 10.png]]
+![[Assets/image 1 9.png|image 1 9.png]]
 
 ### La curva de demanda
 
@@ -132,7 +132,7 @@ Estos factores son:
 
 ### Cambios en la situación de equilibrio
 
-![[Assets/image 4 7.png|image 4 7.png]]
+![[Assets/image 4 6.png|image 4 6.png]]
 
 ### Mercados Regulados
 
@@ -180,7 +180,7 @@ Estos factores son:
 
 - Se mantiene la condición cantidad ofrecida = cantidad demandada, pero en equilibrio los precios son diferentes
 
-![[Assets/image 7 4.png|image 7 4.png]]
+![[Assets/image 7 3.png|image 7 3.png]]
 
 ### Subsidio de sumas fijas
 
@@ -192,4 +192,4 @@ Estos factores son:
 
 - Si las curvas de oferta y demanda tienen pendientes normales, la introducción del subsidio aumenta la cantidad comercializada en el mercado.
 
-![[Assets/image 8 4.png|image 8 4.png]]
+![[Assets/image 8 3.png|image 8 3.png]]

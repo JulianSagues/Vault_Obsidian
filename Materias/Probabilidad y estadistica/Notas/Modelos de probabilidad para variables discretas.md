@@ -2,9 +2,9 @@
 Categoria:
   - Unidad 3.2
 Sub-item:
-  - "[[Materias/Probabilidad y estadistica/Notas/modelos discretos\\|modelos discretos]]"
-  - "[[Materias/Probabilidad y estadistica/Notas/posibles ejercicios\\|posibles ejercicios]]"
-  - "[[Materias/Probabilidad y estadistica/Notas/ayuda en ejercicios\\|ayuda en ejercicios]]"
+  - "[[Materias/Probabilidad y Estadística/modelos discretos\\|modelos discretos]]"
+  - "[[Materias/Probabilidad y Estadística/posibles ejercicios\\|posibles ejercicios]]"
+  - "[[Materias/Probabilidad y Estadística/ayuda en ejercicios\\|ayuda en ejercicios]]"
 ---
 ### Binomial
 
@@ -21,9 +21,9 @@ Sub-item:
 
 - n es fijo
 
-![[Assets/4c79fc0a-006c-4fb2-9df8-8b89e4c4ac89 2.png|4c79fc0a-006c-4fb2-9df8-8b89e4c4ac89 2.png]]
+![[4c79fc0a-006c-4fb2-9df8-8b89e4c4ac89.png]]
 
-![[Assets/6f83921c-bf12-47e7-87c7-2316c7620e87 2.png|6f83921c-bf12-47e7-87c7-2316c7620e87 2.png]]
+![[6f83921c-bf12-47e7-87c7-2316c7620e87.png]]
 
 ### Poisson
 
@@ -47,13 +47,13 @@ Sub-item:
 
 - Tasa de ocurrencia: λ
 
-![[Assets/b8cf0fd3-0eb9-4fbb-ac8f-e75d6c13125a 2.png|b8cf0fd3-0eb9-4fbb-ac8f-e75d6c13125a 2.png]]
+![[b8cf0fd3-0eb9-4fbb-ac8f-e75d6c13125a.png]]
 
 ### Hipergeometrica
 
 - Los eventos tienen que ser dependientes
 
-![[Assets/2851314a-85c8-4c1e-af60-d988d3e5c3fe 2.png|2851314a-85c8-4c1e-af60-d988d3e5c3fe 2.png]]
+![[2851314a-85c8-4c1e-af60-d988d3e5c3fe.png]]
 
 ### Binomial Negativa
 
@@ -68,7 +68,7 @@ Sub-item:
 
 - Los eventos tienen que ser independientes (no depende de lo que salio antes) → p es constante
 
-![[Assets/918dfa3f-a94d-4e4a-b00c-218b31f99865 2.png|918dfa3f-a94d-4e4a-b00c-218b31f99865 2.png]]
+![[918dfa3f-a94d-4e4a-b00c-218b31f99865.png]]
 
 Caso Particular: k=1
 
@@ -76,4 +76,4 @@ Geométrica
 
 ### Aproximaciones
 
-![[Assets/image 421.png|image 421.png]]
+![[Assets/image 38.png|image 38.png]]

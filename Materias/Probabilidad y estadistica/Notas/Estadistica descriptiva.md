@@ -1,12 +1,12 @@
 ---
 Material de Estudio:
   - "[[Assets/Teoria_PyE 2.pdf|Teoria_PyE 2.pdf]]"
-  - "[[Formulas_Captulo_1.pdf]]"
+  - "[[Assets/Formulas_Captulo_1.pdf|Formulas_Captulo_1.pdf]]"
 Categoria:
   - Unidad 1
 Sub-item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Regresión y correlación\\|Regresión y correlación]]"
-  - "[[Materias/Probabilidad y estadistica/Notas/Probabilidad\\|Probabilidad]]"
+  - "[[Materias/Probabilidad y Estadística/Regresión y correlación\\|Regresión y correlación]]"
+  - "[[Materias/Probabilidad y Estadística/Probabilidad\\|Probabilidad]]"
 ---
 Variables:
 
@@ -46,11 +46,11 @@ Frecuencia acumulada relativa porcentual ( Fr% ): Lo anterior en porcentaje
 
 Media aritmética/promedio ( X̅ ): punto de equilibrio, se suman los valores y se divide por la cantidad total
 
-![[Assets/image 419.png|image 419.png]]
+![[Assets/image 36.png|image 36.png]]
 
 Mediana : Es el valor que se encuentra exactamente en el medio cuando los valores estan ordenados. Se simboliza con
 
-![[Assets/image 1 16.png|image 1 16.png]]
+![[Assets/image 1 15.png|image 1 15.png]]
 
 ![[Assets/image 2 14.png|image 2 14.png]]
 
@@ -62,7 +62,7 @@ Rango ( R ): La distancia que hay entre el valor mas chico y mas grande
 
 Varianza: Promedio de variacion de los valores
 
-![[Assets/image 4 10.png|image 4 10.png]]
+![[Assets/image 4 9.png|image 4 9.png]]
 
 Desviacion estandar: Cuanto se desvian los valores respecto del promedio
 

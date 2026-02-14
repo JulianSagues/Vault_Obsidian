@@ -1,12 +1,12 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Resumen Videos\\|Resumen Videos]]"
+  - "[[Materias/Desarrollo de software/Resumen Videos\\|Resumen Videos]]"
 ---
-![[Assets/image1 11.png|image1 11.png]]
+![[Assets/image1 2.png|image1 2.png]]
 
 El entity manager. Como habíamos dicho, es como el control remoto que va a gestionar cuando una entidad está conectada, desconectada o marcada para borrar.
 
-![[Assets/image2 11.png|image2 11.png]]
+![[Assets/image2 2.png|image2 2.png]]
 
 En JPA, una entidad puede estar en cuatro estados diferentes.
 
@@ -20,13 +20,13 @@ Y por último, eliminado, removed, que está marcado para borrarse en la base de
 
 Visualmente es como si tuviera vidas, nace, se conecta, se desconecta y finalmente se elimina.
 
-![[Assets/image3 17.png|image3 17.png]]
+![[Assets/image3 2.png|image3 2.png]]
 
 Cuando instancian un objeto con new, ese objeto solamente existe en la memoria, no tiene un id asignado por la base de datos y JPA no tiene la idea de que existe.
 
 En este estado puedes modificarlo libremente, pero nada de eso se va a guardar en la base de datos hasta que lo incorporen en JPA.
 
-![[Assets/image4 17.png|image4 17.png]]
+![[Assets/image4 2.png|image4 2.png]]
 
 Una entidad está siendo gestionada cuando el entity manager la está controlando.
 
@@ -36,7 +36,7 @@ Podemos llegar a este estado de varias maneras, usando el persist sobre una enti
 
 Además, en este estado, JPA usa la caché de primer nivel, lo que evita consultas innecesarias.
 
-![[Assets/image5 13.png|image5 13.png]]
+![[Assets/image5 2.png|image5 2.png]]
 
 Ahora hablemos del estado desasociado.
 
@@ -46,7 +46,7 @@ Podemos llegar a este estado si nosotros cerramos el entity manager o si llamamo
 
 El problema es que si la modificamos en este estado, JPA no se va a enterar y los cambios no se van a guardar en la base de datos.
 
-![[Assets/image6 15.png|image6 15.png]]
+![[Assets/image6 2.png|image6 2.png]]
 
 El siguiente estado del que voy a hablar es el estado eliminado, removed.
 
@@ -56,7 +56,7 @@ Se llega a este estado desde el estado gestionado usando el método remove.
 
 El borrado real no pasa al instante, sino que cuando se confirma la transacción con el comit.
 
-![[Assets/image7 14.png|image7 14.png]]
+![[Assets/image7 2.png|image7 2.png]]
 
 Ahora que ya vimos cada estado por separado, vamos a conectar los puntos.
 
@@ -68,13 +68,13 @@ Aquí tenemos un ejemplo visual donde vemos que el nuevo pasa a gestionado con e
 
 Desasociado pasa gestionado con el merge y gestionado pasa eliminado con el remove.
 
-![[Assets/image8 16.png|image8 16.png]]
+![[Assets/image8 2.png|image8 2.png]]
 
-![[Assets/image9 11.png|image9 11.png]]
+![[Assets/image9 2.png|image9 2.png]]
 
-![[Assets/image10 10.png|image10 10.png]]
+![[Assets/image10 2.png|image10 2.png]]
 
-![[Assets/image11 10.png|image11 10.png]]
+![[Assets/image11 2.png|image11 2.png]]
 
 El ciclo nuevo que vendría a ser la entidad creada con new, sin ID y fuera del control de JPA.
 
@@ -88,17 +88,17 @@ Las operaciones claves son persist, merge, remove, close y detach. Y es importan
 
 **Ejemplo de código ciclo de vida de entidades**
 
-![[Assets/image12 10.png|image12 10.png]]
+![[Assets/image12 2.png|image12 2.png]]
 
 Primero creamos el EntityManagerFactory y el EntityManager
 
-![[Assets/image13 10.png|image13 10.png]]
+![[Assets/image13 2.png|image13 2.png]]
 
 Un producto con new. En este momento el producto está en ese estado nuevo o transient donde todavía no tiene un ID asignado, tampoco va a estar registrado en el contexto de JPA. Y si nosotros ahora mismo cerramos el programa, ese objeto va a desaparecer sin dejar rastro en la base de datos.
 
 Esto es lo que habíamos dicho en la teoría, donde aquí solamente tenemos un simple objeto Java.
 
-![[Assets/image14 13.png|image14 13.png]]
+![[Assets/image14 2.png|image14 2.png]]
 
 Ahora, para pasar de ese estado nuevo donde era un simple objeto Java, para pasar al estado gestionado, lo que hice fue iniciar una transacción y persistir ese producto donde al persistirlo está siendo gestionado por JPA. Luego, obviamente, hice el comit.
 
@@ -106,7 +106,7 @@ En este punto es donde el producto pasa a estar gestionado. Eso significa que ya
 
 Si nosotros llegamos a modificar un campo, JPA va a detectar ese cambio automáticamente gracias al dirty checking.
 
-![[Assets/image15 9.png|image15 9.png]]
+![[image15.png]]
 
 Realicemos un cambio mientras el producto está siendo gestionado.
 
@@ -118,13 +118,13 @@ Eso muestra la diferencia entre un objeto nuevo y uno gestionado, donde al estar
 
 En cambio, si simplemente fuera un objeto nuevo, obviamente esos cambios no se verían en la base de datos y se perdería todo.
 
-![[Assets/image16 10.png|image16 10.png]]
+![[image16.png]]
 
 Si vamos a la base de datos se puede ver el cambio que se le hizo al producto en estado gestionado. Donde paso del precio 1200 al 1100.
 
 Y esto fue gracias a JPA, ya que nosotros no tuvimos que hacer ningún update manualmente.
 
-![[Assets/image17 5.png|image17 5.png]]
+![[image17.png]]
 
 Para ver el siguiente estado, detach o desasociado, lo que hice fue cerrar el entity manager.
 
@@ -132,23 +132,23 @@ Una vez que nosotros cerramos el Entity Manager, el producto va a seguir existie
 
 Y al no estar gestionado, si nosotros realizamos un cambio, no se va a ver reflejado en la base de datos.
 
-![[Assets/image18 5.png|image18 5.png]]
+![[image18.png]]
 
 Por ejemplo, si nosotros modificamos el precio del producto y mostramos por pantalla, vamos a ver que el cambio sí se hizo, pero eso no se va a guardar en la base de datos, simplemente es un cambio de nuestro objeto en memoria.
 
 Y claramente para nosotros ver reflejados estos cambios tenemos que pasar del estado desasociado a el estado gestionado.
 
-![[Assets/image19 14.png|image19 14.png]]
+![[image19.png]]
 
 Para nosotros poder volver ese producto al estado gestionado, lo que hice fue crear otro entity manager y haciendo un merge de producto donde cualquier cambio que hagamos sobre producto ahora sí se va a ver reflejado nuevamente.
 
 A lo mejor se preguntan por qué cree otro entity manager y la razón es que yo cerré el entity manager anterior.
 
-![[Assets/image20 12.png|image20 12.png]]
+![[image20.png]]
 
 Ahora si corremos el programa y vamos a la aplicación si se ve reflejado el cambio.
 
-![[Assets/image21 17.png|image21 17.png]]
+![[image21.png]]
 
 Por último, veamos el estado eliminado o removed, donde como siempre iniciamos la transacción.
 

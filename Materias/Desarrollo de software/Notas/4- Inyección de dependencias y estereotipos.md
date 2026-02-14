@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Desarrollo de software/Notas/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
+  - "[[Materias/Desarrollo de software/Fundamentos de Spring Boot\\|Fundamentos de Spring Boot]]"
 ---
 ### 🎯 El Problema: Acoplamiento Manual
 
@@ -8,7 +8,7 @@ Parent item:
 
 - **Problemas:**
     
-    ![[Assets/image 456.png|image 456.png]]
+    ![[Assets/image 73.png|image 73.png]]
     
     - **Difícil de testear:** No podemos reemplazar fácilmente un objeto por una simulación (mock).
     
@@ -21,7 +21,7 @@ Parent item:
 
 ### 💡 La Solución: Inyección de Dependencias (DI)
 
-![[Assets/image 1 48.png|image 1 48.png]]
+![[Assets/image 1 47.png|image 1 47.png]]
 
 - **¿Qué es?** Es la solución de Spring a este problema y es parte del concepto de **Inversión de Control (IoC)**.
 
@@ -55,7 +55,7 @@ Existen tres formas de inyectar dependencias, pero una es la clara ganadora:
 
 **¿Por qué usar la inyección por constructor?**
 
-![[Assets/image 4 33.png|image 4 33.png]]
+![[Assets/image 4 32.png|image 4 32.png]]
 
 - **Inmutabilidad:** Las dependencias se pueden declarar como `final`, asegurando que no cambien después de la creación.
 
@@ -87,7 +87,7 @@ Los **estereotipos** son anotaciones que le dan un "rol" semántico a una clase.
 
 Estos estereotipos definen un flujo de arquitectura muy común y recomendado en Spring Boot:
 
-![[Assets/image 7 20.png|image 7 20.png]]
+![[Assets/image 7 19.png|image 7 19.png]]
 
 1. El `**@RestController**` recibe la solicitud HTTP (ej. desde un navegador).
 

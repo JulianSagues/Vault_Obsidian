@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Probabilidad y estadistica/Notas/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
+  - "[[Materias/Probabilidad y Estadística/Modelos de probabilidad para variables discretas\\|Modelos de probabilidad para variables discretas]]"
 ---
 - para calcular una funcion acumulada se debe integrar la funcion normal
 

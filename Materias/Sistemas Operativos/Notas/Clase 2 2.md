@@ -1,10 +1,10 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Notas/Memoria\\|Memoria]]"
+  - "[[Materias/Sistemas Operativos/Memoria\\|Memoria]]"
 ---
 ## **Paginación**
 
-![[Assets/temp_image_1757710402142 2.jpg|temp_image_1757710402142 2.jpg]]
+![[temp_image_1757710402142.jpg]]
 
   
 
@@ -92,7 +92,7 @@ Maquina multinivel→ cuando se compila bajamos de nivel, va bajando niveles has
 
 ## **Paginación Simple**
 
-![[Assets/temp_image_1757712671377 2.jpg|temp_image_1757712671377 2.jpg]]
+![[temp_image_1757712671377.jpg]]
 
   
 
@@ -160,7 +160,7 @@ Cuando se busca TLB y no esta es fallo suave, y si ademas en la tabla de pagina 
 
   
 
-![[Assets/1000148058 2.jpg|1000148058 2.jpg]]
+![[1000148058.jpg]]
 
   
 

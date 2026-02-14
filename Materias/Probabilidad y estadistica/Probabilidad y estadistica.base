@@ -3,5 +3,8 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Probabilidad y estadistica")
-        - file.basename != "Probabilidad y estadistica"
+        - and:
+            - file.inFolder("Materias/Probabilidad y estadistica")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"

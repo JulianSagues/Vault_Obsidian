@@ -3,8 +3,11 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Sistemas Operativos")
-        - file.basename != "Sistemas Operativos"
+        - and:
+            - file.inFolder("Materias/Sistemas Operativos")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"
     order:
       - file.name
     sort: []

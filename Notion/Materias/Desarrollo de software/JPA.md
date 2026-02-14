@@ -1,5 +1,5 @@
 ---
-base: "[[Desarrollo de software.base]]"
+base: "[[Notion/Materias/Desarrollo de software/Desarrollo de software.base]]"
 Archivos Adjuntos: ""
 Sub-item:
   - "[[Notion/Materias/Desarrollo de software/Resumen Videos|Resumen Videos]]"

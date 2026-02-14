@@ -42,10 +42,6 @@
     "iconName": "LiWifi",
     "iconColor": "#ffab1a"
   },
-  "Materias/Desarrollo de software": {
-    "iconName": "LiCode",
-    "iconColor": "#31e3a7"
-  },
   "Materias/Diseño de sistemas": {
     "iconName": "LiUser",
     "iconColor": "#e20808"
@@ -77,5 +73,9 @@
   "Assets/Analisis numerico": {
     "iconName": "LiFunctionSquare",
     "iconColor": "#a82de1"
+  },
+  "Materias/Desarrollo de software": {
+    "iconName": "LiCode",
+    "iconColor": "#31e3a7"
   }
 }

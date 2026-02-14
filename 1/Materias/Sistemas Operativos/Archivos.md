@@ -4,5 +4,5 @@ Material de Estudio:
 Categoria:
   - Unidad 4
 Sub-item:
-  - "[[Materias/Sistemas Operativos/Clase 1 4\\|Clase 1 4]]"
+  - "[[Materias/Sistemas Operativos/Notas/Clase 1 4\\|Clase 1 4]]"
 ---

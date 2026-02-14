@@ -1,5 +1,5 @@
 ---
-base: "[[Desarrollo de software.base]]"
+base: "[[Notion/Materias/Desarrollo de software/Desarrollo de software.base]]"
 Archivos Adjuntos: ""
 Sub-item:
   - "[[Notion/1-JPA|1-JPA]]"

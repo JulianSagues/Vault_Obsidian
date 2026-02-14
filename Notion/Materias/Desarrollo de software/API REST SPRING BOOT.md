@@ -1,5 +1,5 @@
 ---
-base: "[[Desarrollo de software.base]]"
+base: "[[Notion/Materias/Desarrollo de software/Desarrollo de software.base]]"
 Archivos Adjuntos: ""
 Sub-item:
   - "[[Notion/Materias/Desarrollo de software/1- ¿Qué es una API REST y cómo funciona HTTP|1- ¿Qué es una API REST y cómo funciona HTTP]]"

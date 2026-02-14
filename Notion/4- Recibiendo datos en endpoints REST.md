@@ -1,10 +1,9 @@
 ---
-notion-id: 2a7ac26b-dee7-80ed-8708-d0a306e4afbf
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 2a7ac26b-dee7-809e-8a5b-cc54fb66c369
+  - "[[Notion/Materias/Desarrollo de software/API REST SPRING BOOT|API REST SPRING BOOT]]"
 Blocking: []
 Categoria: ""
 ---

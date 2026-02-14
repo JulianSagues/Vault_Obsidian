@@ -1,12 +1,11 @@
 ---
-notion-id: 1e5ac26b-dee7-8008-ab7f-f385be0f21bb
 base: "[[Economía.base]]"
 Blocked by: []
 Archivos Adjuntos: ""
 Material de Estudio:
   - "[[Assets/TEORIA DE EVALUACION DE PROYECTO.docx]]"
 Sub-item:
-  - 1e5ac26b-dee7-8012-a4c5-e097f62504eb
+  - "[[Notion/Materias/Economía/Ej|Ej]]"
 Blocking: []
 Parent item: []
 Categoria:

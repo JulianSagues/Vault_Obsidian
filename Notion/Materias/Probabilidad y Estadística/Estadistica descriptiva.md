@@ -1,10 +1,9 @@
 ---
-notion-id: 1cdac26b-dee7-8039-8e50-ea0952e47d79
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item:
-  - 1c8ac26b-dee7-804a-8cb0-dc82db5e5f40
-  - 1c8ac26b-dee7-80e6-b07f-c22f128007e9
+  - "[[Notion/Materias/Probabilidad y Estadística/Regresión y correlación|Regresión y correlación]]"
+  - "[[Notion/Materias/Probabilidad y Estadística/Probabilidad|Probabilidad]]"
 Blocking: []
 Material de Estudio:
   - "[[Assets/Teoria PyE.pdf]]"

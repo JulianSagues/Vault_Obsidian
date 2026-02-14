@@ -1,5 +1,4 @@
 ---
-notion-id: 2adac26b-dee7-802a-a4cb-fd20aaa8d8a7
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []

@@ -1,10 +1,9 @@
 ---
-notion-id: 26cac26b-dee7-80f1-a765-ca1c5c33e27f
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 257ac26b-dee7-800a-901d-c3f92013f8b8
+  - "[[Notion/Materias/Sistemas Operativos/Introduccion|Introduccion]]"
 Blocking: []
 Categoria: []
 ---

@@ -1,12 +1,11 @@
 ---
-notion-id: 1e1ac26b-dee7-8035-befc-d79e4caf692b
 base: "[[Economía.base]]"
 Blocked by: []
 Archivos Adjuntos: ""
 Material de Estudio:
   - "[[Assets/macro_introduccion.pdf]]"
 Sub-item:
-  - 20bac26b-dee7-80ff-a749-dacb8ece4be3
+  - "[[Notion/Materias/Economía/Practica Parcial Macro|Practica Parcial Macro]]"
 Blocking: []
 Parent item: []
 Categoria:

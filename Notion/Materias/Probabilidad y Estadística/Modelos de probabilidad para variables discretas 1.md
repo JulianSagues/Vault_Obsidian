@@ -1,9 +1,8 @@
 ---
-notion-id: 1e5ac26b-dee7-8026-b850-d65eb78b9964
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item:
-  - 1ecac26b-dee7-809c-8f38-c3f1ba79d407
+  - "[[Notion/Materias/Probabilidad y Estadística/Ej aproximacion binomial a normal|Ej aproximacion binomial a normal]]"
 Blocking: []
 Parent item: []
 Categoria:

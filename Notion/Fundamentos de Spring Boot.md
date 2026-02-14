@@ -1,13 +1,12 @@
 ---
-notion-id: 2a5ac26b-dee7-80da-9597-ebc120e56de4
 Archivos Adjuntos: ""
 Sub-item:
-  - 2a5ac26b-dee7-8019-9be9-e0f17f00ed04
-  - 2a5ac26b-dee7-8058-8ff2-f4eb259c0f56
-  - 2a5ac26b-dee7-805b-8b02-daea3a81ed92
-  - 2a5ac26b-dee7-80de-8b22-cfba1170c623
-  - 2a5ac26b-dee7-8017-856d-db83866e9d0b
-  - 2a5ac26b-dee7-8062-a47a-d99fba9c8d5b
+  - "[[Notion/1- ¿Qué es Spring vs Spring Boot|1- ¿Qué es Spring vs Spring Boot]]"
+  - "[[Notion/2- Crear tu primer proyecto con Spring Boot|2- Crear tu primer proyecto con Spring Boot]]"
+  - "[[Notion/3- Context y Beans lo esencial|3- Context y Beans lo esencial]]"
+  - "[[Notion/Materias/Desarrollo de software/4- Inyección de dependencias y estereotipos|4- Inyección de dependencias y estereotipos]]"
+  - "[[Notion/5- Configuración en Spring Boot|5- Configuración en Spring Boot]]"
+  - "[[Notion/6- Auto configuración, Starters y DX|6- Auto configuración, Starters y DX]]"
 Blocked by: []
 Parent item: []
 Blocking: []

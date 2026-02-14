@@ -1,11 +1,10 @@
 ---
-notion-id: 1c8ac26b-dee7-80e6-b07f-c22f128007e9
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item: []
 Blocking: []
 Parent item:
-  - 1cdac26b-dee7-8039-8e50-ea0952e47d79
+  - "[[Notion/Materias/Probabilidad y Estadística/Estadistica descriptiva|Estadistica descriptiva]]"
 Categoria:
   - Unidad 1
 Blocked by: []

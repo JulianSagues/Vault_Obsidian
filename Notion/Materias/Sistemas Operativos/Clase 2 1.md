@@ -1,10 +1,9 @@
 ---
-notion-id: 26cac26b-dee7-8073-8fc9-e426d427cf5c
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 26cac26b-dee7-805f-8a30-c8cda6b9795d
+  - "[[Notion/Materias/Sistemas Operativos/Memoria|Memoria]]"
 Blocking: []
 Categoria: []
 ---

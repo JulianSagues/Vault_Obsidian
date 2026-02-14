@@ -1,11 +1,10 @@
 ---
-notion-id: 299ac26b-dee7-8085-b520-eedaf0a98ef0
 base: "[[Desarrollo de software.base]]"
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 299ac26b-dee7-80ad-901b-c3e220f30695
+  - "[[Notion/Materias/Desarrollo de software/Resumen de Junit videos|Resumen de Junit videos]]"
 Blocking: []
 Categoria: ""
 ---

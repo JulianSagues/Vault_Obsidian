@@ -1,10 +1,9 @@
 ---
-notion-id: 281ac26b-dee7-80fa-9577-c0b04816b479
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 265ac26b-dee7-802c-bd83-fbc3002bcddb
+  - "[[Notion/Materias/Sistemas Operativos/Archivos|Archivos]]"
 Blocking: []
 Categoria: []
 ---

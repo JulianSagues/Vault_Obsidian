@@ -1,5 +1,4 @@
 ---
-notion-id: 1daac26b-dee7-80a8-89b4-ed422ab116fc
 base: "[[Economía.base]]"
 Blocked by: []
 Archivos Adjuntos: ""

@@ -1,11 +1,10 @@
 ---
-notion-id: 1f2ac26b-dee7-804d-9324-d4dcb15185ae
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item: []
 Blocking: []
 Parent item:
-  - 1d7ac26b-dee7-80b2-87c0-f8e1f3f53d09
+  - "[[Notion/Materias/Probabilidad y Estadística/Modelos de probabilidad para variables discretas|Modelos de probabilidad para variables discretas]]"
 Categoria: []
 Blocked by: []
 ---

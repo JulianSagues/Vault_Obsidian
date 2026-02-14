@@ -1,10 +1,9 @@
 ---
-notion-id: 2a0ac26b-dee7-802d-b979-f3c7d4256099
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 2a0ac26b-dee7-8055-a42b-fa0595fa3a9c
+  - "[[Notion/HTML|HTML]]"
 Blocking: []
 Categoria: ""
 ---

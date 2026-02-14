@@ -1,11 +1,10 @@
 ---
-notion-id: 20fac26b-dee7-80ec-8910-ede85aac6055
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item: []
 Blocking: []
 Parent item:
-  - 208ac26b-dee7-8010-afaa-ce3b1f01de5c
+  - "[[Notion/Materias/Probabilidad y Estadística/Pruebas de hipótesis|Pruebas de hipótesis]]"
 Categoria:
   - Unidad 6
 Blocked by: []

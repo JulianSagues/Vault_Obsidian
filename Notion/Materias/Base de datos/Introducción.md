@@ -1,5 +1,4 @@
 ---
-notion-id: 1d9ac26b-dee7-8082-b95d-d92817feba8d
 base: "[[Base de datos.base]]"
 Parent item: []
 Archivos Adjuntos: ""

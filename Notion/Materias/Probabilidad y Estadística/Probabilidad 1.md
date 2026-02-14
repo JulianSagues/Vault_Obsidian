@@ -1,5 +1,4 @@
 ---
-notion-id: 1cdac26b-dee7-8089-92d2-d8f84d0376f5
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item: []

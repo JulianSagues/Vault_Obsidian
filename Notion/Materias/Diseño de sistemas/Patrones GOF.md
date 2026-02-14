@@ -1,11 +1,10 @@
 ---
-notion-id: 29cac26b-dee7-80e0-a377-fa031013e759
 base: "[[Diseño de sistemas.base]]"
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 29cac26b-dee7-80ba-91e6-d4b53855a0ec
+  - "[[Notion/Materias/Diseño de sistemas/Patrones|Patrones]]"
 Blocking: []
 Categoria: ""
 ---

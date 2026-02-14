@@ -1,8 +1,7 @@
 ---
-notion-id: 265ac26b-dee7-802c-bd83-fbc3002bcddb
 base: "[[Sistemas Operativos.base]]"
 Sub-item:
-  - 281ac26b-dee7-80fa-9577-c0b04816b479
+  - "[[Notion/Materias/Sistemas Operativos/Clase 1 3|Clase 1 3]]"
 Blocked by: []
 Parent item: []
 Material de Estudio:

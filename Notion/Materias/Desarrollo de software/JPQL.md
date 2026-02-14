@@ -1,5 +1,4 @@
 ---
-notion-id: 29aac26b-dee7-8080-a725-c9264987a6a0
 base: "[[Desarrollo de software.base]]"
 Archivos Adjuntos: ""
 Sub-item: []

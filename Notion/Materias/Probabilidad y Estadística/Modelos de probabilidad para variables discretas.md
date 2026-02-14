@@ -1,11 +1,10 @@
 ---
-notion-id: 1d7ac26b-dee7-80b2-87c0-f8e1f3f53d09
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item:
-  - 1f1ac26b-dee7-80f3-9a31-fcb4e3682bea
-  - 1f2ac26b-dee7-8096-8282-f65f8bbf10ad
-  - 1f2ac26b-dee7-804d-9324-d4dcb15185ae
+  - "[[Notion/Materias/Probabilidad y Estadística/modelos discretos|modelos discretos]]"
+  - "[[Notion/Materias/Probabilidad y Estadística/posibles ejercicios|posibles ejercicios]]"
+  - "[[Notion/Materias/Probabilidad y Estadística/ayuda en ejercicios|ayuda en ejercicios]]"
 Blocking: []
 Parent item: []
 Categoria:

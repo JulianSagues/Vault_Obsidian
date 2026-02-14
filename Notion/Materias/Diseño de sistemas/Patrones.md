@@ -1,10 +1,9 @@
 ---
-notion-id: 29cac26b-dee7-80ba-91e6-d4b53855a0ec
 base: "[[Diseño de sistemas.base]]"
 Archivos Adjuntos: ""
 Sub-item:
-  - 29cac26b-dee7-801c-9c89-fd44957fc190
-  - 29cac26b-dee7-80e0-a377-fa031013e759
+  - "[[Notion/Materias/Diseño de sistemas/Patrones GRASP|Patrones GRASP]]"
+  - "[[Notion/Materias/Diseño de sistemas/Patrones GOF|Patrones GOF]]"
 Blocked by: []
 Parent item: []
 Blocking: []

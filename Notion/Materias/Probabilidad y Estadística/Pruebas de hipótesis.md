@@ -1,9 +1,8 @@
 ---
-notion-id: 208ac26b-dee7-8010-afaa-ce3b1f01de5c
 base: "[[Probabilidad y Estadística.base]]"
 Archivos Adjuntos: ""
 Sub-item:
-  - 20fac26b-dee7-80ec-8910-ede85aac6055
+  - "[[Notion/Materias/Probabilidad y Estadística/Bondad de ajuste|Bondad de ajuste]]"
 Blocking: []
 Parent item: []
 Categoria:

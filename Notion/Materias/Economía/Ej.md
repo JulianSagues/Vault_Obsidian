@@ -1,5 +1,4 @@
 ---
-notion-id: 1e5ac26b-dee7-8012-a4c5-e097f62504eb
 base: "[[Economía.base]]"
 Blocked by: []
 Archivos Adjuntos: ""
@@ -8,7 +7,7 @@ Material de Estudio:
 Sub-item: []
 Blocking: []
 Parent item:
-  - 1e5ac26b-dee7-8008-ab7f-f385be0f21bb
+  - "[[Notion/Materias/Economía/Evaluación de proyecto|Evaluación de proyecto]]"
 Categoria:
   - Proyecto de inversion
 AI summary: ""

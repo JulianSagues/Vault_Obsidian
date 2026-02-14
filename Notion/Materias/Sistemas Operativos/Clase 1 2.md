@@ -1,10 +1,9 @@
 ---
-notion-id: 26cac26b-dee7-80f3-ba01-cda1dc225f17
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 25eac26b-dee7-805a-9546-ed5ba142a82f
+  - "[[Notion/Materias/Sistemas Operativos/Procesos e hilos|Procesos e hilos]]"
 Blocking: []
 Categoria: []
 ---

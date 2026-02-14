@@ -1,10 +1,9 @@
 ---
-notion-id: 29bac26b-dee7-81f8-afd3-fba98060846f
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 29bac26b-dee7-80d2-9ccf-cc05773f4eeb
+  - "[[Notion/Materias/Desarrollo de software/Resumen Videos|Resumen Videos]]"
 Blocking: []
 Categoria: ""
 ---

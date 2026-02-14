@@ -1,5 +1,4 @@
 ---
-notion-id: 20bac26b-dee7-80ff-a749-dacb8ece4be3
 base: "[[Economía.base]]"
 Blocked by: []
 Archivos Adjuntos: ""
@@ -9,7 +8,7 @@ Material de Estudio:
 Sub-item: []
 Blocking: []
 Parent item:
-  - 1e1ac26b-dee7-8035-befc-d79e4caf692b
+  - "[[Notion/Materias/Economía/Introducción 1|Introducción 1]]"
 Categoria:
   - Macroeconomia
 AI summary: ""

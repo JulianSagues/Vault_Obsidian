@@ -1,10 +1,9 @@
 ---
-notion-id: 2a5ac26b-dee7-8058-8ff2-f4eb259c0f56
 Archivos Adjuntos: ""
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 2a5ac26b-dee7-80da-9597-ebc120e56de4
+  - "[[Notion/Fundamentos de Spring Boot|Fundamentos de Spring Boot]]"
 Blocking: []
 Categoria: ""
 ---

@@ -1,5 +1,4 @@
 ---
-notion-id: 1e0ac26b-dee7-803f-9ec0-feae7ccd7787
 base: "[[Comunicación de datos.base]]"
 Parent item: []
 Blocking: []

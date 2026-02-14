@@ -34,10 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Materias/Analisis numerico": {
-    "iconName": "LiFunctionSquare",
-    "iconColor": "#a82de1"
-  },
   "Materias/Base de datos": {
     "iconName": "LiDatabase",
     "iconColor": "#94d41c"
@@ -77,5 +73,9 @@
   "Excalidraw": {
     "iconName": "LiPen",
     "iconColor": "#d88322"
+  },
+  "Assets/Analisis numerico": {
+    "iconName": "LiFunctionSquare",
+    "iconColor": "#a82de1"
   }
 }

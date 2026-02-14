@@ -1,8 +1,7 @@
 ---
-notion-id: 2a7ac26b-dee7-803e-9fd6-e20f453e0ba7
 base: "[[Sistemas Operativos.base]]"
 Sub-item:
-  - 2b8ac26b-dee7-8026-b391-dfaf5272134c
+  - "[[Notion/Materias/Sistemas Operativos/Untitled|Untitled]]"
 Blocked by: []
 Parent item: []
 Blocking: []

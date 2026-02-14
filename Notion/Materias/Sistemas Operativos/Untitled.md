@@ -1,10 +1,9 @@
 ---
-notion-id: 2b8ac26b-dee7-8026-b391-dfaf5272134c
 base: "[[Sistemas Operativos.base]]"
 Sub-item: []
 Blocked by: []
 Parent item:
-  - 2a7ac26b-dee7-803e-9fd6-e20f453e0ba7
+  - "[[Notion/Materias/Sistemas Operativos/Comandos-Llamadas TP|Comandos-Llamadas TP]]"
 Blocking: []
 Categoria: []
 ---

@@ -1,6 +1,6 @@
 ---
 Parent item:
-  - "[[Materias/Sistemas Operativos/Archivos\\|Archivos]]"
+  - "[[Materias/Sistemas Operativos/Notas/Archivos\\|Archivos]]"
 ---
 ## Sistemas de archivos
 

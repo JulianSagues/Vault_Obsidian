@@ -1,4 +1,0 @@
----
-Categoria:
-  - Unidad 5
----

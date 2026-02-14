@@ -1,7 +1,3 @@
----
-Material de Estudio:
-  - "[[Gua_estudio_practica_2_Modelos-ER.pdf]]"
----
 ![[Assets/image 425.png|image 425.png]]
 
 Pasos para el diseño

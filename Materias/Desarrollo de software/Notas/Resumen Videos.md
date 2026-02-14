@@ -7,7 +7,7 @@ Sub-item:
   - "[[Materias/Desarrollo de software/Notas/3-persistense.xml\\|3-persistense.xml]]"
   - "[[Materias/Desarrollo de software/Notas/4- JPA paso a paso\\|4- JPA paso a paso]]"
   - "[[Materias/Desarrollo de software/Notas/5- Anotaciones Básicas de JPA\\|5- Anotaciones Básicas de JPA]]"
-  - "[[Materias/Comunicacion de datos/6- Ciclo de vida de una entidad\\|6- Ciclo de vida de una entidad]]"
+  - "[[6- Ciclo de vida de una entidad\\|6- Ciclo de vida de una entidad]]"
   - "[[Materias/Desarrollo de software/Notas/7- Relaciones Unidireccionales en JPA\\|7- Relaciones Unidireccionales en JPA]]"
   - "[[Materias/Desarrollo de software/Notas/8- Relaciones Bidireccionales en JPA\\|8- Relaciones Bidireccionales en JPA]]"
   - "[[Materias/Desarrollo de software/Notas/9- CascadeType y orphanRemoval\\|9- CascadeType y orphanRemoval]]"

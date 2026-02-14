@@ -1,0 +1,40 @@
+# Comunicación de datos
+
+filters:
+  and:
+    - note["base"] == link("Comunicación de datos.base")
+properties:
+  file.name:
+    displayName: Tema
+  Parent item:
+    displayName: Parent item
+  Tipo de Archivo:
+    displayName: Tipo de Archivo
+  Blocking:
+    displayName: Blocking
+  Sub-item:
+    displayName: Sub-item
+  Archivos Adjuntos:
+    displayName: Archivos Adjuntos
+  Blocked by:
+    displayName: Blocked by
+  Fecha:
+    displayName: Fecha
+  Material de Estudio:
+    displayName: Material de Estudio
+  Categoria:
+    displayName: Categoria
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Parent item
+      - Tipo de Archivo
+      - Blocking
+      - Sub-item
+      - Archivos Adjuntos
+      - Blocked by
+      - Fecha
+      - Material de Estudio
+      - Categoria

@@ -23,6 +23,20 @@
     "TQ_show_tags": "checkbox",
     "TQ_show_task_count": "checkbox",
     "TQ_show_tree": "checkbox",
-    "TQ_show_urgency": "checkbox"
+    "TQ_show_urgency": "checkbox",
+    "Tipo de Archivo": "text",
+    "Sub-item": "multitext",
+    "Fecha": "date",
+    "Blocked by": "multitext",
+    "Parent item": "multitext",
+    "Material de Estudio": "multitext",
+    "Blocking": "multitext",
+    "Categoria": "multitext",
+    "Archivos Adjuntos": "text",
+    "AI summary": "text",
+    "AI keywords": "multitext",
+    "AI translation": "text",
+    "Custom AI autofill": "text",
+    "Google Drive File": "multitext"
   }
 }

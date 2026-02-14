@@ -1,0 +1,40 @@
+# Diseño de sistemas
+
+filters:
+  and:
+    - note["base"] == link("Diseño de sistemas.base")
+properties:
+  file.name:
+    displayName: Tema
+  Tipo de Archivo:
+    displayName: Tipo de Archivo
+  Archivos Adjuntos:
+    displayName: Archivos Adjuntos
+  Sub-item:
+    displayName: Sub-item
+  Fecha:
+    displayName: Fecha
+  Blocked by:
+    displayName: Blocked by
+  Parent item:
+    displayName: Parent item
+  Material de Estudio:
+    displayName: Material de Estudio
+  Blocking:
+    displayName: Blocking
+  Categoria:
+    displayName: Categoria
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Tipo de Archivo
+      - Archivos Adjuntos
+      - Sub-item
+      - Fecha
+      - Blocked by
+      - Parent item
+      - Material de Estudio
+      - Blocking
+      - Categoria

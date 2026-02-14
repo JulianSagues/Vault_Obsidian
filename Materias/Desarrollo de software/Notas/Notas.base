@@ -3,5 +3,5 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Diseño de sistemas/Notas")
+        - file.inFolder("Materias/Desarrollo de software/Notas")
         - file.basename != "Notas"

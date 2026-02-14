@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPen",
       "LiPaperclip",
       "LiBook",
       "LiFolderCode",
-      "LiCodeblockGlyph",
-      "LiPercent"
+      "LiCodeblockGlyph"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -73,5 +73,9 @@
   "Assets": {
     "iconName": "LiPaperclip",
     "iconColor": "#00bfff"
+  },
+  "Excalidraw": {
+    "iconName": "LiPen",
+    "iconColor": "#d88322"
   }
 }

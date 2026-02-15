@@ -3,5 +3,9 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/Diseño de sistemas/Material")
-        - file.basename.startsWith("TP")
+        - and:
+            - file.inFolder("Materias/Diseño de sistemas/Material")
+            - or:
+                - file.basename.startsWith("TP")
+                - '!file.path.contains("TP")'
+            - file.basename != "Material"

@@ -140,3 +140,11 @@ flujo:
 14. pedimos la tarifa fija y la tarifa por hora
 15. ingresa las arifas
 16. creamos intancia de tarifa servicio con numero igual al generado, tarifa fija igual a la ingresada, tarifa por hora igual a la ingresada y relacion a tipo servicio seleccionado
+17. cuenta = cuenta -1
+18. si cuenta es 0 ir a paso 21
+19. seleccionar siguiente isntancia
+20. ir a paso 13
+21. crear instancia de configuracion tarida con numero igual al generado, monto multa, fecha desde y hasta igual al ingresado
+
+CA:
+1. 

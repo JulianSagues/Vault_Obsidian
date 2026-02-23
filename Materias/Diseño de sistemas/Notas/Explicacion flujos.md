@@ -53,4 +53,29 @@
 **Flujo:**
 1. Buscamos el estado de servicio terminado
 2. buscamos el estado de convenio en progreso
-3. buscamos
+3. buscamos convenio relacionados al cliente (de la precondicion) y en estado en progreso
+4. por cada convenio encotrado
+	1. leemos el proyecto, su nombre y su el numero del convenio
+	2. leemos los convenioTipoServicio asociados
+	3. por cada una de esas instacias
+		1. leemos los tipo servicio asociados y su nombre
+		2. buscamos instancias de servicio asociados a al convenioTipoServicio y en estado terminados
+		3. por cada servicio
+			1. leemos su descripcion
+			2. mostramos el numero del convenio, el nombre del proyecto el nombre del tipo servicio y la descripcion del servicio
+5. Pedimos que selecione el servicio a aprobar
+6. seleciona el servicio
+7. leemos las horas estimadas, horas efectuadas, descripcion, profesional asociado, su nombre
+8. mostramos las horas estimadas, horas efectuadas, descripcion y el nombre del profesional
+9. leemos las tareas relacionadas
+10. por cada tarea
+	1. leemos su nombre
+	2. lo mostramos
+11. pedimos que se apruebe o no el servicio
+12. elige accion
+13. verificamos que haya aprobado
+14. buscamos estado aprobado
+15. modificamos el servicio a aprobado
+16. leemos las instancias de servicio estado relacionadas al servicio
+17. seleccionamos la instancia que no tenga fecha hasta
+18. modificamos la fecha hasta con

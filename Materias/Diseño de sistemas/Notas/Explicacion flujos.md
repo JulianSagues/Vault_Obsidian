@@ -95,4 +95,24 @@ Flujo:
 4. pedimos que ingrese el numero del convenio
 5. ingresa el numero 
 6. comprobamos que exista
-7. busca,os esta
+7. buscamos los estados de convenio y servicio cancelado
+8. buscamos el convenio
+9. verificamos que el estado sea aceptado
+10. modificamos el vonbernop para que quede en estado cancelado y la fecha de cancelacion actual
+
+CA:
+1. Si el econvenio estaba firmado y el rol es cliente, cobrar multa es verdadero, sino falso
+2. si el convenio estaba en progreso
+	1. leemos las intancias de convenio tipo servicio
+	2. buscamos estado en progreso y terminado de servicio
+	3. por cada instancia leida
+		1. buscamos servicios relacionados a convenio tipo servicio y en estado en progreso o terminados
+		2. comprobamos que no se hayan encontrado servicios
+	4. buscamos el estado asignado de servicio
+	5. por cada instancia de convenio tipo servicio leida
+		1. buscamos servicios en estado asignado y relacionados
+		2. por cada servicio encontrado
+			1. leemos servicio estado
+			2. selecionamos la instancia que tiene fecha hasta vacia
+			3. le ponemos fecha hasta con fecha actual
+			4. hacemos instancia de servicio estado con fecha desde igual a fecha actual, fecha hasta vacia, contador igual al generado y observaciones igual a servicio cancelado

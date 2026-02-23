@@ -125,4 +125,13 @@ flujo:
 1. comprobamos que socio responsable sea verdadero
 2. buscamos configuraciones tarifa
 3. por cada instacia
-	1. 
+	1. leemos numero configuracion, hora desde, hora hasta
+	2. mostramos esas cosas
+4. solitamos accion
+5. seleccionar accion modificar o agregar
+6. comprobamos que agrega
+7. solicitamos monto multa, fecha hasta y desde
+8. ingresar monto y fechas
+9. comprobamos que fecha desde sea mayor a la actual y fecha hasta mayor a desde
+10. buscmaos tipos de servicios
+11. creamos variable cuenta = contar(tipoServicio)

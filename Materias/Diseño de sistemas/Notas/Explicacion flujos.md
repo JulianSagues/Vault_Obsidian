@@ -122,3 +122,7 @@ CA:
 ---
 [[CU - Configurar tarifas.docx]]
 flujo:
+1. comprobamos que socio responsable sea verdadero
+2. buscamos configuraciones tarifa
+3. por cada instacia
+	1. 

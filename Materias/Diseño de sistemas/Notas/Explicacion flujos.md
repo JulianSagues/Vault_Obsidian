@@ -135,3 +135,8 @@ flujo:
 9. comprobamos que fecha desde sea mayor a la actual y fecha hasta mayor a desde
 10. buscmaos tipos de servicios
 11. creamos variable cuenta = contar(tipoServicio)
+12. selecionamos la primera instancia de tipoServicio
+13. leemos su nimbre y lo mostramos
+14. pedimos la tarifa fija y la tarifa por hora
+15. ingresa las arifas
+16. creamos intancia de tarifa servicio con numero igual al generado, tarifa fija igual a la ingresada, tarifa por hora igual a la ingresada y relacion a tipo servicio seleccionado

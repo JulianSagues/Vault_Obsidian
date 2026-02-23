@@ -38,4 +38,12 @@
 				3. si no encontramos ninguna continuamos
 				4. leemos las horas minimas por servicio
 				5. totalHorasOcupadas = totalHorasOcupadas + horasMinimasPorServicio
-			7. 
+			7. hacemos totalHorasOcupadas = totalHorasOcupadas + horasMinimasPorServicio pero le sumamos las horas minimas del convenio propio
+			8. comprobamos que las horas ocupadas sean menores a las disponibles
+		3. hacemos añoMesIteracion = adelantarMes(añoMesIteracion)
+	2. hacemos que el convenio quede aceptado
+6. guardamos cambios
+7. fin cu
+%% rompe-lista %%
+CA importantes:
+8. 

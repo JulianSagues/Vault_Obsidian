@@ -89,3 +89,10 @@ CA:
 ----
 [[CU - Cancelar convenio.docx]]
 Flujo:
+1. comprobamos que sea un socio responsable
+2. pedimos que diga quien cancela
+3. elige el rol del usuario cliente o consultora
+4. pedimos que ingrese el numero del convenio
+5. ingresa el numero 
+6. comprobamos que exista
+7. busca,os esta

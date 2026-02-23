@@ -7,7 +7,7 @@
 **Estado Inicial:**
 - El convenio tiene que estar registrado
 - El profesional tiene que saber sobre el tipo servicio
-- Debe existir el estado aceptado (si hay disponibilidad horaria), registrado, en progreso, registrado y rechazado(si no hay disponibilidad horaria)
+- Debe existir el estado de convenio aceptado (si hay disponibilidad horaria), registrado, en progreso, registrado y rechazado(si no hay disponibilidad horaria)
 **Estado Final:**
 - El convenio queda aceptado o rechazado
 **Parámetros de Entrada:**
@@ -44,6 +44,13 @@
 	2. hacemos que el convenio quede aceptado
 6. guardamos cambios
 7. fin cu
-%% rompe-lista %%
-CA importantes:
-8. 
+
+**CA importantes:**
+1. si no se cumple que hay disponibilidad horario el convenio queda rechazado
+
+---
+[[CU - Aprobar servicio.docx]]
+**Flujo:**
+1. Buscamos el estado de servicio terminado
+2. buscamos el estado de convenio en progreso
+3. buscamos

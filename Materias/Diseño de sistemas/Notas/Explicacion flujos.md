@@ -78,4 +78,6 @@
 15. modificamos el servicio a aprobado
 16. leemos las instancias de servicio estado relacionadas al servicio
 17. seleccionamos la instancia que no tenga fecha hasta
-18. modificamos la fecha hasta con
+18. modificamos la fecha hasta con la fecha actual
+19. creamos una instancia de servicio estado con fecha desde igual a la fecha actual, fecha hasta igual a vacio, contador servicio igual al generado, observaciones igual a servicio aprobado
+20. relacina

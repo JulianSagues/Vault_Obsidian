@@ -36,3 +36,6 @@
 				1. leemos su ConvenioTipoServicio
 				2. seleccionamos las instancias que esten relacionada a un tipo servicio que hayamos leido del convenio anterior
 				3. si no encontramos ninguna continuamos
+				4. leemos las horas minimas por servicio
+				5. totalHorasOcupadas = totalHorasOcupadas + horasMinimasPorServicio
+			7. 

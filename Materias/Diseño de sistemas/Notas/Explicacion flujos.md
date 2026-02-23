@@ -152,4 +152,18 @@ CA:
 	2. comprobar que sea tarifas
 	3. leemos las instancias de tarifas relacionadas a configuracion
 	4. por cada instancia
-		1. 
+		1. leemos tarifa fija y por hora
+		2. leemos tioservicio relacionado
+		3. leemos el nombre
+		4. mostramo tarifa fija, por hora, nombre
+	5. mostramos que tipo servicio modificar
+	6. selecciona instancia de tarifa
+	7. solicitamos nuevos valores
+	8. ingresa tarifas
+	9. modificamos valores de tarifa servicio
+	10. preguntamos si quiere modificar otro
+	11. si si, ir para atras
+	12. preguntamos si queiere modificar otra cosa
+	13. si si, ir para atras
+2. con el perido lo mismo 
+3. 

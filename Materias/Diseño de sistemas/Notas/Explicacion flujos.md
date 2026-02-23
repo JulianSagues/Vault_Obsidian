@@ -31,4 +31,8 @@
 				2. Si no se encontro ninguna instancia continuamos
 				3. leemos las horas max por mes y el cuit
 				4. hacemos que totalHorasDisponiblesConsultora = totalHorasDisponiblesConsultora + horasMaxPorMes
-			5. 
+			5. buscamos instancias de convenio que añoMesIteracion este entre su año de inicio y de fin y este en estado firmado, en progreso o aceptado
+			6. por cada instancia que encontramos
+				1. leemos su ConvenioTipoServicio
+				2. seleccionamos las instancias que esten relacionada a un tipo servicio que hayamos leido del convenio anterior
+				3. si no encontramos ninguna continuamos

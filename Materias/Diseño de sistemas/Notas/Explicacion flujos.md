@@ -107,7 +107,7 @@ CA:
 	2. buscamos estado en progreso y terminado de servicio
 	3. por cada instancia leida
 		1. buscamos servicios relacionados a convenio tipo servicio y en estado en progreso o terminados
-		2. comprobamos que no se hayan encontrado servicios
+		2. comprobamos que no se hayan encontrado servicios porque no se pueden cancelar en ese estado
 	4. buscamos el estado asignado de servicio
 	5. por cada instancia de convenio tipo servicio leida
 		1. buscamos servicios en estado asignado y relacionados
@@ -116,3 +116,9 @@ CA:
 			2. selecionamos la instancia que tiene fecha hasta vacia
 			3. le ponemos fecha hasta con fecha actual
 			4. hacemos instancia de servicio estado con fecha desde igual a fecha actual, fecha hasta vacia, contador igual al generado y observaciones igual a servicio cancelado
+			5. el servicio queda cancelado con relacion al servicio estado creado
+	6. si era cliente cobrar multa verdadero, sino falso
+
+---
+[[CU - Configurar tarifas.docx]]
+flujo:

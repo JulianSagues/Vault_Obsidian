@@ -147,4 +147,9 @@ flujo:
 21. crear instancia de configuracion tarida con numero igual al generado, monto multa, fecha desde y hasta igual al ingresado
 
 CA:
-1. 
+1. si se quiere modificar se solicita que desea modifcar
+	1. selecciona tarifa periodo o tipo de servicio
+	2. comprobar que sea tarifas
+	3. leemos las instancias de tarifas relacionadas a configuracion
+	4. por cada instancia
+		1. 

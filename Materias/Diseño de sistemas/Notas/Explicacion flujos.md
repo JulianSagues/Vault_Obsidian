@@ -19,4 +19,16 @@
 2. Se verifica que el profesional sea socio responsable y se le pide que ingrese el numeroConvenio
 3. Ingresa numeroConvenio
 4. Se verifica que el numero sea correcto, se buscan los estados registrado, aceptado, firmado, en progreso y rechazado y se verifica que el convenio este registrado
-5. Leemos el inicio de
+5. Leemos el inicio del convenio y su final, creamos una variable para guardar el año de inicio(añoMesIteracion) y empezamos con el control de horas:
+	1. mientras el año de incio sea menor o igual al año final se hace:
+		1. leemos las intancias de ConvenioTipoServicio relacionadas al convenio
+		2. Por cada instancia que encontramos hacemos:
+			1. leemos las horas minimas y los tipo servicios relacionados junto con su codigo
+			2. creamos las variables totalHorasDiponiblesConsultora y totalHorasOcupadasConsultora
+			3. buscamos instancias de profesionalTipoServicio con la fechaDesde menor a añoMesIteracion, con la fechaHasta mayor a añoMesIteracion y relacionada a un tipo servicio
+			4. por cada instancia que encontramos:
+				1. buscamos un profesional que no este dado de baja y que este relacionado a una de las intancias de PTS
+				2. Si no se encontro ninguna instancia continuamos
+				3. leemos las horas max por mes y el cuit
+				4. hacemos que totalHorasDisponiblesConsultora = totalHorasDisponiblesConsultora + horasMaxPorMes
+			5. 

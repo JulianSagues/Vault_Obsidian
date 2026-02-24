@@ -165,5 +165,10 @@ CA:
 	11. si si, ir para atras
 	12. preguntamos si queiere modificar otra cosa
 	13. si si, ir para atras
-2. con el perido lo mismo 
-3. si 
+	14. con el perido lo mismo 
+	15. si se elige servicio creamos la tarifa de cero
+2. 
+
+---
+[[CU - Configurar tarifas.docx]]
+

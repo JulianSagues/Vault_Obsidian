@@ -5,6 +5,7 @@ Parent item:
 GOF = Gang Of Four
 
 # Singleton
+![[Patrones GOF.png]]
 
 ![[Assets/image 25.png|image 25.png]]
 

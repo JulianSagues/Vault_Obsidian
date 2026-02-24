@@ -191,4 +191,23 @@ flujo:
 	5. selecionamos la que no tiene fecha hasta
 	6. le agregamos la fecha hasta
 	7. creo una nueva instancia con la fecha desde actual, decha hasta vacia, contador igual al generado y observaciones igual a servicio terminado, relacionada a terminado
-	8. 
+	8. agregamos la relacion con el nuevo estado y con la nueva instancia
+	9. agregamos las horas efectuadas calculadas y las observaciones ingresadas
+	10. preguntamos si desea entregar
+	11. ingresa respuesta
+
+---
+[[CU - Firmar convenio.docx]]
+flujo:
+1. comprobamos que sea socio responsable
+2. solicitamos numero de convenio
+3. buscamos el convenio
+4. leemos su estado
+5. comprobamos que este aceptado
+6. buscamos el estado firmado
+7. modificamos el convenio con fecha de firma igual a la actual y lo dejamos en estado firmado
+8. mostramos que se registro la firma
+
+---
+[[CU - Gestionar convenios.docx]]
+flujo:

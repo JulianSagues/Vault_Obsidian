@@ -176,4 +176,7 @@ flujo:
 2. comprobamos que este instanciado
 3. buscamos servicios en progreso del profesional
 4. por cada servicio
-	1. leemos numero, descripcion 
+	1. leemos numero, descripcion y hroas estimadas y los mostramos
+5. pedimos que seleccione servicio
+6. selecciona por numero de servicio
+7. solicitamos 

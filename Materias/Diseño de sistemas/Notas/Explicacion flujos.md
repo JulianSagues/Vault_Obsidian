@@ -179,4 +179,16 @@ flujo:
 	1. leemos numero, descripcion y hroas estimadas y los mostramos
 5. pedimos que seleccione servicio
 6. selecciona por numero de servicio
-7. solicitamos 
+7. solicitamos observaciones
+8. ingresa observaciones
+9. leemos tareas relacionadas al servicio
+10. creamos la varialbe horas efectuadas
+11. por cada tarea 
+	1. leemos su duracion
+	2. horasEfectuadas = horasEfectuadas + horasDuracion
+	3. buscamos el estado de servicio terminado
+	4. leemos las instancia de servicio estado relacionadas als ervicio
+	5. selecionamos la que no tiene fecha hasta
+	6. le agregamos la fecha hasta
+	7. creo una nueva instancia con la fecha desde actual, decha hasta vacia, contador igual al generado y observaciones igual a servicio terminado, relacionada a terminado
+	8. 

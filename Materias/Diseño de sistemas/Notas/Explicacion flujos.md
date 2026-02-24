@@ -170,5 +170,10 @@ CA:
 2. 
 
 ---
-[[CU - Configurar tarifas.docx]]
-
+[[CU - Entregar servicio.docx]]
+flujo:
+1. buscamos el eesado de servicio en progreso
+2. comprobamos que este instanciado
+3. buscamos servicios en progreso del profesional
+4. por cada servicio
+	1. leemos numero, descripcion 

@@ -166,4 +166,4 @@ CA:
 	12. preguntamos si queiere modificar otra cosa
 	13. si si, ir para atras
 2. con el perido lo mismo 
-3. 
+3. si 

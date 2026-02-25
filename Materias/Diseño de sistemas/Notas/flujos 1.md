@@ -71,4 +71,15 @@ cancelar convenio
 - si estado es firmado
 	- si rol cliente modificamos para cobrar verdadero
 	- si consultora cobrar multa falso
-	- 
+- si en progreso
+	- leemos instasncias convenio tipo servicio
+	- buscamos estado servicio en progreso y terminados
+	- por cada convenio tipo servicio buscamos servicios que esten en estos estados, de ser asi no se puede cancelar
+	- buscamos estados asignado de servicio
+	- por cada convenio tipo servicio buscamos servicios asignados
+		- por cada servicio
+			- leemos instancias de servicio estado y seleccionamos la que tenga fecha hora hasta vacia y se la completamos con la actual
+			- creamos instancia de serivico estado con fecha desde actual, contador generado y observacion servicio cancelado
+			- modificamos instancia de servicio con relacion a esta y estado cancelado
+	- si rol usuario cobramos multa
+	- sino no

@@ -62,3 +62,13 @@ entregar servicio
 
 ---
 cancelar convenio
+- comprobamos que sea socio responsable
+- solicitamos rol del cancelador
+- ingresamos numero convenio
+- buscamos estado convenio cancelado y servicio cancelado
+- comprobamos que el convenio sea aceptado leyendolo
+- modificamos convenio con fecha cancalacion actual y cobrar multa falso
+- si estado es firmado
+	- si rol cliente modificamos para cobrar verdadero
+	- si consultora cobrar multa falso
+	- 

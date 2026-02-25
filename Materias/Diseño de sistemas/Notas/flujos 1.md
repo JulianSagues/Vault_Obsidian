@@ -41,3 +41,24 @@ iniciar proceso de facturacion
 	- creamos instancia de pf cliente con numero factura cliente igual al generado, fecha hora facturacion igual a la actual monto sin iva a valor cliente, todo lo demas vacio y queda pendiente
 - buscamos estado simulado
 - creamos proceso facturacion con fechaHoraProceso facturacion igual a la actual, numero igual al generado, año mes facturacion igual anterior, lo demas vacio
+
+---
+entregar servicio
+- buscamos estado en progreso servicio
+- profesional instanciado
+- buscamos servicios en progreso y del profesional
+- por cada servicio leemos su descripcion su numero y las horas estimadas y las mostramos
+- solicitamos seleccion
+- solicitamos oservaciones
+- leemos tareas del servicio
+- can horas efectuadas = 0
+- por cada tarea leemos sus horas duracion y sumamos a las horas efectuadas
+- buscamos el estado terminado
+- buscamos la instancia de estado servicio que no tenga fecha hasta
+- le ponemos fecha hasta actual
+- creamos instancia de servicio estado con la fecha desde actual contador generado y observaciones servicio terminado
+- modificamos instancia de servicio con las horas efectuadas calculadas 
+- confirmamos entrega
+
+---
+cancelar convenio

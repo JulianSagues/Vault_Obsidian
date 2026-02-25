@@ -27,4 +27,15 @@ iniciar proceso de facturacion
 			- si las horas minimas son mayores a las efectuadas valor tipo servicio igual a tarifa fija
 			- leemos el tipo servicio relacionado y creamos instancia de proceso facturacion de convneio tipo servicio con monto tipo servicio igual a valor tipo servicio
 			- valor convenio = valor conveniio + valor tipo servicio
-			- 
+		- leemos estado de convenio, cobrar multa y su nombre
+		- si es cancelado y  es verdadero
+			- leemos fecha cancelacion
+			- cantmeses = calcularcantidadmeses(fecha hora cancelacion, aañomes fin)
+			- valor multa = cant meses * monto multa por mes
+			- valor convenio = valor convenio + valor multa
+		- sino valor multa = 0
+		- creamos instancia de proceso facturacion convenio con monto convenio igual valor convenio y monto multa igual a valor multa
+		- valor cliente = valor cliente + valor convenio
+	- creamos instancia de pf cliente con numero factura cliente igual al generado, fecha hora facturacion igual a la actual monto sin iva a valor cliente, todo lo demas vacio y queda pendiente
+- buscamos estado simulado
+- creamos proceso facturacion con fechaHoraProceso facturacion igual a la actual, numero igual al generado, año mes facturacion igual anterior, lo demas vacio

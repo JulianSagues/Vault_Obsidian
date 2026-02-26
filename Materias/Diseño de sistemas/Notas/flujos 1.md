@@ -239,4 +239,64 @@ Estos son fáciles pero rigurosos con los cambios de estado:
 
 • **Configurar Tarifas****:**
 
+    ◦ **El truco:** Iterar usando un contador "manual". En lugar de usar un "Por cada..." tradicional, este CU hace `cuenta = Contar(TipoServicio)`. Muestra un servicio, pide tarifas, resta `cuenta = cuenta - 1` y hace un `SI cuenta es igual a 0...` para saber si terminó o si usa la primitiva `Ir a paso...` para volver a repetir el bucle.1. Los "Monstruos" de los Bucles y Variables
+
+Estos son los que te van a pedir iterar mucho. Anotate bien qué calcula cada uno:
+
+• **Aceptar Convenio (El del bucle MIENTRAS por fechas)****:**
+
+    ◦ **El truco:** Evalúa si toda la consultora tiene horas suficientes mes a mes.
+
+    ◦ **Estructura clave:** Usa un bucle `MIENTRAS [añoMesIteracion sea menor o igual que añoMesFin]`.
+
+    ◦ **Variables:** Adentro de ese bucle, siempre pone a cero `totalHorasDisponiblesConsultora = 0` y `totalHorasOcupadasConsultora = 0`. Luego suma las horas de los profesionales activos y resta las de los convenios activos.
+
+• **Solicitar Servicio (El de la Pseudoentidad)****:**
+
+    ◦ **El truco:** Tiene que buscar a los profesionales que les sobre tiempo y ordenarlos.
+
+    ◦ **Estructura clave:** Vas a declarar una pseudoentidad: `Definir pseudoentidad DisponibilidadProfesional (horasDisponibles, horasMin, horasMax, profesionalCUIT)`.
+
+    ◦ **Variables:** Por cada profesional, calculás sus `horasOcupadas` sumando las horas de los servicios que ya tiene "En progreso" o "Asignados". Luego restás eso a sus horas máximas y guardás el objeto en la pseudoentidad para ordenarlo de mayor a menor (`OrdenarPor(horasDisponibles; mayor a menor)`).
+
+• **Iniciar Proceso de Facturación (El Demonio con 4 niveles)****:**
+
+    ◦ **El truco:** Es automático (Actor: Demonio) y va de mayor a menor jerarquía: **Cliente -> Convenio -> ConvenioTipoServicio -> Servicio**.
+
+    ◦ **Variables:** En cada nivel pone un acumulador a cero: `valorCliente = 0`, `valorConvenio = 0`, `valorTipoServicio = 0`.
+
+    ◦ **La trampa del negocio:** Cuando llega al nivel de los Servicios, suma las `horasEfectuadas`. Ojo con esta validación: **SI** las `totalHorasEfectuadas` son menores a las `horasMinimasPorServicio`, se le cobra la `tarifaFija` de ese servicio; sino, se multiplica por la `tarifaPorHora`.
+
+2. Los de Comunicación con el Exterior (APIs)
+
+Acá la clave no es la lógica matemática, sino cómo se invoca a los sistemas externos.
+
+• **Gestionar Proceso de Facturación (Enviar / Reenviar / Anular)****:**
+
+    ◦ **El truco de Enviar/Reenviar:** Interactúa con AFIP/ARCA y un servidor de Mail. Tenés que usar un bucle `MIENTRAS` para controlar los reintentos si falla la conexión: `MIENTRAS [contadorFallos != 0 && contadorIntentos < 3]`.
+
+    ◦ **Sintaxis de invocación:** `Invocar servicio “Generar factura electrónica” del Sistema ARCA...` y `Invocar servicio "Enviar mail" Servidor Mail`.
+
+    ◦ **El truco de Anular:** Llama a la API de ARCA para “Generar nota de crédito” y cambia en cascada los estados de todos los convenios y servicios afectados.
+
+3. Los del Día a Día (Acumuladores y Contadores simples)
+
+Estos son fáciles pero rigurosos con los cambios de estado:
+
+• **Registrar Tarea****:**
+
+    ◦ **El truco:** Necesita asignarle un número a la tarea.
+
+    ◦ **Variables:** Pone `cantidadTareas = 0`. Hace un `Por cada` tarea que ya tiene el servicio y suma `cantidadTareas++`. Al crear la nueva tarea, le pone como número: `[cantidadTareas + 1]`.
+
+    ◦ **La trampa de Estado:** Si el servicio estaba en estado "Asignado" (es decir, esta es la primera tarea), el sistema lo debe cambiar obligatoriamente a "En progreso", creando una nueva instancia de `ServicioEstado`.
+
+• **Entregar Servicio****:**
+
+    ◦ **El truco:** Totalizar el tiempo trabajado.
+
+    ◦ **Variables:** Pone `horasEfectuadas = 0`. Recorre todas las tareas y suma `horasEfectuadas = horasEfectuadas + horasDuracion`. Al finalizar, cambia el estado del servicio a "Terminado".
+
+• **Configurar Tarifas****:**
+
     ◦ **El truco:** Iterar usando un contador "manual". En lugar de usar un "Por cada..." tradicional, este CU hace `cuenta = Contar(TipoServicio)`. Muestra un servicio, pide tarifas, resta `cuenta = cuenta - 1` y hace un `SI cuenta es igual a 0...` para saber si terminó o si usa la primitiva `Ir a paso...` para volver a repetir el bucle.

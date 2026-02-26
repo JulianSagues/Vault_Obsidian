@@ -91,4 +91,18 @@ registrar tarea
 - comprobamos profesional instanciado
 - buscamos sevicios del profesional y en alguno de los estados
 - leemos lo importante y lo mostramos
-- 
+- solicitamos que seleccione servicio
+- cantidad tareas = 0
+- leemos la instancia de tarea relacionadas
+- por cada tarea
+	- canttidad de taareas ++
+	- leemos sus datos y lo mostramos
+- solicitamos datos tareas
+- comprobamos datos
+- creamos la instancia de tare con los datos ingresados y numero igual cantidad de tareas + 1
+- modificar servicio para agregar relacion
+- leemos estado servicio y su nombre
+- si el nombre es asignado cambiamos el estado a en progreso y creamos servicio estado
+- preguntar si quiere agregar otra tarea
+
+---

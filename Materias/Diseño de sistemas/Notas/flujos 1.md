@@ -106,3 +106,24 @@ registrar tarea
 - preguntar si quiere agregar otra tarea
 
 ---
+aceptar convenio
+- comprobamos que sea socio responsable
+- pedimos el numero de convenio
+- buscamos estados de convenio registrados, aceptados, firmados y en progreso
+- buscamos el convenio ingresado en estado registrado
+- leemos año mes fin y año mes inicio
+- añomesiteracion = año mes inicio
+- mientras el año mes iteracion sea menor a año mes fin}
+	- leemos instancias de convenio tipo servicio
+	- por cada instancia
+		- leemos horas min por servicio
+		- leemos tipo servicio
+		- buscamos intancias de profesional tipo servicio que año mes iteracion este entre sus fechas y relacionada al tipo de servicio
+		- por cada instancia
+			- buscamos instancia de profesional relacionada
+			- si no se encontro seguimos con la siguiente
+			- leemos sus horas max
+			- horas disponibles consultoria = horas disponibles consultorias + horas max
+		- buscamos instancia de convenio con año mes iteracion entre sus fechas y en estado acpetado, firmado o en progreso
+		- por cada convenio
+			- leemos instancia convenio tipo servicio

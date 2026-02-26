@@ -141,4 +141,16 @@ solicitar servicio
 - buscamos convenio del cliente firmado
 - por cada convenio leemos sus datos y los mostramos
 - solicitamos seleccion
-- leemos insta
+- leemos convenio tipo servicio
+- por cada instancia leemos instancia de tipo servicio, sus datos y los mostramos
+- solicitamos seleccion de servicio
+- solicitamos horas estimadas
+- buscamos estados servicio asignado, en progreso, terminado y aprobado
+- buscamos profesionales
+- por cada profesional
+	- leemos instancia de cts
+		- por cada instancia 
+			- leemos hora desde, hasta y tipo servicio
+			- si hora desde es menor a actual, hora hasta es mayor a actual y tipo servicio leido es igual al seleccionado
+				- agregar profesional a lista de profesional
+			- 

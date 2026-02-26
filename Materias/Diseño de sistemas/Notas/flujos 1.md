@@ -89,4 +89,6 @@ registrar tarea
 
 - buscamos los estados en progreso y asignado
 - comprobamos profesional instanciado
-- buscamos sevicio 
+- buscamos sevicios del profesional y en alguno de los estados
+- leemos lo importante y lo mostramos
+- 

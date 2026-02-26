@@ -158,4 +158,22 @@ solicitar servicio
 	- leemos cuit, horas max, horas min
 	- creamos instancia disponibiliadd con los datos ledios y hora disponibles igual a horas max
 	- horas ocupadas =  0
-	- 
+	- buscamos servicios en proceso y asignados del consultor del año actual
+	- por cada servicio
+		- leemos las horas estimadas
+		- horas ocupadas = horas ocupadas + horas estimadas
+	- buscamos servicios terminados y aceptados del año actual
+	- por cada servicio
+		- leemos las horas estimadas
+		- horas ocupadas = horas ocupadas + horas estimadas
+	- modificar la pseuentidad con horas disponebles igual a horas disponibles - horas ocupas
+- ordenar por(horas disponibles, mayor)
+- por cada pseuentidad creada
+	- leer jhoras disponibles
+	- si horas disponibles >horas estimadas
+		- leer profesional cuit
+- buscar profesional cuit con cuit de pseuentidad
+- solicitar descripcion
+- buscamos estado asignado
+- creamos instancia servicio estado
+- creamos instancia de servicio con descripcion ingresado, horas estimadas ingresadas, año mes servicio actual y numero generado

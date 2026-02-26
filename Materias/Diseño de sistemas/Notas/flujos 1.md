@@ -80,7 +80,7 @@ cancelar convenio
 		- por cada servicio
 			- leemos instancias de servicio estado y seleccionamos la que tenga fecha hora hasta vacia y se la completamos con la actual
 			- creamos instancia de serivico estado con fecha desde actual, contador generado y observacion servicio cancelado
-			- modificamos instancia de servicio con relacion a esta y estado cancelado
+			- modificamos instancia de servicio con relación a esta y estado cancelado
 	- si rol usuario cobramos multa
 	- sino no
 

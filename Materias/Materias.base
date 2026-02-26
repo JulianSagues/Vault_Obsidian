@@ -9,6 +9,7 @@ views:
         - file.inFolder("Materias")
         - '!file.path.contains("Notas")'
         - '!file.path.contains("Material")'
+        - file.basename != "Materias"
     order:
       - file.name
     cardSize: 240

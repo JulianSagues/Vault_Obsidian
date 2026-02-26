@@ -149,8 +149,13 @@ solicitar servicio
 - buscamos profesionales
 - por cada profesional
 	- leemos instancia de cts
-		- por cada instancia 
-			- leemos hora desde, hasta y tipo servicio
-			- si hora desde es menor a actual, hora hasta es mayor a actual y tipo servicio leido es igual al seleccionado
-				- agregar profesional a lista de profesional
-			- 
+	- por cada instancia 
+		- leemos hora desde, hasta y tipo servicio
+		- si hora desde es menor a actual, hora hasta es mayor a actual y tipo servicio leido es igual al seleccionado
+			- agregar profesional a lista de profesional
+- definier pseeudoentidad disponibilidad profesional(horas min, horas max, horas disonibles, cuitprofesional)
+- por cada profesional de la lista
+	- leemos cuit, horas max, horas min
+	- creamos instancia disponibiliadd con los datos ledios y hora disponibles igual a horas max
+	- horas ocupadas =  0
+	- 

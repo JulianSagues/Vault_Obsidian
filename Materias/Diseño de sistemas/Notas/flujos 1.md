@@ -126,4 +126,19 @@ aceptar convenio
 			- horas disponibles consultoria = horas disponibles consultorias + horas max
 		- buscamos instancia de convenio con año mes iteracion entre sus fechas y en estado acpetado, firmado o en progreso
 		- por cada convenio
-			- leemos instancia convenio tipo servicio
+			- leemos instancia convenio tipo servicio relacionada al tipo servicio leido antes
+			- leemos sus horas minimas por servicio
+			- horas ocupadas consultora = horas ocupadas consultora + horas minimas por servicio
+		- horas ocupadas consultora = horas ocupadas consultora + horas minimas por servicio de nuestros servicio
+		- comprobamos que horas ocupadas sean menores a las disponibles
+	- año mes iteracion  = adelantar mes(año mes iteracion)
+- modificamos instancia de convenio a aceptado
+
+---
+solicitar servicio
+- buscamos estados convenio en progreso y firmado
+- comprobamos que el cliente este instanciado
+- buscamos convenio del cliente firmado
+- por cada convenio leemos sus datos y los mostramos
+- solicitamos seleccion
+- leemos insta

@@ -88,4 +88,5 @@ cancelar convenio
 registrar tarea
 
 - buscamos los estados en progreso y asignado
-- 
+- comprobamos profesional instanciado
+- buscamos sevicio 

@@ -1,0 +1,85 @@
+
+---
+iniciar proceso de facturacion
+
+- buscamos los estados que se pueden facturar del comvenio, el estado arpobado y el estado facturado de servicio y el pendiente de cliente
+- buscamos la configuracion actual para leer el monto de la multa
+- buscamos los clientes dados de baja
+- por cada cliente
+	- declaramos una variable llamada valorcliente = 0
+	- buscamos los convenios que no esten cancelados y que su fecha fin sea mayor a la actual
+	- buscamos los convenios cancelados 
+	- si no encontramos seguimos con el sigueinte
+	- por cada convenio
+		- declaramos valor convenio = 0 y cant mese = 0
+		- leemos su año mes fin y convenio tipo servicio
+		- por cada convenio tipo servicio
+			- valor tipo servicio = 0
+			- leemos tipo servicio y tarifa servicio
+			- leemos tarifa fija y por hora
+			- buscamos servicios en los estados buscados y que su año mes servicio sea el mes anterior
+			- total horas efectuadas = 0
+			- por cada servbicio
+				- leemos las horas efectuadas
+				- total horas efectuadas = total horas efectuadas + horas efectuadas
+				- valor servicio = total horas efectuadas * tarifa por hora
+				- creamos intancia de proceso ffaturacion servicio con monto servicio igual a valor servicio
+				- valor tipo servicio = valor tipo servicio + valor servicio
+			- leemos las horas minimas por servicio
+			- si las horas minimas son mayores a las efectuadas valor tipo servicio igual a tarifa fija
+			- leemos el tipo servicio relacionado y creamos instancia de proceso facturacion de convneio tipo servicio con monto tipo servicio igual a valor tipo servicio
+			- valor convenio = valor conveniio + valor tipo servicio
+		- leemos estado de convenio, cobrar multa y su nombre
+		- si es cancelado y  es verdadero
+			- leemos fecha cancelacion
+			- cantmeses = calcularcantidadmeses(fecha hora cancelacion, aañomes fin)
+			- valor multa = cant meses * monto multa por mes
+			- valor convenio = valor convenio + valor multa
+		- sino valor multa = 0
+		- creamos instancia de proceso facturacion convenio con monto convenio igual valor convenio y monto multa igual a valor multa
+		- valor cliente = valor cliente + valor convenio
+	- creamos instancia de pf cliente con numero factura cliente igual al generado, fecha hora facturacion igual a la actual monto sin iva a valor cliente, todo lo demas vacio y queda pendiente
+- buscamos estado simulado
+- creamos proceso facturacion con fechaHoraProceso facturacion igual a la actual, numero igual al generado, año mes facturacion igual anterior, lo demas vacio
+
+---
+entregar servicio
+- buscamos estado en progreso servicio
+- profesional instanciado
+- buscamos servicios en progreso y del profesional
+- por cada servicio leemos su descripcion su numero y las horas estimadas y las mostramos
+- solicitamos seleccion
+- solicitamos oservaciones
+- leemos tareas del servicio
+- can horas efectuadas = 0
+- por cada tarea leemos sus horas duracion y sumamos a las horas efectuadas
+- buscamos el estado terminado
+- buscamos la instancia de estado servicio que no tenga fecha hasta
+- le ponemos fecha hasta actual
+- creamos instancia de servicio estado con la fecha desde actual contador generado y observaciones servicio terminado
+- modificamos instancia de servicio con las horas efectuadas calculadas 
+- confirmamos entrega
+
+---
+cancelar convenio
+- comprobamos que sea socio responsable
+- solicitamos rol del cancelador
+- ingresamos numero convenio
+- buscamos estado convenio cancelado y servicio cancelado
+- comprobamos que el convenio sea aceptado leyendolo
+- modificamos convenio con fecha cancalacion actual y cobrar multa falso
+- si estado es firmado
+	- si rol cliente modificamos para cobrar verdadero
+	- si consultora cobrar multa falso
+- si en progreso
+	- leemos instasncias convenio tipo servicio
+	- buscamos estado servicio en progreso y terminados
+	- por cada convenio tipo servicio buscamos servicios que esten en estos estados, de ser asi no se puede cancelar
+	- buscamos estados asignado de servicio
+	- por cada convenio tipo servicio buscamos servicios asignados
+		- por cada servicio
+			- leemos instancias de servicio estado y seleccionamos la que tenga fecha hora hasta vacia y se la completamos con la actual
+			- creamos instancia de serivico estado con fecha desde actual, contador generado y observacion servicio cancelado
+			- modificamos instancia de servicio con relacion a esta y estado cancelado
+	- si rol usuario cobramos multa
+	- sino no

@@ -87,4 +87,5 @@ cancelar convenio
 ---
 registrar tarea
 
+- buscamos los estados en progreso y asignado
 - 

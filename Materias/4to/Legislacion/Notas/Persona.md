@@ -18,13 +18,13 @@
 - Atributos de la personalidad:
 	- capacidad: es la aptitud de la persona para adquirir derecho y contraer obligaciones
 		- capacidad de derecho: aptitud para ser titular
+			- Personas incapaces de derechos: imposibilidad de una persona para ser titular de ciertos derechos o para realizar ciertos actos
+				- no se trata de una incapacidad general sino que afecta a actos específicos
+				- ejemplo: prohibición de los padres de contratar a hijos menores o la imposibilidad del curador de adquirir bienes de su pupilos, los cónyuges no pueden celebrar contrato de compraventa entre si, un menor no puede votas
 		- capacidad de hecho: aptitud para ejercer
+			- Personas incapaces de hecho:
+				- personas por nacer
+				- personas que no cuentan con edad y grado de madurez suficiente
+				- persona declarada incapaz por sentencia judicial
 	- nombre
 	- domicilio
-- Personas incapaces de derechos: imposibilidad de una persona para ser titular de ciertos derechos o para realizar ciertos actos
-	- no se trata de una incapacidad general sino que afecta a actos específicos
-	- ejemplo: prohibición de los padres de contratar a hijos menores o la imposibilidad del curador de adquirir bienes de su pupilos, los cónyuges no pueden celebrar contrato de compraventa entre si, un menor no puede votas
-- Personas incapaces de hecho:
-	- personas por nacer
-	- personas que no cuentan con edad y grado de madurez suficiente
-	- persona declarada incapaz por sentencia judicial

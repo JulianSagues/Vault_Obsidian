@@ -16,14 +16,14 @@
 	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
 	- Derecho objetivo: es el derecho existente pero no vigente
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
-		- Absoluto: 
-		- Relativo:
+		- Absoluto: derechos de dominio. Sobre derecho de una propiedad
+		- Relativo:  Son los derechos personales, poder estudiar ya que es un derecho. Derecho a dar clases. Comerciar, poder estar en el territorio  argentino.
 - Ramas del derecho:
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
-		- Constitucional: referido a la constitucion
-		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo
-		- Penal: es el imposición por lo ilicito
-		- Procesal civil y penal: 
+		- Constitucional: referido a la constitucion.  Constitución nacional. Es absoluta se debe respetar siempre, es lo que el humano no debe violar y forma la jerarquia de las demas.
+		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
+		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
+		- Procesal civil y penal:  
 		- internacional: rige las relaciones entre paises/estados
 			- publico: regula la situacion entre estados
 			- privado: regula la situacion entre personas

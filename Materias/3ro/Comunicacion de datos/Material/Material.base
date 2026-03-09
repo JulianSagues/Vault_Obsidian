@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/3ro/Comunicacion de datos/Material")
+        - file.basename != "Material"

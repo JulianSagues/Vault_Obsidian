@@ -1,0 +1,17 @@
+
+- Leyes de la naturaleza: aquellas que no pueden ser modificadas
+- leyes de la culturas:
+	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. SOn verdaderas leyes que no se imponen a la conducta
+	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
+		- Normas Religiciosas: son de heteronomas, obligatorias y de adhesion interna. El castigo se da despues de la muerte
+		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
+		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesion interna, varian en lugar y tiempo
+		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna
+		- los elementos de la norma son:  coercion, coaccion y sancion
+- Clasificacion del derecho:
+	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida
+	- Derecho Positivo: es el derecho vigente 
+	- Derecho objetivo: es el derecho existente
+	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
+		- Absoluto
+		- Relativo

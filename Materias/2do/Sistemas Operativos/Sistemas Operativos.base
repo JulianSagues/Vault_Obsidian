@@ -1,0 +1,13 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - and:
+            - file.inFolder("Materias/2do/Sistemas Operativos")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"
+    order:
+      - file.name
+    sort: []

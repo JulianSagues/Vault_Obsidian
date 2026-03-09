@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Materias/2do")
+        - file.ext == "base"
+        - '!file.path.contains("Material")'
+        - '!file.path.contains("Notas")'
+        - file.basename != "2do"

@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - and:
+            - file.inFolder("Materias/4to/Simulacion")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"

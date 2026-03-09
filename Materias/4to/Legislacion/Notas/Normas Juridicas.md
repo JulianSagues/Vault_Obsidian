@@ -1,7 +1,6 @@
 
 - ¿Que es una norma? Es una regla que se debe seguir. Ejemplo: No manejar borracho.
 - Leyes de la naturaleza: aquellas que no pueden ser modificadas
-
 - leyes de la culturas:
 	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:

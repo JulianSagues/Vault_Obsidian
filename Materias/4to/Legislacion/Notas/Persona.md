@@ -1,4 +1,4 @@
 - Tipos:
 	-  Humanas
 	- Juridicas: son las empresas
-- 
+- Relacion juridica: es el viculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otras un determinado comportamiento, por ejemplo el matrimonio

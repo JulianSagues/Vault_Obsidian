@@ -9,9 +9,9 @@
 		-  Humanas
 		- Jurídicas: son las empresas
 - Persona humana: es todo ente con signos característicos de humanidad sin distinción de cualidades o accidentes
-	- clasificacion:
-		- persona por nacer: comienzo de la existencia desde la concepcion(natural o asistida)
-			- adquisicion de derechos definitivo supeditiva al nacimiento con vida
+	- clasificación:
+		- persona por nacer: comienzo de la existencia desde la concepción (natural o asistida)
+			- adquisición de derechos definitivo supeditada al nacimiento con vida
 		- persona propiamente dicha: nacidas con vida y que adquieren derechos de forma definitiva
-			- si una persona no nace con vida se considera que nunca existio
-			- si se duda si nacio con vida o no, se considera con vida
+			- si una persona no nace con vida se considera que nunca existió
+			- si se duda si nació con vida o no, se considera con vida

@@ -1,4 +1,11 @@
-- Tipos:
-	-  Humanas
-	- Juridicas: son las empresas
-- Relacion juridica: es el viculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otras un determinado comportamiento, por ejemplo el matrimonio
+
+- Relación jurídica: es el vinculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otras un determinado comportamiento, por ejemplo el matrimonio
+	- Elementos: 
+		- sujetos: sujeto activo (acreedor) o pasivo (deudor)
+		- objeto: es el contenido del derecho 
+		- causa: hecho o circunstancias que hace nacer el vinculo jurídico
+- Persona: es todo ente susceptible de adquirir derechos y contraer obligaciones
+	- Tipos:
+		-  Humanas
+		- Jurídicas: son las empresas
+- Persona humana: es todo ente con signos caracteristicos de humanidad sin distincion de cualidades o accidentes

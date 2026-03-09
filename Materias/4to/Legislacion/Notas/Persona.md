@@ -61,3 +61,6 @@
 				- se declara su muerte presunta
 			- ausencia con presunción de fallecimiento ( segunda etapa)
 				- 3 años desde el día que se tuvo la ultima noticia
+
+---
+Fotos:

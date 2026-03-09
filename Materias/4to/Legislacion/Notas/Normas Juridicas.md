@@ -2,9 +2,9 @@
 - ¿Que es una norma? Es una regla que se debe seguir. Ejemplo: No manejar borracho.
 - Leyes de la naturaleza: aquellas que no pueden ser modificadas
 - leyes de la culturas:
-	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. SOn verdaderas leyes que no se imponen a la conducta
+	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
-		- Normas Religiciosas: son de heteronomas, obligatorias y de adhesion interna. El castigo se da despues de la muerte
+		- Normas Religiciosas: son de heteronomas, obligatorias y de adhesion interna. El castigo se da despues de la muerte.
 		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
 		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesion interna, varian en lugar y tiempo
 		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna

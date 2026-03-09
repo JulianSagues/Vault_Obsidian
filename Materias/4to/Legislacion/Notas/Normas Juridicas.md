@@ -1,6 +1,7 @@
 
 - ¿Que es una norma? Es una regla que se debe seguir. Ejemplo: No manejar borracho.
 - Leyes de la naturaleza: aquellas que no pueden ser modificadas
+
 - leyes de la culturas:
 	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
@@ -9,13 +10,14 @@
 		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesion interna, varian en lugar y tiempo
 		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna. Me las impone el estado, por ejemplo matar a una persona conlleva varios años de prisión.
 		- los elementos de la norma son:  coercion, coaccion y sancion
-- Clasificacion del derecho:
-	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida
-	- Derecho Positivo: es el derecho vigente 
-	- Derecho objetivo: es el derecho existente
+- Clasificacion del derecho: 
+	-  Definición: Son un conjunto de reglas que deben seguir los humanos haciendo enfasis en la justicia.
+	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida.
+	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
+	- Derecho objetivo: es el derecho existente pero no vigente
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
-		- Absoluto
-		- Relativo
+		- Absoluto: 
+		- Relativo:
 - Ramas del derecho:
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
 		- Constitucional: referido a la constitucion

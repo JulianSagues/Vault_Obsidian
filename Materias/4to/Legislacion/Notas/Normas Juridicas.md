@@ -22,8 +22,8 @@
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
 		- Constitucional: referido a la constitucion.  Constitución nacional. Es absoluta se debe respetar siempre, es lo que el humano no debe violar y forma la jerarquia de las demas.
 		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
-		- Penal: es el imposición por lo ilicito
-		- Procesal civil y penal: 
+		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
+		- Procesal civil y penal:  
 		- internacional: rige las relaciones entre paises/estados
 			- publico: regula la situacion entre estados
 			- privado: regula la situacion entre personas

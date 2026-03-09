@@ -4,31 +4,31 @@
 - leyes de la culturas:
 	- SER: son el hacer, es decir, hacer medicina, ingeniería, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
-		- Normas Religiosas: son de heteronomas, obligatorias y de adhesión interna. El castigo se da despues de la muerte.
-		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
-		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesión interna, varian en lugar y tiempo
-		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna. Me las impone el estado, por ejemplo matar a una persona conlleva varios años de prisión.
+		- Normas Religiosas: son de heteronomas, obligatorias y de adhesión interna. El castigo se da después de la muerte.
+		- Nomas Morales: son acerca de la perfección de si misma, son universales son inmutables, autónomas, su sanción es personal (interna) como sentirse mal
+		- Normas sociales: son reglas de la conducta que no están escritas, no requieren adhesión interna, varían en lugar y tiempo
+		- Normas Jurídicas: son para ambos lado (bilaterales), obligatorias normativas, heteronomas, no requieren adhesión(son obligatorias cumplirlas), interna. Me las impone el estado, por ejemplo matar a una persona conlleva varios años de prisión.
 		- los elementos de la norma son:  coercion, coacción y sanción
 - Clasificación del derecho: 
 	-  Definición: Son un conjunto de reglas que deben seguir los humanos haciendo énfasis en la justicia.
-	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida.
-	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
+	- Derecho natural: viene de la naturaleza humana y se conoce por al razón universal inmutable, por ejemplo, derecho a la vida.
+	- Derecho Positivo: es el derecho vigente. El conjunto de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
 	- Derecho objetivo: es el derecho existente pero no vigente
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
 		- Absoluto: derechos de dominio. Sobre derecho de una propiedad
 		- Relativo:  Son los derechos personales, poder estudiar ya que es un derecho. Derecho a dar clases. Comerciar, poder estar en el territorio  argentino.
 - Ramas del derecho:
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
-		- Constitucional: referido a la constitucion.  Constitución nacional. Es absoluta se debe respetar siempre, es lo que el humano no debe violar y forma la jerarquia de las demas.
-		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
-		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
+		- Constitucional: referido a la constitución.  Constitución nacional. Es absoluta se debe respetar siempre, es lo que el humano no debe violar y forma la jerarquía de las demás.
+		- Administrativo: relación con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
+		- Penal: es el imposición por lo ilícito. Es la que castiga lo ilícito.
 		- Procesal civil y penal:  
 		- internacional: rige las relaciones entre países/estados
 			- publico: regula la situación entre estados
 			- privado: regula la situación entre personas
-		- internacional: rige las relaciones entre paises/estados
-			- publico: regula la situacion entre estados. Las malvinas, situaciones entre dos gobiernos de dos paises.
-			- privado: regula la situacion entre personas. Regula las situaciones entre distintos paises. Dos sujetos de distintos paises chocan.
+		- internacional: rige las relaciones entre países/estados
+			- publico: regula la situación entre estados. Las Malvinas, situaciones entre dos gobiernos de dos países.
+			- privado: regula la situación entre personas. Regula las situaciones entre distintos países. Dos sujetos de distintos países chocan.
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 
@@ -49,6 +49,6 @@
 	- Derecho a la imagen:
 		- La persona es inviolable y tiene derecho al reconocimiento y respeto a la dignidad. se afecta la dignidad por:
 			- Lesiones a su intimidad personal o familiar
-			- Honor o reputacion
+			- Honor o reputación
 			- imagen o identidad
 			- menoscabo a su dignidad personal

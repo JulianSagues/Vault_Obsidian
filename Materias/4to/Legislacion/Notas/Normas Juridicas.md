@@ -23,9 +23,15 @@
 		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
 		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
 		- Procesal civil y penal:  
+<<<<<<< Updated upstream
 		- internacional: rige las relaciones entre países/estados
 			- publico: regula la situación entre estados
 			- privado: regula la situación entre personas
+=======
+		- internacional: rige las relaciones entre paises/estados
+			- publico: regula la situacion entre estados. Las malvinas, situaciones entre dos gobiernos de dos paises.
+			- privado: regula la situacion entre personas. Regula las situaciones entre distintos paises. Dos sujetos de distintos paises chocan.
+>>>>>>> Stashed changes
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 

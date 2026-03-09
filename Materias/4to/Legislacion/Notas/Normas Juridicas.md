@@ -32,14 +32,14 @@
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 
-		- Trabajo:
+		- Trabajo: un trabajador en una empresa con un contrato de trabajo. Pie de igual-> estan en el mismo escalon
 		- Rural:
 - Clasificación de los derechos civiles:
 	- Extrapatrimoniales: derechos que están fuera del patrimonio
 		- Derechos de la personalidad (nombre, domicilio, vida)
 		- Derechos de la familiar (conyugales, asistencia)
 	- Patrimoniales
-		- Reales: poder jurídico que tengo sobre algo, ser propietario de algo
+		- Reales: poder jurídico que tengo sobre algo, ser propietario de algo. poder juridico sobre mi celular, mochila, casa. Derecho sobre propiedad.
 		- Creditorios: derecho que tengo que sobre pedir algún tema económico. LO componen sujeto activo acreedor (el que reclama), sujeto pasivo deudor (el que debe), la prestación (la cosa)
 		- Intelectuales:  las patentes, las licencias, patentar cosas, se refiere a los derechos de autor
 - Clasificación de los derechos civiles según el código civil y comercial de la nación (CCCN) (Derechos personalismos)

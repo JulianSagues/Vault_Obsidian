@@ -1,0 +1,4 @@
+- Tipos:
+	-  Humanas
+	- Juridicas: son las empresas
+- 

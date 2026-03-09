@@ -2,3 +2,7 @@
 	-  Humanas
 	- Juridicas: son las empresas
 - Relacion juridica: es el viculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otras un determinado comportamiento, por ejemplo el matrimonio
+	- Elementos: 
+		- sujetos: sujeto activo (acreedor) o pasivo (deudor)
+		- objeto: es el contenido del derecho 
+		- causa: hecho o circuntstancias que hace nacer el vinculo juridico

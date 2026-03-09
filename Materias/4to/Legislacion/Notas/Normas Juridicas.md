@@ -16,8 +16,8 @@
 	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
 	- Derecho objetivo: es el derecho existente pero no vigente
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
-		- Absoluto
-		- Relativo
+		- Absoluto: 
+		- Relativo:
 - Ramas del derecho:
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
 		- Constitucional: referido a la constitucion

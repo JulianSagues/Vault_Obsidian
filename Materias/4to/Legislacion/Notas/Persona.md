@@ -41,7 +41,7 @@
 		- cambio de nombre:
 			- el cambio de nombre solo procede si existe motivos justos
 				- seudónimo: una persona ha usado un nombre diferente al registrado durante mucho tiempo
-				- afectación de la personalidad: el nombre causa un daño psicologico o emocional a la persona
+				- afectación de la personalidad: el nombre causa un daño psicológico o emocional a la persona
 				- violencia: personas que han sido victimas de violencia o necesitan escapar de situaciones  peligrosos
 				- cambio de genero:
 				- motivos culturales o religiosos

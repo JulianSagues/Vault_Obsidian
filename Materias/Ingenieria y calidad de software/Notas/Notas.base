@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Materias/Ingenieria y calidad de software/Notas")
+        - file.basename != "Notas"

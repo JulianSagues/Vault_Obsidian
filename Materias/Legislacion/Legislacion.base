@@ -1,3 +1,10 @@
 views:
-  - type: table
+  - type: cards
     name: Table
+    filters:
+      and:
+        - and:
+            - file.inFolder("Materias/Legislacion")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"

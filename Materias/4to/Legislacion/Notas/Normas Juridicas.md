@@ -4,9 +4,9 @@
 - leyes de la culturas:
 	- SER: son el hacer, es decir, hacer medicina, ingeniería, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
-		- Normas Religiciosas: son de heteronomas, obligatorias y de adhesion interna. El castigo se da despues de la muerte.
+		- Normas Religiosas: son de heteronomas, obligatorias y de adhesión interna. El castigo se da despues de la muerte.
 		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
-		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesion interna, varian en lugar y tiempo
+		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesión interna, varian en lugar y tiempo
 		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna. Me las impone el estado, por ejemplo matar a una persona conlleva varios años de prisión.
 		- los elementos de la norma son:  coercion, coaccion y sancion
 - Clasificacion del derecho: 
@@ -23,15 +23,12 @@
 		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
 		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
 		- Procesal civil y penal:  
-<<<<<<< Updated upstream
 		- internacional: rige las relaciones entre países/estados
 			- publico: regula la situación entre estados
 			- privado: regula la situación entre personas
-=======
 		- internacional: rige las relaciones entre paises/estados
 			- publico: regula la situacion entre estados. Las malvinas, situaciones entre dos gobiernos de dos paises.
 			- privado: regula la situacion entre personas. Regula las situaciones entre distintos paises. Dos sujetos de distintos paises chocan.
->>>>>>> Stashed changes
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 

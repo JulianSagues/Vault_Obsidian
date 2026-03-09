@@ -15,3 +15,7 @@
 		- persona propiamente dicha: nacidas con vida y que adquieren derechos de forma definitiva
 			- si una persona no nace con vida se considera que nunca existió
 			- si se duda si nació con vida o no, se considera con vida
+- Atributos de la personalidad:
+	- capacidad
+	- nombre
+	- domicilio

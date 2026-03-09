@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDice4",
+      "LiDice3",
+      "LiDice2",
       "LiAirplay",
-      "LiArchive",
-      "LiCheckSquare",
-      "LiSearch",
-      "LiShieldCheck"
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -97,5 +97,17 @@
   "Materias/4to/Simulacion": {
     "iconName": "LiAirplay",
     "iconColor": "#09ec95"
+  },
+  "Materias/2do": {
+    "iconName": "LiDice2",
+    "iconColor": "#00fffb"
+  },
+  "Materias/3ro": {
+    "iconName": "LiDice3",
+    "iconColor": "#ff0000"
+  },
+  "Materias/4to": {
+    "iconName": "LiDice4",
+    "iconColor": "#fbff00"
   }
 }

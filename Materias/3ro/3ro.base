@@ -1,3 +1,10 @@
 views:
-  - type: table
+  - type: cards
     name: Table
+    filters:
+      and:
+        - file.inFolder("Materias/3ro")
+        - file.ext == "base"
+        - '!file.path.contains("Material")'
+        - '!file.path.contains("Notas")'
+        - file.basename != "3ro"

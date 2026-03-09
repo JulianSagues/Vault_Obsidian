@@ -26,4 +26,5 @@
 	- ejemplo: prohibición de los padres de contratar a hijos menores o la imposibilidad del curador de adquirir bienes de su pupilos, los cónyuges no pueden celebrar contrato de compraventa entre si, un menor no puede votas
 - Personas incapaces de hecho:
 	- personas por nacer
-	- personas que no cuentann
+	- personas que no cuentan con edad y grado de madurez suficiente
+	- persona declarada incapaz por sentencia judicial

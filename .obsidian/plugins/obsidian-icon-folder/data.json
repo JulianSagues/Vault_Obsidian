@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPen",
-      "LiPaperclip",
-      "LiBook",
-      "LiFolderCode",
-      "LiCodeblockGlyph"
+      "LiAirplay",
+      "LiArchive",
+      "LiCheckSquare",
+      "LiSearch",
+      "LiShieldCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -77,5 +77,25 @@
   "Materias/Analisis numerico": {
     "iconName": "LiFunctionSquare",
     "iconColor": "#a82de1"
+  },
+  "Materias/Administracion de sistemas": {
+    "iconName": "LiShieldCheck",
+    "iconColor": "#ce3636"
+  },
+  "Materias/Ingenieria y calidad de software": {
+    "iconName": "LiCheckSquare",
+    "iconColor": "#0864f7"
+  },
+  "Materias/Investigacion operativa": {
+    "iconName": "LiSearch",
+    "iconColor": "#ffea00"
+  },
+  "Materias/Legislacion": {
+    "iconName": "LiArchive",
+    "iconColor": "#8f460a"
+  },
+  "Materias/Simulacion": {
+    "iconName": "LiAirplay",
+    "iconColor": "#09ec95"
   }
 }

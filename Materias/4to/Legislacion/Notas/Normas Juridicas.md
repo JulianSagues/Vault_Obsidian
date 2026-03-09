@@ -1,6 +1,4 @@
-¿Que es una norma?
-Es una regla que se debe seguir
-Ejemplo: No manejar borracho.
+- ¿Que es una norma? Es una regla que se debe seguir. Ejemplo: No manejar borracho.
 - Leyes de la naturaleza: aquellas que no pueden ser modificadas
 - leyes de la culturas:
 	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. SOn verdaderas leyes que no se imponen a la conducta

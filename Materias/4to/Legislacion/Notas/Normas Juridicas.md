@@ -14,7 +14,7 @@
 	-  Definición: Son un conjunto de reglas que deben seguir los humanos haciendo enfasis en la justicia.
 	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida.
 	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
-	- Derecho objetivo: es el derecho existente
+	- Derecho objetivo: es el derecho existente pero no vigente
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
 		- Absoluto
 		- Relativo

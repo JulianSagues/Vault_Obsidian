@@ -10,6 +10,10 @@ views:
         - '!file.path.contains("Notas")'
         - '!file.path.contains("Material")'
         - file.basename != "Materias"
+        - or:
+            - file.basename == "2do"
+            - file.basename == "3ro"
+            - file.basename == "4to"
     order:
       - file.name
     cardSize: 240

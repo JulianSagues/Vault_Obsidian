@@ -1,7 +1,0 @@
-views:
-  - type: cards
-    name: Table
-    filters:
-      and:
-        - file.inFolder("Materias/Investigacion operativa/Notas")
-        - file.basename != "Notas"

@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - and:
+            - file.inFolder("Materias/3ro/Diseño de sistemas/Material")
+            - or:
+                - file.basename.startsWith("TP")
+                - '!file.path.contains("TP")'
+            - file.basename != "Material"

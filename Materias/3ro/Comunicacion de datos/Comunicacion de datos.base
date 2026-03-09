@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - and:
+            - file.inFolder("Materias/3ro/Comunicacion de datos")
+            - or:
+                - file.basename == "Material"
+                - file.basename == "Notas"

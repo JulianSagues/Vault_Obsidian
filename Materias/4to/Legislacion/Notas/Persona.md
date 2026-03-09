@@ -27,14 +27,36 @@
 				- personas que no cuentan con edad y grado de madurez suficiente
 				- persona declarada incapaz por sentencia judicial
 		- Ejercicio de los derechos por los menores de edad
-			- mayoria de edad: 18 años
-			- principio de autonomia progresiva: derecho del menor para el ejercicio de algunos derechos y reuzacion de ciertos  actos de acuerdo a su grado de madurez y discernimiento
+			- mayoría de edad: 18 años
+			- principio de autonomía progresiva: derecho del menor para el ejercicio de algunos derechos y reuzacion de ciertos  actos de acuerdo a su grado de madurez y discernimiento
 		- personas con capacidad restringida o incapacidad
-			- el juez puede  restrigir la capacidad de la persona en caso de padecer adicciones o una alteracion mental cuando de ello puede derivar un daño a la persona o bienes
+			- el juez puede  restringir la capacidad de la persona en caso de padecer adicciones o una alteración mental cuando de ello puede derivar un daño a la persona o bienes
 	- nombre:
 		- prenombre
-			- corresponde a la eleccion de sus padres, otra persona en ausencia de ellos
+			- corresponde a la elección de sus padres, otra persona en ausencia de ellos
 			- no pueden inscribirse mas de tres prenombres, apellidos como prenombres o inscribirse nombres extravagantes
-			- pueden inscribirse nombres aborigens o derivados
+			- pueden inscribirse nombres aborígenes o derivados
 		- apellido
-			- hijo matrimonil, debe llevar el apellido  de uno de los padres
+			- hijo matrimonial, debe llevar el apellido  de uno de los padres
+		- cambio de nombre:
+			- el cambio de nombre solo procede si existe motivos justos
+				- seudónimo: una persona ha usado un nombre diferente al registrado durante mucho tiempo
+				- afectación de la personalidad: el nombre causa un daño psicologico o emocional a la persona
+				- violencia: personas que han sido victimas de violencia o necesitan escapar de situaciones  peligrosos
+				- cambio de genero:
+				- motivos culturales o religiosos
+				- haber sido victima de desaparición forzada o apropiación ilegal
+	- domicilio:
+		- domicilio real: residencia habitual (voluntario, mutable e inviolable)
+		- domicilio legal: solo establecidos por la ley (funcionario públicos, militares, de ejercicio ambulante)
+		- domicilio convencional:
+- Fin de la existencia
+	- regla: muerte
+	- excepción: ausencia con presunción de fallecimiento
+		- etapas
+			- simple ausencia (primera etapa) hasta que
+				- aparece la persona
+				- se prueba su muerte
+				- se declara su muerte presunta
+			- ausencia con presunción de fallecimiento ( segunda etapa)
+				- 3 años desde el día que se tuvo la ultima noticia

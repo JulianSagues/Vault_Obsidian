@@ -17,4 +17,23 @@
 		- Relativo
 - Ramas del derecho:
 	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
-	- Privado
+		- Constitucional: referido a la constitucion
+		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo
+		- Penal: es el imposición por lo ilicito
+		- Procesal civil y penal: 
+		- internacional: rige las relaciones entre paises/estados
+			- publico: regula la situacion entre estados
+			- privado: regula la situacion entre personas
+	- Privado:
+		- Civil:
+		- Comercial:
+		- Trabajo:
+		- Rural:
+- Clasificacion de los derechos civiles:
+	- Extrapatrimoniales: derechos que estan fuera del patrimonio
+		- Derechos de la personalidad (nombre, domicilio, vida)
+		- Derechos de la familiar (conyugales, asistencia)
+	- Patrimoniales
+		- Reales: poder juridico que tengo sobre algo, ser propietario de algo
+		- Creditorios: derecho que tengo que sobre pedir algun tema economico
+		- Intelectuales: son 

@@ -6,3 +6,4 @@
 		- sujetos: sujeto activo (acreedor) o pasivo (deudor)
 		- objeto: es el contenido del derecho 
 		- causa: hecho o circunstancias que hace nacer el vinculo jurídico
+- Persona: es todo ente suceptible de aquirir der

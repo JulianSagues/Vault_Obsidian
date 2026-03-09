@@ -8,9 +8,9 @@
 		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
 		- Normas sociales: son reglas de la conducta que no estan escritas, no requieren adhesión interna, varian en lugar y tiempo
 		- Normas Juridicas: son para ambos lado (bilaterales), obligatorias normativas,heteronomas, no requieren adhesion(son obligatorias cumplirlas), interna. Me las impone el estado, por ejemplo matar a una persona conlleva varios años de prisión.
-		- los elementos de la norma son:  coercion, coaccion y sancion
-- Clasificacion del derecho: 
-	-  Definición: Son un conjunto de reglas que deben seguir los humanos haciendo enfasis en la justicia.
+		- los elementos de la norma son:  coercion, coacción y sanción
+- Clasificación del derecho: 
+	-  Definición: Son un conjunto de reglas que deben seguir los humanos haciendo énfasis en la justicia.
 	- Derecho natural: viene de la naturaleza humana y se conoce por al razon universal inmutable, por ejemplo, derecho a la vida.
 	- Derecho Positivo: es el derecho vigente. El conj de leyes vigentes aplicable aquí y ahora, no puede estar derogado y sin efecto. Ej: Reforma laboral y que dejo sin efecto a la ley de trabajo de 1964?
 	- Derecho objetivo: es el derecho existente pero no vigente

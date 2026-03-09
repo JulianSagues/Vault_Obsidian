@@ -16,6 +16,14 @@
 			- si una persona no nace con vida se considera que nunca existió
 			- si se duda si nació con vida o no, se considera con vida
 - Atributos de la personalidad:
-	- capacidad
+	- capacidad: es la aptitud de la persona para adquirir derecho y contraer obligaciones
+		- capacidad de derecho: aptitud para ser titular
+		- capacidad de hecho: aptitud para ejercer
 	- nombre
 	- domicilio
+- Personas incapaces de derechos: imposibilidad de una persona para ser titular de ciertos derechos o para realizar ciertos actos
+	- no se trata de una incapacidad general sino que afecta a actos específicos
+	- ejemplo: prohibición de los padres de contratar a hijos menores o la imposibilidad del curador de adquirir bienes de su pupilos, los cónyuges no pueden celebrar contrato de compraventa entre si, un menor no puede votas
+- Personas incapaces de hecho:
+	- personas por nacer
+	- personas que no cuentann

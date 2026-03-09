@@ -2,7 +2,7 @@
 - ¿Que es una norma? Es una regla que se debe seguir. Ejemplo: No manejar borracho.
 - Leyes de la naturaleza: aquellas que no pueden ser modificadas
 - leyes de la culturas:
-	- SER: son el hacer, es decir, hacer medicina, ingenieria, etc. Son verdaderas leyes que no se imponen a la conducta
+	- SER: son el hacer, es decir, hacer medicina, ingeniería, etc. Son verdaderas leyes que no se imponen a la conducta
 	- DEBE SER: son leyes del obrar. Son normativas, Imputativas. Dentro de ella tenemos las siguientes normas:
 		- Normas Religiciosas: son de heteronomas, obligatorias y de adhesion interna. El castigo se da despues de la muerte.
 		- Nomas Morales: son acerca de la perfeccion de si misma, son universales son inmuntables, autonomas, su sancion es personal (interna) como sentirse mal
@@ -23,26 +23,26 @@
 		- Administrativo: relacion con el estado nacional, como por ejemplo por trabajo. La maneja el estado, por ejemplo el estado contrata a un docente para dar clases.
 		- Penal: es el imposición por lo ilicito. Es la que castiga lo ilicito.
 		- Procesal civil y penal:  
-		- internacional: rige las relaciones entre paises/estados
-			- publico: regula la situacion entre estados
-			- privado: regula la situacion entre personas
+		- internacional: rige las relaciones entre países/estados
+			- publico: regula la situación entre estados
+			- privado: regula la situación entre personas
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 
 		- Trabajo:
 		- Rural:
-- Clasificacion de los derechos civiles:
-	- Extrapatrimoniales: derechos que estan fuera del patrimonio
+- Clasificación de los derechos civiles:
+	- Extrapatrimoniales: derechos que están fuera del patrimonio
 		- Derechos de la personalidad (nombre, domicilio, vida)
 		- Derechos de la familiar (conyugales, asistencia)
 	- Patrimoniales
-		- Reales: poder juridico que tengo sobre algo, ser propietario de algo
-		- Creditorios: derecho que tengo que sobre pedir algun tema economico. LO componen sujeto activo acredor(el que reclama), sujeto pasivo deudor(el que debe), la prestacion(la cosa)
+		- Reales: poder jurídico que tengo sobre algo, ser propietario de algo
+		- Creditorios: derecho que tengo que sobre pedir algún tema económico. LO componen sujeto activo acreedor (el que reclama), sujeto pasivo deudor (el que debe), la prestación (la cosa)
 		- Intelectuales:  las patentes, las licencias, patentar cosas, se refiere a los derechos de autor
-- Clasificion de los derechos civiles segun el codigo civil y comercial de la nacion (CCCN) (Derechos personalisimos)
+- Clasificación de los derechos civiles según el código civil y comercial de la nación (CCCN) (Derechos personalismos)
 	- Derechos de la personalidad: 
 	- Derecho sobre el cuerpo humano: no tienen valor comercial sino afectivo 
-	- Derechos de la comunidades indigenas: 
+	- Derechos de la comunidades indígenas: 
 	- Derecho a la imagen:
 		- La persona es inviolable y tiene derecho al reconocimiento y respeto a la dignidad. se afecta la dignidad por:
 			- Lesiones a su intimidad personal o familiar

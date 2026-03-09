@@ -24,9 +24,9 @@
 		- internacional: rige las relaciones entre paises/estados
 			- publico: regula la situacion entre estados
 			- privado: regula la situacion entre personas
-	- Privado:
-		- Civil:
-		- Comercial:
+	- Privado: se da en un plano de igualdad, no participa el estado
+		- Civil: 
+		- Comercial: 
 		- Trabajo:
 		- Rural:
 - Clasificacion de los derechos civiles:
@@ -35,5 +35,14 @@
 		- Derechos de la familiar (conyugales, asistencia)
 	- Patrimoniales
 		- Reales: poder juridico que tengo sobre algo, ser propietario de algo
-		- Creditorios: derecho que tengo que sobre pedir algun tema economico
-		- Intelectuales: son 
+		- Creditorios: derecho que tengo que sobre pedir algun tema economico. LO componen sujeto activo acredor(el que reclama), sujeto pasivo deudor(el que debe), la prestacion(la cosa)
+		- Intelectuales:  las patentes, las licencias, patentar cosas, se refiere a los derechos de autor
+- Clasificion de los derechos civiles segun el codigo civil y comercial de la nacion (CCCN)
+	- Derechos de la personalidad: 
+	- Derecho sobre el cuerpo humano: no tienen valor comercial sino afectivo 
+	- Derechos de la comunidades indigenas: 
+	- La persona es inviolable y tiene derecho al reconocimiento y respeto a la dignidad. se afecta la dignidad por:
+		- Lesiones a su intimidad personal o familiar
+		- Honor o reputacion
+		- imagen o identidad
+		- menoscabo a su dignidad personal

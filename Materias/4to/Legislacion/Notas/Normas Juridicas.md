@@ -40,12 +40,12 @@
 		- Derechos de la familiar (conyugales, asistencia)
 	- Patrimoniales
 		- Reales: poder jurídico que tengo sobre algo, ser propietario de algo. poder juridico sobre mi celular, mochila, casa. Derecho sobre propiedad.
-		- Creditorios: derecho que tengo que sobre pedir algún tema económico. LO componen sujeto activo acreedor (el que reclama), sujeto pasivo deudor (el que debe), la prestación (la cosa)
-		- Intelectuales:  las patentes, las licencias, patentar cosas, se refiere a los derechos de autor
+		- Creditorios: derecho que tengo que sobre pedir algún tema económico. LO componen sujeto activo acreedor (el que reclama), sujeto pasivo deudor (el que debe), la prestación (la cosa).  El derecho de cumplir obligaciones, exigir que se cumplan esas obligaciones economicas.
+		- Intelectuales:  las patentes, las licencias, patentar cosas, se refiere a los derechos de autor. Las patentes, licencias, patentar software. Composición musical, obras, etc.
 - Clasificación de los derechos civiles según el código civil y comercial de la nación (CCCN) (Derechos personalismos)
 	- Derechos de la personalidad: 
-	- Derecho sobre el cuerpo humano: no tienen valor comercial sino afectivo 
-	- Derechos de la comunidades indígenas: 
+	- Derecho sobre el cuerpo humano: no tienen valor comercial sino afectivo. No se pueden vender los organos
+	- Derechos de la comunidades indígenas: derecho a la posesión de tierras.
 	- Derecho a la imagen:
 		- La persona es inviolable y tiene derecho al reconocimiento y respeto a la dignidad. se afecta la dignidad por:
 			- Lesiones a su intimidad personal o familiar

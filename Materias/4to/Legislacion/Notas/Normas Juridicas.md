@@ -32,7 +32,7 @@
 	- Privado: se da en un plano de igualdad, no participa el estado
 		- Civil: 
 		- Comercial: 
-		- Trabajo:
+		- Trabajo: un trabajador en una empresa con un contrato de trabajo. Pie de igual-> estan en el mismo escalon
 		- Rural:
 - Clasificación de los derechos civiles:
 	- Extrapatrimoniales: derechos que están fuera del patrimonio

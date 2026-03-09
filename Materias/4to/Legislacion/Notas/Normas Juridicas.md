@@ -15,3 +15,6 @@
 	- Derecho subjetivo: facultad de exigir de otro una determinada conducta. Este puede ser:
 		- Absoluto
 		- Relativo
+- Ramas del derecho:
+	- Publico: siempre va a existir un estado que me imponga las normas y yo debo cumplirlas
+	- Privado

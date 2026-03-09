@@ -26,5 +26,15 @@
 				- personas por nacer
 				- personas que no cuentan con edad y grado de madurez suficiente
 				- persona declarada incapaz por sentencia judicial
-	- nombre
-	- domicilio
+		- Ejercicio de los derechos por los menores de edad
+			- mayoria de edad: 18 años
+			- principio de autonomia progresiva: derecho del menor para el ejercicio de algunos derechos y reuzacion de ciertos  actos de acuerdo a su grado de madurez y discernimiento
+		- personas con capacidad restringida o incapacidad
+			- el juez puede  restrigir la capacidad de la persona en caso de padecer adicciones o una alteracion mental cuando de ello puede derivar un daño a la persona o bienes
+	- nombre:
+		- prenombre
+			- corresponde a la eleccion de sus padres, otra persona en ausencia de ellos
+			- no pueden inscribirse mas de tres prenombres, apellidos como prenombres o inscribirse nombres extravagantes
+			- pueden inscribirse nombres aborigens o derivados
+		- apellido
+			- hijo matrimonil, debe llevar el apellido  de uno de los padres

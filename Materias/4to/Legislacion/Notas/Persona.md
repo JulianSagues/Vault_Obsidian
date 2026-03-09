@@ -64,3 +64,5 @@
 
 ---
 Fotos:
+![[Persona-1.png]]
+

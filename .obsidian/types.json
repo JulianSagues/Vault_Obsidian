@@ -37,6 +37,7 @@
     "AI keywords": "multitext",
     "AI translation": "text",
     "Custom AI autofill": "text",
-    "Google Drive File": "multitext"
+    "Google Drive File": "multitext",
+    "TQ_show_toolbar": "checkbox"
   }
 }

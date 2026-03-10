@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiDice3",
-      "LiDice4",
-      "LiDice",
-      "LiFolder",
-      "LiDice2"
+      "LiSearchCode",
+      "LiBot",
+      "LiScrollText",
+      "LiChartPie",
+      "LiCoins"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,8 +46,51 @@
     "iconName": "LiPen",
     "iconColor": "#d88322"
   },
-  "Materias/2do": "LiDice2",
-  "Materias/2do/Sistemas Operativos": "LiFolder",
-  "Materias/3ro": "LiDice3",
-  "Materias/4to": "LiDice4"
+  "Materias/2do": {
+    "iconName": "LiDice2",
+    "iconColor": "#1bd5ee"
+  },
+  "Materias/2do/Sistemas Operativos": {
+    "iconName": "LiFolder",
+    "iconColor": "#fbff00"
+  },
+  "Materias/3ro": {
+    "iconName": "LiDice3",
+    "iconColor": "#ff0000"
+  },
+  "Materias/4to": {
+    "iconName": "LiDice4",
+    "iconColor": "#fff700"
+  },
+  "Materias/3ro/Analisis numerico": {
+    "iconName": "LiPlus",
+    "iconColor": "#8000ff"
+  },
+  "Materias/3ro/Base de datos": {
+    "iconName": "LiDatabase",
+    "iconColor": "#00ffb3"
+  },
+  "Materias/3ro/Comunicacion de datos": {
+    "iconName": "LiWifi",
+    "iconColor": "#ff4d00"
+  },
+  "Materias/3ro/Desarrollo de software": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#fff700"
+  },
+  "Materias/3ro/Diseño de sistemas": {
+    "iconName": "LiMessageCircleCode",
+    "iconColor": "#ff0000"
+  },
+  "Materias/3ro/Economia": {
+    "iconName": "LiCoins",
+    "iconColor": "#73ff00"
+  },
+  "Materias/3ro/Probabilidad y estadistica": {
+    "iconName": "LiChartPie",
+    "iconColor": "#00eeff"
+  },
+  "Materias/4to/Legislacion": "LiScrollText",
+  "Materias/4to/Simulacion": "LiBot",
+  "Materias/4to/Investigacion operativa": "LiSearchCode"
 }

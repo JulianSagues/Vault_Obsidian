@@ -106,5 +106,8 @@
     "iconName": "LiPersonStanding",
     "iconColor": "#00ff6e"
   },
-  "Materias/4to/Ingenieria y calidad de software": "LiPenBox"
+  "Materias/4to/Ingenieria y calidad de software": {
+    "iconName": "LiPenBox",
+    "iconColor": "#8000ff"
+  }
 }

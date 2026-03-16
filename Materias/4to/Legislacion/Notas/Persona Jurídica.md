@@ -1,1 +1,8 @@
-- 
+- No requieren autorización para funcionar
+- Clasificacion:
+	- Publica
+		- Estado Nacional, provincias, departamentos, etc
+		- Entidades que sin
+		- Entidades creadas en el exterior y que son consideradas de derecho publico
+		- Iglesia catolicas
+	- Privada

@@ -1,8 +1,25 @@
 - No requieren autorización para funcionar
 - Clasificacion:
-	- Publica
-		- Estado Nacional, provincias, departamentos, etc
-		- Entidades que sin
-		- Entidades creadas en el exterior y que son consideradas de derecho publico
-		- Iglesia catolicas
+	- Publico
+		- se crean por ley
+		- actuan con imperium
+		- no pueden vivir del estado
+			- Estado Nacional, provincias, departamentos, etc
+				- Puede ser demandado y actuar en consecuencia
+			- Entidades autarquicas
+				- el estado les da funciones publicas
+					- Ej el banco central
+			- Entidades creadas en el exterior y que son consideradas de derecho publico
+				- Ej onu
+			- Iglesia catolicas
 	- Privada
+		- se crean por voluntad de quienes lo constituyen
+			- Sociedades
+			- Asociaciones civiles
+			- Simples asociaciones
+			- Fundaciones
+			- Iglesias, confesiones, comunidades o entidades religiosas
+			- Mutuales
+			- Cooperativas
+			- Consorcio de propiedad horizontal
+			- Todo otra contemplada en disposiciones del codigo civil 

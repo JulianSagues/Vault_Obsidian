@@ -14,6 +14,7 @@
 			- Iglesia catolicas
 	- Privada
 		- se crean por voluntad de quienes lo constituyen
+		- aunque el estado intervenga, no deja de ser privada, ej edemsa
 			- Sociedades
 			- Asociaciones civiles
 			- Simples asociaciones

@@ -2,7 +2,7 @@
 - Clasificacion:
 	- Publico
 		- se crean por ley
-		- actuan con imperium
+		- actuan con imperium 
 		- no pueden vivir del estado
 			- Estado Nacional, provincias, departamentos, etc
 				- Puede ser demandado y actuar en consecuencia
@@ -24,3 +24,10 @@
 			- Cooperativas
 			- Consorcio de propiedad horizontal
 			- Todo otra contemplada en disposiciones del codigo civil 
+- Atributos
+	- Nombre
+	- Domicilio
+	- Objeto
+	- Patrimonio
+	- Capacidad del derecho
+	- 

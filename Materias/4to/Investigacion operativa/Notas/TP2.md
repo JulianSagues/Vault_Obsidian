@@ -8,7 +8,7 @@ Restricciones:
 
 R * 0,20 + C * 0,32 <= 0.25
 R + C = 1
-KR + RC >= 0
+R , C >= 0
 
 ---
 
@@ -23,7 +23,7 @@ Restricciones:
  2 * S + T <= 100
  T + S  <= 80
  S <= 40
- S + T >= 0
+ S , T >= 0
 
 ---
 Ejercicio 3:
@@ -39,7 +39,7 @@ A + B + C + D +E +F = 1
 A * 20 + B * 30 + C * 40 + D * 40 + E * 45 + F * 30 >= 70
 A * 50 + B * 30 + C * 20 + D * 25 + E * 50 + F * 20 >=100
 A * 4 + B * 9 + C * 11 + D * 10 + E * 9 + F * 10 >= 20
-A + B + C + D + E + F >= 0
+A , B , C , D , E , F >= 0
 
 ---
 Ejercicio 4
@@ -56,19 +56,21 @@ A * 2 + B * 1 + C * 2 + D * 1 <= 400
 D <= 25
 A = 50
 B + C + D =100
-A + B + C+ D >=0
+A , B , C , D >=0
 
 ---
 Ejercicio 5
 
 Funcion Objetivo
 
-Max z = A * 700 + B * 3500 + C * 7000
+Max z = A * 700 + B * 2100 + C * 3500
  
  Restricciones:
 
-A + B * 4 + C * 7 <= 40
-A + B + C >= 0
+A + 2 * B + C * 3 <= 40
+A - 2 * B >= 0
+B - C >= 0
+A , B , C >= 0
 
 ---
 Ejercicio 6
@@ -82,7 +84,7 @@ Restricciones:
 F = 200
 L = 800
 C = 150
-F + C +L >= 0
+F , C , L >= 0
 
 ---
 Ejercicio 7

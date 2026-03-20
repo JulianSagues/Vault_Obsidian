@@ -91,6 +91,15 @@ Funcion Objetivo:
 
 Max z = 
 
-Restriccion
+Restriccion:
 
-A 
+25 * N + 15 * I <= 23
+
+---
+EJercicio 8 
+
+Funcion Objetivo:
+
+
+Restriccion:
+

@@ -75,4 +75,21 @@ Ejercicio 6
 
 Funcion Objetivo:
 
-Min z = 
+Min z = 0,3 * F + 1,4 * L + 0,5 * C
+
+Restricciones:
+
+F = 200
+L = 800
+C = 150
+F + C +L >= 0
+
+---
+Ejercicio 7
+
+Funcion Objetivo:
+
+Max z = A * 12000 + B * 14000
+
+Restriccion
+

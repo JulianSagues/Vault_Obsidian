@@ -52,4 +52,32 @@ Ejercicio 4
 
 Funcion Objetivo
 
-Max z = A * 6000 + B * 4000 + C * 6000 + D * 80
+Max z = A * 6000 + B * 4000 + C * 6000 + D * 8000
+
+Restricciones:
+
+A * 3 + B * 2 + C * 2 + D * 4 <= 480
+A * 1 + B * 1 + C * 2 + D * 3 <= 400
+A * 2 + B * 1 + C * 2 + D * 1 <= 400
+D <= 25
+A = 50
+B + C + D =100
+A + B + C+ D >=0
+
+---
+Ejercicio 5
+
+Funcion Objetivo
+
+Max z = A * 700 + B * 3500 + C * 7000
+ 
+ Restricciones:
+
+A + B * 4 + C * 7 <= 40
+A + B + C >= 0
+
+---
+Ejercicio 6
+
+Funcion Objetivo:
+

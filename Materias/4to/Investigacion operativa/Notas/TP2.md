@@ -89,7 +89,8 @@ Ejercicio 7
 
 Funcion Objetivo:
 
-Max z = A * 12000 + B * 14000
+Max z = 
 
 Restriccion
 
+A 

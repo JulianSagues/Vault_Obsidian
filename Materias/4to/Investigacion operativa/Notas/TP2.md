@@ -12,24 +12,18 @@ KR + RC >= 0
 
 ---
 
-Ejercicio 2:
+Ejercicio 2
 
-Soldados PF27 + PP 10 
+Funcion Objetivo:
 
-trenes PF21 + PP9
+Max z = 3 * S + 2 * T
 
-CVT = CantS*14 + CantT*10
+Restricciones:
 
-Carpinteria 1hS + 1hT<= 80
- 
-Acabados: 2hS + 1hT <= 100
-
-VentaTrenes se vende 
-VentaSoldados <= 40 Semanales
-
-MAX::    benificio = CantS*17 + CantT12 -(CantS*14 + CantT*10)
-
-CantS + CAntT >= 0 
+ 2 * S + T <= 100
+ T + S  <= 80
+ S <= 40
+ S + T >= 0
 
 ---
 Ejercicio 3:
@@ -81,3 +75,4 @@ Ejercicio 6
 
 Funcion Objetivo:
 
+Min z = 

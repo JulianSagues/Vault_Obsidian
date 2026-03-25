@@ -1,4 +1,7 @@
 
 ---
 Descripcion:
-La empresa trata de ayudar al mantenimiento de la seguridad 6
+La empresa trata de ayudar al mantenimiento de la seguridad
+
+---
+![[organigrama.svg]]

@@ -36,7 +36,7 @@ Max z = 3 * S + 2 * T
 Restricciones:
 
  2 * S + T <= 100
- T + S  <= 80
+ S + T  <= 80
  S <= 40
  S , T >= 0
 

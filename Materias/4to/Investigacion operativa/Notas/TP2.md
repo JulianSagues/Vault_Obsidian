@@ -1,4 +1,8 @@
 
+---
+[[TP2_2026.pdf]]
+
+---
 Ejercicio 1:
 
 Funcion Objetivo:
@@ -92,7 +96,7 @@ Ejercicio 7
 
 Funcion Objetivo:
 
-Max z = 
+Max z = 4000 * X1 - 3000 * X2 + 6000 * X3 *
 
 Restriccion:
 

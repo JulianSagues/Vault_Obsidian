@@ -5,6 +5,11 @@
 ---
 Ejercicio 1:
 
+Variables:
+
+R: Carne molida de res
+C: Carne molida de cerdo
+
 Funcion Objetivo:
 
 Min Z  = 800 * R + 600 * C
@@ -19,6 +24,11 @@ R , C >= 0
 
 Ejercicio 2
 
+Variables:
+
+S: Soldaditos de jueguete
+T: Trenes de juguete
+
 Funcion Objetivo:
 
 Max z = 3 * S + 2 * T
@@ -32,6 +42,15 @@ Restricciones:
 
 ---
 Ejercicio 3:
+
+Variables:
+
+A:
+B:
+C:
+D:
+E:
+F:
 
 Funcion Objetivo:
 
@@ -94,19 +113,44 @@ F , C , L >= 0
 ---
 Ejercicio 7
 
+Variables:
+
+NR: Barriles de petroleo nacional mezclado en la nafta regular
+IR: Barriles de petroleo importado mezclado en la nafta regular
+NE: Barriles de petroleo nacional mezclado en la nafta extra
+IE: Barriles de petroleo importado mezclado en la nafta extra
+
 Funcion Objetivo:
 
-Max z = 4000 * X1 - 3000 * X2 + 6000 * X3 *
+Max z = 4000 * NR - 3000 * IR + 6000 * NE - 1000 * IE
 
-Restriccion:
+Restricciones:
 
-25 * N + 15 * I <= 23
+NR + IR <= 100000
+6 * NE - 5 * IE <= 0
+2 * NR - 8 * IR <= 0
+2 * NE - 8 * IE <= 0 
+NR, IR, NE, IE >= 0
 
 ---
 EJercicio 8 
 
+Variables:
+
+T: Unidades de publicidad a contratar en television
+R: Unidades de publicidad a contratar en radio
+P: Unidades de publicidad a contratar en prensa
+
 Funcion Objetivo:
 
+Max z = 100000 * T + 18000 * R + 40000 * P
 
-Restriccion:
+Restricciones:
 
+20000 * T + 3000 * R + 6000 * P <= 18500
+T <= 10
+R <= 20
+P <= 10
+ -0,5 * T + 0,5 * R - 0,5 * P <= 0
+0,9 * T - 0,1 * R - 0,1 * P >= 0
+T, R, P >= 0

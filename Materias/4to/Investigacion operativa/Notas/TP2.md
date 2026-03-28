@@ -58,7 +58,7 @@ Min Z = 2 * A + 3 * B + 5 * C + 6 * D + 8 * E + 8 * F
 
 Restricciones:
 
-A + B + C + D +E +F = 1
+A + B + C + D +E +F = 1 ????
 
 A * 20 + B * 30 + C * 40 + D * 40 + E * 45 + F * 30 >= 70
 A * 50 + B * 30 + C * 20 + D * 25 + E * 50 + F * 20 >=100

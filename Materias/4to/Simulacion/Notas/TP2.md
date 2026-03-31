@@ -13,3 +13,11 @@ b. Hay 2 loops, uno positivo y otro negativo, el loop positivo tiene una longitu
 c. J no es influencia de nadie
 
 d. No lo es, lo correcto seria E  = A FUNCTION OF( B,G)
+
+2.
+
+a.
+
+![[TP2-23.png]]
+
+b.

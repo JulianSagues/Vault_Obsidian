@@ -21,3 +21,6 @@ a.
 ![[TP2-23.png]]
 
 b.
+![[Pasted image 20260331153950.png]]
+![[TP2-24.png]]
+![[TP2-25.png]]

@@ -13,6 +13,11 @@
 	- Capacitar a los clientes así lograr que los usuarios entiendan cómo usar nuestros servicios y sepan cuidarse de riesgos
 	- Ofrecer tecnología actualizada, así estar al día con las últimas herramientas de protección para adelantarnos a los nuevos virus o ataques
 - Core del negocio:
-	- Nuestra principal actividad consiste en prestar servicios de ciberseguridad, enfocados principalmente en la proteccion de sistemas, deteccion de fallas y capacitacion de personal para el correcto uso de nuestros servicios
+	- Nuestra principal actividad consiste en prestar servicios de ciberseguridad, enfocados principalmente en la protección de sistemas, detección de fallas y capacitación de personal para el correcto uso de nuestros servicios
+- FODA:
+	- Fortaleza: Sabemos usar las herramientas mas modernas para la proteccion de sistemas ademas de poder analizar cada caso de forma individual
+	- Oportunidad:
+	- Debilidad:
+	- Amenaza:
 ---
 ![[organigrama.svg]]

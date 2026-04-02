@@ -2,3 +2,8 @@
 ![[TP4-2.png]]
 ![[TP4-3.png]]
 ![[TP4-4.png]]
+![[TP4-5.png]]
+![[TP4-6.png]]
+![[TP4-7.png]]
+![[TP4-8.png]]
+![[TP4-9.png]]

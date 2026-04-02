@@ -1,2 +1,7 @@
 ![[TP3.png]]
 ![[TP3-1.png]]
+![[TP3-2.png]]
+![[TP3-3.png]]
+![[TP3-4.png]]
+![[TP3-5.png]]
+![[TP3-6.png]]

@@ -2,11 +2,10 @@
 ---
 > [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=1&selection=0,16,0,17&color=yellow|LEGISLACIÓNdocx_250324_132942, p.1]]
 > > Normas Jurídicas
-> 
-> 
 
 ---
-- Existen para establecer un orden
+- Normas juridicas
+	- Existen para establecer un orden
 - Ley
 	- Expresión conceptual de las relaciones establecidas entre dos o mas fenómenos
 		- En términos sencillos, una **ley** es la forma en que explicamos cómo se relacionan dos o más sucesos o fenómenos entre sí. Es un concepto amplio que busca definir reglas, ya sea para entender la naturaleza o para organizar cómo vivimos en sociedad.

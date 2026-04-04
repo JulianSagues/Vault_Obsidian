@@ -1,2 +1,14 @@
 - Existen para establecer un orden
 - Ley
+	- Expresión conceptual de las relaciones establecidas entre dos o mas fenómenos
+		- En términos sencillos, una **ley** es la forma en que explicamos cómo se relacionan dos o más sucesos o fenómenos entre sí. Es un concepto amplio que busca definir reglas, ya sea para entender la naturaleza o para organizar cómo vivimos en sociedad.
+	- Tipos:
+		- Leyes de la naturaleza
+			- Se caracterizan por su causalidad, es decir el hombre no puede modificarlas
+				- Ley de la gravedad
+		- Leyes de la cultura
+			- Rigen el comportamiento humano
+			- Tipos
+				- Del SER
+					- Referidas al conocimiento de las cosas y como obtenerlas
+						- 

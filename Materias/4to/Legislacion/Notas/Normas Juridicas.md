@@ -36,6 +36,42 @@
 								- Castigo después de la muerte
 						- Normas morales
 							- Perfección de si mismo
-							- Caracteristicas:
+							- Características:
 								- Universales
-								- Inmutabl
+								- Inmutables
+								- Autónomas
+								- Sanción interna
+								- Unilateral
+						- Normas sociales
+							- Ordenan las relaciones entre los hombres con el fin de lograr el bien común
+							- Características:
+								- Heterónomas
+								- No requieren adhesión interna
+								- Varían por tiempo y lugar
+								- La sanción es el repudio de los semejantes
+						- Normas jurídicas
+							- Características:
+								- Bilaterales
+								- Obligatorias
+								- Normativas
+								- Libre albedrio
+								- Heterónomas
+								- No requieren adhesión interna
+- Ley jurídica
+	- Rige obligatoriamente la conducta humana en sociedad y ha sido dictada por una autoridad competente
+	- Elementos:
+		- Coerción
+			- Presión que se ejerce sobre el libre albedrio para obligar a cada uno a cumplir con su deber
+			- Siempre es de orden interno y psicológico
+		- Sanción
+			- Pena impuesta por haber incumplido la norma
+		- Coacciona
+			- Cumplimiento forzado de la sanción si no existe voluntad propia
+- Clasificación del derecho
+	- Derecho natural y positivo
+		- Derecho natural
+			- Surge de la naturaleza humana
+			- El hombre lo conoce por la razón
+			- Características:
+				- Inmutativa
+				- 

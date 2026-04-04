@@ -74,4 +74,22 @@
 			- El hombre lo conoce por la razón
 			- Características:
 				- Inmutativa
-				- 
+				- Universal
+				- Fija los grande principios de la organización social
+				- Protegen la vida de los individuos
+		- Derecho positivo
+			- Conjunto de leyes y disposiciones vigentes en un país en un momento determinado de la historia
+	- Derecho objetivo y subjetivo
+		- Derecho objetivo
+			- Ordenamiento juridico existente
+			- No necesariamente debe ser vigente la norma
+		- Derecho subjetivo
+			- Derecho o facultad del individuo de obrar de determinada manera o exigir de otro una determinada conducta
+			- Tipos:
+				- Derecho subjetivo absoluto
+					- El sujeto obligado es toda la sociedad
+				- Derecho subjetivo relativo
+					- Existe uno o más sujetos obligados
+	- Derecho público y privado
+		- Derecho público
+			- Se 

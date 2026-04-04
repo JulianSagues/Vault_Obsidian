@@ -11,4 +11,31 @@
 			- Tipos
 				- Del SER
 					- Referidas al conocimiento de las cosas y como obtenerlas
-						- 
+						- En la medicina, como curar a alguien
+				- Del DEBE SER
+					- destinadas a dirigir la voluntad del individuo
+					- Características:
+						- Normativas
+							- Establecen normas o reglas de la conducta
+						- Obligatorias
+							- Dirigidas a imponer conductas determinadas del hombre
+						- Imputativas
+							- Imputan una acción al sujeto
+						- Sanción o pena
+							- Según como se clasifique la acción reciben una sanción o pena
+						- Libre albedrio
+							- El hombre tiene la libertad de seguirlas o no
+					- Tipos:
+						- Normas religiosas
+							- Relaciones entre un ser superior y el orden
+							- Características:
+								- Heterónomas
+									- Vienen impuestas de afuera
+								- Obligatorias
+								- Adhesión interna
+								- Castigo después de la muerte
+						- Normas morales
+							- Perfección de si mismo
+							- Caracteristicas:
+								- Universales
+								- Inmutabl

@@ -6,4 +6,9 @@
 ---
 - Relación Jurídica
 	- Vinculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otra un determinado comportamiento
-- 
+	- Elementos:
+		- Sujeto
+			- Activo, acreedor o poseedor
+			- Pasivo, deudor u obligado
+		- Objeto
+			- Contenido del derecho o la prerrogativa del titula como sujeto de derecho

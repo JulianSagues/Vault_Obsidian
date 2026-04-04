@@ -1,3 +1,11 @@
+
+---
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=1&selection=0,16,0,17&color=yellow|LEGISLACIÓNdocx_250324_132942, p.1]]
+> > Normas Jurídicas
+> 
+> 
+
+---
 - Existen para establecer un orden
 - Ley
 	- Expresión conceptual de las relaciones establecidas entre dos o mas fenómenos
@@ -81,7 +89,7 @@
 			- Conjunto de leyes y disposiciones vigentes en un país en un momento determinado de la historia
 	- Derecho objetivo y subjetivo
 		- Derecho objetivo
-			- Ordenamiento juridico existente
+			- Ordenamiento jurídico existente
 			- No necesariamente debe ser vigente la norma
 		- Derecho subjetivo
 			- Derecho o facultad del individuo de obrar de determinada manera o exigir de otro una determinada conducta
@@ -92,4 +100,13 @@
 					- Existe uno o más sujetos obligados
 	- Derecho público y privado
 		- Derecho público
-			- Se 
+			- Se destaca la presencia del estado actuando como una de las partes
+		- Derecho privado
+			- No se destaca la presencia del estado actuando como una de las partes
+	- Derechos civiles
+		- Derechos civiles extrapatrimoniales
+			- Derechos que no tienen valor económico
+				- Derecho a la personalidad
+		- Derechos civiles patrimoniales
+			- Derechos que tiene valor económico
+				- Derechos crediticios

@@ -26,4 +26,18 @@
 			- Reciben los derechos de forma definitiva
 	- Atributos
 		- Derechos personalísimos
-			- 
+			- Derechos sobre el cuerpo humano y sus partes
+			- Derechos de las comunidades indígenas
+				- Tienen derecho a la posesión y propiedad comunitaria de las tierras que tradicionalmente ocupan y de aquellas aptas y suficientes para el desarrollo humano
+			- La persona humana es inviolable y en cualquier circunstancia tiene derecho al reconocimiento y respeto de su dignidad
+				- Afecciones a su dignidad:
+					- Lesiones a su intimidad personal o familiar
+					- Honor o reputación
+					- Imagen o identidad
+					- Menoscabo a su dignidad personal
+			- Derecho a la imagen
+				- Se necesita consentimiento de la persona para captar o reproducir la imagen o la voz
+				- Excepciones:
+					- Sea figura publica
+					- Que exista interés científico, cultura o educacional y se tome precaución para evitar daños
+					- Que se trate de ejercicio regular para informar acontecimientos de interés general

@@ -64,4 +64,23 @@
 					- Donde se presume que la persona ejerce sus derechos y cumple con sus obligaciones
 				- Domicilio convencional
 					- Sirve para realizar en el las notificaciones que deriven del negocio jurídico y fija la jurisdicción aplicable en caso de conflictos
-	- Fin de la existencia de la persona 
+	- Fin de la existencia de la persona humana
+		- Termina con la muerte, la comprobación de esta que sujeta a los estándares médicos especiales
+		- Si no hay cadáver no podemos establecer la muerte de la persona
+		- Etapas:
+			- Primera etapa
+				- Simple ausencia
+					- La persona desaparece de su lugar habitual sin que se tenga noticias de ella
+					- Se asigna un curador a sus bienes
+					- Esto termina porque:
+						- Aparece la persona
+						- Se prueba su muerte
+						- Por declaración de muerte presunta
+			- Segunda etapa
+				- Ausencia con presunción de fallecimiento
+					- Causada por la ausencia de la persona en un termino de 3 años
+					- El juez debe nombrar defensor del ausente y citar por edictos al mismo durante 6 meses
+					- Pasado el termino y ofrecida la prueba, el juez debe declarar la muerte presunta del ausente y dispone la inscripción de la sentencia
+					- Los bienes se entregan a los herederos, los mismos se inscriben en el registro con prenotación que dura 5 años, transcurrido los cuales pueden disponer de los bienes libremente
+	- Prueba del nacimiento y de la muerte de una persona humana
+		- El nacimiento y la muerte de una persona, sus circunstancias de tiempo y lugar, sexo, nombre y filiación se prueban con las partidas del registro civil

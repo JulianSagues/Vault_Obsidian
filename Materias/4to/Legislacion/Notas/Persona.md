@@ -41,3 +41,19 @@
 					- Sea figura publica
 					- Que exista interés científico, cultura o educacional y se tome precaución para evitar daños
 					- Que se trate de ejercicio regular para informar acontecimientos de interés general
+		- Capacidad
+			- Tipos:
+				- De derecho
+					- Aptitud de adquirir derechos y contrae obligaciones por el solo hecho de ser tal, independientemente de si esto es actuado por ella misma o con intervención de un tercero
+				- De ejercicio
+					- Refiere a que toda persona (excepto las limitaciones por sentencia judicial) tiene la aptitud para adquirir y/o ejercer tales derechos y obligaciones por si misma
+					- Personas incapaces de ejercicio
+						- La persona por nacer
+						- La persona que no cuenta con la edad y grado de madurez suficiente
+						- La persona declarada incapaz por sentencia judicial
+			- Incapacidad
+				- Falta de aptitud para ser titular de derechos y obligaciones o para poder ejercer esos derechos y obligaciones
+		- Nombre
+			- La persona tiene derecho de usar el prenombre y apellido que le corresponden
+			- La elección esta sujeta a la siguientes reglas
+				- Corresponde a los padres o las personas a quienes ellos den su autorizacion, a falta de t

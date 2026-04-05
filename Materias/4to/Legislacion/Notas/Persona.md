@@ -56,4 +56,12 @@
 		- Nombre
 			- La persona tiene derecho de usar el prenombre y apellido que le corresponden
 		- Domicilio
-			- La persona tiene un domicilio real, es voluntario, mutable e inviolable
+			- La persona tiene un domicilio real, es voluntario, mutable e inviolable (exceptuando casos justificados)
+			- Tipos:
+				- Domicilio real
+					- Donde habita una persona
+				- Domicilio legal
+					- Donde se presume que la persona ejerce sus derechos y cumple con sus obligaciones
+				- Domicilio convencional
+					- Sirve para realizar en el las notificaciones que deriven del negocio jurídico y fija la jurisdicción aplicable en caso de conflictos
+	- Fin de la existencia de la persona 

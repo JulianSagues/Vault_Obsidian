@@ -55,5 +55,5 @@
 				- Falta de aptitud para ser titular de derechos y obligaciones o para poder ejercer esos derechos y obligaciones
 		- Nombre
 			- La persona tiene derecho de usar el prenombre y apellido que le corresponden
-			- La elección esta sujeta a la siguientes reglas
-				- Corresponde a los padres o las personas a quienes ellos den su autorizacion, a falta de t
+		- Domicilio
+			- La persona tiene un domicilio real, es voluntario, mutable e inviolable

@@ -14,16 +14,31 @@
 			- Entidades autárquicas
 			- Demas organizaciones a las que el ordenamiento jurídico les atribuya ese carácter
 		- Privadas
-			- Sociedades
-			- Asociaciones civiles
-			- Simples asociaciones
-			- Fundaciones
-			- Iglesias, confesiones, comunidades o entidades religiosas
-			- Mutuales
-			- Cooperativas
-			- Consorcio de propiedad horizontal
-			- Toda otra contemplada en disposiciones del código civil o en otras leyes cuyo carácter de tal resulte de su finalidad o funcionamiento
+			- Comienza desde su constitución
+			- Los miembros no responden por las obligaciones de la persona jurídica salvo excepciones expresamente establecidas por el código y que lo disponga la ley especial
+			- Las funciones del administrador abarcan la gestión operativa de los negocios sociales, la organización y dirección de la persona jurídica
+			- Tipos:
+				- Sociedades
+				- Asociaciones civiles
+				- Simples asociaciones
+				- Fundaciones
+				- Iglesias, confesiones, comunidades o entidades religiosas
+				- Mutuales
+				- Cooperativas
+				- Consorcio de propiedad horizontal
+				- Toda otra contemplada en disposiciones del código civil o en otras leyes cuyo carácter de tal resulte de su finalidad o funcionamiento
 	- Características:
 		- Son creadas por ley, nunca por voluntad de partes
 		- Tienen como fin inmediato el interés publico
 		- Actúan con imperium que es el poder que tiene el órgano de la persona jurídica de hacer cumplir las decisiones que toma
+	- Atributos:
+		- Nombre
+		- Domicilio y sede social
+		- Patrimonio
+		- Objeto
+			- Propósito declarado en el estatuto
+		- Capacidad:
+			- De derecho
+				- Rige el principio de especialidad, solo pueden realizar actos vinculados a su objeto social
+			- De ejercicio
+				- Las personas jurídicas actúan por si mismas a través de sus órganos que son sus administradores

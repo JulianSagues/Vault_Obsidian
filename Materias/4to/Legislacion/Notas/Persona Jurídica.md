@@ -4,5 +4,8 @@
 > > Persona Jurídica
 
 ---
-- Persona juridica
-	- Son todos los entes a los cuales el ordenamiento jurido
+- Persona jurídica
+	- Son todos los entes a los cuales el ordenamiento jurídico les confiere aptitud para adquirir derechos y contraer obligaciones para el cumplimiento de su objeto y os fines de su creación
+	- Clasificación:
+		- Publicas
+			- Estado nacional

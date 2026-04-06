@@ -23,3 +23,7 @@
 			- Cooperativas
 			- Consorcio de propiedad horizontal
 			- Toda otra contemplada en disposiciones del código civil o en otras leyes cuyo carácter de tal resulte de su finalidad o funcionamiento
+	- Características:
+		- Son creadas por ley, nunca por voluntad de partes
+		- Tienen como fin inmediato el interés publico
+		- Actúan con imperium que es el poder que tiene el órgano de la persona jurídica de hacer cumplir las decisiones que toma

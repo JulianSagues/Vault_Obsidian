@@ -1,33 +1,8 @@
-- No requieren autorización para funcionar
-- Clasificacion:
-	- Publico
-		- se crean por ley
-		- actuan con imperium 
-		- no pueden vivir del estado
-			- Estado Nacional, provincias, departamentos, etc
-				- Puede ser demandado y actuar en consecuencia
-			- Entidades autarquicas
-				- el estado les da funciones publicas
-					- Ej el banco central
-			- Entidades creadas en el exterior y que son consideradas de derecho publico
-				- Ej onu
-			- Iglesia catolicas
-	- Privada
-		- se crean por voluntad de quienes lo constituyen
-		- aunque el estado intervenga, no deja de ser privada, ej edemsa
-			- Sociedades
-			- Asociaciones civiles
-			- Simples asociaciones
-			- Fundaciones
-			- Iglesias, confesiones, comunidades o entidades religiosas
-			- Mutuales
-			- Cooperativas
-			- Consorcio de propiedad horizontal
-			- Todo otra contemplada en disposiciones del codigo civil 
-- Atributos
-	- Nombre
-	- Domicilio
-	- Objeto
-	- Patrimonio
-	- Capacidad del derecho
-	- 
+
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=5&selection=16,16,16,17&color=important|LEGISLACIÓNdocx_250324_132942, p.5]]
+> > Persona Jurídica
+
+---
+- Persona juridica
+	- Son todos los entes a los cuales el ordenamiento jurido

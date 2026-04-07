@@ -20,10 +20,13 @@
 			- Responsabilidad de los administradores
 				- Dimensión de la entidad
 				- Su objeto
-				- Las funciones genericas
-				- Circunstancias en que debió actuar y no cumplio con su deber
+				- Las funciones genéricas
+				- Circunstancias en que debió actuar y no cumplió con su deber
+				- En caso de conflicto de intereses, los administradores deben priorizar, en su función, el interés social con respecto al propio
+				- Los administradores responden solidaria e ilimitada frente a la persona jurídica, sus miembros y terceros responden por los daños causados por su culpa en ejercicio u ocasión de sus funciones, por acción u omisión
 			- Tipos:
 				- Sociedades
+					- Forma organizada en la que una o mas personas se obligan a realizar aportes para aplicarlos a la producción o intercambio de bienes y servicios
 				- Asociaciones civiles
 				- Simples asociaciones
 				- Fundaciones

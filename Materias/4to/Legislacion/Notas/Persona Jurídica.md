@@ -26,9 +26,13 @@
 				- Los administradores responden solidaria e ilimitada frente a la persona jurídica, sus miembros y terceros responden por los daños causados por su culpa en ejercicio u ocasión de sus funciones, por acción u omisión
 			- Tipos:
 				- Sociedades
-					- Forma organizada en la que una o mas personas se obligan a realizar aportes para aplicarlos a la producción o intercambio de bienes y servicios
+					- Forma organizada en la que una o mas personas se obligan a realizar aportes para aplicarlos a la producción o intercambio de bienes y servicios, participando de las ganancias y soportando las perdidas.
+					- Se establece su constitución en el registro publico del domicilio social y en el registro que corresponda al asiento de cada sucursal
 				- Asociaciones civiles
+					- Nacen de la unión estable de un grupo de personas físicas que persiguen la realización de un fin no lucrativo
+					- Se constituyen por instrumento publico y se inscriben en el registro correspondiente una vez entregada la autorización para funcionar
 				- Simples asociaciones
+					- Personas juricas con fromalidades mas encillas para su constitucion y un regimen de responsabilidad solidario
 				- Fundaciones
 				- Iglesias, confesiones, comunidades o entidades religiosas
 				- Mutuales

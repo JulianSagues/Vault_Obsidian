@@ -16,7 +16,12 @@
 		- Privadas
 			- Comienza desde su constitución
 			- Los miembros no responden por las obligaciones de la persona jurídica salvo excepciones expresamente establecidas por el código y que lo disponga la ley especial
-			- Las funciones del administrador abarcan la gestión operativa de los negocios sociales, la organización y dirección de la persona jurídica
+			- Las funciones del administrador abarcan la gestión operativa de los negocios sociales, la organización y dirección de la persona jurídica, el cumplimiento del estatuto
+			- Responsabilidad de los administradores
+				- Dimensión de la entidad
+				- Su objeto
+				- Las funciones genericas
+				- Circunstancias en que debió actuar y no cumplio con su deber
 			- Tipos:
 				- Sociedades
 				- Asociaciones civiles

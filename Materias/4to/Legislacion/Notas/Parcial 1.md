@@ -293,3 +293,60 @@
 > [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=19&selection=62,9,62,10&color=note|LEGISLACIÓNdocx_250324_132942, p.19]]
 > > Contratos
 
+- Contrato
+	- Clasificación
+		- Unilateral y bilateral
+		- Onerosos y gratuitos
+		- Conmutativos y aleatorios
+		- Formales e informales
+		- Nominados e innominados
+	- Elementos
+		- Esenciales
+			- Consentimiento
+			- Capacidad
+			- Objeto
+				- Licito
+				- Posible
+				- Determinado o determinable
+				- Susceptible de valoración económica
+				- Corresponder a un interés de las partes
+			- Causa
+				- Causa ilicita
+			- Forma
+		- Naturales
+		- Accidentales
+			- Plazo
+			- Cargo
+			- Condición
+	- Efectos
+		- Terceros
+		- Sucesores universales
+		- Libertad de contratación
+		- Efectos vinculantes
+		- Buena fe
+		- Carácter de las normas legales
+		- Imprevision
+		- Clausula resolutoria expresa
+		- Clausula resolutoria implícita
+- Formación del consentimiento
+	- Oferta
+	- Aceptacion
+- Incapacidad e inhabilidad para contratar
+	- Incapacidad para contratar
+		- Las personas incapaces de ejercicio: personas por nacer, menores de edad y personas declarada incapaces por sentencia judicial
+		- El menor de 18 años que ejerce sus derechos a través de sus representantes
+		- El matrimonio antes de los 18 años emancipa al menor de edad. SI PUEDE CELEBRAR CONTRATO
+		- El menor con título habilitante tiene la libre administración y disposición de sus bienes
+		- El adicto o el padece una alteración permanente o prolongada puede sufrir la restricción de su capacidad para determinados actos, si así lo dispone el juez y es mayor de 13 años
+		- Los pródigos pueden ser inhabilitados si con su actuación arriesgan la pérdida del patrimonio
+	- Inhabilidad especialidad
+		- Los funcionarios públicos, respecto de bienes cuya administración o enajenación están han sido encargados
+		- Los jueces, funcionarios y auxiliares de la justicia, los árbitros y mediadores respecto de los bienes relacionados con procesos en los que intervienen
+		- Los abogados y procuradores, respecto de bienes litigiosos en procesos en los que intervienen
+		- 
+		- Los cónyuges en el régimen de comunidad entre sí.
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=23&selection=26,27,26,28&color=important|LEGISLACIÓNdocx_250324_132942, p.23]]
+> > Contrato de Obra y Servicio
+
+- Contrato de obra y servicio

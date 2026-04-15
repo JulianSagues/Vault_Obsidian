@@ -243,6 +243,43 @@
 			- Abuso del derecho
 			- Enriquecimiento sin causa
 			- Responsabilidad civil
+				- Funciones
+					- Preventiva
+					- Daño resarcible
+						- Daño emergente
+						- Lucro cesante
+						- Perdida de chance
+					- Sancionatoria
+						- Daño directo
+						- Daño indirecto
+						- Daño actual
+						- Daño futuro
+						- Daño subsistente
+						- La reparación del daño debe ser plena
+				- Quien responde
+					- Responsabilidad causada por acto involuntario
+					- Responsabilidad directa
+					- Responsabilidad por el hecho de terceros
+					- Responsabilidad derivada de la intervención de cosas y de ciertas actividades
+					- Responsabilidad objetiva
+					- Responsabilidad colectiva y anónima
+	- Efectos
+		- Efectos entre las partes
+			- Respecto al acreedor
+			- Respecto al deudor
+		- Efectos normales y anormales
+	- Extinción
+		- Pago
+		- Pago por compensación
+		- Pago por subrogación
+		- Pago por consignaciones
+		- Pago por confusión
+		- Pago por novación
+		- Pago por transacción
+		- Pago por renuncia
+		- Pago por remisión de deuda
+		- Pago por imposibilidad de cumplimiento
+		- Pago por prescripción
 - Requisitos de la prestación como objeto de la obligación
 	- Posibilidad material y jurídica
 	- Licito
@@ -252,3 +289,7 @@
 	- Tener capacidad de ejercicio
 	- Ser determinado o determinable
 	- Ser persona distinta acreedor y deudor.
+---
+> [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=19&selection=62,9,62,10&color=note|LEGISLACIÓNdocx_250324_132942, p.19]]
+> > Contratos
+

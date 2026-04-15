@@ -1,6 +1,7 @@
 
 ---
-### Normas Jurídicas
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=1&selection=0,16,0,17&color=yellow|LEGISLACIÓNdocx_250324_132942, p.1]]
+> > Normas Jurídicas
 
 - Leyes
 	- De la naturaleza
@@ -21,7 +22,11 @@
 	- Derecho objetivo y subjetivo
 	- Derecho publico y privado
 	- Derechos civiles
-## Persona-Relación Jurídica 
+---
+> [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=3&selection=6,0,6,25&color=note|LEGISLACIÓNdocx_250324_132942, p.3]]
+> > Persona-Relación Jurídica
+> 
+> 
 
 - Relación jurídica
 	- Elementos
@@ -57,7 +62,11 @@
 				- Ausencia con presunción de fallecimiento
 		- Prueba del nacimiento y de la muerte
 			- Partidas del registro civil
-## Persona Jurídica
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=5&selection=16,16,16,17&color=important|LEGISLACIÓNdocx_250324_132942, p.5]]
+> > Persona Jurídica
+> 
+> 
 
 - Persona jurídica
 	- Clasificación
@@ -79,14 +88,40 @@
 				- Fundaciones
 				- Mutuales
 				- Cooperativas
-			- Disolucion
+			- Disolución
 				- Decisión de los miembros
 				- Cumplimiento de la condición resolutoria a la que el acto constitutivo subordinó su existencia
-				- Consecución del objeto para el cual se formó o imposibilidad de cumplirlo.
-				- Vencimiento del plazo. 5. Declaración de quiebra. 6. Fusión respecto de las personas jurídicas o las personas jurídicas cuyo patrimonio es absorbido, o la escisión respecto de la persona jurídica que se divide y destina todo su patrimonio. 7. Reducción a uno del número de miembros, si la ley exige pluralidad y ésta no es establecida dentro de los 3 meses. 8. Agotamiento de los bienes. 9. Cualquier otra causa prevista en el estatuto, en la ley especial o en el código civil.
+				- Consecución del objeto para el cual se formó o imposibilidad de cumplirlo
+				- Vencimiento del plazo
+				- Declaración de quiebra
+				- Fusión respecto de las personas jurídicas o las personas jurídicas cuyo patrimonio es absorbido, o la escisión respecto de la persona jurídica que se divide y destina todo su patrimonio
+				- Reducción a uno del número de miembros, si la ley exige pluralidad y ésta no es establecida dentro de los 3 meses.
+				- Agotamiento de los bienes
+				- Cualquier otra causa prevista en el estatuto, en la ley especial o en el código civil.
+			- Revocación de la autorización estatal
+				- Debe fundarse en actos graves que importen la violación de la ley, estatuto y reglamento
 	- Atributos
 		- Nombre
 		- Domicilio
 		- Patrimonio
 		- Objeto
 		- Capacidad
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=7&selection=90,18,90,19&color=red|LEGISLACIÓNdocx_250324_132942, p.7]]
+> > Objeto del Derecho
+
+- El CCCN reconoce:
+	- Derechos individuales
+	- Derechos de incidencia colectiva
+- Bienes y cosas
+	- Patrimonio
+	- Bienes futuros
+	- Bienes excluidos de la garantía común
+		- Ropa y muebles
+		- Instrumentos necesarios para el ejercicio de su profesión
+		- Sepulcros
+		- Bienes afectados a cualquier religión
+		- Derechos de usufructo
+		- Indemnizaciones
+		- Indemnizaciones por alimentos
+		- Los demás bienes declarados inembargables o excluidos por otras leyes

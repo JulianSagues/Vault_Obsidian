@@ -125,3 +125,43 @@
 		- Indemnizaciones
 		- Indemnizaciones por alimentos
 		- Los demás bienes declarados inembargables o excluidos por otras leyes
+	- Prioridad del primer embargante
+	- Privilegios
+		- Privilegios especiales
+			- Los gastos hechos para construcción, mejora conservación de una cosa, sobre ésta, se incluyen las expensas comunes en la propiedad horizontal
+			- Los créditos por remuneraciones debidas al trabajador por 6 meses y las indemnizaciones por antigüedad o despido, accidentes de trabajo, preaviso y fondo de desempleo.
+			- Los impuestos, tasas o contribuciones de mejoras que se aplican particularmente a determinados bienes, sobre estos
+			- Lo adeudado al retenedor por la cosa retenida
+			- Los créditos garantizados con hipoteca, anticresis, prenda con o sin desplazamiento, warrant y los debentures y obligaciones negociables con garantía especial o flotante
+			- Los privilegios establecidos en la Ley de Navegación, Código Aeronáutico, la Ley de Entidades financieras, Ley de Seguros y el Código de Minería.
+	- Vivienda
+	- Bienes con relación a las personas y los derechos de incidencia colectiva
+		- Cosas muebles e inmuebles
+		- Cosas divisibles e indivisibles
+		- Cosas principales y accesorias
+		- Cosas consumibles y no consumibles
+		- Cosas fungibles y no fungibles
+	- Bienes fuera del comercio
+	- Bienes con relación a las personas
+		- Del dominio publico del estado
+			- El mar territorial
+			- Las aguas interiores, bahías, golfos, ensenadas, puertos ancladeros, layas marítimas
+			- Los ríos estuarios y arroyos y demás aguas que corren por cauces naturales
+			- Las islas formadas en el mas territorial, la plataforma continental, la zona económica exclusiva
+			- El espacio aéreo supra yacente al territorio
+			- Las calles, plazas caminos, canales, puentes y cualquier obra pública para el uso común
+			- Los documentos oficiales del Estado
+			- Las ruinas y establecimientos arqueológicos y paleontológicos.
+		- del dominio privado del Estado
+			- Los inmuebles que carecen de dueño
+			- Las minas de oro, plata, cobre, piedras preciosas
+			- Los lagos no navegables que carecen de otro dueño
+			- Los bienes adquiridos por el estado nacional, provincial o municipal por cualquier título
+		- Bienes de los particulares
+		- Aguas de los particulares
+		- 
+---
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=11&selection=0,21,0,22&color=yellow|LEGISLACIÓNdocx_250324_132942, p.11]]
+> > Hecho y Acto Jurídico
+
+- Hecho 

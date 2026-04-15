@@ -164,4 +164,63 @@
 > [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=11&selection=0,21,0,22&color=yellow|LEGISLACIÓNdocx_250324_132942, p.11]]
 > > Hecho y Acto Jurídico
 
-- Hecho 
+- Hecho jurídicos
+	- Tipos
+		- Naturales
+		- Humanos
+		- Por situaciones jurídicas
+		- Por relación jurídica
+- Simple acto licito
+- Acto jurídico
+	- Voluntario
+		- Discernimiento
+		- Intención
+		- Libertad
+	- Involuntario
+		- El acto de quien, al momento de realizarlo, está privado de la razón
+		- El acto ilícito de la persona menor de edad que no ha cumplido 10 años
+		- El acto lícito de la persona menor de edad que no ha cumplido 13 años, sin prejuicio de lo establecido en disposiciones especiales
+	- Elementos
+		- Sujeto
+		- Objeto
+		- Causa
+	- Forma y prueba
+	- Tipos
+		- Formales
+			- Solemnes
+				- Solemnidad absoluta
+				- Solemnidad relativa
+			- No solemnes
+		- No formales
+	- Modalidad
+		- Condición
+		- Plazo
+		- Cargo
+- Manifestación de la voluntad
+	- El silencio
+- Instrumentos
+	- Privados
+	- Particulares no firmados
+	- Públicos
+		- Tipos
+			- Las escrituras públicas y sus copias o testimonios
+			- Los instrumentos que extienden los escribanos o los funcionarios públicos con los requisitos que establecen las leyes
+			- Los títulos emitidos por el Estado Nacional, Provincial o la CABA, conforme a las leyes que autorizan su emisión.
+		- Validez
+			- Actuación de un oficial publico
+			- Firmas del oficial público, de las partes, y en su caso, de sus representantes
+- Vicios
+	- Recaen en el sujeto
+		- Error de hecho
+		- Dolo
+		- Violencia
+	- Recaen en el acto jurídico
+		- Lesión
+		- Simulación
+		- Fraude
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=14&selection=52,12,52,13&color=red|LEGISLACIÓNdocx_250324_132942, p.14]]
+> > Obligaciones
+
+- Obligaciones
+	- 

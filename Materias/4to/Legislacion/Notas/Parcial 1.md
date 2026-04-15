@@ -392,4 +392,40 @@
 	- Por ajuste alzado
 	- Por unidad de medida
 	- Por costo y costa
-- Contrato de servi
+- Contrato de servicio
+	- Cualquiera de las partes puede poner fin al contrato de duración indeterminada
+	- Se aplican a los servicios prestados por trabajadores autónomos (abogados, ingenieros, contadores, etc.)
+	- Tiempo, lugar y modo acordado por las partes
+	- 
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=26&selection=8,15,8,16&color=red|LEGISLACIÓNdocx_250324_132942, p.26]]
+> > Derechos Reales
+
+- Derechos reales
+	- Notas características
+		- Exclusividad
+		- De estructura legal
+		- Persecución y preferencia
+	- Diferencias
+		- Diferencia entre derechos reales y personales
+			- ![[LEGISLACIÓNdocx_250324_132942.pdf#page=26&rect=83,93,515,276&color=red|LEGISLACIÓNdocx_250324_132942, p.26]]
+		- Diferencia entre derechos reales y los derechos intelectuales
+			- ![[LEGISLACIÓNdocx_250324_132942.pdf#page=27&rect=80,626,515,752&color=red|LEGISLACIÓNdocx_250324_132942, p.27]]
+	- Adquisición
+		- Actos entre vivos
+			- Titulo suficiente
+			- Modo suficiente
+			- Inscripción registral
+		- Por causa de muerte
+		- Prescripción adquisitiva
+			- Prescripción breve
+			- Prescripción larga
+		- Tradición
+	- Clasificacion
+		- Dominio perfecto
+		- Condominio
+		- Propiedad horizontal
+		- Conjuntos inmobiliarios
+		- Tiempo compartido
+		- Cementerios privados
+		- Superficie

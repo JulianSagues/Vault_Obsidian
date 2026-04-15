@@ -421,7 +421,7 @@
 			- Prescripción breve
 			- Prescripción larga
 		- Tradición
-	- Clasificacion
+	- Clasificación
 		- Dominio perfecto
 		- Condominio
 		- Propiedad horizontal
@@ -429,3 +429,15 @@
 		- Tiempo compartido
 		- Cementerios privados
 		- Superficie
+- Derechos reales sobre cosa ajena
+	- Usufructo
+	- Uso
+	- Habitación
+	- Servidumbre
+	- Accesorios
+		- Derechos reales de garantía
+			- Hipoteca
+			- Anticresis
+			- Prenda
+		- 
+---

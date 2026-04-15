@@ -2,14 +2,38 @@
 ---
 ### Normas Jurídicas
 
-| Leyes       | Naturaleza                                                             | Cultura                        |
-| ----------- | ---------------------------------------------------------------------- | ------------------------------ |
-| Descripción | El hombre no puede modificarlas, solo estudiarlas, comprenderlas, etc. | Rigen el comportamiento humano |
-| Ejemplo     | Ley de la gravedad                                                     | Ley sobre asesinato            |
+- Leyes
+	- De la naturaleza
+	- De la cultura
+		- Del ser
+		- Del debe ser
+			- Normas religiosas
+			- Normas morales
+			- Normas sociales
+			- Normas jurídicas
+- Ley Jurídica
+	- Elementos
+		- Coerción
+		- Sanción
+		- Coacción
+- Clasificación Derecho
+	- Derecho natural y positivo
+	- Derecho objetivo y subjetivo
+	- Derecho publico y privado
+	- Derechos civiles
+## Persona-Relación Jurídica 
 
-|             | SER                                                                    | DEBE SER                          |
-| ----------- | ---------------------------------------------------------------------- | --------------------------------- |
-| Descripcion | Es sobre conocer las cosas, es decir, como hacer algo o como obtenerlo | Dirigen la voluntad de la persona |
-| Ejemplo     | Como operar a alguine                                                  | Ley sobre robo                    |
-
-<u></u>
+- Relación jurídica
+	- Elementos
+		- Objeto
+		- Sujeto
+		- Causa
+- Persona
+	- Persona humana
+		- Clasificación
+			- Persona por nacer
+			- Persona visible
+		- Atributos
+			- Derechos personalisimos
+				- Derecho sobre el cuerpo humano y sus partes
+				- Derecho 

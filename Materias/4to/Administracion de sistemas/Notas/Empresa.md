@@ -20,4 +20,4 @@
 	- Debilidad:
 	- Amenaza:
 ---
-![[dani-1.svg]]
+![[dani-1.svg]

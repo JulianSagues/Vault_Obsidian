@@ -34,6 +34,59 @@
 			- Persona por nacer
 			- Persona visible
 		- Atributos
-			- Derechos personalisimos
+			- Derechos personalísimos
 				- Derecho sobre el cuerpo humano y sus partes
-				- Derecho 
+				- Derecho de las comunidades indígenas
+				- Derecho a la dignidad
+				- Derecho a la imagen
+			- Capacidad
+				- De ejercicio
+				- De derecho
+				- Incapacidad
+					- Personas incapaces de ejercicio
+						- Persona por nacer
+						- Persona que no cuenta con la edad y grado de madurez suficiente
+						- Persona declarada incapaz por sentencia judicial
+			- Nombre
+			- Domicilio
+				- Domicilio real
+				- Domicilio legal
+		- Fin de la existencia
+			- Etapas
+				- Simple ausencia
+				- Ausencia con presunción de fallecimiento
+		- Prueba del nacimiento y de la muerte
+			- Partidas del registro civil
+## Persona Jurídica
+
+- Persona jurídica
+	- Clasificación
+		- Publicas
+			- Caracteres
+				- Creadas por ley
+				- fin inmediato el fin publico
+				- Actúan con imperium
+		- Privadas
+			- Responsabilidad de los administradores
+				- Dimensión de la entidad
+				- Su objeto
+				- Las funciones genéricas
+				- Circunstancias en que debió actuar y no cumplió con su deber
+			- Tipos
+				- Sociedades
+				- Asociaciones civiles
+				- Simples asociaciones
+				- Fundaciones
+				- Mutuales
+				- Cooperativas
+			- Disolucion
+				- Decisión de los miembros
+				- Cumplimiento de la condición resolutoria a la que el acto constitutivo subordinó su existencia
+				- Consecución del objeto para el cual se formó o imposibilidad de cumplirlo.
+				- Vencimiento del plazo. 5. Declaración de quiebra. 6. Fusión respecto de las personas jurídicas o las personas jurídicas cuyo patrimonio es absorbido, o la escisión respecto de la persona jurídica que se divide y destina todo su patrimonio. 7. Reducción a uno del número de miembros, si la ley exige pluralidad y ésta no es establecida dentro de los 3 meses. 8. Agotamiento de los bienes. 9. Cualquier otra causa prevista en el estatuto, en la ley especial o en el código civil.
+	- Atributos
+		- Nombre
+		- Domicilio
+		- Patrimonio
+		- Objeto
+		- Capacidad

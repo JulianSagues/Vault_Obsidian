@@ -223,4 +223,32 @@
 > > Obligaciones
 
 - Obligaciones
-	- 
+	- Elementos
+		- Relación jurídica
+		- Objeto
+		- Sujetos
+		- Causa
+	- Fuentes
+		- Voluntad
+			- Contratos
+			- Títulos de valores
+			- Voluntad unilateral
+				- Promesa publica de recompensa
+				- Concurso publico
+				- Garantía unilateral
+		- Ley
+			- Cuasi contrato
+				- Gestión de negocios
+				- Empleo útil
+			- Abuso del derecho
+			- Enriquecimiento sin causa
+			- Responsabilidad civil
+- Requisitos de la prestación como objeto de la obligación
+	- Posibilidad material y jurídica
+	- Licito
+	- Determinado o determinable
+	- Patrimonialmente valorable
+- Requisitos de los sujetos
+	- Tener capacidad de ejercicio
+	- Ser determinado o determinable
+	- Ser persona distinta acreedor y deudor.

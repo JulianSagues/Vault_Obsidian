@@ -350,3 +350,46 @@
 > > Contrato de Obra y Servicio
 
 - Contrato de obra y servicio
+	- Partes
+		- Comitente
+		- Contratista o prestador
+	- Características
+		- Bilateral
+		- Oneroso
+		- Conmutativo
+		- No formal
+		- Nominado
+		- Tracto sucesivo
+		- Consensual
+	- Extinción
+		- Por cumplimiento de la obra y pago del precio
+		- Desistimiento del comitente: aunque la obra haya comenzado puede desistir el comitente indemnizando al prestador de los gastos y trabajos realizados y la utilidad que pudo obtener el contrato
+		- Imposibilidad de hacer o terminar la obra: por causa no imputable a ninguna de las partes, el contratista tiene derecho a obtener una compensación equitativa a la tarea efectuada
+		- Muerte del comitente NO EXTINGUE el contrato salvo que haga imposible o inútil su ejecución
+		- Muerte del contratista o prestador EXTINGUE el contrato salvo que se convenga con los herederos su continuación
+- Obligaciones de las partes
+	- Obligaciones del contratista o del prestador
+		- Ejecutar el contrato
+		- Informar al comitente
+		- Proveer los materiales
+		- Usar diligentemente los materiales
+		- Ejecutar la obra o el servicio en el tiempo convenido
+	- Obligaciones del comitente
+		- Pagar la retribución
+		- Proporcionar al contratista o prestador la colaboración necesaria, conforme a las características de la obra o del servicio
+		- Recibir la obra si fue ejecutada conforme a la ley
+- Responsabilidades
+	- Antes de la entrega
+		- Si el contratista provee los materiales y la obra se realiza en un inmueble del comitente, el contratista tiene derecho a cobrar su valor y a una compensación equitativa por la tarea efectuada
+		- Si es por mala calidad de los materiales, no se debe el precio pactado, aunque el contratista haya advertido esa circunstancia al comitente
+		- Si el comitente está en mora, en la recepción, momento de la destrucción o deterioro, debe la retribución.
+	- Después de la entrega
+		- Toda persona que vende una obra que ella ha construido o ha hecho construir si hace de esa actividad su profesión habitual
+		- Toda persona que actúa en calidad de mandatario del dueño de la obra cumple una misión semejante al contratista
+		- Al contratista, subcontratista, al proyectista, al directos de la obra y a cualquier otro profesional ligado al comitente por un contrato de obra referido a la obra dañada o a cualquiera de sus partes.
+- Pago
+	- Por acuerdo de voluntades
+	- Por ajuste alzado
+	- Por unidad de medida
+	- Por costo y costa
+- Contrato de servi

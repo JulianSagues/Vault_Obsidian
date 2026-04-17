@@ -159,7 +159,6 @@
 			- Los bienes adquiridos por el estado nacional, provincial o municipal por cualquier título
 		- Bienes de los particulares
 		- Aguas de los particulares
-		- 
 ---
 > [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=11&selection=0,21,0,22&color=yellow|LEGISLACIÓNdocx_250324_132942, p.11]]
 > > Hecho y Acto Jurídico
@@ -439,5 +438,4 @@
 			- Hipoteca
 			- Anticresis
 			- Prenda
-		- 
 ---

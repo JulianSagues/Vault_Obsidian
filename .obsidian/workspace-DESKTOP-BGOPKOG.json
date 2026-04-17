@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Materias/4to/Investigacion operativa/Material/Material.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Material"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "151c7b31501f03fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "421135cf291a04d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dd0e24a87cd2411",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "87817f01d1be558b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "55aecd3903269176",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f5ce86f74721dd35",
+    "type": "split",
+    "children": [
+      {
+        "id": "645adac77b95535c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89161923276b83d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Materias/Diseño de sistemas/Notas/Diagrama de CU.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Diagrama de CU"
+            }
+          },
+          {
+            "id": "4d34bfc69d900f10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "843a15927e987e84",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "fb724d61f0a7cb29",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Materias/4to/Legislacion/Material/LEGISLACIÓNdocx_250324_132942.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de LEGISLACIÓNdocx_250324_132942"
+            }
+          },
+          {
+            "id": "8cb4491993440310",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "0a69a122bf325eef",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4950bee932182eff",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "callout-manager:Insert Callout": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false,
+      "cmdr:Git: Commit-and-sync": false,
+      "cmdr:Git: Pull": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Materias/4to/Investigacion operativa/Investigacion operativa.base",
+    "Materias/4to/4to.base",
+    "Materias/Materias.base",
+    "Materias/4to/Simulacion/Material/TP 3 - Modelado basado en Agentes.pdf",
+    "Materias/4to/Simulacion/Material/Material.base",
+    "Materias/4to/Simulacion/Simulacion.base",
+    "Materias/4to/Legislacion/Legislacion.base",
+    "Materias/4to/Investigacion operativa/Material/TP 3 - Modelado basado en Agentes.pdf",
+    "Materias/4to/Ingenieria y calidad de software/Notas/requisitos.md",
+    "Materias/4to/Ingenieria y calidad de software/Notas/Notas.base",
+    "Materias/4to/Ingenieria y calidad de software/Ingenieria y calidad de software.base",
+    "Materias/4to/Legislacion/Notas/Notas.base",
+    "Materias/4to/Legislacion/Notas/Parcial 1.md",
+    "Assets/TP2-25.png",
+    "Materias/4to/Legislacion/Notas/Persona Jurídica.md",
+    "Materias/4to/Legislacion/Notas/Persona.md",
+    "Materias/4to/Legislacion/Notas/Contratos.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "Materias/4to/Legislacion/Notas/Normas Jurídicas.md",
+    "Materias/4to/Legislacion/Notas/TP4.md",
+    "Assets/TP4-9.png",
+    "Assets/TP4-8.png",
+    "Assets/TP4-7.png",
+    "Assets/TP4-6.png",
+    "Assets/TP4-5.png",
+    "Assets/TP4-4.png",
+    "Assets/TP4-3.png",
+    "Assets/TP4-2.png",
+    "Assets/TP4-1.png",
+    "Materias/4to/Legislacion/Notas/TP3.md",
+    "Materias/4to/Administracion de sistemas/Notas/Empresa.md",
+    "Assets/dani-1.drawio.md"
+  ]
+}

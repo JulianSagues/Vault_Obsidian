@@ -1,0 +1,111 @@
+
+---
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=1&selection=0,16,0,17&color=yellow|LEGISLACIÓNdocx_250324_132942, p.1]]
+> > Normas Jurídicas
+
+---
+- Normas juridicas
+	- Existen para establecer un orden
+- Ley
+	- Expresión conceptual de las relaciones establecidas entre dos o mas fenómenos
+		- En términos sencillos, una **ley** es la forma en que explicamos cómo se relacionan dos o más sucesos o fenómenos entre sí. Es un concepto amplio que busca definir reglas, ya sea para entender la naturaleza o para organizar cómo vivimos en sociedad.
+	- Tipos:
+		- Leyes de la naturaleza
+			- Se caracterizan por su causalidad, es decir el hombre no puede modificarlas
+				- Ley de la gravedad
+		- Leyes de la cultura
+			- Rigen el comportamiento humano
+			- Tipos
+				- Del SER
+					- Referidas al conocimiento de las cosas y como obtenerlas
+						- En la medicina, como curar a alguien
+				- Del DEBE SER
+					- destinadas a dirigir la voluntad del individuo
+					- Características:
+						- Normativas
+							- Establecen normas o reglas de la conducta
+						- Obligatorias
+							- Dirigidas a imponer conductas determinadas del hombre
+						- Imputativas
+							- Imputan una acción al sujeto
+						- Sanción o pena
+							- Según como se clasifique la acción reciben una sanción o pena
+						- Libre albedrio
+							- El hombre tiene la libertad de seguirlas o no
+					- Tipos:
+						- Normas religiosas
+							- Relaciones entre un ser superior y el orden
+							- Características:
+								- Heterónomas
+									- Vienen impuestas de afuera
+								- Obligatorias
+								- Adhesión interna
+								- Castigo después de la muerte
+						- Normas morales
+							- Perfección de si mismo
+							- Características:
+								- Universales
+								- Inmutables
+								- Autónomas
+								- Sanción interna
+								- Unilateral
+						- Normas sociales
+							- Ordenan las relaciones entre los hombres con el fin de lograr el bien común
+							- Características:
+								- Heterónomas
+								- No requieren adhesión interna
+								- Varían por tiempo y lugar
+								- La sanción es el repudio de los semejantes
+						- Normas jurídicas
+							- Características:
+								- Bilaterales
+								- Obligatorias
+								- Normativas
+								- Libre albedrio
+								- Heterónomas
+								- No requieren adhesión interna
+- Ley jurídica
+	- Rige obligatoriamente la conducta humana en sociedad y ha sido dictada por una autoridad competente
+	- Elementos:
+		- Coerción
+			- Presión que se ejerce sobre el libre albedrio para obligar a cada uno a cumplir con su deber
+			- Siempre es de orden interno y psicológico
+		- Sanción
+			- Pena impuesta por haber incumplido la norma
+		- Coacciona
+			- Cumplimiento forzado de la sanción si no existe voluntad propia
+- Clasificación del derecho
+	- Derecho natural y positivo
+		- Derecho natural
+			- Surge de la naturaleza humana
+			- El hombre lo conoce por la razón
+			- Características:
+				- Inmutativa
+				- Universal
+				- Fija los grande principios de la organización social
+				- Protegen la vida de los individuos
+		- Derecho positivo
+			- Conjunto de leyes y disposiciones vigentes en un país en un momento determinado de la historia
+	- Derecho objetivo y subjetivo
+		- Derecho objetivo
+			- Ordenamiento jurídico existente
+			- No necesariamente debe ser vigente la norma
+		- Derecho subjetivo
+			- Derecho o facultad del individuo de obrar de determinada manera o exigir de otro una determinada conducta
+			- Tipos:
+				- Derecho subjetivo absoluto
+					- El sujeto obligado es toda la sociedad
+				- Derecho subjetivo relativo
+					- Existe uno o más sujetos obligados
+	- Derecho público y privado
+		- Derecho público
+			- Se destaca la presencia del estado actuando como una de las partes
+		- Derecho privado
+			- No se destaca la presencia del estado actuando como una de las partes
+	- Derechos civiles
+		- Derechos civiles extrapatrimoniales
+			- Derechos que no tienen valor económico
+				- Derecho a la personalidad
+		- Derechos civiles patrimoniales
+			- Derechos que tiene valor económico
+				- Derechos crediticios

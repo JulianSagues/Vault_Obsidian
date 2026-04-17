@@ -1,33 +1,56 @@
-- No requieren autorización para funcionar
-- Clasificacion:
-	- Publico
-		- se crean por ley
-		- actuan con imperium 
-		- no pueden vivir del estado
-			- Estado Nacional, provincias, departamentos, etc
-				- Puede ser demandado y actuar en consecuencia
-			- Entidades autarquicas
-				- el estado les da funciones publicas
-					- Ej el banco central
-			- Entidades creadas en el exterior y que son consideradas de derecho publico
-				- Ej onu
-			- Iglesia catolicas
-	- Privada
-		- se crean por voluntad de quienes lo constituyen
-		- aunque el estado intervenga, no deja de ser privada, ej edemsa
-			- Sociedades
-			- Asociaciones civiles
-			- Simples asociaciones
-			- Fundaciones
-			- Iglesias, confesiones, comunidades o entidades religiosas
-			- Mutuales
-			- Cooperativas
-			- Consorcio de propiedad horizontal
-			- Todo otra contemplada en disposiciones del codigo civil 
-- Atributos
-	- Nombre
-	- Domicilio
-	- Objeto
-	- Patrimonio
-	- Capacidad del derecho
-	- 
+
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=5&selection=16,16,16,17&color=important|LEGISLACIÓNdocx_250324_132942, p.5]]
+> > Persona Jurídica
+
+---
+- Persona jurídica
+	- Son todos los entes a los cuales el ordenamiento jurídico les confiere aptitud para adquirir derechos y contraer obligaciones para el cumplimiento de su objeto y os fines de su creación
+	- Clasificación:
+		- Publicas
+			- Estado nacional
+			- Provincias
+			- La ciudad autónoma de buenos aires
+			- Entidades autárquicas
+			- Demas organizaciones a las que el ordenamiento jurídico les atribuya ese carácter
+		- Privadas
+			- Comienza desde su constitución
+			- Los miembros no responden por las obligaciones de la persona jurídica salvo excepciones expresamente establecidas por el código y que lo disponga la ley especial
+			- Las funciones del administrador abarcan la gestión operativa de los negocios sociales, la organización y dirección de la persona jurídica, el cumplimiento del estatuto
+			- Responsabilidad de los administradores
+				- Dimensión de la entidad
+				- Su objeto
+				- Las funciones genéricas
+				- Circunstancias en que debió actuar y no cumplió con su deber
+				- En caso de conflicto de intereses, los administradores deben priorizar, en su función, el interés social con respecto al propio
+				- Los administradores responden solidaria e ilimitada frente a la persona jurídica, sus miembros y terceros responden por los daños causados por su culpa en ejercicio u ocasión de sus funciones, por acción u omisión
+			- Tipos:
+				- Sociedades
+					- Forma organizada en la que una o mas personas se obligan a realizar aportes para aplicarlos a la producción o intercambio de bienes y servicios, participando de las ganancias y soportando las perdidas.
+					- Se establece su constitución en el registro publico del domicilio social y en el registro que corresponda al asiento de cada sucursal
+				- Asociaciones civiles
+					- Nacen de la unión estable de un grupo de personas físicas que persiguen la realización de un fin no lucrativo
+					- Se constituyen por instrumento publico y se inscriben en el registro correspondiente una vez entregada la autorización para funcionar
+				- Simples asociaciones
+					- Personas juricas con fromalidades mas encillas para su constitucion y un regimen de responsabilidad solidario
+				- Fundaciones
+				- Iglesias, confesiones, comunidades o entidades religiosas
+				- Mutuales
+				- Cooperativas
+				- Consorcio de propiedad horizontal
+				- Toda otra contemplada en disposiciones del código civil o en otras leyes cuyo carácter de tal resulte de su finalidad o funcionamiento
+	- Características:
+		- Son creadas por ley, nunca por voluntad de partes
+		- Tienen como fin inmediato el interés publico
+		- Actúan con imperium que es el poder que tiene el órgano de la persona jurídica de hacer cumplir las decisiones que toma
+	- Atributos:
+		- Nombre
+		- Domicilio y sede social
+		- Patrimonio
+		- Objeto
+			- Propósito declarado en el estatuto
+		- Capacidad:
+			- De derecho
+				- Rige el principio de especialidad, solo pueden realizar actos vinculados a su objeto social
+			- De ejercicio
+				- Las personas jurídicas actúan por si mismas a través de sus órganos que son sus administradores

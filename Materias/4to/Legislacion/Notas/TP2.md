@@ -1,3 +1,22 @@
 
 ![[TP2.png]]![[TP2-1.png]]![[TP2-2.png]]
+<<<<<<< HEAD
 ![[TP2-3.png]]
+=======
+![[TP2-3.png]]![[TP2-4.png]]
+![[TP2-5.png]]
+![[TP2-6.png]]
+![[TP2-7.png]]
+![[TP2-8.png]]
+![[TP2-9.png]]
+![[TP2-10.png]]
+![[TP2-11.png]]
+![[TP2-12.png]]
+![[TP2-13.png]]
+![[TP2-14.png]]
+![[TP2-15.png]]
+![[TP2-16.png]]![[TP2-17.png]]
+![[TP2-18.png]]
+![[TP2-19.png]]
+![[TP2-20.png]]
+>>>>>>> a766b81fa675f65dfc2954e3ce588cb2013692e7

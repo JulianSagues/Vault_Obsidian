@@ -1,89 +1,86 @@
 
-
-- Relación jurídica: es el vinculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otras un determinado comportamiento, por ejemplo el matrimonio
-	- Elementos: 
-		- sujetos: sujeto activo (acreedor) o pasivo (deudor)
-		- objeto: es el contenido del derecho 
-		- causa: hecho o circunstancias que hace nacer el vinculo jurídico
-- Persona: es todo ente susceptible de adquirir derechos y contraer obligaciones
-	- Tipos:
-		-  Humanas
-		- Jurídicas: son las empresas
-- Persona humana: es todo ente con signos característicos de humanidad sin distinción de cualidades o accidentes
-	- clasificación:
-		- persona por nacer: comienzo de la existencia desde la concepción (natural o asistida)
-			- adquisición de derechos definitivo supeditada al nacimiento con vida
-		- persona propiamente dicha: nacidas con vida y que adquieren derechos de forma definitiva
-			- si una persona no nace con vida se considera que nunca existió
-			- si se duda si nació con vida o no, se considera con vida
-- Atributos de la personalidad:
-	- capacidad: es la aptitud de la persona para adquirir derecho y contraer obligaciones
-		- capacidad de derecho: aptitud para ser titular
-			- Personas incapaces de derechos: imposibilidad de una persona para ser titular de ciertos derechos o para realizar ciertos actos
-				- no se trata de una incapacidad general sino que afecta a actos específicos
-				- ejemplo: prohibición de los padres de contratar a hijos menores o la imposibilidad del curador de adquirir bienes de su pupilos, los cónyuges no pueden celebrar contrato de compraventa entre si, un menor no puede votas
-		- capacidad de hecho: aptitud para ejercer
-			- Personas incapaces de hecho:
-				- personas por nacer
-				- personas que no cuentan con edad y grado de madurez suficiente
-				- persona declarada incapaz por sentencia judicial
-		- Ejercicio de los derechos por los menores de edad
-			- mayoría de edad: 18 años
-			- principio de autonomía progresiva: derecho del menor para el ejercicio de algunos derechos y reuzacion de ciertos  actos de acuerdo a su grado de madurez y discernimiento
-		- personas con capacidad restringida o incapacidad
-			- el juez puede  restringir la capacidad de la persona en caso de padecer adicciones o una alteración mental cuando de ello puede derivar un daño a la persona o bienes
-	- nombre:
-		- prenombre
-			- corresponde a la elección de sus padres, otra persona en ausencia de ellos
-			- no pueden inscribirse mas de tres prenombres, apellidos como prenombres o inscribirse nombres extravagantes
-			- pueden inscribirse nombres aborígenes o derivados
-		- apellido
-			- hijo matrimonial, debe llevar el apellido  de uno de los padres
-		- cambio de nombre:
-			- el cambio de nombre solo procede si existe motivos justos
-				- seudónimo: una persona ha usado un nombre diferente al registrado durante mucho tiempo
-				- afectación de la personalidad: el nombre causa un daño psicológico o emocional a la persona
-				- violencia: personas que han sido victimas de violencia o necesitan escapar de situaciones  peligrosos
-				- cambio de genero:
-				- motivos culturales o religiosos
-				- haber sido victima de desaparición forzada o apropiación ilegal
-	- domicilio:
-		- domicilio real: residencia habitual (voluntario, mutable e inviolable)
-		- domicilio legal: solo establecidos por la ley (funcionario públicos, militares, de ejercicio ambulante)
-		- domicilio convencional:
-- Fin de la existencia
-	- regla: muerte
-	- excepción: ausencia con presunción de fallecimiento
-		- etapas
-			- simple ausencia (primera etapa) hasta que
-				- aparece la persona
-				- se prueba su muerte
-				- se declara su muerte presunta
-			- ausencia con presunción de fallecimiento ( segunda etapa)
-				- 3 años desde el día que se tuvo la ultima noticia
+---
+> [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=3&selection=6,25,6,26&color=note|LEGISLACIÓNdocx_250324_132942, p.3]]
+> > Persona-Relación Jurídica
 
 ---
-Fotos:
-![[Persona-1.png]]
-
-
-![[Persona-2.png]]
-
-
-![[Persona-3.png]]
-
-
-![[Persona-4.png|697]]
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Relación Jurídica
+	- Vinculo que el derecho objetivo establece entre personas al atribuir a una de ellas el poder de imponer a otra un determinado comportamiento
+	- Elementos:
+		- Sujeto
+			- Activo, acreedor o poseedor
+			- Pasivo, deudor u obligado
+		- Objeto
+			- Contenido del derecho o la prerrogativa del titula como sujeto de derecho
+		- Causa
+			- Circunstancia que al producirse nace el vinculo jurídico
+- Persona
+	- Todo ente susceptible de adquirir derechos y contraer obligaciones
+- Persona humana
+	- Todo ente que presente signos característicos de humanidad sin distinción de cualidad o accidentes
+	- Clasificación
+		- Persona por nacer
+			- Comienza con la concepción
+			- Puede adquirir derechos pero estos derechos están supeditados a que nazca con vida
+		- Persona visible
+			- Reciben los derechos de forma definitiva
+	- Atributos
+		- Derechos personalísimos
+			- Derechos sobre el cuerpo humano y sus partes
+			- Derechos de las comunidades indígenas
+				- Tienen derecho a la posesión y propiedad comunitaria de las tierras que tradicionalmente ocupan y de aquellas aptas y suficientes para el desarrollo humano
+			- La persona humana es inviolable y en cualquier circunstancia tiene derecho al reconocimiento y respeto de su dignidad
+				- Afecciones a su dignidad:
+					- Lesiones a su intimidad personal o familiar
+					- Honor o reputación
+					- Imagen o identidad
+					- Menoscabo a su dignidad personal
+			- Derecho a la imagen
+				- Se necesita consentimiento de la persona para captar o reproducir la imagen o la voz
+				- Excepciones:
+					- Sea figura publica
+					- Que exista interés científico, cultura o educacional y se tome precaución para evitar daños
+					- Que se trate de ejercicio regular para informar acontecimientos de interés general
+		- Capacidad
+			- Tipos:
+				- De derecho
+					- Aptitud de adquirir derechos y contrae obligaciones por el solo hecho de ser tal, independientemente de si esto es actuado por ella misma o con intervención de un tercero
+				- De ejercicio
+					- Refiere a que toda persona (excepto las limitaciones por sentencia judicial) tiene la aptitud para adquirir y/o ejercer tales derechos y obligaciones por si misma
+					- Personas incapaces de ejercicio
+						- La persona por nacer
+						- La persona que no cuenta con la edad y grado de madurez suficiente
+						- La persona declarada incapaz por sentencia judicial
+			- Incapacidad
+				- Falta de aptitud para ser titular de derechos y obligaciones o para poder ejercer esos derechos y obligaciones
+		- Nombre
+			- La persona tiene derecho de usar el prenombre y apellido que le corresponden
+		- Domicilio
+			- La persona tiene un domicilio real, es voluntario, mutable e inviolable (exceptuando casos justificados)
+			- Tipos:
+				- Domicilio real
+					- Donde habita una persona
+				- Domicilio legal
+					- Donde se presume que la persona ejerce sus derechos y cumple con sus obligaciones
+				- Domicilio convencional
+					- Sirve para realizar en el las notificaciones que deriven del negocio jurídico y fija la jurisdicción aplicable en caso de conflictos
+	- Fin de la existencia de la persona humana
+		- Termina con la muerte, la comprobación de esta que sujeta a los estándares médicos especiales
+		- Si no hay cadáver no podemos establecer la muerte de la persona
+		- Etapas:
+			- Primera etapa
+				- Simple ausencia
+					- La persona desaparece de su lugar habitual sin que se tenga noticias de ella
+					- Se asigna un curador a sus bienes
+					- Esto termina porque:
+						- Aparece la persona
+						- Se prueba su muerte
+						- Por declaración de muerte presunta
+			- Segunda etapa
+				- Ausencia con presunción de fallecimiento
+					- Causada por la ausencia de la persona en un termino de 3 años
+					- El juez debe nombrar defensor del ausente y citar por edictos al mismo durante 6 meses
+					- Pasado el termino y ofrecida la prueba, el juez debe declarar la muerte presunta del ausente y dispone la inscripción de la sentencia
+					- Los bienes se entregan a los herederos, los mismos se inscriben en el registro con prenotación que dura 5 años, transcurrido los cuales pueden disponer de los bienes libremente
+	- Prueba del nacimiento y de la muerte de una persona humana
+		- El nacimiento y la muerte de una persona, sus circunstancias de tiempo y lugar, sexo, nombre y filiación se prueban con las partidas del registro civil

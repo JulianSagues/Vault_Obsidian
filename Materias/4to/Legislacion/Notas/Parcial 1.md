@@ -1,0 +1,443 @@
+
+---
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=1&selection=0,16,0,17&color=yellow|LEGISLACIÓNdocx_250324_132942, p.1]]
+> > Normas Jurídicas
+
+- Leyes
+	- De la naturaleza
+	- De la cultura
+		- Del ser
+		- Del debe ser
+			- Normas religiosas
+			- Normas morales
+			- Normas sociales
+			- Normas jurídicas
+- Ley Jurídica
+	- Elementos
+		- Coerción
+		- Sanción
+		- Coacción
+- Clasificación Derecho
+	- Derecho natural y positivo
+	- Derecho objetivo y subjetivo
+	- Derecho publico y privado
+	- Derechos civiles
+---
+> [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=3&selection=6,0,6,25&color=note|LEGISLACIÓNdocx_250324_132942, p.3]]
+> > Persona-Relación Jurídica
+> 
+> 
+
+- Relación jurídica
+	- Elementos
+		- Objeto
+		- Sujeto
+		- Causa
+- Persona
+	- Persona humana
+		- Clasificación
+			- Persona por nacer
+			- Persona visible
+		- Atributos
+			- Derechos personalísimos
+				- Derecho sobre el cuerpo humano y sus partes
+				- Derecho de las comunidades indígenas
+				- Derecho a la dignidad
+				- Derecho a la imagen
+			- Capacidad
+				- De ejercicio
+				- De derecho
+				- Incapacidad
+					- Personas incapaces de ejercicio
+						- Persona por nacer
+						- Persona que no cuenta con la edad y grado de madurez suficiente
+						- Persona declarada incapaz por sentencia judicial
+			- Nombre
+			- Domicilio
+				- Domicilio real
+				- Domicilio legal
+		- Fin de la existencia
+			- Etapas
+				- Simple ausencia
+				- Ausencia con presunción de fallecimiento
+		- Prueba del nacimiento y de la muerte
+			- Partidas del registro civil
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=5&selection=16,16,16,17&color=important|LEGISLACIÓNdocx_250324_132942, p.5]]
+> > Persona Jurídica
+> 
+> 
+
+- Persona jurídica
+	- Clasificación
+		- Publicas
+			- Caracteres
+				- Creadas por ley
+				- fin inmediato el fin publico
+				- Actúan con imperium
+		- Privadas
+			- Responsabilidad de los administradores
+				- Dimensión de la entidad
+				- Su objeto
+				- Las funciones genéricas
+				- Circunstancias en que debió actuar y no cumplió con su deber
+			- Tipos
+				- Sociedades
+				- Asociaciones civiles
+				- Simples asociaciones
+				- Fundaciones
+				- Mutuales
+				- Cooperativas
+			- Disolución
+				- Decisión de los miembros
+				- Cumplimiento de la condición resolutoria a la que el acto constitutivo subordinó su existencia
+				- Consecución del objeto para el cual se formó o imposibilidad de cumplirlo
+				- Vencimiento del plazo
+				- Declaración de quiebra
+				- Fusión respecto de las personas jurídicas o las personas jurídicas cuyo patrimonio es absorbido, o la escisión respecto de la persona jurídica que se divide y destina todo su patrimonio
+				- Reducción a uno del número de miembros, si la ley exige pluralidad y ésta no es establecida dentro de los 3 meses.
+				- Agotamiento de los bienes
+				- Cualquier otra causa prevista en el estatuto, en la ley especial o en el código civil.
+			- Revocación de la autorización estatal
+				- Debe fundarse en actos graves que importen la violación de la ley, estatuto y reglamento
+	- Atributos
+		- Nombre
+		- Domicilio
+		- Patrimonio
+		- Objeto
+		- Capacidad
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=7&selection=90,18,90,19&color=red|LEGISLACIÓNdocx_250324_132942, p.7]]
+> > Objeto del Derecho
+
+- El CCCN reconoce:
+	- Derechos individuales
+	- Derechos de incidencia colectiva
+- Bienes y cosas
+	- Patrimonio
+	- Bienes futuros
+	- Bienes excluidos de la garantía común
+		- Ropa y muebles
+		- Instrumentos necesarios para el ejercicio de su profesión
+		- Sepulcros
+		- Bienes afectados a cualquier religión
+		- Derechos de usufructo
+		- Indemnizaciones
+		- Indemnizaciones por alimentos
+		- Los demás bienes declarados inembargables o excluidos por otras leyes
+	- Prioridad del primer embargante
+	- Privilegios
+		- Privilegios especiales
+			- Los gastos hechos para construcción, mejora conservación de una cosa, sobre ésta, se incluyen las expensas comunes en la propiedad horizontal
+			- Los créditos por remuneraciones debidas al trabajador por 6 meses y las indemnizaciones por antigüedad o despido, accidentes de trabajo, preaviso y fondo de desempleo.
+			- Los impuestos, tasas o contribuciones de mejoras que se aplican particularmente a determinados bienes, sobre estos
+			- Lo adeudado al retenedor por la cosa retenida
+			- Los créditos garantizados con hipoteca, anticresis, prenda con o sin desplazamiento, warrant y los debentures y obligaciones negociables con garantía especial o flotante
+			- Los privilegios establecidos en la Ley de Navegación, Código Aeronáutico, la Ley de Entidades financieras, Ley de Seguros y el Código de Minería.
+	- Vivienda
+	- Bienes con relación a las personas y los derechos de incidencia colectiva
+		- Cosas muebles e inmuebles
+		- Cosas divisibles e indivisibles
+		- Cosas principales y accesorias
+		- Cosas consumibles y no consumibles
+		- Cosas fungibles y no fungibles
+	- Bienes fuera del comercio
+	- Bienes con relación a las personas
+		- Del dominio publico del estado
+			- El mar territorial
+			- Las aguas interiores, bahías, golfos, ensenadas, puertos ancladeros, layas marítimas
+			- Los ríos estuarios y arroyos y demás aguas que corren por cauces naturales
+			- Las islas formadas en el mas territorial, la plataforma continental, la zona económica exclusiva
+			- El espacio aéreo supra yacente al territorio
+			- Las calles, plazas caminos, canales, puentes y cualquier obra pública para el uso común
+			- Los documentos oficiales del Estado
+			- Las ruinas y establecimientos arqueológicos y paleontológicos.
+		- del dominio privado del Estado
+			- Los inmuebles que carecen de dueño
+			- Las minas de oro, plata, cobre, piedras preciosas
+			- Los lagos no navegables que carecen de otro dueño
+			- Los bienes adquiridos por el estado nacional, provincial o municipal por cualquier título
+		- Bienes de los particulares
+		- Aguas de los particulares
+		- 
+---
+> [!PDF|yellow] [[LEGISLACIÓNdocx_250324_132942.pdf#page=11&selection=0,21,0,22&color=yellow|LEGISLACIÓNdocx_250324_132942, p.11]]
+> > Hecho y Acto Jurídico
+
+- Hecho jurídicos
+	- Tipos
+		- Naturales
+		- Humanos
+		- Por situaciones jurídicas
+		- Por relación jurídica
+- Simple acto licito
+- Acto jurídico
+	- Voluntario
+		- Discernimiento
+		- Intención
+		- Libertad
+	- Involuntario
+		- El acto de quien, al momento de realizarlo, está privado de la razón
+		- El acto ilícito de la persona menor de edad que no ha cumplido 10 años
+		- El acto lícito de la persona menor de edad que no ha cumplido 13 años, sin prejuicio de lo establecido en disposiciones especiales
+	- Elementos
+		- Sujeto
+		- Objeto
+		- Causa
+	- Forma y prueba
+	- Tipos
+		- Formales
+			- Solemnes
+				- Solemnidad absoluta
+				- Solemnidad relativa
+			- No solemnes
+		- No formales
+	- Modalidad
+		- Condición
+		- Plazo
+		- Cargo
+- Manifestación de la voluntad
+	- El silencio
+- Instrumentos
+	- Privados
+	- Particulares no firmados
+	- Públicos
+		- Tipos
+			- Las escrituras públicas y sus copias o testimonios
+			- Los instrumentos que extienden los escribanos o los funcionarios públicos con los requisitos que establecen las leyes
+			- Los títulos emitidos por el Estado Nacional, Provincial o la CABA, conforme a las leyes que autorizan su emisión.
+		- Validez
+			- Actuación de un oficial publico
+			- Firmas del oficial público, de las partes, y en su caso, de sus representantes
+- Vicios
+	- Recaen en el sujeto
+		- Error de hecho
+		- Dolo
+		- Violencia
+	- Recaen en el acto jurídico
+		- Lesión
+		- Simulación
+		- Fraude
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=14&selection=52,12,52,13&color=red|LEGISLACIÓNdocx_250324_132942, p.14]]
+> > Obligaciones
+
+- Obligaciones
+	- Elementos
+		- Relación jurídica
+		- Objeto
+		- Sujetos
+		- Causa
+	- Fuentes
+		- Voluntad
+			- Contratos
+			- Títulos de valores
+			- Voluntad unilateral
+				- Promesa publica de recompensa
+				- Concurso publico
+				- Garantía unilateral
+		- Ley
+			- Cuasi contrato
+				- Gestión de negocios
+				- Empleo útil
+			- Abuso del derecho
+			- Enriquecimiento sin causa
+			- Responsabilidad civil
+				- Funciones
+					- Preventiva
+					- Daño resarcible
+						- Daño emergente
+						- Lucro cesante
+						- Perdida de chance
+					- Sancionatoria
+						- Daño directo
+						- Daño indirecto
+						- Daño actual
+						- Daño futuro
+						- Daño subsistente
+						- La reparación del daño debe ser plena
+				- Quien responde
+					- Responsabilidad causada por acto involuntario
+					- Responsabilidad directa
+					- Responsabilidad por el hecho de terceros
+					- Responsabilidad derivada de la intervención de cosas y de ciertas actividades
+					- Responsabilidad objetiva
+					- Responsabilidad colectiva y anónima
+	- Efectos
+		- Efectos entre las partes
+			- Respecto al acreedor
+			- Respecto al deudor
+		- Efectos normales y anormales
+	- Extinción
+		- Pago
+		- Pago por compensación
+		- Pago por subrogación
+		- Pago por consignaciones
+		- Pago por confusión
+		- Pago por novación
+		- Pago por transacción
+		- Pago por renuncia
+		- Pago por remisión de deuda
+		- Pago por imposibilidad de cumplimiento
+		- Pago por prescripción
+- Requisitos de la prestación como objeto de la obligación
+	- Posibilidad material y jurídica
+	- Licito
+	- Determinado o determinable
+	- Patrimonialmente valorable
+- Requisitos de los sujetos
+	- Tener capacidad de ejercicio
+	- Ser determinado o determinable
+	- Ser persona distinta acreedor y deudor.
+---
+> [!PDF|note] [[LEGISLACIÓNdocx_250324_132942.pdf#page=19&selection=62,9,62,10&color=note|LEGISLACIÓNdocx_250324_132942, p.19]]
+> > Contratos
+
+- Contrato
+	- Clasificación
+		- Unilateral y bilateral
+		- Onerosos y gratuitos
+		- Conmutativos y aleatorios
+		- Formales e informales
+		- Nominados e innominados
+	- Elementos
+		- Esenciales
+			- Consentimiento
+			- Capacidad
+			- Objeto
+				- Licito
+				- Posible
+				- Determinado o determinable
+				- Susceptible de valoración económica
+				- Corresponder a un interés de las partes
+			- Causa
+				- Causa ilicita
+			- Forma
+		- Naturales
+		- Accidentales
+			- Plazo
+			- Cargo
+			- Condición
+	- Efectos
+		- Terceros
+		- Sucesores universales
+		- Libertad de contratación
+		- Efectos vinculantes
+		- Buena fe
+		- Carácter de las normas legales
+		- Imprevision
+		- Clausula resolutoria expresa
+		- Clausula resolutoria implícita
+- Formación del consentimiento
+	- Oferta
+	- Aceptacion
+- Incapacidad e inhabilidad para contratar
+	- Incapacidad para contratar
+		- Las personas incapaces de ejercicio: personas por nacer, menores de edad y personas declarada incapaces por sentencia judicial
+		- El menor de 18 años que ejerce sus derechos a través de sus representantes
+		- El matrimonio antes de los 18 años emancipa al menor de edad. SI PUEDE CELEBRAR CONTRATO
+		- El menor con título habilitante tiene la libre administración y disposición de sus bienes
+		- El adicto o el padece una alteración permanente o prolongada puede sufrir la restricción de su capacidad para determinados actos, si así lo dispone el juez y es mayor de 13 años
+		- Los pródigos pueden ser inhabilitados si con su actuación arriesgan la pérdida del patrimonio
+	- Inhabilidad especialidad
+		- Los funcionarios públicos, respecto de bienes cuya administración o enajenación están han sido encargados
+		- Los jueces, funcionarios y auxiliares de la justicia, los árbitros y mediadores respecto de los bienes relacionados con procesos en los que intervienen
+		- Los abogados y procuradores, respecto de bienes litigiosos en procesos en los que intervienen
+		- 
+		- Los cónyuges en el régimen de comunidad entre sí.
+---
+> [!PDF|important] [[LEGISLACIÓNdocx_250324_132942.pdf#page=23&selection=26,27,26,28&color=important|LEGISLACIÓNdocx_250324_132942, p.23]]
+> > Contrato de Obra y Servicio
+
+- Contrato de obra y servicio
+	- Partes
+		- Comitente
+		- Contratista o prestador
+	- Características
+		- Bilateral
+		- Oneroso
+		- Conmutativo
+		- No formal
+		- Nominado
+		- Tracto sucesivo
+		- Consensual
+	- Extinción
+		- Por cumplimiento de la obra y pago del precio
+		- Desistimiento del comitente: aunque la obra haya comenzado puede desistir el comitente indemnizando al prestador de los gastos y trabajos realizados y la utilidad que pudo obtener el contrato
+		- Imposibilidad de hacer o terminar la obra: por causa no imputable a ninguna de las partes, el contratista tiene derecho a obtener una compensación equitativa a la tarea efectuada
+		- Muerte del comitente NO EXTINGUE el contrato salvo que haga imposible o inútil su ejecución
+		- Muerte del contratista o prestador EXTINGUE el contrato salvo que se convenga con los herederos su continuación
+- Obligaciones de las partes
+	- Obligaciones del contratista o del prestador
+		- Ejecutar el contrato
+		- Informar al comitente
+		- Proveer los materiales
+		- Usar diligentemente los materiales
+		- Ejecutar la obra o el servicio en el tiempo convenido
+	- Obligaciones del comitente
+		- Pagar la retribución
+		- Proporcionar al contratista o prestador la colaboración necesaria, conforme a las características de la obra o del servicio
+		- Recibir la obra si fue ejecutada conforme a la ley
+- Responsabilidades
+	- Antes de la entrega
+		- Si el contratista provee los materiales y la obra se realiza en un inmueble del comitente, el contratista tiene derecho a cobrar su valor y a una compensación equitativa por la tarea efectuada
+		- Si es por mala calidad de los materiales, no se debe el precio pactado, aunque el contratista haya advertido esa circunstancia al comitente
+		- Si el comitente está en mora, en la recepción, momento de la destrucción o deterioro, debe la retribución.
+	- Después de la entrega
+		- Toda persona que vende una obra que ella ha construido o ha hecho construir si hace de esa actividad su profesión habitual
+		- Toda persona que actúa en calidad de mandatario del dueño de la obra cumple una misión semejante al contratista
+		- Al contratista, subcontratista, al proyectista, al directos de la obra y a cualquier otro profesional ligado al comitente por un contrato de obra referido a la obra dañada o a cualquiera de sus partes.
+- Pago
+	- Por acuerdo de voluntades
+	- Por ajuste alzado
+	- Por unidad de medida
+	- Por costo y costa
+- Contrato de servicio
+	- Cualquiera de las partes puede poner fin al contrato de duración indeterminada
+	- Se aplican a los servicios prestados por trabajadores autónomos (abogados, ingenieros, contadores, etc.)
+	- Tiempo, lugar y modo acordado por las partes
+	- 
+---
+> [!PDF|red] [[LEGISLACIÓNdocx_250324_132942.pdf#page=26&selection=8,15,8,16&color=red|LEGISLACIÓNdocx_250324_132942, p.26]]
+> > Derechos Reales
+
+- Derechos reales
+	- Notas características
+		- Exclusividad
+		- De estructura legal
+		- Persecución y preferencia
+	- Diferencias
+		- Diferencia entre derechos reales y personales
+			- ![[LEGISLACIÓNdocx_250324_132942.pdf#page=26&rect=83,93,515,276&color=red|LEGISLACIÓNdocx_250324_132942, p.26]]
+		- Diferencia entre derechos reales y los derechos intelectuales
+			- ![[LEGISLACIÓNdocx_250324_132942.pdf#page=27&rect=80,626,515,752&color=red|LEGISLACIÓNdocx_250324_132942, p.27]]
+	- Adquisición
+		- Actos entre vivos
+			- Titulo suficiente
+			- Modo suficiente
+			- Inscripción registral
+		- Por causa de muerte
+		- Prescripción adquisitiva
+			- Prescripción breve
+			- Prescripción larga
+		- Tradición
+	- Clasificación
+		- Dominio perfecto
+		- Condominio
+		- Propiedad horizontal
+		- Conjuntos inmobiliarios
+		- Tiempo compartido
+		- Cementerios privados
+		- Superficie
+- Derechos reales sobre cosa ajena
+	- Usufructo
+	- Uso
+	- Habitación
+	- Servidumbre
+	- Accesorios
+		- Derechos reales de garantía
+			- Hipoteca
+			- Anticresis
+			- Prenda
+		- 
+---

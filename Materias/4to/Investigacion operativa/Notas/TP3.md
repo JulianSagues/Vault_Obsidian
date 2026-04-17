@@ -54,7 +54,7 @@ F: Alimento F
 
 **Función Objetivo:**
 
-Min Z = 2 * A + 3 * B + 5 * C + 6 * D + 8 * E + 8 * F
+Min Z = 2 * A + 3 * B + 3,36 * C + 6 * D + 8 * E + 8 * F
 
 **Restricciones:**
 

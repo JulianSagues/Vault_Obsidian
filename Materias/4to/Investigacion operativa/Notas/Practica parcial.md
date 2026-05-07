@@ -12,4 +12,6 @@ Min z = 2500 A + 2200 B
 0,45 A +0,35 B >= 126000
 
 ----
-Max z = 7 BR + 6 CR +
+Max z = 7 BR + 6 CR + 18 BL + 16 CL
+
+3 BR + 4 CR >= 1

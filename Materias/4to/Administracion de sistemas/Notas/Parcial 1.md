@@ -91,5 +91,19 @@
 
 # Plane
 
-- plataforma de gestión de proyectos de código abierto diseñada como una alternativa moderna, flexible y económica a herramientas tradicionales como Jira
-- 
+- Es una plataforma de gestión de proyectos y un Sistema de Información de código abierto
+- organiza el trabajo en una estructura jerárquica de tres niveles principales para evitar el solapamiento de funciones y facilitar el seguimiento:
+	- Workspaces
+	- Proyectos
+	- Módulos
+- Gestión del Backlog: Funciona como el repositorio centralizado y priorizado de tareas que esperan ser ejecutadas
+- Planificación por Ciclos: Bloques de tiempo fijos y acotados
+- Tablero Kanban: Permite mapear visualmente el ciclo de vida de las tareas en columnas secuenciales
+- genera reportes y analíticas en tiempo real que funcionan como Indicadores de Resultado. A diferencia de los indicadores de proceso que miden el cómo se hace el trabajo, los indicadores de resultado miden el qué se logró al final de un periodo
+
+# Inteligencia emocional
+
+- capacidad de reconocer las emociones propias o de otra persona
+- influye en como piensan, actúan y se relacionan las personas
+- pilares:
+	- autroegulacion: controlarse frente a 

@@ -171,3 +171,18 @@
 	- rol del lider
 
 # Taller 1
+
+- Este taller analiza cómo las organizaciones utilizan herramientas visuales para gestionar el ciclo de vida de sus proyectos, enfocándose en la dimensión temporal y la procedimental.
+- Diagrama de Gantt: Gráfico de barras que permite visualizar el cronograma, dependencias, hitos y metadatos de un proyecto
+- Mapeo de Procesos: Técnica de gestión de calidad que explica _cómo_ se hacen las cosas y quién interviene
+- El Gantt define cuándo sucede una fase, mientras que el Mapeo define cómo se ejecuta internamente
+
+# Taller 2
+
+- Se centra en la diferenciación de marcos de gestión y el uso de software específico según la madurez de la empresa
+- Plan de Negocios vs. Planificación Estratégica: El primero es una hoja de ruta inicial para demostrar la viabilidad de una nueva empresa a inversores. El segundo define el rumbo de organizaciones ya establecidas en un horizonte de 3 a 5 años
+- Enfoque OKR (Cascade): Plataforma para conectar la visión a largo plazo con objetivos medibles, permitiendo un seguimiento manual o automatizado de métricas.
+- Software para Planes de Negocio: Herramientas orientadas a estructurar la viabilidad financiera y captar inversión
+
+# Taller 3
+

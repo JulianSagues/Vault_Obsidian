@@ -91,3 +91,5 @@
 
 # Plane
 
+- plataforma de gestión de proyectos de código abierto diseñada como una alternativa moderna, flexible y económica a herramientas tradicionales como Jira
+- 

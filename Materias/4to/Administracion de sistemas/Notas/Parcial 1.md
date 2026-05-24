@@ -148,3 +148,26 @@
 	- disolución
 
 # Manejo de conflictos
+
+- conflicto: situaciones donde existen diferencias de opiniones entre personas o grupos
+- tipos
+	- alcance
+		- intrapersonales
+		- interpersonales
+		- intragrupales
+		- intergrupales
+	- causa
+		- de tarea
+		- de proceso
+		- de relacion
+- conjunto de acciones para manejar los rpoblemas y resolverlos
+- aspectos importantes
+	- comunicacion
+	- identificacion del rpoblema
+	- empatia y respeto
+	- control emocionl
+	- trabajo en equipo
+	- negociacion
+	- rol del lider
+
+# Taller 1

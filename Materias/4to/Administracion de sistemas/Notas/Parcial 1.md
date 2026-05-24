@@ -186,3 +186,14 @@
 
 # Taller 3
 
+- Cuadro de Mando Integral: modela la gestión estratégica traduciendo la visión y misión en indicadores de desempeño (KPIs) medibles en tiempo real
+
+# Taller 4
+
+- ???
+
+# Taller 5
+
+- Ética Profesional: Define las normas morales y valores que guían las decisiones técnicas en Sistemas de Información, impactando directamente en la privacidad y seguridad común
+
+

@@ -54,17 +54,22 @@
 
 #### Relaciones humanas
 
-- Relacion humana: interaccion dos personas o mas
+- Relación humana: interacción dos personas o mas
 - Comportamiento humano: actos que realiza una persona
 
 #### Diseño organizacional
 
-- Proceso de contruir y adaptar la estructura de la empresa
+- Proceso de construir y adaptar la estructura de la empresa
 
 #### Comportamiento organizacional
 
 - Comportamiento de los individuos en la empresa
-- Conducta: como actua una persona
+- Conducta: como actúa una persona
 - Personalidad: como es una persona
-- Temperamento: como actua una persona segun su personalidad
-- Caracter: cualidades que afectan el comportamiento, pensamiento y acciones de las personas
+- Temperamento: como actúa una persona según su personalidad
+- Carácter: cualidades que afectan el comportamiento, pensamiento y acciones de las personas
+- Motivación: querer hacer algo para obtener una recompensa interna, externa o de otros
+- Instinto
+- Aprendizaje
+- Frustración
+- Autoridad

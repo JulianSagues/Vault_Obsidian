@@ -18,8 +18,29 @@
 	3. DO: plan de reorientación, el mercado nos da una oportunidad pero nuestras debilidades nos frenan. Aprovechar la oportunidad para superar la debilidad
 	4. FA: estrategia defensiva, existe una amenaza que podemos mitigar con nuestras fortalezas. Usar la fortaleza para contrarrestar o mitigar la amenaza
 4. Calcular el presupuesto
-5. Desarrollar el plan de accion
+5. Desarrollar el plan de acción
 6. Implementar el plan
 
 #### Estrategia
 
+- Análisis PEST
+	- Políticos: análisis de factores políticos
+	- Económicos: análisis de factores económicos
+	- Socioculturales: análisis de factores socioculturales
+	- Tecnológicos: análisis de factores tecnológicos
+- Análisis PESTEL
+	- Ecológicos: análisis de factores ecológicos
+	- Legales: análisis de factores legales
+- Objetivos SMART
+	- Específicos: Fáciles de leer
+	- Medibles: Se pueden verificar su cumplimiento
+	- Alcanzables: Son realistas
+	- Realistas: siguen con la misión, visión y valores de la empresa
+	- Temporales: Tienen limite de tiempo
+- Indicadores
+	- De proceso: acciones que sirven para medir el progreso sobre una meta
+	- De resultado: objetivo que determina el éxito
+
+#### Indicadores de gestion
+
+- Permiten

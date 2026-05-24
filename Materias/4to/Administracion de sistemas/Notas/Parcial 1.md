@@ -41,6 +41,30 @@
 	- De proceso: acciones que sirven para medir el progreso sobre una meta
 	- De resultado: objetivo que determina el éxito
 
-#### Indicadores de gestion
+#### Indicadores de gestión
 
-- Permiten
+- Permiten evaluar si la empresa alcanza sus metas
+- Cuadro de mando integral: mide la situación y evolución de la empresa
+
+#### Emprendedurismo
+
+- convertir a las personas en entes más creativos, proactivos, innovadores
+
+# Unidad 2
+
+#### Relaciones humanas
+
+- Relacion humana: interaccion dos personas o mas
+- Comportamiento humano: actos que realiza una persona
+
+#### Diseño organizacional
+
+- Proceso de contruir y adaptar la estructura de la empresa
+
+#### Comportamiento organizacional
+
+- Comportamiento de los individuos en la empresa
+- Conducta: como actua una persona
+- Personalidad: como es una persona
+- Temperamento: como actua una persona segun su personalidad
+- Caracter: cualidades que afectan el comportamiento, pensamiento y acciones de las personas

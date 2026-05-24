@@ -13,4 +13,13 @@
 	3. Debilidades. Ej: dificultades para modernizar nuestros sistemas
 	4. Amenazas. Ej: Crecimiento de las nuevas tecnologías
 3. Estrategias
-	1. DA: estrategia defensiva, nuestras debilidades nos dejan expuestos ante las amenazas exteriores. Minimizar la debilidad para esquivar la amenza. Ej: 
+	1. DA: estrategia defensiva de supervivencia, nuestras debilidades nos dejan expuestos ante las amenazas exteriores. Minimizar la debilidad para esquivar la amenza.
+	2. FO: estrategia ofensiva, nuestras fortalezas se aprovechan de las oportunidades del mercado. Usamos la fortaleza para explotar las oportunidades
+	3. DO: plan de reorientación, el mercado nos da una oportunidad pero nuestras debilidades nos frenan. Aprovechar la oportunidad para superar la debilidad
+	4. FA: estrategia defensiva, existe una amenaza que podemos mitigar con nuestras fortalezas. Usar la fortaleza para contrarrestar o mitigar la amenaza
+4. Calcular el presupuesto
+5. Desarrollar el plan de accion
+6. Implementar el plan
+
+#### Estrategia
+

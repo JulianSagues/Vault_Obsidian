@@ -106,4 +106,45 @@
 - capacidad de reconocer las emociones propias o de otra persona
 - influye en como piensan, actúan y se relacionan las personas
 - pilares:
-	- autroegulacion: controlarse frente a 
+	- autoconciencia: capacidad de reconocer nuestras emociones
+	- autorregulación: controlarse frente a emociones o reacciones
+	- motivación: mantener compromiso para lograr algo
+	- empatía: comprender las emociones desde otra perspectiva
+	- habilidades sociales: capacidad de relacionarse con otros de manera adecuada
+- importante en empresas porque cada vez es mas importante el trabajo en equipo y las relaciones entre personas
+
+# Equipos de trabajo exitosos
+
+- grupo de trabajo: conjunto de personas que pueden no compartir una meta en común
+- equipo de trabajo: conjunto de personas que buscan un fin común
+- ventajas. mas fácil conseguir objetivos
+- desventajas: la responsabilidad personal no se tiene en cuenta
+- variable que afectan:
+	- permanencia  del equipo
+	- diversidad funcional
+	- habilidades del equipo
+	- claridad de objetivos
+	- comunicación interna
+	- comunicación externa
+	- liderazgo de equipos
+- Roles tipos
+	- Social
+		- coordinador
+		- cohesiador
+		- investigador de recursos
+	- Mental
+		- cerebro
+		- especialista
+		- monitor evaluador
+	- Acción
+		- implementador
+		- impulsor
+		- finalizador
+- Etapas
+	- Formación
+	- Tormenta
+	- normalización
+	- desempeño
+	- disolución
+
+# Manejo de conflictos

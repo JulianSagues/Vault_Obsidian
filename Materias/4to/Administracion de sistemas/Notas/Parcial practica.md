@@ -19,8 +19,7 @@
 **Core del negocio:** Nuestra principal actividad consiste en prestar servicios de ciberseguridad, enfocados principalmente en la protección de sistemas, detección de fallas y capacitación de personal para el correcto uso de nuestros servicios
 
 **Organigrama:**
-[[Organigrama.drawio]]
-
+![[Organigrama.svg|697]]
 
 Turnos:
 

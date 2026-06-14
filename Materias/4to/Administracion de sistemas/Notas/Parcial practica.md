@@ -4,6 +4,7 @@
 - **Cantidad de empleados:** 42
 - **Cantidad de empleados de sistemas:** 31
 - **Presupuesto de sistemas:** 45.300 - 76.400;  **Promedio:** 60.000
+- Alcance Geográfico: Nacional e Internacional
 - **Misión:** Brindar soluciones de ciberseguridad para garantizar la protección de los sistemas de nuestros clientes.
 - **Visión:** Lograr que nuestros servicios sean considerados referencia para otras empresas de ciberseguridad.
 - **Objetivos:**
@@ -76,6 +77,43 @@
 	- Burp Suite Professional
 	- Metasploit Framework
 	- Nmap
+- Analisis Pest
+	- 4 elementos de la estructura económica.
+		- Inflación: El aumento sostenido de precios afecta los costos operativos y la capacidad de inversión de nuestros clientes locales.
+		- Volatilidad del Tipo de Cambio: Dado que la estructura de costos de la consultora está dolarizada, la inestabilidad cambiaria del peso argentino representa un riesgo.
+		- Poder Adquisitivo de las Empresas: La capacidad de las pymes y grandes empresas para contratar consultorías externas varía según el ciclo económico.
+		- Tasas de Interés y Acceso al Crédito: El costo del financiamiento condiciona la inversión en hardware especializado y tecnología, impactando en la competitividad de la consultora.
+
+	- 2 elementos de la estructura tecnológica.
+		- Tecnologías Emergentes: El uso de Inteligencia Artificial tanto para ataques como para defensas obliga a la empresa a una actualización constante.
+		- Automatización en Ciberseguridad: La tendencia global hacia herramientas que automatizan el escaneo de vulnerabilidades y la respuesta a incidentes presiona a la consultora a adoptar estas tecnologías para mantener la velocidad y eficiencia que exige el mercado actual.
+	- 2 elementos de la estructura política.
+		- Leyes de Protección de Datos: Regulaciones nacionales e internacionales (como la Ley de Protección de Datos Personales) impulsa a las empresas a buscar asesoría legal y técnica.
+		- Aranceles y Restricciones a la Importación: Los cambios en las políticas aduaneras y los impuestos afectan el costo y la disponibilidad de hardware especializado necesario para nuestros servicios.
+	- 2 elementos de la estructura social.
+		- Conciencia sobre la Privacidad Digital: La creciente preocupación de la sociedad por el robo de identidad y la privacidad aumenta la presión sobre las empresas para que demuestren que sus sistemas son seguros.
+		- Cambios en el Estilo de Vida Laboral: La consolidación del teletrabajo y la movilidad laboral obligan a las organizaciones a asegurar entornos digitales fuera de la oficina, expandiendo nuestra demanda de servicios.
+- Análisis de las 5 fuerzas de porter
+	- Poder de negociación de los proveedores: Nivel Alto
+		- Proveedores de Tecnología y Software: La empresa depende de proveedores de licencias (como antivirus, firewall) y hardware especializado (servidores, equipos de red). Al ser tecnologías desarrolladas mayoritariamente por gigantes globales con precios estandarizados, la capacidad de la consultora para influir en los costos (no tener poder de negociación) de estos insumos es mínima.
+
+	- Poder de negociación de los consumidores: Nivel Medio
+		- Los clientes (empresas y particulares) tienen muchas opciones en el mercado, lo que les da poder para comparar presupuestos. Sin embargo, una vez que contratan un servicio integral que incluye capacitación y protección de datos críticos, el costo de cambiarse a otra consultora es alto, lo que equilibra el poder a nuestro favor.
+	- Amenaza de ingreso de productos sustitutivos: Nivel Medio
+		- Seguros de Ciberriesgo: Las empresas pueden optar por transferir el impacto financiero de un ataque mediante pólizas de seguro en lugar de invertir en servicios de prevención y consultoría técnica.
+		- Plataformas de Seguridad Autonoma: Herramientas basadas en agentes de IA que realizan escaneos y parches automáticos sin necesidad de un consultor humano. Si la empresa confía en la automatización total, deja de necesitar nuestros servicios de detección manual.
+		- Herramientas Open Source y Autogestión: El uso de frameworks gratuitos y herramientas de código abierto permite que empresas con personal técnico básico intenten cubrir sus necesidades de seguridad sin contratar expertos externos.
+	- Amenaza de entradas de nuevos competidores: Nivel Alto
+		- En el sector de servicios IT, las barreras de entrada son bajas, cualquier grupo de expertos puede montar una consultora. Además, existe la amenaza de grandes consultoras internacionales que bajen sus precios para captar clientes en el mercado local.
+	- Rivalidad entre competidores: Nivel muy Alto
+		- Competencia por el posicionamiento: Al ser un mercado con alta demanda, las consultoras luchan por ser reconocidas como referentes en seguridad, buscando captar a las empresas más grandes y rentables.
+		- Disputa por el talento especializado: Existe una fuerte rivalidad por contratar y retener a los expertos técnicos, ya que la falta de personal capacitado es el principal límite para que una consultora pueda crecer.
+		- Carrera tecnológica y de innovación: La realidad se traduce en una presión constante por ofrecer herramientas más avanzadas antes que la competencia, intentando anticiparse a las nuevas amenazas para no perder competitividad en el mercado.
+- Procesos críticos:
+	- Ciclo de Auditoría Técnica y Pruebas de Intrusión (Pentesting)
+		- Este proceso representa la ejecución técnica de uno de los servicios principales de la empresa. Su objetivo es identificar y explotar debilidades en la infraestructura del cliente para proponer mejoras reales de seguridad.
+	- Gestión de Gobierno, Riesgo y Cumplimiento (GRC)
+		- Este proceso asegura que las soluciones de ciberseguridad no solo sean técnicas, sino que también cumplan con los marcos legales y normativos vigentes (como la Ley de Protección de Datos).
 - **Turnos:**
 	1. Centro de Operaciones de Seguridad (SOC)
 		- Puestos disponibles: 3 Analistas SOC. 

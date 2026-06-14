@@ -61,6 +61,21 @@
 		- Competencia Agresiva: La entrada al mercado de grandes consultoras internacionales o software de seguridad automatizado de bajo costo.
 		- Responsabilidad Legal: Un fallo en la protección de un cliente tras haber sido asesorado por la consultora podría resultar en demandas o daños irreparables a la reputación.
 		- Crisis Económica: En momentos de recesión, algunas empresas podrían recortar presupuestos en servicios de consultoría externa.
+- Sistemas:
+	- Sistemas de base de datos
+	- Sistema de Gestión de Proyectos y Vulnerabilidades
+	- Sistema de mesa de ayuda
+	- Plataforma de Monitoreo de Seguridad
+	- Sistema de gestión de proyectos (Jira)
+- Tecnologías
+	- Servidores
+	- Red Privada Virtual (VPN)
+	- Hardware de Seguridad Perimetral (Firewalls y UTM)
+	- Entornos de Virtualización y Sandboxing
+	- Suite de Herramientas de Intrusión (Software de Pentesting)
+	- Burp Suite Professional
+	- Metasploit Framework
+	- Nmap
 - **Turnos:**
 	1. Centro de Operaciones de Seguridad (SOC)
 		- Puestos disponibles: 3 Analistas SOC. 

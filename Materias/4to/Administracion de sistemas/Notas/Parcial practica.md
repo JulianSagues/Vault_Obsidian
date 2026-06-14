@@ -39,9 +39,29 @@
 			- Community Manager
 		- Gerente de finanzas
 			- Contador
-			- Analista de facturacion y cobranzas
+			- Analista de facturación y cobranzas
 			- Analista de cuentas por pagar
-- Turnos:
+- **FODA**
+	- FORTALEZAS
+		- Enfoque Integral: Se ofrece un ciclo completo de seguridad (detección de fallas, propuesta de soluciones y selección de herramientas), lo cual es una ventaja operativa.
+		- Capacitación como Valor Agregado: Incluir la formación de usuarios en el core del negocio reduce la vulnerabilidad por errores humanos, fortaleciendo la eficacia de sus propios servicios.
+		- Búsqueda de excelencia: Se tiene un objetivo definido que busca el liderazgo en el sector.
+		- Actualización Tecnológica: El objetivo explícito de usar tecnología de vanguardia permite ofrecer soluciones contra amenazas modernas.
+	- DEBILIDADES
+		- Dependencia de Talento Especializado: En ciberseguridad, la falta de personal altamente capacitado puede volverse un cuello de botella para el crecimiento.
+		- Procesos de Respuesta: Siendo una consultora, la lentitud en la implementación de las soluciones propuestas si no cuentan con un equipo de ejecución ágil puede generar deficiencias.
+		- Costo de Actualización: Mantenerse al día con "tecnología actualizada" requiere una inversión constante de capital y tiempo en investigación y desarrollo.
+	- OPORTUNIDADES
+		- Aumento de Ciberataques: El incremento global de ataques de ransomware y phishing crea una demanda natural y creciente de servicios de protección.
+		- Transformación Digital: Cada vez más empresas y particulares migran sus datos a la nube, necesitando asesoría experta para proteger esa información.
+		- Nuevas Regulaciones: Leyes de protección de datos más estrictas obligan a las empresas a contratar consultoras para evitar multas legales.
+		- Mercado especializado: Posibilidad de expandirse a sectores específicos (Salud, E-commerce) que manejan datos sensibles.
+	- AMENAZAS
+		- Evolución del Cibercrimen: Los ataques evolucionan más rápido que las defensas; la aparición de virus o técnicas de hacking desconocidas es un riesgo constante.
+		- Competencia Agresiva: La entrada al mercado de grandes consultoras internacionales o software de seguridad automatizado de bajo costo.
+		- Responsabilidad Legal: Un fallo en la protección de un cliente tras haber sido asesorado por la consultora podría resultar en demandas o daños irreparables a la reputación.
+		- Crisis Económica: En momentos de recesión, algunas empresas podrían recortar presupuestos en servicios de consultoría externa.
+- **Turnos:**
 	1. Centro de Operaciones de Seguridad (SOC)
 		- Puestos disponibles: 3 Analistas SOC. 
 		- Modalidad: Turnos rotativos de 8 horas de lunes a viernes (cobertura 24/5 humana) + Guardia Pasiva los fines de semana. 

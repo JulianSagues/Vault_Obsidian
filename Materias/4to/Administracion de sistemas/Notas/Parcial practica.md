@@ -1,0 +1,82 @@
+
+## Datos de la empresa:
+
+**Cantidad de empleados:** 42
+
+**Cantidad de empleados de sistemas:** 31
+
+**Presupuesto de sistemas:** 45.300 - 76.400;  **Promedio:** 60.000
+
+**Misión:** Brindar soluciones de ciberseguridad para garantizar la protección de los sistemas de nuestros clientes.
+
+**Visión:** Lograr que nuestros servicios sean considerados referencia para otras empresas de ciberseguridad.
+
+**Objetivos:**
+- Lograr proteger los sistemas de manera eficiente para asegurar que la seguridad de los clientes funcione de manera óptima y sin fallas.
+- Capacitar a los clientes, así lograr que los usuarios entiendan cómo aprovechar nuestros servicios y sepan cuidarse de riesgos.
+- Ofrecer tecnología actualizada, así estar al día con las últimas herramientas de protección para adelantarnos a los nuevos virus o ataques.
+
+**Core del negocio:** Nuestra principal actividad consiste en prestar servicios de ciberseguridad, enfocados principalmente en la protección de sistemas, detección de fallas y capacitación de personal para el correcto uso de nuestros servicios
+
+**Organigrama:**
+[[Organigrama.drawio]]
+
+
+Turnos:
+
+1. Centro de Operaciones de Seguridad (SOC)
+    
+
+- Puestos disponibles: 3 Analistas SOC. 
+    
+- Modalidad: Turnos rotativos de 8 horas de lunes a viernes (cobertura 24/5 humana) + Guardia Pasiva los fines de semana. 
+    
+- Distribución horaria (Lunes a Viernes):
+    
+
+- Turno Mañana (TM): 06:00 a 14:00 (Analista SOC 1). 
+    
+- Turno Tarde (TT): 14:00 a 22:00 (Analista SOC 2). 
+    
+- Turno Noche (TN): 22:00 a 06:00 (Analista SOC 3). 
+    
+- Fines de Semana: Monitoreo automatizado mediante la plataforma SIEM. Se rota un analista por fin de semana en modalidad Guardia Pasiva (On-Call) para atender exclusivamente alertas críticas desde el celular corporativo. 
+    
+
+2. Centro de Operaciones de Red (NOC)
+    
+
+- Puestos disponibles: 3 Analistas SOC. 
+    
+- Puestos disponibles: 2 Analistas NOC. 
+    
+- Modalidad: Turnos fijos escalonados de lunes a viernes para cubrir la mayor franja de actividad diurna de los clientes. 
+    
+- Distribución horaria:
+    
+
+- Turno Apertura: 07:00 a 15:00 (Analista NOC 1). 
+    
+- Turno Cierre: 14:00 a 22:00 (Analista NOC 2). 
+    
+
+- Solapamiento Operativo: De 14:00 a 15:00 ambos analistas coinciden para realizar el Handover (traspaso de novedades y estado de las redes de los clientes de Argentina, Chile y Uruguay). Noches y fines de semana quedan cubiertos por alertas automatizadas. 
+    
+
+3. Soporte IT Interno
+    
+
+- Puestos disponibles: 2 Analistas de Soporte IT
+    
+- Modalidad: Turnos fijos escalonados para dar soporte técnico a los 42 empleados de la consultora, extendiendo la cobertura debido al horario nocturno del SOC. 
+    
+- Distribución horaria:
+    
+
+- Soporte Mañana: 08:00 a 16:00. 
+    
+- Soporte Tarde: 12:00 a 20:00.
+    
+
+  
+**

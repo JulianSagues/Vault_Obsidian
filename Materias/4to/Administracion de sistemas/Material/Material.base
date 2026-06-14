@@ -4,4 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("Materias/4to/Administracion de sistemas/Material")
-        - file.basename != "Material"
+        - or:
+            - file.basename == "Exposiciones y Talleres"
+            - file.basename == "PowerPoints"
+            - file.basename == "Practica"

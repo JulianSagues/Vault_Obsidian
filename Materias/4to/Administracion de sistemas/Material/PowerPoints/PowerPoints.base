@@ -3,5 +3,5 @@ views:
     name: Tabla
     filters:
       and:
-        - file.inFolder("Materias/4to/Administracion de sistemas/Notas")
+        - file.inFolder("Materias/4to/Administracion de sistemas/Material/PowerPoints")
         - file.ext != "base"

@@ -4,7 +4,11 @@
 - **Cantidad de empleados:** 42
 - **Cantidad de empleados de sistemas:** 31
 - **Presupuesto de sistemas:** 45.300 - 76.400;  **Promedio:** 60.000
-- Alcance Geográfico: Nacional e Internacional
+- **Alcance Geográfico:** Nacional e Internacional
+- **Sede operativa principal:** Mendoza
+- **Cantidad de clientes**: 45 clientes corporativos (B2B) anuales
+	- 25 clientes bajo modalidad de abono mensual
+	- ​20 clientes rotativos/por proyecto
 - **Misión:** Brindar soluciones de ciberseguridad para garantizar la protección de los sistemas de nuestros clientes.
 - **Visión:** Lograr que nuestros servicios sean considerados referencia para otras empresas de ciberseguridad.
 - **Objetivos:**

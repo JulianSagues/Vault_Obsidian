@@ -1,5 +1,5 @@
 
-# 2.1
+# [[IS_Unidad 1.1_Int Ingeniería de Software_2026.pdf| 2.1.]]
 - Mitos del software
 	- creencias acerca del software y de los procesos empleados para construirlo
 	- Tipos
@@ -124,4 +124,9 @@
 			- Un amplio conocimiento del contexto de uso
 			- El producto ha de satisfacer las necesidades del usuario
 			- Son los usuarios, y no los diseñadores y los desarrolladores, los que determinan cuando un producto es fácil de usar
-	- Guia SWEBOK
+	- Guía SWEBOK
+		- El objetivo principal de SWEBOK (Software Engineering Body of Knowledge) es proporcionar una guía completa y actualizada del cuerpo de conocimiento de la Ingeniería de Software.
+# [[IyCSw-Unidad 1.2_Disciplina de la Ing Sw_2026.pdf|2.2.]]
+- Ingeniería de software
+	- Disciplinas relacionadas
+		- 

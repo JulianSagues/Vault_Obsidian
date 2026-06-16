@@ -31,6 +31,11 @@
 		- Es una sucesión de etapas por las que pasa el software en su desarrollo, desde que se concibe la idea hasta que el software deja de utilizarse (obsolescencia)
 		- Proceso
 			- conjunto ordenado de tareas, una serie de pasos que involucran actividades, restricciones y recursos, que producen una salida determinada
+			- debe especificar
+				- La secuencia de actividades a realizar por el equipo de desarrollo
+				- Los productos que deben crearse
+				- La asignación de tareas a cada miembro del equipo y al equipo
+				- Los criterios para controlar el proceso
 		- Proceso de software
 			- conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema software
 		- Cuando un proceso implica la construcción de un producto
@@ -91,6 +96,32 @@
 		- Desarrollo convencional
 		- Desarrollo estructurado
 		- Desarrollo orientado a objetos
-		- Tradcionales y agiles
-	- Ciclo de vida
-		- 
+		- Tradicionales y agiles
+	- Productos de software
+		- Características
+			- Mantenibles
+			- Confiabilidad
+			- Eficiencia
+			- Utilización adecuada
+			- Entendible
+			- Visible
+			- Soportable
+			- Aceptable
+			- Seguridad
+			- Robusto
+			- Escalable
+			- Rapido
+	- Calidad en interfaces de usuario
+		- Calidad percibida
+		- Calidad externa
+		- Calidad en el uso
+		- Usabilidad
+	- Usabilidad
+		- Es la forma en que se alcanzan los objetivos con efectividad, eficiencia y satisfacción
+		- hace referencia a la rapidez y facilidad con que las personas llevan cabo sus tareas propias a través del uso del producto objeto de interés
+		- descansa en cuatro puntos
+			-  Una aproximación al usuario
+			- Un amplio conocimiento del contexto de uso
+			- El producto ha de satisfacer las necesidades del usuario
+			- Son los usuarios, y no los diseñadores y los desarrolladores, los que determinan cuando un producto es fácil de usar
+	- Guia SWEBOK

@@ -129,4 +129,15 @@
 # [[IyCSw-Unidad 1.2_Disciplina de la Ing Sw_2026.pdf|2.2.]]
 - Ingeniería de software
 	- Disciplinas relacionadas
-		- 
+		- Modelado de negocios
+		- Requerimientos
+		- Análisis y diseño
+		- Pruebas
+		- Administración y configuración del cambio
+		- Administración de proyectos
+		- Ambientes
+		- Implementación
+	- Principios
+		- La razón que exista todo
+			- se tiene que tomar en cuenta si agrega valor al sistema
+		- Mantenerlo sencillo.

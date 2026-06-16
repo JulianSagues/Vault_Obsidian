@@ -239,4 +239,12 @@
 	- Razones
 		- Entorno cambiante: Entorno altamente cambiante propio de la industria IT y las otras.
 		- Dependencia de Procesos rígidos: el proceso mismo de desarrollo de software donde el resultado depende de la actividad cognitiva de las personas más que de las prácticas y controles de empleados.
-	- 
+	- Valores Agiles
+		- Valores Agiles Individuos e interacciones sobre Procesos y Herramientas
+		- Software funcionando sobre Documentación exhaustiva
+		- Colaboración con el Cliente sobre Negociación de cambios
+		- Respuesta ante el cambio sobre seguimiento de un plan
+	- Principios
+		- Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continuada de software con valor
+		- Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Los procesos Ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.
+		- Entregamos software funcional frecuentemente, entre dos semanas y dos meses, con preferencia por periodos de tiempo lo más corto posibles.

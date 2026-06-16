@@ -63,3 +63,18 @@
 			- los requisitos del software son más detallados y se escriben para el equipo de desarrollo. 
 			- Contiene la respuesta a la pregunta ¿Qué características debe poseer un sistema que nos permita alcanzar los objetivos, y evitar los problemas, expuestos en la DRU?
 		- Técnicas de validación
+			- Revisiones de requerimientos 
+				- Los requerimientos son analizados sistemáticamente por un equipo de revisores. 
+			- Construcción de Prototipos 
+				- Se muestra un modelo ejecutable del sistema a los usuarios finales y a los clientes. 
+			- Generación de casos de prueba 
+				- Los requerimientos deben poder probarse, si las pruebas son parte del proceso de validación, se pueden revelar problemas en los requerimientos. 
+			- Análisis de consistencia automática
+				- Si los requerimientos se expresan como un modelo del sistema en una notación estructurada o formal, para poder hallar inconsistencias
+			- Requerimiento Funcionales
+				- Definen las funciones que el sistema será capaz de realizar.
+			- Requerimientos No funcionales
+				- Son restricciones o limitaciones de los servicios o funciones ofrecidos por el sistema.
+			- Requerimientos del dominio
+				- Son requerimientos que provienen del dominio de aplicación del sistema y que reflejan las características de ese dominio.
+			- Restricciones del Diseño

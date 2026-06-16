@@ -188,3 +188,30 @@
 		- Dependency Inversion Principle (DIP)
 	- Spaguetti Code
 		- se refiere a una estructura de código desorganizada y difícil de seguir, donde la lógica se retuerce de forma impredecible, lo que dificulta su comprensión y mantenimiento.
+		- Características comunes
+			- Funciones largas y monolíticas
+			- Falta de control
+			- Lógica duplicada
+			- Exceso de variables globales
+- Desarrollo Global de software
+	- Los equipos se distribuyen mas allá de la frontera que deben hacer frente a desafíos únicos y de gran interesa para la comunidad informática.
+	- Beneficios
+		- Aprovechar la diferencia horaria para lograr jornadas laborales más largas y conseguir más productividad –follow the sun
+		- Minimizar los costes de desarrollo. Según lo que externalice: CF a CV 
+		- Localizar a los desarrolladores más cerca del cliente 
+		- Obtener ventajas de la diversidad de experiencias, conocimiento técnico y destrezas de los stakeholders distribuidos (a favor de la innovación y compartiendo mejoras prácticas y se mejora el proceso) 
+		- Optimizar los procesos del negocio y aumentar productividad
+	- Problemas 
+		- Ocasionados por la comunicación inadecuada 
+		- Ocasionados por la diversidad cultural - idioma 
+		- En la gestión del conocimiento 
+		- Ocasionados por la diferencia horaria 
+		- Dependencia de la tecnología de comunicación 
+		- Vulnerabilidad de la seguridad de datos
+- Modelos de provisión y la globalización de servicios
+	- Características más importantes donde hay trabajo remoto
+		- Dispersión geográfica, cultural y escala de valores
+		- Diferentes culturas de empresas, husos horarios, idiomas, procesos de trabajo, entendimiento de roles, formas de trabajo, experiencias, visiones del producto/servicio, etc.
+	- Team Building y Visibilidad 
+	- Comunicación efectiva y fase-to-face 
+	- Lograr confianza y buena relación con el cliente

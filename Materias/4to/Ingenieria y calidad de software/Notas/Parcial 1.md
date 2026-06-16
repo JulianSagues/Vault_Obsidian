@@ -1,5 +1,5 @@
 
-# [[IS_Unidad 1.1_Int Ingeniería de Software_2026.pdf| 2.1.]]
+# [[IS_Unidad 1.1_Int Ingeniería de Software_2026.pdf| 1.1.]]
 - Mitos del software
 	- creencias acerca del software y de los procesos empleados para construirlo
 	- Tipos
@@ -126,7 +126,7 @@
 			- Son los usuarios, y no los diseñadores y los desarrolladores, los que determinan cuando un producto es fácil de usar
 	- Guía SWEBOK
 		- El objetivo principal de SWEBOK (Software Engineering Body of Knowledge) es proporcionar una guía completa y actualizada del cuerpo de conocimiento de la Ingeniería de Software.
-# [[IyCSw-Unidad 1.2_Disciplina de la Ing Sw_2026.pdf|2.2.]]
+# [[IyCSw-Unidad 1.2_Disciplina de la Ing Sw_2026.pdf|1.2.]]
 - Ingeniería de software
 	- Disciplinas relacionadas
 		- Modelado de negocios
@@ -215,3 +215,19 @@
 	- Team Building y Visibilidad 
 	- Comunicación efectiva y fase-to-face 
 	- Lograr confianza y buena relación con el cliente
+- Outsourcing
+	- Es un sistema de contratación en el que una empresa recurre a otra para realizar tareas especializadas
+- Modelos de Delivery Global
+	- ONSITE
+		- Trabaja físicamente en las instalaciones del cliente durante un período determinado
+	- ONSHORE
+		- El trabajo se subcontrata a empresas dentro del mismo país.
+	- NEARSHORE
+		- Se subcontrata en países vecinos o con zonas horarias similares.
+	- OFFSHORE
+		- El trabajo se envía a empresas en otros países, generalmente con costos laborales más bajos.
+	- OFFSITE
+		- El personal de outsourcing trabaja fuera de las instalaciones del cliente
+	- Hibrido
+		- Combina elementos de onshore y offshore. La gestión se realiza localmente, pero se contratan off- o nearshore para la mayor parte del trabajo.
+# [[IS_Unidad2.1- Intro a la gestión ágil de proyectos de desarrollo de software_2026.pdf|2.1.]]

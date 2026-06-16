@@ -231,3 +231,12 @@
 	- Hibrido
 		- Combina elementos de onshore y offshore. La gestión se realiza localmente, pero se contratan off- o nearshore para la mayor parte del trabajo.
 # [[IS_Unidad2.1- Intro a la gestión ágil de proyectos de desarrollo de software_2026.pdf|2.1.]]
+- Agilidad
+	- Habilidad de responder de forma versátil al cambio para maximizar los beneficios.
+	- Capacidad para adaptar el curso del desarrollo a la evolución de los requisitos y a las circunstancias del entorno.
+- Métodos de Desarrollo Ágiles
+	- Surgen como una extensión a las metodologías tradicionales para mejorar el desarrollo de sistemas, según el tipo de proyecto y empresa, añadiendo y mejorando (optimizando) las practicas de desarrollo de empresa.
+	- Razones
+		- Entorno cambiante: Entorno altamente cambiante propio de la industria IT y las otras.
+		- Dependencia de Procesos rígidos: el proceso mismo de desarrollo de software donde el resultado depende de la actividad cognitiva de las personas más que de las prácticas y controles de empleados.
+	- 

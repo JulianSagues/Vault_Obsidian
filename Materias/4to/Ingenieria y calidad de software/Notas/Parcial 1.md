@@ -28,6 +28,7 @@
 		- La Ingeniería de Software se centra en el desarrollo de software, desde la definición de los requerimientos hasta su mantenimiento
 		- La Ingeniería de Componentes es una metodología dentro de la Ingeniería de Software que se basa en la creación y reutilización de componentes de software independientes. 
 	- Ciclos de vida
+		- Es una sucesión de etapas por las que pasa el software en su desarrollo, desde que se concibe la idea hasta que el software deja de utilizarse (obsolescencia)
 		- Proceso
 			- conjunto ordenado de tareas, una serie de pasos que involucran actividades, restricciones y recursos, que producen una salida determinada
 		- Proceso de software
@@ -71,10 +72,25 @@
 				- Los requerimientos deben poder probarse, si las pruebas son parte del proceso de validación, se pueden revelar problemas en los requerimientos. 
 			- Análisis de consistencia automática
 				- Si los requerimientos se expresan como un modelo del sistema en una notación estructurada o formal, para poder hallar inconsistencias
-			- Requerimiento Funcionales
-				- Definen las funciones que el sistema será capaz de realizar.
-			- Requerimientos No funcionales
-				- Son restricciones o limitaciones de los servicios o funciones ofrecidos por el sistema.
-			- Requerimientos del dominio
-				- Son requerimientos que provienen del dominio de aplicación del sistema y que reflejan las características de ese dominio.
-			- Restricciones del Diseño
+		- Requerimiento Funcionales
+			- Definen las funciones que el sistema será capaz de realizar.
+			- Lo que el producto debe hacer 
+			- Si hay incumplimiento degradará el sistema
+		- Requerimientos No funcionales
+			- Son restricciones o limitaciones de los servicios o funciones ofrecidos por el sistema.
+			- establecen restricciones de cómo estos requisitos funcionales son implementados
+			- Si hay incumplimiento inutiliza el sistema
+		- Requerimientos del dominio
+			- Son requerimientos que provienen del dominio de aplicación del sistema y que reflejan las características de ese dominio.
+		- Restricciones del Diseño
+			- Son condicionantes existentes para el diseño, sin anticiparlo. 
+			- Aseguran que se cumplan los objetivos del proyecto sin comprometer la calidad y funcionalidad del producto final
+		- De qué depende que un requerimiento se exprese como funcional o como no funcional
+			- depende del grado de detalle con el que desee incluirse entre los requerimientos el documento de requerimientos o del grado de confianza que existe entre el cliente y el equipo desarrollador del sistema
+	- Métodos de ingeniería de software
+		- Desarrollo convencional
+		- Desarrollo estructurado
+		- Desarrollo orientado a objetos
+		- Tradcionales y agiles
+	- Ciclo de vida
+		- 

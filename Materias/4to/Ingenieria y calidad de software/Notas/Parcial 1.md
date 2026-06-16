@@ -25,3 +25,41 @@
 		- Soporte
 	- Diferencias
 		- La Ingeniería en Sistemas se involucran en las especificaciones del sistema, diseño, definición de su arquitectura, desarrollo , implementación y en la integración para crear el sistema de información final. Se enfoca en la gestión de la información.
+		- La Ingeniería de Software se centra en el desarrollo de software, desde la definición de los requerimientos hasta su mantenimiento
+		- La Ingeniería de Componentes es una metodología dentro de la Ingeniería de Software que se basa en la creación y reutilización de componentes de software independientes. 
+	- Ciclos de vida
+		- Proceso
+			- conjunto ordenado de tareas, una serie de pasos que involucran actividades, restricciones y recursos, que producen una salida determinada
+		- Proceso de software
+			- conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema software
+		- Cuando un proceso implica la construcción de un producto
+		- Fases genéricas
+			- Definición
+			- Desarrollo
+			- Mantenimiento
+	- Requerimientos
+		- Ley de Ziv
+			- “Los requisitos nunca se entienden completamente” 
+		- Ley de Humphrey
+			- “Los usuarios no saben realmente el software que quieren hasta que lo ven funcionando”
+		- Lema de Wegner
+			- “Un sistema interactivo nunca puede ser ni especificado ni testeado por completo"
+		- son las capacidades que debe tener un sistema para la solución de un problema.
+		- Despliegue de la función de calidad
+			- Tipos
+				- Normales
+				- Esperados
+				- Emocionantes o innovadores
+		- Indagación de requerimientos
+			- Definición
+			- Especificación
+			- Especificación de software
+		- Requisitos del usuario
+			- se escribe desde el punto de vista del usuario/cliente/interesado.
+			- no poseen demasiado nivel de detalle, son de más alto nivel 
+			- se incluye la descripción del problema actual y las metas que se espera lograr con la construcción del nuevo sistema.
+		- Requisitos del software
+			- desarrolla mucho más los contenidos de la DRU.
+			- los requisitos del software son más detallados y se escriben para el equipo de desarrollo. 
+			- Contiene la respuesta a la pregunta ¿Qué características debe poseer un sistema que nos permita alcanzar los objetivos, y evitar los problemas, expuestos en la DRU?
+		- Técnicas de validación

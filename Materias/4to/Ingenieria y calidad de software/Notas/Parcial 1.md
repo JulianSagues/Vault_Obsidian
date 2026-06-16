@@ -141,3 +141,50 @@
 		- La razón que exista todo
 			- se tiene que tomar en cuenta si agrega valor al sistema
 		- Mantenerlo sencillo.
+			- Todo sistema debe ser diseñado para ser sencillo, lo más posible
+		- Mantener la visión.
+			- Tener la visión clara es fundamental en el desarrollo de un software, conocer a donde se tiene que llegar a dar las pautas necesarias para tener un concepto del proyecto
+		- Otros consumirán lo que usted produce.
+			- se tiene que tomar en cuenta que alguien será el usuario o varias personas serán las que ocupen el producto
+		- Abrace al futuro.
+			- El software tiene un tiempo de vida útil lo cual le da valor, sin embargo, pierde este valor por los cambios que se dan al quedar obsoletas plataformas de hardware u otros elementos
+		- Planee por anticipado la reutilización.
+			- Reutilizar código es beneficios, pero es un reto tener un alto nivel del mismo
+		- Pensar
+			- Al pensar en hacerlo es probable que se haga bien, y si sale mal volver a pensar, esto proporciona conocimientos y experiencia
+- Clean Code
+	- Es un enfoque de programación que prioriza la claridad, la simplicidad y la facilidad de mantenimiento del código.
+	- Buenas practicas
+		- La legibilidad es clave
+		- Funciones pequeñas y específicas
+		- Nombres significativos 
+		- Eliminar código muerto
+		- Principio de la menor sorpresa
+		- Modularidad y encapsulamiento
+		- Escribir pruebas
+		- Refactorización continua
+	- Regla del noventa-noventa
+		- El primer 90% del código ocupa el 90% del tiempo de desarrollo. El 10% restante del código ocupa el otro 90% de tiempo de desarrollo
+	- La Navaja de Oakham
+		- no hay que crear entidades innecesarias sin necesidad
+	- No lo vas a necesitar (YAGNI=You Aren't Gonna Need It)
+		- primero implementa sólo lo que necesites, y más tarde, si es necesario, extiende la funcionalidad
+	- Principio del menor asombro
+		- código debe ser intuitivo y obvio
+	- Diseño grande por adelantado
+		- Antes de empezar a desarrollar la funcionalidad, debería pensar primero en la arquitectura de la aplicación y diseñar todo el sistema hasta detalles suficientemente pequeños, y sólo entonces proceder a la implementación según un plan predefinido
+	- No te repitas (DRY= Don't Repeat Yourself)
+		- repetir lo mismo en diferentes lugares es una mala idea
+	- Evitar la optimización prematura
+		- La optimización es un proceso muy correcto y necesario para acelerar el programa, así como para reducir el consumo de recursos del sistema
+		- Si la optimización se lleva a cabo en las primeras etapas de desarrollo, puede hacer más daño que bien
+	- Ley de Demeter
+		- dividir las áreas de responsabilidad entre las clases y encapsular la lógica dentro de una clase, método o estructura.
+	- S.O.L.I.D.
+		- Single Responsibility Principle (SRP)
+		- Open/Closed Principle (OCP)
+		- Liskov Substitution Principle (LSP)
+		- Interface Segregation Principle (ISP)
+		- Dependency Inversion Principle (DIP)
+	- Spaguetti Code
+		- se refiere a una estructura de código desorganizada y difícil de seguir, donde la lógica se retuerce de forma impredecible, lo que dificulta su comprensión y mantenimiento.

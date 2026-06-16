@@ -248,3 +248,5 @@
 		- Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continuada de software con valor
 		- Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Los procesos Ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.
 		- Entregamos software funcional frecuentemente, entre dos semanas y dos meses, con preferencia por periodos de tiempo lo más corto posibles.
+		- Los responsables de negocio y los desarrolladores trabajamos juntos de forma cotidiana durante todo el proyecto
+		- Los proyectos se desarrollan en torno a individuos motivados. Hay que darles el entorno y el apoyo que necesitan, y confiarles la ejecución del trabajo.

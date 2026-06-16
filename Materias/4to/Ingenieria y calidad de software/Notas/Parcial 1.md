@@ -1,0 +1,27 @@
+
+# 2.1
+- Mitos del software
+	- creencias acerca del software y de los procesos empleados para construirlo
+	- Tipos
+		- De la gestión
+			- Ej: Pensar que con mas programadores se adelanta el tiempo perdido
+		- Del cliente
+			- Ej: Se pueden modificar los requisitos en cualquier momento
+		- De los desarrolladores
+			- Ej: El único trabajo es hacer el programa y que funcione
+- Características del software
+	- El software se desarrolla
+	- El software no se estropea
+	- La mayoría del software se construye a medida
+- Ingeniería  de software
+	- Es una disciplina que comprende todos los aspectos de la producción de software desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza.
+	- como tecnología multicapa
+		- Dado lo anterior, el objetivo de la ingeniería de software es lograr productos de software de calidad (tanto en su forma final como durante su elaboración), mediante un proceso apoyado por métodos y herramientas
+	- Procesos
+		- Organizacionales
+		- Transversales
+		- De gestión de proyectos
+		- Desarrollo y mantenimiento
+		- Soporte
+	- Diferencias
+		- La Ingeniería en Sistemas se involucran en las especificaciones del sistema, diseño, definición de su arquitectura, desarrollo , implementación y en la integración para crear el sistema de información final. Se enfoca en la gestión de la información.

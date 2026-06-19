@@ -31,5 +31,60 @@
 					- Los usuarios seleccionan las elementos con los que se trabaja de una lista con posibilidades
 					- Requiere mucho esfuerzo por parte de los diseñadores para asegurar que los elementos se encuentren donde tengan un significado para los usuarios.
 				- Llenado de formas
+					- Usado cuando es necesario ingresar datos a los sistemas. 
+					- Es generalmente una forma en la cual los usuarios pueden introducir gran cantidad de errores. 
+					- Es necesario ser claros en los tipos de datos pedidos, así como permitir a los usuarios muchas libertades como moverse a través de los cambios y que no todos los campos de la forma sean obligatorios.
 				- Lenguajes de comandos
+					- Son utilizados frecuentemente por usuarios de nivel avanzado. 
+					- Los comandos dan gran flexibilidad y libertad de movimiento, así como dan la capacidad al usuario de mejorar las características del sistema. 
+					- Son por lo general lentos de aprender, pero sumamente rápidos una vez dominados.
 				- Lenguaje natural
+					- La interacción mediante lenguaje natural entre una computadora y un humano es un tema que aún no ha sido resuelto
+					- Hasta el momento, aunque existen muchos intentos de interfaces de lenguaje natural, el panorama actual no es muy alentador en dominios muy generales
+		- 8 reglas de oro sobre la usabilidad
+			- Esforzarse para conseguir consistencia.
+				- Deberíamos exigirnos secuencias de acciones consistentes, utilizarse terminología consistente en los mensajes, menús y pantallas de ayuda, emplearse de forma consistente el color1, composición, mayúsculas, fuentes, etc.
+				- Las excepciones, como la necesaria confirmación de la orden de borrado o no mostrar los caracteres de las contraseñas, deberían ser comprensibles y limitadas en número. 
+				- Todos los componentes de la interfaz deben ser uniformes y seguir un conjunto de reglas simples.
+				- Ayuda a generalizar conocimiento de un aspecto del sistema a los otros. 
+				- Prever la frustración inducida cuando el sistema no se comporta de la manera esperada y lógica.
+			- Atender la usabilidad universal.
+				- Reconocer las necesidades de los diversos usuarios, facilitando la transformación del contenido. 
+				- Diferencias entre segmentos: Principiante/experto, edades, discapacidades y diversidad tecnológica.
+			- Ofrecer realimentación informativa
+				- Para cada acción del sistema debería haber una realimentación por parte del sistema. 
+				- Aspectos: 
+					- Qué está haciendo el sistema. 
+					- Cómo se interpretan los comandos del Usuario. 
+					- El usuario debe saber en todo momento que está pasando. 
+					- Tipos de Feedback: 
+						- Respuesta a un comando del usuario: Movimiento del cursor, selección de un Menú, etc. 
+						- Estado Actual: Brocha seleccionada, color, posición, dirección de la carpeta, scroll bars.
+						- Procesamiento por parte de la máquina: instantáneos, cursores de espera, diálogos explicativos, barras de progreso.
+			- Diseñar diálogos para conducir a la finalización
+				- Crear sistemas claros de conducción hasta el final del proceso de las secuencias de acción del usuario
+			- Prevenir errores
+				- Diseñar el sistema de forma que los usuarios no puedan cometer errores serios
+				- Si fuera así el sistema debe de indicarle al usuario el error por medio de diferentes interfaces textuales o metafóricos. 
+					- Nunca ofrecer un comando que lleve a un mensaje como: "Comando Ilegal": Desactivarlo 
+					- Borrar un objeto que no puede ser borrado 
+					- Aplicar estilo de letra a un objeto que no sea texto 
+					- Utilizar controles que impidan introducir datos erróneos: 
+					- Campos de Texto numéricos 
+					- Fechas 
+					- Scroll Bars 
+					- ListBoxes
+					- Los comandos que ofrece el sistema deben ser válidos en el contexto
+					- Esto permite simplificar la interfaz, ofreciendo únicamente los comandos relevantes al contexto (ej: Diálogo de Selección, barra de Dibujos) 
+					- Advertir al Usuario
+					- Es menos deseable, puesto que interrumpe el flujo de la interacción.
+			-  Permitir deshacer acciones de forma fácil
+				- En la medida que podamos diseñar nuestro interfaz, el usuario puede tener la posibilidad de remediar acciones erróneas, por lo tanto construir un sistema reversible. 
+				- Este sistema suaviza la ansiedad que se puede producir en el usuario
+			-  Dar soporte al control interno
+				- Los operadores experimentados desean firmemente tener la sensación de que están al mando de la interfaz y que la interfaz responde a sus acciones. 
+				- Las acciones sorprendentes por parte de la interfaz, las secuencias de entrada de datos tediosas, la incapacidad o dificultad para obtener la información necesaria y la incapacidad para producir acciones deseadas, crea ansiedad e insatisfacción
+			- Reducir la carga de la memoria a corto plazo
+				- Diseñar sistemas de visualización simples, la frecuencia de movimiento de ventana se reduzca y que se asigne suficiente tiempo de entrenamiento para códigos y secuencias de acciones.
+		- Prevenir Errores
+			- Es necesario prevenir o ayudar a corregir los errores mediante el uso de mensajes altamente descriptivos sobre el origen de los errores y posibilidades de corrección

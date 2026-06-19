@@ -210,4 +210,33 @@
 			- Negociar, comunicar adecuadamente la información correcta en el momento correcto, adaptándola a las necesidades de la audiencia. 
 			- Enfocar al equipo, orientarlo para avanzar y cumplir con las expectativas del cliente, a la vez que cuidar la calidad del producto, sin dictar cómo hacerlo.
 			- Motivar al equipo.
-			- “Asume que el equipo es el experto” y así se lo hace saber, ellos son quienes conocen la mejor manera de realizar su trabajo y quienes tienen la responsabilidad de llevar a buen término el proyecto. - Ayuda al equipo a auto-organizarse para conseguir los objetivos del proyecto. - Ayuda a que su equipo avance, no se quede bloqueado, se mantenga focalizado en su trabajo, elimine ineficiencias, protege a su equipo de interrupciones externas y maximice su productividad. - Promueve la confianza entre el cliente y el equipo, y entre los miembros del equipo
+			- “Asume que el equipo es el experto” y así se lo hace saber, ellos son quienes conocen la mejor manera de realizar su trabajo y quienes tienen la responsabilidad de llevar a buen término el proyecto.
+			- Ayuda al equipo a auto-organizarse para conseguir los objetivos del proyecto. 
+			- Ayuda a que su equipo avance, no se quede bloqueado, se mantenga focalizado en su trabajo, elimine ineficiencias, protege a su equipo de interrupciones externas y maximice su productividad. 
+			- Promueve la confianza entre el cliente y el equipo, y entre los miembros del equipo
+	- Product Owner
+		- Las responsabilidades del Cliente (que puede ser interno o externo a la organización) son:
+			- Ser el representante de todas las personas interesadas en los resultados del proyecto (internas o externas a la organización, promotores del proyecto y usuarios finales [idealmente también debería ser un usuario clave] o consumidores finales del producto) y actuar como interlocutor único ante el equipo, con autoridad para tomar decisiones.
+			- Definir los objetivos del producto o proyecto. 
+			- Colaborar con el equipo para planificar, revisar y dar detalle a los objetivos de cada iteración:
+				- Participar en la reunión de planificación de iteración, proponiendo los requisitos más prioritarios a desarrollar, respondiendo a las dudas del equipo y detallando los requisitos que el equipo se comprometer a hacer. 
+				- Estar disponible durante el curso de la iteración para responder a las preguntas que puedan aparecer. 
+				- No cambiar los requisitos que se están desarrollando en una iteración, una vez está iniciada. 
+				- Participar en la reunión de demostración de la iteración, revisando los requisitos completados.
+	- Equipo:
+		- Grupo de personas que de manera conjunta desarrollan el producto del proyecto. Tienen un objetivo común, comparten la responsabilidad del trabajo que realizan (así como de su calidad) en cada iteración y en el proyecto. 
+		- Es un equipo auto-organizado, que comparte información y cuyos miembros confían entre ellos. Realiza de manera conjunta las siguientes actividades:
+			- Seleccionar los requisitos que se compromete a completar en una iteración, de forma que estén preparados para ser entregados al cliente. 
+			- Estimar la complejidad de cada requisito en la lista de requisitos priorizada del producto o proyecto.
+			- En la reunión de planificación de la iteración decide cómo va a realizar su trabajo: 
+				- Seleccionar los requisitos que pueden completar en cada iteración, realizando al cliente las preguntas necesarias. 
+				- Identificar todas las tareas necesarias para completar cada requisito.
+				- Estimar el esfuerzo necesario para realizar cada tarea. 
+				- Cada miembro del equipo se auto-asigna a las tareas. 
+			- Durante la iteración, trabajar de manera conjunta para conseguir los objetivos de la iteración. Cada especialista lidera el trabajo en su área y el resto colaboran si es necesario para poder completar un requisito. Pero debe siempre tenerse Humildad, evitar la prepotencia (que no es necesaria, la valía se demuestra realizando un trabajo excelente, el reconocimiento es una consecuencia que debe llegar por sí solo), tener una mente abierta a escuchar ideas diferentes de otros y flexibilidad para probar nuevas cosas.
+			- Al finalizar la iteración: 
+				- Demostrar al cliente los requisitos completados en cada iteración. o Hacer una retrospectiva la final de cada iteración para mejorar de forma continua su manera de trabajar.
+		- El equipo es multidisciplinario
+			- Los miembros del equipo tienen las habilidades necesarias para poder identificar y ejecutar todas las tareas que permiten proporcionar al cliente los requisitos comprometidos en la iteración. 
+			- Tienen que depender lo mínimo de personas externas al equipo, de manera que el compromiso que adquieren en cada iteración no se ponga en peligro.
+			- Se crea una sinergia que permite que el resultado sea más rico al nutrirse de las diferentes experiencias, conocimientos y habilidades de todos. Colaboración creativa

@@ -1,0 +1,34 @@
+# [[TP Nº1_ Usabilidad y calidad de requisitos en el desarrollo de un sistema (1).pdf|TP1:]]
+- Requisitos:
+	- Formato
+		- Identificador univoco
+		- Tipo de requerimiento
+			- RF
+			- RNF
+		- Descripción coloquial
+		- Pre-condiciones
+			- Estado del sistema o del usuario que debe ser verdadero antes de que el requerimiento pueda ejecutarse
+		- Post-condiciones
+			- Estado del sistema una vez que el requerimiento se ejecutó correctamente
+		- Precedencias
+			- Si el requerimiento depende de que otro esté implementado o activo, debe indicarse con el código del requerimiento precedente.
+			- Si no tiene precedencias, indicar: 'Sin precedencias'
+- Usabilidad:
+	- Es la facilidad con que las personas pueden utilizar una herramienta particular o cualquier otro objeto fabricado por humanos con el fin de alcanzar un objeto concreto
+	- En interacción persona-servidor: 
+		- Se refiere a la claridad y la elegancia con que se diseña la interacción con un programa de ordenador o sitio web.
+	- Son técnicas que ayudan a los seres humanos a realizar tareas en entornos gráficos de un sistema.
+	- Ayuda a que esta tarea se realice de una forma sencilla analizando el comportamiento humano, y los pasos necesarios para ejecutar la tarea de una forma eficaz
+	- Principios básicos de Usabilidad
+		- Reconocer la Diversidad
+			- Es importantísimo siempre tener en mente que cada interfaz está hecha para diferentes tareas, no puede haber una interfaz que funcione efectivamente para todas las tareas
+			- Formas de interacción:
+				- Manipulación directa
+					- Cuando el usuario interactúa con la representación visual del entorno sobre el que trabaja.
+					- Este tipo de interacción es sumamente sencilla para el usuario y extraordinariamente intuitiva. 
+					- Requiere poco, o nulo, entrenamiento previo para el uso de la interfaz.
+				- Selección de menús
+					- Los usuarios seleccionan las elementos con los que se trabaja de una lista con posibilidades
+				- Llenado de formas
+				- Lenguajes de comandos
+				- Lenguaje natural

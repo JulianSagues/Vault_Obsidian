@@ -140,3 +140,74 @@
 			- La historia NO es un contrato cerrado. 
 			- Detalles pueden negociarse/cambiar durante la conversación. 
 			- Permite flexibilidad en cómo alcanzar el objetivo.
+		- Valorable
+			- La historia debe tener valor claro para el usuario o cliente. 
+			- Si no puedes responder "¿para qué?", no es valorable.
+		- Estimable
+			- El equipo puede estimar complejidad/esfuerzo en Story Points. 
+			- Si no pueden estimar, probablemente falte información o sea muy grande.
+		- Reducida
+			- La historia es pequeña, completable en 1 sprint (~5-8 días). 
+			- No debe ser tan pequeña que no tenga valor, ni tan grande que no entre.
+		- Testeable
+			- Se puede escribir test para verificar que está DONE. 
+			- Criterios de aceptación deben ser verificables, no vagos.
+- Criterios SMART
+	- Los criterios de aceptación deben cumplir con SMART para ser útiles.
+	- Significado
+		- Especifico (Specific)
+			- Claro, sin ambigüedad. 
+			- Si 10 personas leen el criterio, entienden lo MISMO.
+		- Medible
+			- Se puede verificar/medir si se cumple. 
+			- Número, tiempo, booleano (sí/no), lista exacta.
+		- Alcanzable
+			- Realista con la tecnología/contexto disponible.
+		- Relevante
+			- Importa para el usuario o negocio. 
+			- Conexión clara con la historia.
+		- Time-bound / Temporal
+			- Si hay límite de tiempo, especifícalo
+- Errores
+	- Escribir como especificación técnica
+	- Combinar múltiples funcionalidades en una historia
+	- Criterios vagos, no SMART
+	- Sin conversación (solo descripción)
+	- Sin Epic Link o dependencias documentadas
+	- Sin estimación (story points)
+	- No mapear a TP Nº1
+- Transición — De Requerimiento a Historia
+	- Identificar 'quién' usa esto
+		- Pregunta: ¿Quién es el usuario que necesita esto? 
+		- Respuesta: Proveedor nuevo → Actor identificado: "Proveedor nuevo"
+	- ¿Qué funcionalidad específica?
+		- 3 acciones concretas: 
+			- Ingresar email → 1 historia (validación, singularidad)
+			- Ingresar contraseña → 1 historia (validación de fortaleza)
+			- Confirmar email → 1 historia (flujo de confirmación)
+		- Total: 3 historias de 1 requerimiento.
+	- ¿Cuál es el valor?
+		- Valor 1 (email): "para poder registrarse" 
+		- Valor 2 (contraseña): "para proteger mi cuenta" 
+		- Valor 3 (confirmación): "para activar mi cuenta y poder acceder"
+	- Escribir historias
+	- Validar INVEST
+	- Escribir criterios de aceptación
+	- Vincular en herramienta
+# [[TP Nº3 - User Story Mapping.pdf|TP3:]]
+
+- Roles
+	- Scrum Master
+		- Velar por que todos los participantes del proyecto sigan las reglas y proceso de Scrum, encajándolas en la cultura de la organización, y guiar la colaboración en y entre equipos y con el cliente de manera que las sinergias sean máximas
+		- Enseñar al equipo a autogestionarse. 
+			- No da respuestas, si no que guía al equipo con preguntas para que descubra por sí mismo una solución.
+		- Quitar los impedimentos que el equipo tiene en su camino para conseguir el objetivo de cada iteración (proporcionar un resultado útil al cliente de la manera más efectiva) y poder finalizar el proyecto con éxito. 
+			- Estos obstáculos se identifican de manera sistemática en las reuniones diarias de sincronización del equipo y en las reuniones de retrospectiva.
+		- Proteger y aislar al equipo de interrupciones externas durante la ejecución de la iteración (introducción de nuevos requisitos, "secuestro" no previsto de un miembro del equipo, etc.). 
+			- De esta manera, el equipo puede mantener su productividad y el compromiso que adquirió sobre los requisitos que completaría en la iteración.
+		- debe ser capaz de:
+			- Observar, escuchar, preguntar mucho y re-parafrasear para entender las necesidades, motivaciones y sentimientos de los otros, ponerse en su lugar antes de dar la propia opinión (si es realmente necesario que la dé). Es decir, evitar juzgar inmediatamente al otro y tener empatía. 
+			- Negociar, comunicar adecuadamente la información correcta en el momento correcto, adaptándola a las necesidades de la audiencia. 
+			- Enfocar al equipo, orientarlo para avanzar y cumplir con las expectativas del cliente, a la vez que cuidar la calidad del producto, sin dictar cómo hacerlo.
+			- Motivar al equipo.
+			- “Asume que el equipo es el experto” y así se lo hace saber, ellos son quienes conocen la mejor manera de realizar su trabajo y quienes tienen la responsabilidad de llevar a buen término el proyecto. - Ayuda al equipo a auto-organizarse para conseguir los objetivos del proyecto. - Ayuda a que su equipo avance, no se quede bloqueado, se mantenga focalizado en su trabajo, elimine ineficiencias, protege a su equipo de interrupciones externas y maximice su productividad. - Promueve la confianza entre el cliente y el equipo, y entre los miembros del equipo

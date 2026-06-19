@@ -88,3 +88,22 @@
 				- Diseñar sistemas de visualización simples, la frecuencia de movimiento de ventana se reduzca y que se asigne suficiente tiempo de entrenamiento para códigos y secuencias de acciones.
 		- Prevenir Errores
 			- Es necesario prevenir o ayudar a corregir los errores mediante el uso de mensajes altamente descriptivos sobre el origen de los errores y posibilidades de corrección
+- User Experience - UX
+	- es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.
+	- Es un proceso en el que se utilizan una serie de técnicas multidisciplinares y donde cada decisión debe estar basada en las necesidades, objetivos, expectativas, motivaciones y capacidades de los usuarios.
+	- Framework o esqueleto de UX
+		- Conocer a fondo a los usuarios finales, normalmente a través de una intensa investigación cualitativa o cuantitativa. 
+		- Diseñar un producto que resuelva sus necesidades y se ajuste a sus capacidades, expectativas y motivaciones. 
+		- Poner a prueba lo diseñado, aplicando constantes test de usuario durante el proceso de diseño.
+	- Elementos de UX
+		- Desarrollo de Prototipos:
+			- Consiste en convertir una idea abstracta en un producto concreto por medio de prototipos.
+		- Usabilidad: 
+			- El producto debe ser usable para alcanzar los objetivos.
+		- Diseño de Interacción: 
+			- Creación de una experiencia placentera y no frustrante.
+		- Arquitectura de Información: 
+			- El método de organización y estructuración de información dentro del producto.
+		- Diseño Visual: 
+			- El "look and feel" del producto final.
+- Design Thinking

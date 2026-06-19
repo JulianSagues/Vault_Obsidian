@@ -1,4 +1,5 @@
 # [[TP Nº1_ Usabilidad y calidad de requisitos en el desarrollo de un sistema (1).pdf|TP1:]]
+
 - Requisitos:
 	- Formato
 		- Identificador univoco
@@ -110,3 +111,32 @@
 	- Tener un pensamiento de diseño para analizar algo (un problema), tal y como lo haría un diseñador, evidentemente con la finalidad de encontrar una solución
 	- Está centrada en el usuario y en los problemas que a éste se le pueden plantear y en la empatía
 # [[TP Nº2_ Historias de usuario y criterios de aceptación.docx (1).pdf|TP2:]]
+
+- Historias de usuario
+	- descripción breve de una funcionalidad desde la perspectiva del usuario, enfocada en el valor que proporciona, y diseñada para iniciar una conversación entre el equipo y el cliente.
+	- Aspectos
+		- Descripción
+			- Como [actor] Quiero [funcionalidad] De modo que [valor]
+			- Define QUÉ necesita el usuario
+		- Conversación
+			- Notas de preguntas/respuestas surgidas con cliente
+			- Aclara DETALLES, casos especiales, restricciones
+		- Criterios de aceptacion
+			- Lista de condiciones que hacen la historia "DONE"
+			- Define CÓMO verificar que está completa
+	- Diferencia con requisitos
+		- ![[TP Nº2_ Historias de usuario y criterios de aceptación.docx (1).pdf#page=11&rect=60,133,537,491|TP Nº2_ Historias de usuario y criterios de aceptación.docx (1), p.11]]
+	- 3 historias cubren 1 requerimiento. Cada una es completable en ~2-5 días de desarrollo.
+	- Epica
+		- Es una historia muy grande que no cabe en una iteración (sprint). 
+		- Debe dividirse en historias más pequeñas.
+- Principio INVEST
+	- ayuda a evaluar si una historia está bien desglosada.
+	- Significado
+		- Independiente
+			- La historia NO debe depender de otras historias para tener sentido
+			- Si A requiere B, esa es una dependencia explícita, no independencia.
+		- Negociable
+			- La historia NO es un contrato cerrado. 
+			- Detalles pueden negociarse/cambiar durante la conversación. 
+			- Permite flexibilidad en cómo alcanzar el objetivo.

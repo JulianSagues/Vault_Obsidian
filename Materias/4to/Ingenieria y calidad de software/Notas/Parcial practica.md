@@ -107,3 +107,6 @@
 		- Diseño Visual: 
 			- El "look and feel" del producto final.
 - Design Thinking
+	- Tener un pensamiento de diseño para analizar algo (un problema), tal y como lo haría un diseñador, evidentemente con la finalidad de encontrar una solución
+	- Está centrada en el usuario y en los problemas que a éste se le pueden plantear y en la empatía
+# [[TP Nº2_ Historias de usuario y criterios de aceptación.docx (1).pdf|TP2:]]

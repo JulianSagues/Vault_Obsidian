@@ -29,6 +29,7 @@
 					- Requiere poco, o nulo, entrenamiento previo para el uso de la interfaz.
 				- Selección de menús
 					- Los usuarios seleccionan las elementos con los que se trabaja de una lista con posibilidades
+					- Requiere mucho esfuerzo por parte de los diseñadores para asegurar que los elementos se encuentren donde tengan un significado para los usuarios.
 				- Llenado de formas
 				- Lenguajes de comandos
 				- Lenguaje natural

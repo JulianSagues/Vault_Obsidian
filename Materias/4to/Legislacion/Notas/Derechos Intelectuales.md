@@ -1,6 +1,3 @@
-### 1. Objetivo Principal
-
-El propósito central del documento es analizar la evolución histórica, la naturaleza jurídica, el contenido y la tutela legal de los **derechos intelectuales**, distinguiendo con rigor técnico sus dos facetas fundamentales: el derecho moral y el derecho patrimonial del autor.
 
 ### 2. Conceptos Clave y Definiciones
 
@@ -19,35 +16,8 @@ El propósito central del documento es analizar la evolución histórica, la nat
 - **Plagio:** Acto ilícito consistente en atribuirse como propia una obra que pertenece a otro autor.
     
 - **Obra Derivada:** Aquella en la que se incorpora creación propia a una obra ajena (mediante traducción, adaptación o modificación), generando un nuevo derecho de autor independiente sobre dicha alteración.
-    
-
-### 3. Marco Legal y Normativa
-
-El texto detalla que las normas aplicables en la materia comprenden tanto el ordenamiento interno como instrumentos internacionales:
-
-- **Constitución Nacional:** Artículo 17.
-    
-- **Ley 11.723:** Régimen de propiedad intelectual que, aunque no define el derecho de autor, enumera taxativamente las obras protegidas (escritos, composiciones musicales, obras cinematográficas, pinturas, esculturas, planos, fotografías, etc.) y regula aspectos conexos como los seudónimos e interpretaciones.
-    
-- **Convenio de Berna:** Tratado internacional para proteger las obras científicas o artísticas de los países contratantes.
-    
-- **Convención de Bruselas:** Instrumento que establece un estándar mínimo de protección al derecho de autor.
-    
-- **Tratado de Washington de 1946.**
-    
-
 ### 4. Puntos Clave / Ideas Centrales
-
-- **Evolución Histórica en Cuatro Etapas:**
-    
-    - _Antigüedad hasta el Siglo XV:_ Sin protección orgánica; el plagio era difícil por la falta de técnicas de reproducción masiva. Se castigaba mediante el desprestigio social.
-        
-    - _Siglo XV (Invento de la imprenta en 1455) hasta el Estatuto de la Reina Ana:_ Surgen los "privilegios" o monopolios de explotación, revocables y otorgados por la Corona a los editores, ignorando los derechos del autor.
-        
-    - _Estatuto de la Reina Ana hasta el Siglo XIX:_ El Estatuto de la Reina Ana se erige como el primer reconocimiento legal del derecho de autor (exclusividad de producción por 21 años para obras existentes y 14 años prorrogables para obras nuevas). Posteriormente, Francia reconoce el derecho por la vida del autor y la libertad del arte.
-        
-    - _Siglo XIX hasta la actualidad:_ Se divide en la protección del interés público y estímulo creativo (EE.UU., 1787); reconocimiento de la propiedad artística y literaria tras la Revolución Francesa (1793); y la consagración del derecho moral en el Siglo XX.
-        
+   
 - **Características del Derecho Intelectual:** Goza de un monopolio exclusivo de explotación, ampara el derecho moral, nace con la obra misma (no depende de formalidades) y es temporal en su arista patrimonial.
     
 - **Naturaleza Jurídica Diferenciada:** El documento aclara mediante un análisis comparativo que los derechos intelectuales son **absolutos (_erga omnes_)** y recaen sobre bienes inmateriales (creaciones del intelecto). A diferencia de los derechos reales (que son perpetuos), la faceta patrimonial del derecho intelectual es **temporaria**, pero a diferencia de los derechos creditorios, no se agota con el plano económico, sino que de ella subsiste el derecho moral.

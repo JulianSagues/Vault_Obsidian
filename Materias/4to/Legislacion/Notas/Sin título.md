@@ -67,6 +67,7 @@ Derechos patrimoniales: Son los que otorgan al titular derecho exclusivo de obte
 
 Plazos 
 Los derechos patrimoniales se extienden desde su adquisición de por vida; y a sus herederos por cincuenta años desde la muerte. Este plazo se cuenta a partir del primer día del año siguiente al del fallecimiento. 
+
 Los herederos, si durante diez años no reproducen la obra, no pueden oponerse a que otro lo haga, pero mantienen el derecho a cobrar por la publicación.
 
 Cuando el autor muere sin dejar herederos, los derechos раtrimoniales pasan por el mismo tiempo, o sea cincuenta años, al dominio privado del Estado. Si alguna persona quiere publicar o comunicar la obra debe convenir con aquél.

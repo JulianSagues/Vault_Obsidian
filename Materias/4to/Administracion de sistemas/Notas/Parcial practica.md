@@ -118,6 +118,17 @@
 		- Este proceso representa la ejecución técnica de uno de los servicios principales de la empresa. Su objetivo es identificar y explotar debilidades en la infraestructura del cliente para proponer mejoras reales de seguridad.
 	- Gestión de Gobierno, Riesgo y Cumplimiento (GRC)
 		- Este proceso asegura que las soluciones de ciberseguridad no solo sean técnicas, sino que también cumplan con los marcos legales y normativos vigentes (como la Ley de Protección de Datos).
+- Servicios comercializado
+	- Auditoría de Vulnerabilidades y Pentesting:
+		- ​Descripción: Simulación controlada de ataques informáticos para detectar brechas de seguridad en las aplicaciones y redes del cliente antes de que lo haga un atacante real.
+	- Servicio de Monitoreo y Respuesta a Incidentes:
+		- ​Descripción: Vigilancia continua del tráfico de la red del cliente (24/7) y actuación inmediata ante cualquier anomalía o intento de intrusión para mitigar daños.
+	- Consultoría e Implementación de Arquitectura de Seguridad:
+		- ​Descripción: Diseño e instalación de escudos de protección, configuración de Firewalls perimetrales, VPNs empresariales y segmentación de redes seguras.
+	- Adecuación a Normativas y Cumplimiento (GRC):
+		- ​Descripción: Asesoría y auditoría para que los procesos de la empresa cliente cumplan con leyes de Protección de Datos Personales o estándares internacionales.
+	- Programa de Capacitación en Concientización:
+		- ​Descripción: Entrenamiento interactivo para los empleados del cliente, enseñándoles a detectar ataques de Phishing, Ingeniería Social y buenas prácticas de uso de contraseñas
 - **Turnos:**
 	1. Centro de Operaciones de Seguridad (SOC)
 		- Puestos disponibles: 3 Analistas SOC. 

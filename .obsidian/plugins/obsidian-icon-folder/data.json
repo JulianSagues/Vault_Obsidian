@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookOpen",
       "LiPenBox",
       "☑",
       "LiPersonStanding",
-      "LiSearchCode",
-      "LiBot"
+      "LiSearchCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -109,5 +109,9 @@
   "Materias/4to/Ingenieria y calidad de software": {
     "iconName": "LiPenBox",
     "iconColor": "#8000ff"
+  },
+  "Materias/Finales": {
+    "iconName": "LiBookOpen",
+    "iconColor": "#c14706"
   }
 }

@@ -14,6 +14,7 @@ views:
             - file.basename == "2do"
             - file.basename == "3ro"
             - file.basename == "4to"
+            - file.basename == "Finales"
     order:
       - file.name
     cardSize: 240

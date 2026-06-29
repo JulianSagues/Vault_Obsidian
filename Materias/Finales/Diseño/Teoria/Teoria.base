@@ -8,3 +8,4 @@ views:
             - file.basename == "Eje1"
             - file.basename == "Eje2"
             - file.basename == "Eje3"
+            - '!file.path.contains("Eje")'

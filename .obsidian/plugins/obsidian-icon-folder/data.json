@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlertTriangle",
       "LiBookOpen",
       "LiPenBox",
       "☑",
-      "LiPersonStanding",
-      "LiSearchCode"
+      "LiPersonStanding"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -113,5 +113,9 @@
   "Materias/Finales": {
     "iconName": "LiBookOpen",
     "iconColor": "#c14706"
+  },
+  "Materias/Finales/Diseño": {
+    "iconName": "LiAlertTriangle",
+    "iconColor": "#eb0000"
   }
 }

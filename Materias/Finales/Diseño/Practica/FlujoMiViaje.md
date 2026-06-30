@@ -1,6 +1,6 @@
-- Cliente inicia sesión con usuario y contraseña 
+
 - Cliente ingresa tipoHabitacion, fechasDesdeReserva, fechaHastaReserva, Pais, Provincia, Localidad y metodoOrdenamiento
-- Sistema muestra de acuerdo a pais, provincia, localidad y tipo de habitacion (Si una habitacion esta ocupada uno solo de los dias esta ocupada, puede cambiar)
+- Sistema muestra de acuerdo a pais, provincia, localidad y tipo de habitacion (Si una habitacion esta ocupada uno solo de los dias esta ocupada, puede cambiar a futuro)
 - Ordenar segun lo elegido
 - Mostrar en pantalla nombre hotel, dirección del hotel, tipo de habitación, tarifa diaria
 - se puede ordenar por precio o distancia al centro de la localidad ingresada

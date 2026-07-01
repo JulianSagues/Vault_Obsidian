@@ -1,4 +1,5 @@
 
+Realizar Reserva
 - Cliente ingresa tipoHabitacion, fechasDesdeReserva, fechaHastaReserva, Pais, Provincia, Localidad y metodoOrdenamiento
 - Sistema muestra de acuerdo a país, provincia, localidad y tipo de habitación (Si una habitación esta ocupada uno solo de los días esta ocupada, puede cambiar a futuro)
 - Ordenar según lo elegido

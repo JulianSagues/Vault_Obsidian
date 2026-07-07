@@ -11,4 +11,31 @@
 		- Los CU deben encajar en la arquitectura cuando se llevan a cabo, y la arquitectura debe permitir el desarrollo de todos los casos de uso requeridos, ahora y en el futuro. 
 		- La arquitectura debe diseñarse para permitir que el sistema evolucione en su desarrollo inicial y a lo largo de las futuras generaciones.
 	- Iterativo e Incremental
-		- 
+		- En 1º lugar, la iteración trata un grupo de casos de uso que juntos amplían la utilidad del producto desarrollado hasta ahora.
+		- En 2º lugar, la iteración trata los riesgos más importantes.
+		- Las iteraciones sucesivas se construyen sobre los artefactos de desarrollo tal como quedaron al final de la última iteración.
+		- Si una iteración cumple con sus objetivos, el desarrollo continúa con la siguiente iteración. Si no, se prueba con un nuevo enfoque.
+- ==Fases de proceso unificado==
+	- Fase de inicio
+		- Se desarrolla una descripción del producto final a partir de una buena idea y se presenta el análisis de negocio para el producto
+	- Fase de Elaboración
+		- Se especifican en detalle la mayoría de los casos de uso del producto y se diseña la arquitectura del sistema. El resultado de esta fase es una línea base de la arquitectura, y la disposición del director de planificar las actividades y estimar los recursos necesarios para terminar el proyecto
+	- Fase de Construcción
+		-  Se crea el producto. Aquí la línea base de la arquitectura crece hasta convertirse en el sistema completo. Al final de esta fase, el producto tiene todos los casos de uso que la dirección y el cliente han acordado para el desarrollo de esta versión. Sin embargo, puede tener defectos
+	- Fase de Transición
+		- Cubre el periodo comprendido durante el cual el producto se convierte en versión beta. Esta fase corrige errores antes de la entrega. El equipo de mantenimiento divide los errores en 2 categorías: los que tienen suficiente impacto en la operación para justificar una versión incrementada y los que pueden corregirse en la siguiente versión normal.
+	- El producto terminado incluye los requisitos, casos de uso, especificaciones no funcionales y casos de prueba. Incluye el modelo de la arquitectura y el modelo visual.
+- ==Conceptos Básicos del Proceso: Flujos, artefactos, trabajadores, actividades==
+	- Trabajadores (“quién”)
+		- Define el comportamiento y responsabilidades (rol) de un individuo, grupo de individuos, sistema automatizado o máquina, que trabajan en conjunto como un equipo. Ellos realizan las actividades y son propietarios de elementos.
+	- Actividades (“cómo”)
+		- Es una tarea que tiene un propósito claro, es realizada por un trabajador, que manipula elementos. Las actividades se consideran en la planificación y evaluación de progresos del proyecto
+	- Artefactos (”qué”)
+		- Productos tangibles del proyecto que son producidos, modificados y usados por las actividades. Pueden ser modelos, elementos dentro del modelo, código fuente y ejecutables.
+	- Flujo de actividades (“Cuándo”)
+		- Captura de Requerimientos
+		- Análisis y diseño
+		- Implementación
+		- Prueba (Testeo)
+# Unidad 2
+- 

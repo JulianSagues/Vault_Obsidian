@@ -84,3 +84,24 @@
 			- Es una colaboración en término de clases de diseño que describe como se realiza un caso de uso específico. Una realización de CU-diseño, tiene una traza directa a la correspondiente realización del caso de uso análisis. Se describe utilizando Diagrama de Clases, de secuencia, y flujo de sucesos-diseño (narración de sucesos)
 		- Subsistema de diseño
 			- Un subsistema es un paquete de elementos que se tratan como una unidad. Los subsistemas tienen un conjunto de interfaces que describen su relación con el resto del sistema y las circunstancias en que se puede utilizar. Son una forma de organizar los artefactos del modelo de diseño en piezas más manejables. Los subsistemas pueden representar productos software reutilizados, o sistemas heredados encapsulados.
+				- Subsistemas de Servicio
+					- Se usan en un nivel inferior de la jerarquía de subsistemas. La identificación de subsistemas de servicio se basa en los paquetes de servicio del modelo de análisis, y normalmente existe una traza uno a uno. Un subsistema de servicio ofrece servicios en término de interfaces y operaciones, y suele dar lugar a un componente ejecutable en la implementación.
+		- Interfaz
+			- Las interfaces se utilizan para especificar las operaciones que proporcionan las clases y los subsistemas del diseño. Se dice que una clase de diseño o un subsistema de diseño “realizan” o implementan una interfaz. Las interfaces constituyen una forma de separar la especificación de la funcionalidad en términos de operaciones de sus implementaciones en términos de métodos.
+		- Descripción de la arquitectura (vista del modelo de diseño)
+			- Se consideran significativos para la arquitectura los siguientes artefactos del modelo de diseño
+				- La descomposición del modelo de diseño en subsistemas, sus interfaces, y las dependencias entre ellos.
+				- Clases de diseño fundamentales como clases activas y clases centrales.
+				- Realizaciones de caso de uso-diseño que describan alguna funcionalidad importante y crítica.
+		- Modelo de despliegue
+			- El modelo de despliegue es un modelo de objetos que describe la distribución física del sistema en términos de cómo se distribuye la funcionalidad entre los nodos de cómputo.
+		- Descripción de la arquitectura (vista del modelo de despliegue)
+			- La descripción de la arquitectura contiene una vista de la arquitectura del modelo de despliegue que muestra sus artefactos relevantes para la arquitectura.
+-  ==FLUJO DE TRABAJO DE IMPLEMENTACIÓN==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=16&rect=61,505,557,724|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.16]]
+	- Disciplina de Implementación
+		- Transforma en código maquina lo diseñado. También asume la redacción de los manuales de usuario y todos los demás artefactos que se definan como parte del sistema en explotación más que del proyecto
+- ==FLUJO DE TRABAJO DE PRUEBAS==
+	- Disciplina de Pruebas
+		- Define los esquemas de evaluación con los que se determinará si lo desarrollado cumple con los requisitos identificados.
+		- 

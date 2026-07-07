@@ -102,6 +102,29 @@
 	- Disciplina de Implementación
 		- Transforma en código maquina lo diseñado. También asume la redacción de los manuales de usuario y todos los demás artefactos que se definan como parte del sistema en explotación más que del proyecto
 - ==FLUJO DE TRABAJO DE PRUEBAS==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=18&rect=61,468,518,722|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.18]]
 	- Disciplina de Pruebas
 		- Define los esquemas de evaluación con los que se determinará si lo desarrollado cumple con los requisitos identificados.
-		- 
+# Unidad 3
+- Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces.
+- Un patrón de diseño es una solución a un problema de diseño. Para que una solución sea considerada un patrón debe poseer ciertas características. Una de ellas es que debe haber comprobado su efectividad, resolviendo problemas similares en ocasiones anteriores. Otra es que debe ser reusable, lo que significa que es aplicable a diferentes problemas de diseño en distintas circunstancias.
+- ==PATRONES GRASP==
+	- GRASP (General Responsibility Assignment Software Patterns) son patrones generales de software para asignación de responsabilidades
+	- En cuanto a las responsabilidades UML define una responsabilidad como “un contrato u obligación de un clasificador”.
+	- Conocer:
+		- Conocer los datos privados encapsulados.
+		- Conocer los objetos relacionados.
+		- Conocer las cosas que puede derivar o calcular.
+	- Hacer
+		- Hacer algo él mismo, como crear un objeto o hacer un cálculo.
+		- Iniciar una acción en otros objetos.
+		- Controlar y coordinar actividades en otros objetos.
+- ==Los patrones GRASP son==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=20&rect=69,87,565,262|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.20]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,550,564,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,313,563,545|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=67,99,588,308|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,447,565,590|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=71,237,564,439|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- 

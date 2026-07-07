@@ -173,4 +173,39 @@
 		- Favorecer la reutilización de código.
 -  ==MODELO DE ENTIDAD – RELACIÓN (MER)==
 	- El Modelo de Entidad Relación es un modelo de datos basado en una percepción del mundo real que consiste en un conjunto de objetos básicos llamados entidades y relaciones entre estos objetos, implementándose en forma gráfica a través del Diagrama Entidad Relación.
-	- 
+	- Las Entidades son objetos o cosas del mundo real, del mismo tipo. Tienen atributos, que comprenden valores. Los atributos deben ser:
+		- No compuestos: Ej: Domicilio, tiene número, calle, etc. Debería dividirse en varios atributos
+		- No multivalente: Es decir, no debe tener permitir distintos tipos de valores
+		- No nulo
+		- Determinante (ID, llave o clave primaria): Es una tributo especial único entre todas las instancias, que identifica unívocamente a cada instancia. El ID puede ser:
+			- Simple: Formado por un solo atributo. Ej: Legajo
+			- Compuesto: Formado por 2 o más atributos. Ej: Tipo y Nro. Documento
+		- Una entidad se representa con un Rectángulo.
+		- Se denomina Clave principal o primaria al atributo o conjunto mínimo de atributos (uno o más campos) que permiten identificar en forma única cada instancia de la entidad, es decir, a cada registro de la tabla. Las claves principales se utilizan cuando se necesita hacer referencia a registros específicos de una tabla desde otra tabla. En un principio se puede identificar más de un atributo que cumpla las condiciones para ser clave, los mismos se denominan Claves candidatas
+		- Si la clave primaria se determina mediante un solo atributo de la entidad, entonces se dice que la misma es una Clave simple. En caso de estar conformada por más de un atributo, la misma se conoce como Clave compuesta
+		- La Clave foránea (también llamada externa o secundaria) es un atributo que es clave primaria en otra entidad con la cual se relaciona
+	- Relación
+		- Es una conexión. Hay una relación cuando al menos una instancia de una entidad se vincula con una instancia en la otra. Las relaciones se representan con un rombo.
+		- Evitamos relaciones n-arias y usamos binarias.
+		- Los tipos de relaciones son:
+			- 1 a 1: A una instancia de un objeto le corresponde una instancia en el otro.
+			- 1 a N: Debe haber al menos 1 atributo en común (clave foránea), en la entidad de cardinalidad N.
+			- N a N: Se desprende obligatoriamente una clase asociativa, que tiene como clave primaria los ID’s de las 2 relaciones.
+	- Formas Normales
+		- 1FN: Se define una clave única, no nula, para una tabla
+		- 2FN: Todos los atributos no llave dependen totalmente de la llave compuesta (Solo se aplica a claves compuestas)
+		- 3FN: Los atributos no llave no dependen entre sí
+- ==FRAMEWORKS==
+	- En el desarrollo de software, un framework es una estructura conceptual y tecnológica de soporte definida, normalmente con artefactos o módulos de software concretos, con base en la cual otro proyecto desoftware puede ser organizado y desarrollado. Típicamente, puede incluir soporte de programas, bibliotecas y un lenguaje interpretado entre otros programas para ayudar a desarrollar y unir los diferentes componentes de un proyecto.
+	- Representa una arquitectura de software que modela las relaciones generales de las entidades del dominio. Provee una estructura y una metodología de trabajo la cual extiende o utiliza las aplicaciones del dominio.
+# Unidad 5
+- UML es un lenguaje de modelado para Visualizar, Especificar, Construir y Documentar los artefactos de un sistema con gran cantidad de software.
+- Un lenguaje de modelado es un lenguaje cuyo vocabulario y reglas se centran en la representación conceptual y física de un sistema.
+- ==Bloques Básicos de construcción UML==: Son 3, elementos, relaciones y diagramas
+	- Elementos
+		- Estructurales o Clasificadores: Son las partes estáticas de los modelos
+			- Clase: Es una descripción de un conjunto de objetos que comparten los mismos atributos, operaciones, relaciones y semántica
+			- Interfaz: Es una colección de operaciones que especifican un servicio de una clase o componente. Una interfaz describe el comportamiento visible externo de ese elemento
+			- Colaboración: Define una interacción y es una sociedad de roles y otros elementos que colaboran para proporcionar un comportamiento cooperativo mayor que la suma de los comportamientos de sus elementos
+			- Caso de uso
+			- 

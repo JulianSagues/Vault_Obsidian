@@ -58,4 +58,29 @@
 - ==Artefactos del Análisis==
 	- Modelo de Análisis
 	- Clase del análisis
-		- 
+		- Representa una abstracción de una o varias clases y/o subsistemas del diseño del sistema.
+		- Clase de Interfaz
+			- Se utilizan para modelar la interacción entre el sistema y sus actores. Esta interacción a menudo implica recibir (y presentar) información y peticiones de (y hacia) los usuarios y los sistemas externos.
+		- Clase de Entidad
+			- Usadas para modelar información de vida larga y que es a menudo persistente. Reflejan la información de un modo que beneficia a los desarrolladores al diseñar e implementar el sistema, incluyendo persistencia
+		- Clase de Control
+			- Se usan para encapsular el control de un CU en concreto, y para representar derivaciones y cálculos complejos, que no pueden asociarse con ninguna información concreta. Los aspectos dinámicos del sistema se modelan con clases de control
+	- Realización de caso de uso-análisis
+	- Paquete del análisis
+		- Paquetes de Servicio
+	- Descripción de la Arquitectura (Vista del modelo de análisis)
+- ==FLUJO DE TRABAJO DE DISEÑO==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=13&rect=43,501,535,720|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.13]]
+	- Diseño. Actividad mental de disponer las cosas para que al desarrollarse, se alcance la situación deseada. En otras palabras, es la disposición de estructuras temporales que son necesarias para que un algo se desarrolle según nuestros deseos
+	- Disciplina de Diseño: Encuentra una forma de sistema, código o arquitectura, que al momento de su puesta en ejecución da lugar a lo delineado en el análisis, siempre teniendo en foco los requisitos a cumplir.
+	- El diseño es la etapa de un sistema que describe como se implementará el sistema, en un nivel lógico sobre el código real. 
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=13&rect=47,160,550,323|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.13]]
+	- Artefactos del Diseño
+		- Modelo del Diseño
+			- Es un modelo de objetos que describe la realización física de los casos de uso centrándose en los requisitos funcionales como en los no funcionales. Las abstracciones del modelo de diseño tienen una correspondencia directa con los elementos físicos del ambiente de implementación.
+		- Clase del Diseño
+			- Es una abstracción sin costuras con una clase o construcción similar en la implementación del sistema. A diferencia de la clase de análisis, se especifica el lenguaje de programación, visibilidad de atributos y operaciones; se implementan las relaciones con atributos; y se pueden usar estereotipos del lenguaje de programación elegido.
+		- Realización de CU-diseño
+			- Es una colaboración en término de clases de diseño que describe como se realiza un caso de uso específico. Una realización de CU-diseño, tiene una traza directa a la correspondiente realización del caso de uso análisis. Se describe utilizando Diagrama de Clases, de secuencia, y flujo de sucesos-diseño (narración de sucesos)
+		- Subsistema de diseño
+			- Un subsistema es un paquete de elementos que se tratan como una unidad. Los subsistemas tienen un conjunto de interfaces que describen su relación con el resto del sistema y las circunstancias en que se puede utilizar. Son una forma de organizar los artefactos del modelo de diseño en piezas más manejables. Los subsistemas pueden representar productos software reutilizados, o sistemas heredados encapsulados.

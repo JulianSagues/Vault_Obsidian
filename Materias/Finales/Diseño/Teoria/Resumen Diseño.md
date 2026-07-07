@@ -38,4 +38,24 @@
 		- Implementación
 		- Prueba (Testeo)
 # Unidad 2
-- 
+- ==FLUJO DE TRABAJO DE CAPTURA DE REQUISITOS==
+- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=8&rect=61,466,486,717|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.8]]
+- Disciplina de Requisitos: Ejecuta la identificación y captura de las necesidades que el proyecto debe cubrir con lo desarrollado.
+- ==Artefactos de la Captura de Requisitos==
+	- Actor
+		- Es toda entidad externa que demanda funcionalidad del sistema, ya sea un ser humano o un sistema de software.
+	- Caso de uso
+	- Modelo de CU
+		-  Describe los procesos de negocio de una empresa en términos de casos de uso y actores del negocio que se corresponden con los procesos del negocio y los clientes, respectivamente. El modelo de casos de uso del negocio presenta un sistema desde la perspectiva de su uso, y esquematiza cómo proporciona valor a sus usuarios. Este modelo se describe mediante diagramas de casos de uso.
+	- Descripción de la Arquitectura
+	- Prototipo de IU
+	- Glosario
+- ==FLUJO DE TRABAJO DE ANÁLISIS==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=10&rect=60,367,536,719|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.10]]
+	- Análisis: Actividad mental de ver al todo como una colección de partes.
+	- Disciplina de Análisis: Ordena en un esquema lógico lo que se ha implicado con los requisitos.
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=10&rect=58,64,554,265|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.10]]
+- ==Artefactos del Análisis==
+	- Modelo de Análisis
+	- Clase del análisis
+		- 

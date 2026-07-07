@@ -127,4 +127,26 @@
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,447,565,590|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=71,237,564,439|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=70,86,566,231|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=23&rect=69,509,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.23]]
+- ==PATRONES GoF (Gang of Four)==
+	- Plantilla (Template)
+		- Un método plantilla es un patrón de diseño que define una estructura algorítmica en la súper clase, delegando la implementación a las subclases. Es decir, define una serie de pasos, en donde los pasos serán redefinidos en las subclases.
+		- Se define una estructura de herencia en la cual la superclase sirve de plantilla de los métodos en las subclases, es decir, la superclase define métodos abstractos y las subclases los implementan. Una de las ventajas de este método es que evita la repetición de código, por tanto la aparición de errores.
+		- Este patrón se vuelve de especial utilidad cuando es necesario realizar un algoritmo que sea común para muchas clases, pero con pequeñas variaciones entre una y otras.
+	- Singleton (Instancia única)
+		- El patrón singleton está diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
+		- Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
+		- El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con atributos como protegido o privado).
+	- DTO (Data Transfer Object)
+		- Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ellas? 
+		- Solución: Crear pseudo-entidades a medida de las necesidades. Es decir, definir clases con los atributos necesarios para representar los datos que se desean intercambiar entre las diferentes capas
+	- Estrategia (Strategy)
+		- Problema: ¿Cómo diseñar diversos algoritmos o políticas que están relacionadas? ¿Cómo diseñar que estos algoritmos o políticas puedan cambiar?
+		- Solución: Defina cada algoritmo/política/estrategia en una clase independiente con 1 interfaz común
+		- El patrón estrategia permite mantener un conjunto de algoritmos de los que el objeto cliente puede elegir aquel que le conviene e intercambiarlo según sus necesidades
+	- Adaptador (Adapter)
+		- Problema: ¿Cómo resolver interfaces incompatibles, o proporcionar una interfaz estable para componentes parecidos con diferentes interfaces?
+		- Solución: Convierta la interfaz original de un componente en otra interfaz mediante un objeto adaptador intermedio.
+		- El Adaptador se utiliza para conectarse con sistemas externos. Suele utilizarse en conjunto con el Patrón DTO, y uno de los usos principales es el de impresión de Factura, Ticket, etc. Cabe aclarar que también puede usarse sin el patrón DTO.
 	- 

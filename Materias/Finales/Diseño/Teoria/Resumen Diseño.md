@@ -149,4 +149,28 @@
 		- Problema: ¿Cómo resolver interfaces incompatibles, o proporcionar una interfaz estable para componentes parecidos con diferentes interfaces?
 		- Solución: Convierta la interfaz original de un componente en otra interfaz mediante un objeto adaptador intermedio.
 		- El Adaptador se utiliza para conectarse con sistemas externos. Suele utilizarse en conjunto con el Patrón DTO, y uno de los usos principales es el de impresión de Factura, Ticket, etc. Cabe aclarar que también puede usarse sin el patrón DTO.
+	- Composite (Objeto Compuesto)
+		- Composite permite tratar un grupo de objetos como una sola pieza, en realidad, como un único objeto. Logra que tanto el objeto compuesto como los objetos componentes sean tratados por igual. Es útil cuando se desea desconocer la diferencia entre el uso de objetos compuestos y objetos componentes
+	- Observador (Observer o Spider)
+		- El patrón Observador define una dependencia del tipo uno-a-muchos entre objetos, de manera que cuando uno de los objetos cambia su estado, el observador se encarga de notificar este cambio a todos los otros dependientes.
+		- El objetivo de este patrón es desacoplar la clase de los objetos clientes del objeto, y evitar bucles de actualización (espera activa o polling).
+		-  El objeto de datos, llamémoslo "Sujeto" a partir de ahora, contiene atributos mediante los cuales cualquier objeto observador o vista se puede suscribir a él pasándole una referencia a sí mismo. El Sujeto mantiene así una lista de las referencias a sus observadores
+		- Los observadores a su vez están obligados a implementar unos métodos determinados mediante los cuales el Sujeto es capaz de notificar a sus observadores "suscritos" los cambios que sufre para que todos ellos tengan la oportunidad de refrescar el contenido representado. 
+	- Comando
+		- Este patrón permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además se facilita la parametrización de los métodos (por eso se llama siempre con ejecutar() )
+# Unidad 4
+- ==DISEÑO ORIENTADO A OBJETOS (DOO)==
+	- La habilidad más importante en DOO es la asignación eficiente de responsabilidades a los componentes de software, ya que esto permite:
+		- Solidez
+		- Capacidad de mantenimiento
+		- Reusabilidad de los componentes de software
+	- ==¿Qué son el Análisis y el Diseño Orientado a Objetos?==
+		- Durante el Análisis orientado a objetos, se procura identificar y describir los ojetos dentro del dominio del problema.
+		- Durante del Diseño orientado a objetos, se procura definir los objetos lógicos del software que finalmente serán implementados en un lenguaje de programación orientado a objetos.
+	- ==Principios del Diseño Orientado a Objetos==
+		- Identificar a los objetos adecuados.
+		- Favorecer el bajo acoplamiento.
+		- Favorecer la reutilización de código.
+-  ==MODELO DE ENTIDAD – RELACIÓN (MER)==
+	- El Modelo de Entidad Relación es un modelo de datos basado en una percepción del mundo real que consiste en un conjunto de objetos básicos llamados entidades y relaciones entre estos objetos, implementándose en forma gráfica a través del Diagrama Entidad Relación.
 	- 

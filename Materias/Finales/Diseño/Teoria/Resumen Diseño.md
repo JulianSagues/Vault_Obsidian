@@ -208,4 +208,41 @@
 			- Interfaz: Es una colección de operaciones que especifican un servicio de una clase o componente. Una interfaz describe el comportamiento visible externo de ese elemento
 			- Colaboración: Define una interacción y es una sociedad de roles y otros elementos que colaboran para proporcionar un comportamiento cooperativo mayor que la suma de los comportamientos de sus elementos
 			- Caso de uso
-			- 
+			- Clase Activa: Es una clase cuyos objetos tienen uno o más procesos o hilos de ejecución y, por tanto, pueden dar origen a actividades de control
+			- Componente: Es una parte modular del diseño del sistema que oculta su implementación tras un conjunto de interfaces externas.
+			- Artefacto: Es una parte física y reemplazable de un sistema que contiene información física. Representa típicamente el empaquetamiento físico de código o información en tiempo de ejecución.
+			- Nodo: Es un elemento físico que existe en tiempo de ejecución y representa un recurso computacional, que por lo general dispone de algo de memoria y/o capacidad de procesamiento.
+		- De Comportamiento: Son las partes dinámicas de los modelos
+			- Interacción: Es un comportamiento que comprende un conjunto de mensajes intercambiados entre un conjunto de objetos, dentro de un contexto particular, para alcanzar un propósito específico.
+			- Máquina de Estados: Es un comportamiento que especifica las secuencias de estados por las que pasa un objetos durante su vida en respuesta a eventos. Puede incluir transiciones, eventos, acciones.
+			- Actividad: Es un comportamiento que especifica la secuencia de pasos que ejecuta un proceso.
+		- De Agrupación:
+			- Paquete: Es puramente conceptual (sólo existe en tiempo de desarrollo).
+		- De Anotación: Son las partes explicativas de los modelos UML
+			-  Nota: Muestra comentarios
+- Relaciones
+	- Dependencia: Es una relación semántica entre 2 elementos, en la cual un cambio al elemento independiente puede afectar a la semántica del elemento dependiente
+	- Asociación: Es una relación estructural entre clases que describe un conjunto de enlaces, los cuales son conexiones entre objetos. Algunos tipos especiales de asociación son la composición y agregación.
+	- Generalización: Es una relación de especialización, en la cual el elemento especializado (hijo) se basa en la especificación del elemento generalizado (padre). El hijo comparte la estructura y el comportamiento del padre
+	- Realización: Es una relación semántica entre clasificadores, en donde un clasificador especifica un contrato que otro clasificador garantiza que cumplirá.
+	- Extensión: Un caso de uso extiende a otro cuando sin alterar a este, se incorpora su funcionalidad como parte integral del primero. Se denota con una relación que apunta del caso extendido al caso base y la conexión se hace o bien al principio del flujo de eventos principal del caso base o en alguno de los puntos de extensión que este haya definido.
+	- Inclusión: Un caso de uso concreto incluye a un fragmento de caso de uso, cuando como parte de su descripción breve o su flujo de eventos, se hace referencia al texto del fragmento; de forma tal que lo dicho en el fragmento pasa a ser parte de la especificación del caso de uso.
+- Diagramas de…
+	- Clases: Muestra un conjunto de clases, interfaces y colaboraciones, así como sus relaciones. Abarcan la vista de diseño estática de un sistema
+	- Casos de Uso: Muestra un conjunto de CU, sus actores y relaciones. Abarcan la vista de casos de uso estática de un sistema.
+	- Objetos: Muestra un conjunto de objetos y sus relaciones. Representan instantáneas estáticas de instancias de los elementos de un diagrama de clases.
+	- Componentes: Representa la encapsulación de una clase, juntos con sus interfaces, puertos y estructura interna. Abarcan la vista de implementación estática del diseño de un sistema
+	- De interacción (Secuencia y Comunicación/Colaboración): Cubren la vista dinámica de un sistema. Muestran el flujo de mensajes entre objetos
+	- Estados: Muestra una máquina de estados. Abarca la vista dinámica de un objeto.
+	- Actividades: Muestra la estructura de un proceso. Abarca la vista dinámica.
+	- Despliegue: Muestra la configuración de nodos de procesamiento en tiempo de ejecución y los artefactos que residen en ellos. Abarcan la vista de despliegue estática de una arquitectura
+	- Paquetes: Muestra la descomposición del propio modelo en unidades organizativas y sus dependencias
+	- Tiempos: Es un diagrama de interacción que muestra las tiempos reales en el sistema.
+	- Visión Global de Interacciones: Es un híbrido entre un diagrama de actividades y uno de secuencia.
+- ==ARQUITECTURA==
+	- Vista de Casos de Uso: Comprende los casos de uso que describen el comportamiento del sistema tal y como es percibido por los usuarios finales, analistas y encargados de las pruebas. Esta vista no especifica realmente la organización de un sistema software.
+		- Aspectos Estáticos -> Diagrama de Casos de Uso
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Diseño: Comprende las clases, interfaces y colaboraciones que forman el vocabulario del problema y su solución. Esta vista soporta principalmente los requisitos funcionales del sistema.
+		- Aspectos Estáticos -> Diagramas de Clases y Objetos
+		- Aspectos Dinámicos  Diagramas de Interacción, Estados y Actividades

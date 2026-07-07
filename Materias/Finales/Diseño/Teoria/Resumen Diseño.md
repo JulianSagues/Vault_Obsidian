@@ -245,4 +245,25 @@
 		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
 	- Vista de Diseño: Comprende las clases, interfaces y colaboraciones que forman el vocabulario del problema y su solución. Esta vista soporta principalmente los requisitos funcionales del sistema.
 		- Aspectos Estáticos -> Diagramas de Clases y Objetos
-		- Aspectos Dinámicos  Diagramas de Interacción, Estados y Actividades
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Interacción: Muestra el flujo de control entre sus diversas partes. Abarca el rendimiento, escalabilidad y capacidad de procesamiento del sistema. Los aspectos son los mismos que en la vista de diseño.
+	- Vista de Implementación: Comprende los artefactos que se utilizan para ensamblar y poner en producción el sistema físico.
+		- Aspectos Estáticos -> Diagramas de Artefactos
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Despliegue: Contiene los nodos que forman la topología hardware sobre la que se ejecuta el sistema. Esta vista se ocupa de la distribución, entrega e instalación de las partes que constituyen el sistema físico.
+		- Aspectos Estáticos -> Diagramas de Despliegue
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+- ==VISTA ESTÁTICA==
+	- La vista estática es la base de UML. Los elementos de la vista estática de un modelo son todo tipo de conceptos encontrados en los sistemas. Esta vista captura la estructura del objeto, e incluye todo lo concerniente a las estructuras de datos tradicionales, así como la organización de las operaciones sobre los datos. Los datos y las operaciones son cuantificados en clases.
+	- La vista estática describe entidades de comportamiento, pero no contiene los detalles de su comportamiento dinámico. Los trata como elementos para ser nombrados, poseídos por las clases e invocados. Hay 2 elementos clave en esta vista:
+		- Clasificadores
+			- Un clasificador es un concepto discreto en el modelo, que tiene identidad, estado, comportamiento y relaciones. Algunos clasificadores son las clases, actores, rol, componente, caso de uso, nodo, señal, interfaz, etc.
+		- Relaciones
+			- Asociación: Lleva la información entre objetos en un sistema. Sin asociaciones, habrían sólo clases aisladas. Una clase se puede asociar a sí misma, o hacia otra clase. Los extremos de la asociación pueden tener multiplicidad, es decir, cuántas instancias de una clase se pueden relacionar con una instancia de otra. Si una asociación puede tener atributos por sí misma, surge una clase asociativa. Durante el análisis, las asociaciones representan relaciones lógicas entre objetos. La asociación se representa con una línea continua. Hay 2 subtipos:
+				- Agregación: Es una asociación que representa una relación todo-parte. Se muestra adornado con un diamante hueco en el extremo de la trayectoria unida a la clase agregada
+				- Composición: Es una asociación más fuerte, en la cual el compuesto es el responsable único de gestionar sus partes. Se muestra con un diamante relleno adornando el extremo compuesto.
+			- Generalización: Es una relación taxonómica entre una descripción más general (padre) y una descripción más específica (hijo), que se construye sobre ella y la extiende. La descripción más específica es completamente consistente con la más general, y puede contener información adicional. En el caso de clases, se habla de superclase y subclase. Una generalización se dibuja como una flecha que va desde el padre al hijo, con un triángulo hueco en el extremo del padre. La generalización tiene 2 propósitos:
+				- Principio de sustitución (del padre por el hijo, que es más especializado), lo que posibilita el polimorfismo
+				- Permitir la herencia
+			- Realización: Conecta un elemento del modelo con otro que especifica su comportamiento, pero no su estructura o implementación. Se indica con una flecha de línea discontinua con una punta hueca cerrada
+			- Dependencia: Indica que un elemento conoce la existencia de otro. Se denota con una línea punteada y con flecha. En el diagrama de clases sirve para describir la visibilidad global entre atributos.

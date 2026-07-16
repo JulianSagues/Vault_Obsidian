@@ -144,6 +144,8 @@
 		- El patrón singleton está diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
 		- Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
 		- El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con atributos como protegido o privado).
+			- Contexto/Problema: Se admite exactamente una instancia de una clase —es un “singleton”—. Los objetos necesitan un único punto de acceso global. 
+			- Solución: Defina un método estático de la clase que devuelva el singleton.
 	- DTO (Data Transfer Object)
 		- Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ellas? 
 		- Solución: Crear pseudo-entidades a medida de las necesidades. Es decir, definir clases con los atributos necesarios para representar los datos que se desean intercambiar entre las diferentes capas

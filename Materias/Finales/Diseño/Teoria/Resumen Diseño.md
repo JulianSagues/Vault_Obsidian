@@ -131,6 +131,7 @@
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 		- Problema: ¿Cómo soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilización?
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,447,565,590|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+		- Problema: ¿Cómo manejar las alternativas basadas en el tipo? ¿Cómo crear componentes software conectables (pluggable)?
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=71,237,564,439|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=70,86,566,231|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=23&rect=69,509,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.23]]

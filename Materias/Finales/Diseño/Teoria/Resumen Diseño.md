@@ -142,7 +142,6 @@
 		- Este patrón se vuelve de especial utilidad cuando es necesario realizar un algoritmo que sea común para muchas clases, pero con pequeñas variaciones entre una y otras.
 	- Singleton (Instancia única)
 		- El patrón singleton está diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
-		- Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
 		- El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con atributos como protegido o privado).
 			- Contexto/Problema: Se admite exactamente una instancia de una clase —es un “singleton”—. Los objetos necesitan un único punto de acceso global. 
 			- Solución: Defina un método estático de la clase que devuelva el singleton.

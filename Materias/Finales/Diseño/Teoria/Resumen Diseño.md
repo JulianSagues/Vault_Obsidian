@@ -166,6 +166,8 @@
 		- El objetivo de este patrón es desacoplar la clase de los objetos clientes del objeto, y evitar bucles de actualización (espera activa o polling).
 		-  El objeto de datos, llamémoslo "Sujeto" a partir de ahora, contiene atributos mediante los cuales cualquier objeto observador o vista se puede suscribir a él pasándole una referencia a sí mismo. El Sujeto mantiene así una lista de las referencias a sus observadores
 		- Los observadores a su vez están obligados a implementar unos métodos determinados mediante los cuales el Sujeto es capaz de notificar a sus observadores "suscritos" los cambios que sufre para que todos ellos tengan la oportunidad de refrescar el contenido representado. 
+			- Contexto/Problema: Diferentes tipos de objetos suscriptores están interesados en el cambio de estado o eventos de un objeto emisor, y quieren reaccionar cada uno a su manera cuando el emisor genere un evento. Además, el emisor quiere mantener bajo acoplamiento con los suscriptores. ¿Qué hacemos? 
+			- Solución: Defina una interfaz “suscriptor” u “oyente” (listener). Los suscriptores implementan esta interfaz. El emisor dinámicamente puede registrar suscriptores que están interesados en un evento, y notificarles cuando ocurre un evento.
 	- Comando
 		- Este patrón permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además se facilita la parametrización de los métodos (por eso se llama siempre con ejecutar() )
 # Unidad 4

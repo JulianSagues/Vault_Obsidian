@@ -124,6 +124,9 @@
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,550,564,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
 		- Problema: ¿Quién debería ser el responsable de la creación de una nueva instancia de alguna clase?
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,313,563,545|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+		- Solución: 
+		- Representa el sistema global, dispositivo o subsistema (controlador de fachada).
+		- Representa un escenario de caso de uso en el que tiene lugar el evento del sistema, a menudo denominado {NombreDelCasoDeUso} Manejador, {NombreDelCasoDeUso} Coordinador o {NombreDelCasoDeUso} Sesion (controlador de sesión o de caso de uso)
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=67,99,588,308|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,447,565,590|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]

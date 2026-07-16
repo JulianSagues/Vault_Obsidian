@@ -122,6 +122,7 @@
 - ==Los patrones GRASP son==
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=20&rect=69,87,565,262|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.20]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,550,564,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+		- Problema: ¿Quién debería ser el responsable de la creación de una nueva instancia de alguna clase?
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,313,563,545|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=67,99,588,308|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]

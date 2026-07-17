@@ -136,10 +136,6 @@
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=70,86,566,231|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
 	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=23&rect=69,509,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.23]]
 - ==PATRONES GoF (Gang of Four)==
-	- Plantilla (Template)
-		- Un método plantilla es un patrón de diseño que define una estructura algorítmica en la súper clase, delegando la implementación a las subclases. Es decir, define una serie de pasos, en donde los pasos serán redefinidos en las subclases.
-		- Se define una estructura de herencia en la cual la superclase sirve de plantilla de los métodos en las subclases, es decir, la superclase define métodos abstractos y las subclases los implementan. Una de las ventajas de este método es que evita la repetición de código, por tanto la aparición de errores.
-		- Este patrón se vuelve de especial utilidad cuando es necesario realizar un algoritmo que sea común para muchas clases, pero con pequeñas variaciones entre una y otras.
 	- Singleton (Instancia única)
 		- El patrón singleton está diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
 		- El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con atributos como protegido o privado).
@@ -158,11 +154,15 @@
 		- El Adaptador se utiliza para conectarse con sistemas externos. Suele utilizarse en conjunto con el Patrón DTO, y uno de los usos principales es el de impresión de Factura, Ticket, etc. Cabe aclarar que también puede usarse sin el patrón DTO.
 	- Composite (Objeto Compuesto)
 		- Composite permite tratar un grupo de objetos como una sola pieza, en realidad, como un único objeto. Logra que tanto el objeto compuesto como los objetos componentes sean tratados por igual. Es útil cuando se desea desconocer la diferencia entre el uso de objetos compuestos y objetos componentes
-			- Contexto/Problema: ¿Cómo tratar un grupo o una estructura compuesta del mismo modo (polimórficamente) que un objeto no compuesto (atómico)? 
-			- Solución: Defina las clases para los objetos compuestos y atómicos de manera que implementen el mismo interfaz.
+		- Contexto/Problema: ¿Cómo tratar un grupo o una estructura compuesta del mismo modo (polimórficamente) que un objeto no compuesto (atómico)? 
+		- Solución: Defina las clases para los objetos compuestos y atómicos de manera que implementen el mismo interfaz.
 	- Patrón Factoría
 		- Problema: ¿Quién debe ser el responsable de la creación de objetos cuando existen consideraciones especiales, como una lógica de creación compleja, el deseo de separar las responsabilidades de la creación para mejorar la cohesión, etc.?
 		- Solucion: Asignar la responsabilidad a un objeto de fabricación pura denominado factoría que maneje la creación.
+	- Plantilla (Template)
+		- Un método plantilla es un patrón de diseño que define una estructura algorítmica en la súper clase, delegando la implementación a las subclases. Es decir, define una serie de pasos, en donde los pasos serán redefinidos en las subclases.
+		- Se define una estructura de herencia en la cual la superclase sirve de plantilla de los métodos en las subclases, es decir, la superclase define métodos abstractos y las subclases los implementan. Una de las ventajas de este método es que evita la repetición de código, por tanto la aparición de errores.
+		- Este patrón se vuelve de especial utilidad cuando es necesario realizar un algoritmo que sea común para muchas clases, pero con pequeñas variaciones entre una y otras.
 	- Observador (Observer o Spider)
 		- El patrón Observador define una dependencia del tipo uno-a-muchos entre objetos, de manera que cuando uno de los objetos cambia su estado, el observador se encarga de notificar este cambio a todos los otros dependientes.
 		- El objetivo de este patrón es desacoplar la clase de los objetos clientes del objeto, y evitar bucles de actualización (espera activa o polling).

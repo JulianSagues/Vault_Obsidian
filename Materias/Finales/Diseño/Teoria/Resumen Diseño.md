@@ -169,6 +169,8 @@
 			- Solución: Defina una interfaz “suscriptor” u “oyente” (listener). Los suscriptores implementan esta interfaz. El emisor dinámicamente puede registrar suscriptores que están interesados en un evento, y notificarles cuando ocurre un evento.
 	- Comando
 		- Este patrón permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además se facilita la parametrización de los métodos (por eso se llama siempre con ejecutar() )
+		- Contexto/Problema: ¿Cómo gestionar las solicitudes o tareas que necesitan funciones como ordenar (estableciendo prioridades), poner en cola, retrasar, anotar en registro o deshacer? 
+		- Solución: Defina una clase por cada tarea que implemente una interfaz común
 # Unidad 4
 - ==DISEÑO ORIENTADO A OBJETOS (DOO)==
 	- La habilidad más importante en DOO es la asignación eficiente de responsabilidades a los componentes de software, ya que esto permite:

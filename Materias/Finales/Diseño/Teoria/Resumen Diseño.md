@@ -160,6 +160,9 @@
 		- Composite permite tratar un grupo de objetos como una sola pieza, en realidad, como un único objeto. Logra que tanto el objeto compuesto como los objetos componentes sean tratados por igual. Es útil cuando se desea desconocer la diferencia entre el uso de objetos compuestos y objetos componentes
 			- Contexto/Problema: ¿Cómo tratar un grupo o una estructura compuesta del mismo modo (polimórficamente) que un objeto no compuesto (atómico)? 
 			- Solución: Defina las clases para los objetos compuestos y atómicos de manera que implementen el mismo interfaz.
+	- Patrón Factoría
+		- Problema: ¿Quién debe ser el responsable de la creación de objetos cuando existen consideraciones especiales, como una lógica de creación compleja, el deseo de separar las responsabilidades de la creación para mejorar la cohesión, etc.?
+		- Solucion: Asignar la responsabilidad a un objeto de fabricación pura denominado factoría que maneje la creación.
 	- Observador (Observer o Spider)
 		- El patrón Observador define una dependencia del tipo uno-a-muchos entre objetos, de manera que cuando uno de los objetos cambia su estado, el observador se encarga de notificar este cambio a todos los otros dependientes.
 		- El objetivo de este patrón es desacoplar la clase de los objetos clientes del objeto, y evitar bucles de actualización (espera activa o polling).

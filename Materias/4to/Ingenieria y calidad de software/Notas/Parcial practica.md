@@ -1,0 +1,242 @@
+# [[TP Nº1_ Usabilidad y calidad de requisitos en el desarrollo de un sistema (1).pdf|TP1:]]
+
+- Requisitos:
+	- Formato
+		- Identificador univoco
+		- Tipo de requerimiento
+			- RF
+			- RNF
+		- Descripción coloquial
+		- Pre-condiciones
+			- Estado del sistema o del usuario que debe ser verdadero antes de que el requerimiento pueda ejecutarse
+		- Post-condiciones
+			- Estado del sistema una vez que el requerimiento se ejecutó correctamente
+		- Precedencias
+			- Si el requerimiento depende de que otro esté implementado o activo, debe indicarse con el código del requerimiento precedente.
+			- Si no tiene precedencias, indicar: 'Sin precedencias'
+- Usabilidad:
+	- Es la facilidad con que las personas pueden utilizar una herramienta particular o cualquier otro objeto fabricado por humanos con el fin de alcanzar un objeto concreto
+	- En interacción persona-servidor: 
+		- Se refiere a la claridad y la elegancia con que se diseña la interacción con un programa de ordenador o sitio web.
+	- Son técnicas que ayudan a los seres humanos a realizar tareas en entornos gráficos de un sistema.
+	- Ayuda a que esta tarea se realice de una forma sencilla analizando el comportamiento humano, y los pasos necesarios para ejecutar la tarea de una forma eficaz
+	- Principios básicos de Usabilidad
+		- Reconocer la Diversidad
+			- Es importantísimo siempre tener en mente que cada interfaz está hecha para diferentes tareas, no puede haber una interfaz que funcione efectivamente para todas las tareas
+			- Formas de interacción:
+				- Manipulación directa
+					- Cuando el usuario interactúa con la representación visual del entorno sobre el que trabaja.
+					- Este tipo de interacción es sumamente sencilla para el usuario y extraordinariamente intuitiva. 
+					- Requiere poco, o nulo, entrenamiento previo para el uso de la interfaz.
+				- Selección de menús
+					- Los usuarios seleccionan las elementos con los que se trabaja de una lista con posibilidades
+					- Requiere mucho esfuerzo por parte de los diseñadores para asegurar que los elementos se encuentren donde tengan un significado para los usuarios.
+				- Llenado de formas
+					- Usado cuando es necesario ingresar datos a los sistemas. 
+					- Es generalmente una forma en la cual los usuarios pueden introducir gran cantidad de errores. 
+					- Es necesario ser claros en los tipos de datos pedidos, así como permitir a los usuarios muchas libertades como moverse a través de los cambios y que no todos los campos de la forma sean obligatorios.
+				- Lenguajes de comandos
+					- Son utilizados frecuentemente por usuarios de nivel avanzado. 
+					- Los comandos dan gran flexibilidad y libertad de movimiento, así como dan la capacidad al usuario de mejorar las características del sistema. 
+					- Son por lo general lentos de aprender, pero sumamente rápidos una vez dominados.
+				- Lenguaje natural
+					- La interacción mediante lenguaje natural entre una computadora y un humano es un tema que aún no ha sido resuelto
+					- Hasta el momento, aunque existen muchos intentos de interfaces de lenguaje natural, el panorama actual no es muy alentador en dominios muy generales
+		- 8 reglas de oro sobre la usabilidad
+			- Esforzarse para conseguir consistencia.
+				- Deberíamos exigirnos secuencias de acciones consistentes, utilizarse terminología consistente en los mensajes, menús y pantallas de ayuda, emplearse de forma consistente el color1, composición, mayúsculas, fuentes, etc.
+				- Las excepciones, como la necesaria confirmación de la orden de borrado o no mostrar los caracteres de las contraseñas, deberían ser comprensibles y limitadas en número. 
+				- Todos los componentes de la interfaz deben ser uniformes y seguir un conjunto de reglas simples.
+				- Ayuda a generalizar conocimiento de un aspecto del sistema a los otros. 
+				- Prever la frustración inducida cuando el sistema no se comporta de la manera esperada y lógica.
+			- Atender la usabilidad universal.
+				- Reconocer las necesidades de los diversos usuarios, facilitando la transformación del contenido. 
+				- Diferencias entre segmentos: Principiante/experto, edades, discapacidades y diversidad tecnológica.
+			- Ofrecer realimentación informativa
+				- Para cada acción del sistema debería haber una realimentación por parte del sistema. 
+				- Aspectos: 
+					- Qué está haciendo el sistema. 
+					- Cómo se interpretan los comandos del Usuario. 
+					- El usuario debe saber en todo momento que está pasando. 
+					- Tipos de Feedback: 
+						- Respuesta a un comando del usuario: Movimiento del cursor, selección de un Menú, etc. 
+						- Estado Actual: Brocha seleccionada, color, posición, dirección de la carpeta, scroll bars.
+						- Procesamiento por parte de la máquina: instantáneos, cursores de espera, diálogos explicativos, barras de progreso.
+			- Diseñar diálogos para conducir a la finalización
+				- Crear sistemas claros de conducción hasta el final del proceso de las secuencias de acción del usuario
+			- Prevenir errores
+				- Diseñar el sistema de forma que los usuarios no puedan cometer errores serios
+				- Si fuera así el sistema debe de indicarle al usuario el error por medio de diferentes interfaces textuales o metafóricos. 
+					- Nunca ofrecer un comando que lleve a un mensaje como: "Comando Ilegal": Desactivarlo 
+					- Borrar un objeto que no puede ser borrado 
+					- Aplicar estilo de letra a un objeto que no sea texto 
+					- Utilizar controles que impidan introducir datos erróneos: 
+					- Campos de Texto numéricos 
+					- Fechas 
+					- Scroll Bars 
+					- ListBoxes
+					- Los comandos que ofrece el sistema deben ser válidos en el contexto
+					- Esto permite simplificar la interfaz, ofreciendo únicamente los comandos relevantes al contexto (ej: Diálogo de Selección, barra de Dibujos) 
+					- Advertir al Usuario
+					- Es menos deseable, puesto que interrumpe el flujo de la interacción.
+			-  Permitir deshacer acciones de forma fácil
+				- En la medida que podamos diseñar nuestro interfaz, el usuario puede tener la posibilidad de remediar acciones erróneas, por lo tanto construir un sistema reversible. 
+				- Este sistema suaviza la ansiedad que se puede producir en el usuario
+			-  Dar soporte al control interno
+				- Los operadores experimentados desean firmemente tener la sensación de que están al mando de la interfaz y que la interfaz responde a sus acciones. 
+				- Las acciones sorprendentes por parte de la interfaz, las secuencias de entrada de datos tediosas, la incapacidad o dificultad para obtener la información necesaria y la incapacidad para producir acciones deseadas, crea ansiedad e insatisfacción
+			- Reducir la carga de la memoria a corto plazo
+				- Diseñar sistemas de visualización simples, la frecuencia de movimiento de ventana se reduzca y que se asigne suficiente tiempo de entrenamiento para códigos y secuencias de acciones.
+		- Prevenir Errores
+			- Es necesario prevenir o ayudar a corregir los errores mediante el uso de mensajes altamente descriptivos sobre el origen de los errores y posibilidades de corrección
+- User Experience - UX
+	- es una filosofía de diseño que tiene por objetivo la creación de productos que resuelvan necesidades concretas de sus usuarios, consiguiendo la mayor satisfacción y mejor experiencia de uso posible con el mínimo esfuerzo.
+	- Es un proceso en el que se utilizan una serie de técnicas multidisciplinares y donde cada decisión debe estar basada en las necesidades, objetivos, expectativas, motivaciones y capacidades de los usuarios.
+	- Framework o esqueleto de UX
+		- Conocer a fondo a los usuarios finales, normalmente a través de una intensa investigación cualitativa o cuantitativa. 
+		- Diseñar un producto que resuelva sus necesidades y se ajuste a sus capacidades, expectativas y motivaciones. 
+		- Poner a prueba lo diseñado, aplicando constantes test de usuario durante el proceso de diseño.
+	- Elementos de UX
+		- Desarrollo de Prototipos:
+			- Consiste en convertir una idea abstracta en un producto concreto por medio de prototipos.
+		- Usabilidad: 
+			- El producto debe ser usable para alcanzar los objetivos.
+		- Diseño de Interacción: 
+			- Creación de una experiencia placentera y no frustrante.
+		- Arquitectura de Información: 
+			- El método de organización y estructuración de información dentro del producto.
+		- Diseño Visual: 
+			- El "look and feel" del producto final.
+- Design Thinking
+	- Tener un pensamiento de diseño para analizar algo (un problema), tal y como lo haría un diseñador, evidentemente con la finalidad de encontrar una solución
+	- Está centrada en el usuario y en los problemas que a éste se le pueden plantear y en la empatía
+# [[TP Nº2_ Historias de usuario y criterios de aceptación.docx (1).pdf|TP2:]]
+
+- Historias de usuario
+	- descripción breve de una funcionalidad desde la perspectiva del usuario, enfocada en el valor que proporciona, y diseñada para iniciar una conversación entre el equipo y el cliente.
+	- Aspectos
+		- Descripción
+			- Como [actor] Quiero [funcionalidad] De modo que [valor]
+			- Define QUÉ necesita el usuario
+		- Conversación
+			- Notas de preguntas/respuestas surgidas con cliente
+			- Aclara DETALLES, casos especiales, restricciones
+		- Criterios de aceptacion
+			- Lista de condiciones que hacen la historia "DONE"
+			- Define CÓMO verificar que está completa
+	- Diferencia con requisitos
+		- ![[TP Nº2_ Historias de usuario y criterios de aceptación.docx (1).pdf#page=11&rect=60,133,537,491|TP Nº2_ Historias de usuario y criterios de aceptación.docx (1), p.11]]
+	- 3 historias cubren 1 requerimiento. Cada una es completable en ~2-5 días de desarrollo.
+	- Epica
+		- Es una historia muy grande que no cabe en una iteración (sprint). 
+		- Debe dividirse en historias más pequeñas.
+- Principio INVEST
+	- ayuda a evaluar si una historia está bien desglosada.
+	- Significado
+		- Independiente
+			- La historia NO debe depender de otras historias para tener sentido
+			- Si A requiere B, esa es una dependencia explícita, no independencia.
+		- Negociable
+			- La historia NO es un contrato cerrado. 
+			- Detalles pueden negociarse/cambiar durante la conversación. 
+			- Permite flexibilidad en cómo alcanzar el objetivo.
+		- Valorable
+			- La historia debe tener valor claro para el usuario o cliente. 
+			- Si no puedes responder "¿para qué?", no es valorable.
+		- Estimable
+			- El equipo puede estimar complejidad/esfuerzo en Story Points. 
+			- Si no pueden estimar, probablemente falte información o sea muy grande.
+		- Reducida
+			- La historia es pequeña, completable en 1 sprint (~5-8 días). 
+			- No debe ser tan pequeña que no tenga valor, ni tan grande que no entre.
+		- Testeable
+			- Se puede escribir test para verificar que está DONE. 
+			- Criterios de aceptación deben ser verificables, no vagos.
+- Criterios SMART
+	- Los criterios de aceptación deben cumplir con SMART para ser útiles.
+	- Significado
+		- Especifico (Specific)
+			- Claro, sin ambigüedad. 
+			- Si 10 personas leen el criterio, entienden lo MISMO.
+		- Medible
+			- Se puede verificar/medir si se cumple. 
+			- Número, tiempo, booleano (sí/no), lista exacta.
+		- Alcanzable
+			- Realista con la tecnología/contexto disponible.
+		- Relevante
+			- Importa para el usuario o negocio. 
+			- Conexión clara con la historia.
+		- Time-bound / Temporal
+			- Si hay límite de tiempo, especifícalo
+- Errores
+	- Escribir como especificación técnica
+	- Combinar múltiples funcionalidades en una historia
+	- Criterios vagos, no SMART
+	- Sin conversación (solo descripción)
+	- Sin Epic Link o dependencias documentadas
+	- Sin estimación (story points)
+	- No mapear a TP Nº1
+- Transición — De Requerimiento a Historia
+	- Identificar 'quién' usa esto
+		- Pregunta: ¿Quién es el usuario que necesita esto? 
+		- Respuesta: Proveedor nuevo → Actor identificado: "Proveedor nuevo"
+	- ¿Qué funcionalidad específica?
+		- 3 acciones concretas: 
+			- Ingresar email → 1 historia (validación, singularidad)
+			- Ingresar contraseña → 1 historia (validación de fortaleza)
+			- Confirmar email → 1 historia (flujo de confirmación)
+		- Total: 3 historias de 1 requerimiento.
+	- ¿Cuál es el valor?
+		- Valor 1 (email): "para poder registrarse" 
+		- Valor 2 (contraseña): "para proteger mi cuenta" 
+		- Valor 3 (confirmación): "para activar mi cuenta y poder acceder"
+	- Escribir historias
+	- Validar INVEST
+	- Escribir criterios de aceptación
+	- Vincular en herramienta
+# [[TP Nº3 - User Story Mapping.pdf|TP3:]]
+
+- Roles
+	- Scrum Master
+		- Velar por que todos los participantes del proyecto sigan las reglas y proceso de Scrum, encajándolas en la cultura de la organización, y guiar la colaboración en y entre equipos y con el cliente de manera que las sinergias sean máximas
+		- Enseñar al equipo a autogestionarse. 
+			- No da respuestas, si no que guía al equipo con preguntas para que descubra por sí mismo una solución.
+		- Quitar los impedimentos que el equipo tiene en su camino para conseguir el objetivo de cada iteración (proporcionar un resultado útil al cliente de la manera más efectiva) y poder finalizar el proyecto con éxito. 
+			- Estos obstáculos se identifican de manera sistemática en las reuniones diarias de sincronización del equipo y en las reuniones de retrospectiva.
+		- Proteger y aislar al equipo de interrupciones externas durante la ejecución de la iteración (introducción de nuevos requisitos, "secuestro" no previsto de un miembro del equipo, etc.). 
+			- De esta manera, el equipo puede mantener su productividad y el compromiso que adquirió sobre los requisitos que completaría en la iteración.
+		- debe ser capaz de:
+			- Observar, escuchar, preguntar mucho y re-parafrasear para entender las necesidades, motivaciones y sentimientos de los otros, ponerse en su lugar antes de dar la propia opinión (si es realmente necesario que la dé). Es decir, evitar juzgar inmediatamente al otro y tener empatía. 
+			- Negociar, comunicar adecuadamente la información correcta en el momento correcto, adaptándola a las necesidades de la audiencia. 
+			- Enfocar al equipo, orientarlo para avanzar y cumplir con las expectativas del cliente, a la vez que cuidar la calidad del producto, sin dictar cómo hacerlo.
+			- Motivar al equipo.
+			- “Asume que el equipo es el experto” y así se lo hace saber, ellos son quienes conocen la mejor manera de realizar su trabajo y quienes tienen la responsabilidad de llevar a buen término el proyecto.
+			- Ayuda al equipo a auto-organizarse para conseguir los objetivos del proyecto. 
+			- Ayuda a que su equipo avance, no se quede bloqueado, se mantenga focalizado en su trabajo, elimine ineficiencias, protege a su equipo de interrupciones externas y maximice su productividad. 
+			- Promueve la confianza entre el cliente y el equipo, y entre los miembros del equipo
+	- Product Owner
+		- Las responsabilidades del Cliente (que puede ser interno o externo a la organización) son:
+			- Ser el representante de todas las personas interesadas en los resultados del proyecto (internas o externas a la organización, promotores del proyecto y usuarios finales [idealmente también debería ser un usuario clave] o consumidores finales del producto) y actuar como interlocutor único ante el equipo, con autoridad para tomar decisiones.
+			- Definir los objetivos del producto o proyecto. 
+			- Colaborar con el equipo para planificar, revisar y dar detalle a los objetivos de cada iteración:
+				- Participar en la reunión de planificación de iteración, proponiendo los requisitos más prioritarios a desarrollar, respondiendo a las dudas del equipo y detallando los requisitos que el equipo se comprometer a hacer. 
+				- Estar disponible durante el curso de la iteración para responder a las preguntas que puedan aparecer. 
+				- No cambiar los requisitos que se están desarrollando en una iteración, una vez está iniciada. 
+				- Participar en la reunión de demostración de la iteración, revisando los requisitos completados.
+	- Equipo:
+		- Grupo de personas que de manera conjunta desarrollan el producto del proyecto. Tienen un objetivo común, comparten la responsabilidad del trabajo que realizan (así como de su calidad) en cada iteración y en el proyecto. 
+		- Es un equipo auto-organizado, que comparte información y cuyos miembros confían entre ellos. Realiza de manera conjunta las siguientes actividades:
+			- Seleccionar los requisitos que se compromete a completar en una iteración, de forma que estén preparados para ser entregados al cliente. 
+			- Estimar la complejidad de cada requisito en la lista de requisitos priorizada del producto o proyecto.
+			- En la reunión de planificación de la iteración decide cómo va a realizar su trabajo: 
+				- Seleccionar los requisitos que pueden completar en cada iteración, realizando al cliente las preguntas necesarias. 
+				- Identificar todas las tareas necesarias para completar cada requisito.
+				- Estimar el esfuerzo necesario para realizar cada tarea. 
+				- Cada miembro del equipo se auto-asigna a las tareas. 
+			- Durante la iteración, trabajar de manera conjunta para conseguir los objetivos de la iteración. Cada especialista lidera el trabajo en su área y el resto colaboran si es necesario para poder completar un requisito. Pero debe siempre tenerse Humildad, evitar la prepotencia (que no es necesaria, la valía se demuestra realizando un trabajo excelente, el reconocimiento es una consecuencia que debe llegar por sí solo), tener una mente abierta a escuchar ideas diferentes de otros y flexibilidad para probar nuevas cosas.
+			- Al finalizar la iteración: 
+				- Demostrar al cliente los requisitos completados en cada iteración. o Hacer una retrospectiva la final de cada iteración para mejorar de forma continua su manera de trabajar.
+		- El equipo es multidisciplinario
+			- Los miembros del equipo tienen las habilidades necesarias para poder identificar y ejecutar todas las tareas que permiten proporcionar al cliente los requisitos comprometidos en la iteración. 
+			- Tienen que depender lo mínimo de personas externas al equipo, de manera que el compromiso que adquieren en cada iteración no se ponga en peligro.
+			- Se crea una sinergia que permite que el resultado sea más rico al nutrirse de las diferentes experiencias, conocimientos y habilidades de todos. Colaboración creativa

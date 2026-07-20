@@ -1,0 +1,252 @@
+
+# [[IS_Unidad 1.1_Int Ingeniería de Software_2026.pdf| 1.1.]]
+- Mitos del software
+	- creencias acerca del software y de los procesos empleados para construirlo
+	- Tipos
+		- De la gestión
+			- Ej: Pensar que con mas programadores se adelanta el tiempo perdido
+		- Del cliente
+			- Ej: Se pueden modificar los requisitos en cualquier momento
+		- De los desarrolladores
+			- Ej: El único trabajo es hacer el programa y que funcione
+- Características del software
+	- El software se desarrolla
+	- El software no se estropea
+	- La mayoría del software se construye a medida
+- Ingeniería  de software
+	- Es una disciplina que comprende todos los aspectos de la producción de software desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza.
+	- como tecnología multicapa
+		- Dado lo anterior, el objetivo de la ingeniería de software es lograr productos de software de calidad (tanto en su forma final como durante su elaboración), mediante un proceso apoyado por métodos y herramientas
+	- Procesos
+		- Organizacionales
+		- Transversales
+		- De gestión de proyectos
+		- Desarrollo y mantenimiento
+		- Soporte
+	- Diferencias
+		- La Ingeniería en Sistemas se involucran en las especificaciones del sistema, diseño, definición de su arquitectura, desarrollo , implementación y en la integración para crear el sistema de información final. Se enfoca en la gestión de la información.
+		- La Ingeniería de Software se centra en el desarrollo de software, desde la definición de los requerimientos hasta su mantenimiento
+		- La Ingeniería de Componentes es una metodología dentro de la Ingeniería de Software que se basa en la creación y reutilización de componentes de software independientes. 
+	- Ciclos de vida
+		- Es una sucesión de etapas por las que pasa el software en su desarrollo, desde que se concibe la idea hasta que el software deja de utilizarse (obsolescencia)
+		- Proceso
+			- conjunto ordenado de tareas, una serie de pasos que involucran actividades, restricciones y recursos, que producen una salida determinada
+			- debe especificar
+				- La secuencia de actividades a realizar por el equipo de desarrollo
+				- Los productos que deben crearse
+				- La asignación de tareas a cada miembro del equipo y al equipo
+				- Los criterios para controlar el proceso
+		- Proceso de software
+			- conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema software
+		- Cuando un proceso implica la construcción de un producto
+		- Fases genéricas
+			- Definición
+			- Desarrollo
+			- Mantenimiento
+	- Requerimientos
+		- Ley de Ziv
+			- “Los requisitos nunca se entienden completamente” 
+		- Ley de Humphrey
+			- “Los usuarios no saben realmente el software que quieren hasta que lo ven funcionando”
+		- Lema de Wegner
+			- “Un sistema interactivo nunca puede ser ni especificado ni testeado por completo"
+		- son las capacidades que debe tener un sistema para la solución de un problema.
+		- Despliegue de la función de calidad
+			- Tipos
+				- Normales
+				- Esperados
+				- Emocionantes o innovadores
+		- Indagación de requerimientos
+			- Definición
+			- Especificación
+			- Especificación de software
+		- Requisitos del usuario
+			- se escribe desde el punto de vista del usuario/cliente/interesado.
+			- no poseen demasiado nivel de detalle, son de más alto nivel 
+			- se incluye la descripción del problema actual y las metas que se espera lograr con la construcción del nuevo sistema.
+		- Requisitos del software
+			- desarrolla mucho más los contenidos de la DRU.
+			- los requisitos del software son más detallados y se escriben para el equipo de desarrollo. 
+			- Contiene la respuesta a la pregunta ¿Qué características debe poseer un sistema que nos permita alcanzar los objetivos, y evitar los problemas, expuestos en la DRU?
+		- Técnicas de validación
+			- Revisiones de requerimientos 
+				- Los requerimientos son analizados sistemáticamente por un equipo de revisores. 
+			- Construcción de Prototipos 
+				- Se muestra un modelo ejecutable del sistema a los usuarios finales y a los clientes. 
+			- Generación de casos de prueba 
+				- Los requerimientos deben poder probarse, si las pruebas son parte del proceso de validación, se pueden revelar problemas en los requerimientos. 
+			- Análisis de consistencia automática
+				- Si los requerimientos se expresan como un modelo del sistema en una notación estructurada o formal, para poder hallar inconsistencias
+		- Requerimiento Funcionales
+			- Definen las funciones que el sistema será capaz de realizar.
+			- Lo que el producto debe hacer 
+			- Si hay incumplimiento degradará el sistema
+		- Requerimientos No funcionales
+			- Son restricciones o limitaciones de los servicios o funciones ofrecidos por el sistema.
+			- establecen restricciones de cómo estos requisitos funcionales son implementados
+			- Si hay incumplimiento inutiliza el sistema
+		- Requerimientos del dominio
+			- Son requerimientos que provienen del dominio de aplicación del sistema y que reflejan las características de ese dominio.
+		- Restricciones del Diseño
+			- Son condicionantes existentes para el diseño, sin anticiparlo. 
+			- Aseguran que se cumplan los objetivos del proyecto sin comprometer la calidad y funcionalidad del producto final
+		- De qué depende que un requerimiento se exprese como funcional o como no funcional
+			- depende del grado de detalle con el que desee incluirse entre los requerimientos el documento de requerimientos o del grado de confianza que existe entre el cliente y el equipo desarrollador del sistema
+	- Métodos de ingeniería de software
+		- Desarrollo convencional
+		- Desarrollo estructurado
+		- Desarrollo orientado a objetos
+		- Tradicionales y agiles
+	- Productos de software
+		- Características
+			- Mantenibles
+			- Confiabilidad
+			- Eficiencia
+			- Utilización adecuada
+			- Entendible
+			- Visible
+			- Soportable
+			- Aceptable
+			- Seguridad
+			- Robusto
+			- Escalable
+			- Rapido
+	- Calidad en interfaces de usuario
+		- Calidad percibida
+		- Calidad externa
+		- Calidad en el uso
+		- Usabilidad
+	- Usabilidad
+		- Es la forma en que se alcanzan los objetivos con efectividad, eficiencia y satisfacción
+		- hace referencia a la rapidez y facilidad con que las personas llevan cabo sus tareas propias a través del uso del producto objeto de interés
+		- descansa en cuatro puntos
+			-  Una aproximación al usuario
+			- Un amplio conocimiento del contexto de uso
+			- El producto ha de satisfacer las necesidades del usuario
+			- Son los usuarios, y no los diseñadores y los desarrolladores, los que determinan cuando un producto es fácil de usar
+	- Guía SWEBOK
+		- El objetivo principal de SWEBOK (Software Engineering Body of Knowledge) es proporcionar una guía completa y actualizada del cuerpo de conocimiento de la Ingeniería de Software.
+# [[IyCSw-Unidad 1.2_Disciplina de la Ing Sw_2026.pdf|1.2.]]
+- Ingeniería de software
+	- Disciplinas relacionadas
+		- Modelado de negocios
+		- Requerimientos
+		- Análisis y diseño
+		- Pruebas
+		- Administración y configuración del cambio
+		- Administración de proyectos
+		- Ambientes
+		- Implementación
+	- Principios
+		- La razón que exista todo
+			- se tiene que tomar en cuenta si agrega valor al sistema
+		- Mantenerlo sencillo.
+			- Todo sistema debe ser diseñado para ser sencillo, lo más posible
+		- Mantener la visión.
+			- Tener la visión clara es fundamental en el desarrollo de un software, conocer a donde se tiene que llegar a dar las pautas necesarias para tener un concepto del proyecto
+		- Otros consumirán lo que usted produce.
+			- se tiene que tomar en cuenta que alguien será el usuario o varias personas serán las que ocupen el producto
+		- Abrace al futuro.
+			- El software tiene un tiempo de vida útil lo cual le da valor, sin embargo, pierde este valor por los cambios que se dan al quedar obsoletas plataformas de hardware u otros elementos
+		- Planee por anticipado la reutilización.
+			- Reutilizar código es beneficios, pero es un reto tener un alto nivel del mismo
+		- Pensar
+			- Al pensar en hacerlo es probable que se haga bien, y si sale mal volver a pensar, esto proporciona conocimientos y experiencia
+- Clean Code
+	- Es un enfoque de programación que prioriza la claridad, la simplicidad y la facilidad de mantenimiento del código.
+	- Buenas practicas
+		- La legibilidad es clave
+		- Funciones pequeñas y específicas
+		- Nombres significativos 
+		- Eliminar código muerto
+		- Principio de la menor sorpresa
+		- Modularidad y encapsulamiento
+		- Escribir pruebas
+		- Refactorización continua
+	- Regla del noventa-noventa
+		- El primer 90% del código ocupa el 90% del tiempo de desarrollo. El 10% restante del código ocupa el otro 90% de tiempo de desarrollo
+	- La Navaja de Oakham
+		- no hay que crear entidades innecesarias sin necesidad
+	- No lo vas a necesitar (YAGNI=You Aren't Gonna Need It)
+		- primero implementa sólo lo que necesites, y más tarde, si es necesario, extiende la funcionalidad
+	- Principio del menor asombro
+		- código debe ser intuitivo y obvio
+	- Diseño grande por adelantado
+		- Antes de empezar a desarrollar la funcionalidad, debería pensar primero en la arquitectura de la aplicación y diseñar todo el sistema hasta detalles suficientemente pequeños, y sólo entonces proceder a la implementación según un plan predefinido
+	- No te repitas (DRY= Don't Repeat Yourself)
+		- repetir lo mismo en diferentes lugares es una mala idea
+	- Evitar la optimización prematura
+		- La optimización es un proceso muy correcto y necesario para acelerar el programa, así como para reducir el consumo de recursos del sistema
+		- Si la optimización se lleva a cabo en las primeras etapas de desarrollo, puede hacer más daño que bien
+	- Ley de Demeter
+		- dividir las áreas de responsabilidad entre las clases y encapsular la lógica dentro de una clase, método o estructura.
+	- S.O.L.I.D.
+		- Single Responsibility Principle (SRP)
+		- Open/Closed Principle (OCP)
+		- Liskov Substitution Principle (LSP)
+		- Interface Segregation Principle (ISP)
+		- Dependency Inversion Principle (DIP)
+	- Spaguetti Code
+		- se refiere a una estructura de código desorganizada y difícil de seguir, donde la lógica se retuerce de forma impredecible, lo que dificulta su comprensión y mantenimiento.
+		- Características comunes
+			- Funciones largas y monolíticas
+			- Falta de control
+			- Lógica duplicada
+			- Exceso de variables globales
+- Desarrollo Global de software
+	- Los equipos se distribuyen mas allá de la frontera que deben hacer frente a desafíos únicos y de gran interesa para la comunidad informática.
+	- Beneficios
+		- Aprovechar la diferencia horaria para lograr jornadas laborales más largas y conseguir más productividad –follow the sun
+		- Minimizar los costes de desarrollo. Según lo que externalice: CF a CV 
+		- Localizar a los desarrolladores más cerca del cliente 
+		- Obtener ventajas de la diversidad de experiencias, conocimiento técnico y destrezas de los stakeholders distribuidos (a favor de la innovación y compartiendo mejoras prácticas y se mejora el proceso) 
+		- Optimizar los procesos del negocio y aumentar productividad
+	- Problemas 
+		- Ocasionados por la comunicación inadecuada 
+		- Ocasionados por la diversidad cultural - idioma 
+		- En la gestión del conocimiento 
+		- Ocasionados por la diferencia horaria 
+		- Dependencia de la tecnología de comunicación 
+		- Vulnerabilidad de la seguridad de datos
+- Modelos de provisión y la globalización de servicios
+	- Características más importantes donde hay trabajo remoto
+		- Dispersión geográfica, cultural y escala de valores
+		- Diferentes culturas de empresas, husos horarios, idiomas, procesos de trabajo, entendimiento de roles, formas de trabajo, experiencias, visiones del producto/servicio, etc.
+	- Team Building y Visibilidad 
+	- Comunicación efectiva y fase-to-face 
+	- Lograr confianza y buena relación con el cliente
+- Outsourcing
+	- Es un sistema de contratación en el que una empresa recurre a otra para realizar tareas especializadas
+- Modelos de Delivery Global
+	- ONSITE
+		- Trabaja físicamente en las instalaciones del cliente durante un período determinado
+	- ONSHORE
+		- El trabajo se subcontrata a empresas dentro del mismo país.
+	- NEARSHORE
+		- Se subcontrata en países vecinos o con zonas horarias similares.
+	- OFFSHORE
+		- El trabajo se envía a empresas en otros países, generalmente con costos laborales más bajos.
+	- OFFSITE
+		- El personal de outsourcing trabaja fuera de las instalaciones del cliente
+	- Hibrido
+		- Combina elementos de onshore y offshore. La gestión se realiza localmente, pero se contratan off- o nearshore para la mayor parte del trabajo.
+# [[IS_Unidad2.1- Intro a la gestión ágil de proyectos de desarrollo de software_2026.pdf|2.1.]]
+- Agilidad
+	- Habilidad de responder de forma versátil al cambio para maximizar los beneficios.
+	- Capacidad para adaptar el curso del desarrollo a la evolución de los requisitos y a las circunstancias del entorno.
+- Métodos de Desarrollo Ágiles
+	- Surgen como una extensión a las metodologías tradicionales para mejorar el desarrollo de sistemas, según el tipo de proyecto y empresa, añadiendo y mejorando (optimizando) las practicas de desarrollo de empresa.
+	- Razones
+		- Entorno cambiante: Entorno altamente cambiante propio de la industria IT y las otras.
+		- Dependencia de Procesos rígidos: el proceso mismo de desarrollo de software donde el resultado depende de la actividad cognitiva de las personas más que de las prácticas y controles de empleados.
+	- Valores Agiles
+		- Valores Agiles Individuos e interacciones sobre Procesos y Herramientas
+		- Software funcionando sobre Documentación exhaustiva
+		- Colaboración con el Cliente sobre Negociación de cambios
+		- Respuesta ante el cambio sobre seguimiento de un plan
+	- Principios
+		- Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continuada de software con valor
+		- Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Los procesos Ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.
+		- Entregamos software funcional frecuentemente, entre dos semanas y dos meses, con preferencia por periodos de tiempo lo más corto posibles.
+		- Los responsables de negocio y los desarrolladores trabajamos juntos de forma cotidiana durante todo el proyecto
+		- Los proyectos se desarrollan en torno a individuos motivados. Hay que darles el entorno y el apoyo que necesitan, y confiarles la ejecución del trabajo.

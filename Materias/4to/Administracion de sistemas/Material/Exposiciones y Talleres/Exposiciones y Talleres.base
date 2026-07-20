@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/4to/Administracion de sistemas/Material/Exposiciones y Talleres")
+        - file.ext != "base"

@@ -1,0 +1,154 @@
+
+## Datos de la empresa:
+
+- **Cantidad de empleados:** 42
+- **Cantidad de empleados de sistemas:** 31
+- **Presupuesto de sistemas:** 45.300 - 76.400;  **Promedio:** 60.000
+- **Alcance Geográfico:** Nacional e Internacional
+- **Sede operativa principal:** Mendoza
+- **Cantidad de clientes**: 45 clientes corporativos (B2B) anuales
+	- 25 clientes bajo modalidad de abono mensual
+	- ​20 clientes rotativos/por proyecto
+- **Misión:** Brindar soluciones de ciberseguridad para garantizar la protección de los sistemas de nuestros clientes.
+- **Visión:** Lograr que nuestros servicios sean considerados referencia para otras empresas de ciberseguridad.
+- **Objetivos:**
+	- Lograr proteger los sistemas de manera eficiente para asegurar que la seguridad de los clientes funcione de manera óptima y sin fallas.
+	- Capacitar a los clientes, así lograr que los usuarios entiendan cómo aprovechar nuestros servicios y sepan cuidarse de riesgos.
+	- Ofrecer tecnología actualizada, así estar al día con las últimas herramientas de protección para adelantarnos a los nuevos virus o ataques.
+- **Core del negocio:** Nuestra principal actividad consiste en prestar servicios de ciberseguridad, enfocados principalmente en la protección de sistemas, detección de fallas y capacitación de personal para el correcto uso de nuestros servicios
+- **Organigrama:**
+	- Gerente General
+		- Gerente de sistemas
+			- Jefe de seguridad Ofensiva
+				- Especialista en seguridad ofensiva (2)
+					- Pentester (5)
+			- Jefe de defensa de operaciones
+				- Analista SOC (3)
+				- Analista NOC (2)
+			- Jefe de arquitectura
+				- Arquitecto de soluciones (2)
+				- Ingeniero en seguridad en la nube (2)
+			- Jefe de Gobierno, riesgo y cumplimiento
+				- Consultor GRC (2)
+				- Especialista en concientización 
+			- Jefe de proyecto
+				- Líder de proyecto (2)
+				- Analista PMO (1)
+			- Jefe de soporte Interno
+				- Analista de soporte IT (2)
+		- Gerente de RRHH
+			- Reclutador de talento
+			- Analista de RRHH
+		- Gerente de marketing
+			- Analista de marketing
+			- Community Manager
+		- Gerente de finanzas
+			- Contador
+			- Analista de facturación y cobranzas
+			- Analista de cuentas por pagar
+- **FODA**
+	- FORTALEZAS
+		- Enfoque Integral: Se ofrece un ciclo completo de seguridad (detección de fallas, propuesta de soluciones y selección de herramientas), lo cual es una ventaja operativa.
+		- Capacitación como Valor Agregado: Incluir la formación de usuarios en el core del negocio reduce la vulnerabilidad por errores humanos, fortaleciendo la eficacia de sus propios servicios.
+		- Búsqueda de excelencia: Se tiene un objetivo definido que busca el liderazgo en el sector.
+		- Actualización Tecnológica: El objetivo explícito de usar tecnología de vanguardia permite ofrecer soluciones contra amenazas modernas.
+	- DEBILIDADES
+		- Dependencia de Talento Especializado: En ciberseguridad, la falta de personal altamente capacitado puede volverse un cuello de botella para el crecimiento.
+		- Procesos de Respuesta: Siendo una consultora, la lentitud en la implementación de las soluciones propuestas si no cuentan con un equipo de ejecución ágil puede generar deficiencias.
+		- Costo de Actualización: Mantenerse al día con "tecnología actualizada" requiere una inversión constante de capital y tiempo en investigación y desarrollo.
+	- OPORTUNIDADES
+		- Aumento de Ciberataques: El incremento global de ataques de ransomware y phishing crea una demanda natural y creciente de servicios de protección.
+		- Transformación Digital: Cada vez más empresas y particulares migran sus datos a la nube, necesitando asesoría experta para proteger esa información.
+		- Nuevas Regulaciones: Leyes de protección de datos más estrictas obligan a las empresas a contratar consultoras para evitar multas legales.
+		- Mercado especializado: Posibilidad de expandirse a sectores específicos (Salud, E-commerce) que manejan datos sensibles.
+	- AMENAZAS
+		- Evolución del Cibercrimen: Los ataques evolucionan más rápido que las defensas; la aparición de virus o técnicas de hacking desconocidas es un riesgo constante.
+		- Competencia Agresiva: La entrada al mercado de grandes consultoras internacionales o software de seguridad automatizado de bajo costo.
+		- Responsabilidad Legal: Un fallo en la protección de un cliente tras haber sido asesorado por la consultora podría resultar en demandas o daños irreparables a la reputación.
+		- Crisis Económica: En momentos de recesión, algunas empresas podrían recortar presupuestos en servicios de consultoría externa.
+- Sistemas:
+	- Sistemas de base de datos
+	- Sistema de Gestión de Proyectos y Vulnerabilidades
+	- Sistema de mesa de ayuda
+	- Plataforma de Monitoreo de Seguridad
+	- Sistema de gestión de proyectos (Jira)
+- Tecnologías
+	- Servidores
+	- Red Privada Virtual (VPN)
+	- Hardware de Seguridad Perimetral (Firewalls y UTM)
+	- Entornos de Virtualización y Sandboxing
+	- Suite de Herramientas de Intrusión (Software de Pentesting)
+	- Burp Suite Professional
+	- Metasploit Framework
+	- Nmap
+- Analisis Pest
+	- 4 elementos de la estructura económica.
+		- Inflación: El aumento sostenido de precios afecta los costos operativos y la capacidad de inversión de nuestros clientes locales.
+		- Volatilidad del Tipo de Cambio: Dado que la estructura de costos de la consultora está dolarizada, la inestabilidad cambiaria del peso argentino representa un riesgo.
+		- Poder Adquisitivo de las Empresas: La capacidad de las pymes y grandes empresas para contratar consultorías externas varía según el ciclo económico.
+		- Tasas de Interés y Acceso al Crédito: El costo del financiamiento condiciona la inversión en hardware especializado y tecnología, impactando en la competitividad de la consultora.
+
+	- 2 elementos de la estructura tecnológica.
+		- Tecnologías Emergentes: El uso de Inteligencia Artificial tanto para ataques como para defensas obliga a la empresa a una actualización constante.
+		- Automatización en Ciberseguridad: La tendencia global hacia herramientas que automatizan el escaneo de vulnerabilidades y la respuesta a incidentes presiona a la consultora a adoptar estas tecnologías para mantener la velocidad y eficiencia que exige el mercado actual.
+	- 2 elementos de la estructura política.
+		- Leyes de Protección de Datos: Regulaciones nacionales e internacionales (como la Ley de Protección de Datos Personales) impulsa a las empresas a buscar asesoría legal y técnica.
+		- Aranceles y Restricciones a la Importación: Los cambios en las políticas aduaneras y los impuestos afectan el costo y la disponibilidad de hardware especializado necesario para nuestros servicios.
+	- 2 elementos de la estructura social.
+		- Conciencia sobre la Privacidad Digital: La creciente preocupación de la sociedad por el robo de identidad y la privacidad aumenta la presión sobre las empresas para que demuestren que sus sistemas son seguros.
+		- Cambios en el Estilo de Vida Laboral: La consolidación del teletrabajo y la movilidad laboral obligan a las organizaciones a asegurar entornos digitales fuera de la oficina, expandiendo nuestra demanda de servicios.
+- Análisis de las 5 fuerzas de porter
+	- Poder de negociación de los proveedores: Nivel Alto
+		- Proveedores de Tecnología y Software: La empresa depende de proveedores de licencias (como antivirus, firewall) y hardware especializado (servidores, equipos de red). Al ser tecnologías desarrolladas mayoritariamente por gigantes globales con precios estandarizados, la capacidad de la consultora para influir en los costos (no tener poder de negociación) de estos insumos es mínima.
+
+	- Poder de negociación de los consumidores: Nivel Medio
+		- Los clientes (empresas y particulares) tienen muchas opciones en el mercado, lo que les da poder para comparar presupuestos. Sin embargo, una vez que contratan un servicio integral que incluye capacitación y protección de datos críticos, el costo de cambiarse a otra consultora es alto, lo que equilibra el poder a nuestro favor.
+	- Amenaza de ingreso de productos sustitutivos: Nivel Medio
+		- Seguros de Ciberriesgo: Las empresas pueden optar por transferir el impacto financiero de un ataque mediante pólizas de seguro en lugar de invertir en servicios de prevención y consultoría técnica.
+		- Plataformas de Seguridad Autonoma: Herramientas basadas en agentes de IA que realizan escaneos y parches automáticos sin necesidad de un consultor humano. Si la empresa confía en la automatización total, deja de necesitar nuestros servicios de detección manual.
+		- Herramientas Open Source y Autogestión: El uso de frameworks gratuitos y herramientas de código abierto permite que empresas con personal técnico básico intenten cubrir sus necesidades de seguridad sin contratar expertos externos.
+	- Amenaza de entradas de nuevos competidores: Nivel Alto
+		- En el sector de servicios IT, las barreras de entrada son bajas, cualquier grupo de expertos puede montar una consultora. Además, existe la amenaza de grandes consultoras internacionales que bajen sus precios para captar clientes en el mercado local.
+	- Rivalidad entre competidores: Nivel muy Alto
+		- Competencia por el posicionamiento: Al ser un mercado con alta demanda, las consultoras luchan por ser reconocidas como referentes en seguridad, buscando captar a las empresas más grandes y rentables.
+		- Disputa por el talento especializado: Existe una fuerte rivalidad por contratar y retener a los expertos técnicos, ya que la falta de personal capacitado es el principal límite para que una consultora pueda crecer.
+		- Carrera tecnológica y de innovación: La realidad se traduce en una presión constante por ofrecer herramientas más avanzadas antes que la competencia, intentando anticiparse a las nuevas amenazas para no perder competitividad en el mercado.
+- Procesos críticos:
+	- Ciclo de Auditoría Técnica y Pruebas de Intrusión (Pentesting)
+		- Este proceso representa la ejecución técnica de uno de los servicios principales de la empresa. Su objetivo es identificar y explotar debilidades en la infraestructura del cliente para proponer mejoras reales de seguridad.
+	- Gestión de Gobierno, Riesgo y Cumplimiento (GRC)
+		- Este proceso asegura que las soluciones de ciberseguridad no solo sean técnicas, sino que también cumplan con los marcos legales y normativos vigentes (como la Ley de Protección de Datos).
+- Servicios comercializado
+	- Auditoría de Vulnerabilidades y Pentesting:
+		- ​Descripción: Simulación controlada de ataques informáticos para detectar brechas de seguridad en las aplicaciones y redes del cliente antes de que lo haga un atacante real.
+	- Servicio de Monitoreo y Respuesta a Incidentes:
+		- ​Descripción: Vigilancia continua del tráfico de la red del cliente (24/7) y actuación inmediata ante cualquier anomalía o intento de intrusión para mitigar daños.
+	- Consultoría e Implementación de Arquitectura de Seguridad:
+		- ​Descripción: Diseño e instalación de escudos de protección, configuración de Firewalls perimetrales, VPNs empresariales y segmentación de redes seguras.
+	- Adecuación a Normativas y Cumplimiento (GRC):
+		- ​Descripción: Asesoría y auditoría para que los procesos de la empresa cliente cumplan con leyes de Protección de Datos Personales o estándares internacionales.
+	- Programa de Capacitación en Concientización:
+		- ​Descripción: Entrenamiento interactivo para los empleados del cliente, enseñándoles a detectar ataques de Phishing, Ingeniería Social y buenas prácticas de uso de contraseñas
+- **Turnos:**
+	1. Centro de Operaciones de Seguridad (SOC)
+		- Puestos disponibles: 3 Analistas SOC. 
+		- Modalidad: Turnos rotativos de 8 horas de lunes a viernes (cobertura 24/5 humana) + Guardia Pasiva los fines de semana. 
+		- Distribución horaria (Lunes a Viernes):
+			- Turno Mañana (TM): 06:00 a 14:00 (Analista SOC 1). 
+			- Turno Tarde (TT): 14:00 a 22:00 (Analista SOC 2). 
+			- Turno Noche (TN): 22:00 a 06:00 (Analista SOC 3). 
+			- Fines de Semana: Monitoreo automatizado mediante la plataforma SIEM. Se rota un analista por fin de semana en modalidad Guardia Pasiva (On-Call) para atender exclusivamente alertas críticas desde el celular corporativo. 
+	2. Centro de Operaciones de Red (NOC)
+		- Puestos disponibles: 3 Analistas SOC. 
+		- Puestos disponibles: 2 Analistas NOC. 
+		- Modalidad: Turnos fijos escalonados de lunes a viernes para cubrir la mayor franja de actividad diurna de los clientes. 
+		- Distribución horaria:
+			- Turno Apertura: 07:00 a 15:00 (Analista NOC 1). 
+			- Turno Cierre: 14:00 a 22:00 (Analista NOC 2). 
+			- Solapamiento Operativo: De 14:00 a 15:00 ambos analistas coinciden para realizar el Handover (traspaso de novedades y estado de las redes de los clientes de Argentina, Chile y Uruguay). Noches y fines de semana quedan cubiertos por alertas automatizadas. 
+	3. Soporte IT Interno
+		- Puestos disponibles: 2 Analistas de Soporte IT
+		- Modalidad: Turnos fijos escalonados para dar soporte técnico a los 42 empleados de la consultora, extendiendo la cobertura debido al horario nocturno del SOC. 
+		- Distribución horaria:
+			- Soporte Mañana: 08:00 a 16:00. 
+			- Soporte Tarde: 12:00 a 20:00.

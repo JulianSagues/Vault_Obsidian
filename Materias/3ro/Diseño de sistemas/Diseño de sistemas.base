@@ -3,10 +3,7 @@ views:
     name: Tabla
     filters:
       and:
-        - and:
-            - file.inFolder("Materias/3ro/Diseño de sistemas")
-            - or:
-                - file.basename == "Material"
-                - file.basename == "Notas"
-    cardSize: 200
-    imageAspectRatio: 1
+        - file.inFolder("Materias/3ro/Diseño de sistemas")
+        - or:
+            - file.basename == "Material"
+            - file.basename == "Notas"

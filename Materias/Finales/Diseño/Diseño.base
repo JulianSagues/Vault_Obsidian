@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Finales/Diseño")
+        - file.basename != "Diseño"
+        - or:
+            - file.basename == "Teoria"
+            - file.basename == "Practica"

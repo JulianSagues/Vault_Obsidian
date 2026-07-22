@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/Finales/Diseño/Teoria/Eje3")
+        - file.basename != "Eje3"

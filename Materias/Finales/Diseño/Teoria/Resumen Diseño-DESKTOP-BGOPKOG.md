@@ -1,0 +1,285 @@
+# Unidad 1
+
+- ==¿Qué es el Proceso unificado?==
+	- El proceso unificado (PU) es un proceso de desarrollo de software. Un proceso de desarrollo de software es un conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema software.
+	- Este proceso está basado en componentes interconectados a través de interfaces bien definidas. El Proceso unificado utiliza el Lenguaje de Modelado Unificado (UML) 
+- ==Aspectos definitorios de proceso unificado==
+	- Dirigido por casos de usos
+		- Un caso de uso es un fragmento de funcionalidad del sistema que proporciona al usuario un resultado importante. Es decir, los CU representan los requisitos funcionales, y entre todos constituyen el modelo de casos de uso, el cual describe la funcionalidad total del sistema.
+	- Centrado en la arquitectura
+		- La arquitectura es una vista del diseño completo con las características más importantes resaltadas, dejando los detalles de lado.
+		- Los CU deben encajar en la arquitectura cuando se llevan a cabo, y la arquitectura debe permitir el desarrollo de todos los casos de uso requeridos, ahora y en el futuro. 
+		- La arquitectura debe diseñarse para permitir que el sistema evolucione en su desarrollo inicial y a lo largo de las futuras generaciones.
+	- Iterativo e Incremental
+		- En 1º lugar, la iteración trata un grupo de casos de uso que juntos amplían la utilidad del producto desarrollado hasta ahora.
+		- En 2º lugar, la iteración trata los riesgos más importantes.
+		- Las iteraciones sucesivas se construyen sobre los artefactos de desarrollo tal como quedaron al final de la última iteración.
+		- Si una iteración cumple con sus objetivos, el desarrollo continúa con la siguiente iteración. Si no, se prueba con un nuevo enfoque.
+- ==Fases de proceso unificado==
+	- Fase de inicio
+		- Se desarrolla una descripción del producto final a partir de una buena idea y se presenta el análisis de negocio para el producto
+	- Fase de Elaboración
+		- Se especifican en detalle la mayoría de los casos de uso del producto y se diseña la arquitectura del sistema. El resultado de esta fase es una línea base de la arquitectura, y la disposición del director de planificar las actividades y estimar los recursos necesarios para terminar el proyecto
+	- Fase de Construcción
+		-  Se crea el producto. Aquí la línea base de la arquitectura crece hasta convertirse en el sistema completo. Al final de esta fase, el producto tiene todos los casos de uso que la dirección y el cliente han acordado para el desarrollo de esta versión. Sin embargo, puede tener defectos
+	- Fase de Transición
+		- Cubre el periodo comprendido durante el cual el producto se convierte en versión beta. Esta fase corrige errores antes de la entrega. El equipo de mantenimiento divide los errores en 2 categorías: los que tienen suficiente impacto en la operación para justificar una versión incrementada y los que pueden corregirse en la siguiente versión normal.
+	- El producto terminado incluye los requisitos, casos de uso, especificaciones no funcionales y casos de prueba. Incluye el modelo de la arquitectura y el modelo visual.
+- ==Conceptos Básicos del Proceso: Flujos, artefactos, trabajadores, actividades==
+	- Trabajadores (“quién”)
+		- Define el comportamiento y responsabilidades (rol) de un individuo, grupo de individuos, sistema automatizado o máquina, que trabajan en conjunto como un equipo. Ellos realizan las actividades y son propietarios de elementos.
+	- Actividades (“cómo”)
+		- Es una tarea que tiene un propósito claro, es realizada por un trabajador, que manipula elementos. Las actividades se consideran en la planificación y evaluación de progresos del proyecto
+	- Artefactos (”qué”)
+		- Productos tangibles del proyecto que son producidos, modificados y usados por las actividades. Pueden ser modelos, elementos dentro del modelo, código fuente y ejecutables.
+	- Flujo de actividades (“Cuándo”)
+		- Captura de Requerimientos
+		- Análisis y diseño
+		- Implementación
+		- Prueba (Testeo)
+# Unidad 2
+- ==FLUJO DE TRABAJO DE CAPTURA DE REQUISITOS==
+- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=8&rect=61,466,486,717|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.8]]
+- Disciplina de Requisitos: Ejecuta la identificación y captura de las necesidades que el proyecto debe cubrir con lo desarrollado.
+- ==Artefactos de la Captura de Requisitos==
+	- Actor
+		- Es toda entidad externa que demanda funcionalidad del sistema, ya sea un ser humano o un sistema de software.
+	- Caso de uso
+	- Modelo de CU
+		-  Describe los procesos de negocio de una empresa en términos de casos de uso y actores del negocio que se corresponden con los procesos del negocio y los clientes, respectivamente. El modelo de casos de uso del negocio presenta un sistema desde la perspectiva de su uso, y esquematiza cómo proporciona valor a sus usuarios. Este modelo se describe mediante diagramas de casos de uso.
+	- Descripción de la Arquitectura
+	- Prototipo de IU
+	- Glosario
+- ==FLUJO DE TRABAJO DE ANÁLISIS==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=10&rect=60,367,536,719|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.10]]
+	- Análisis: Actividad mental de ver al todo como una colección de partes.
+	- Disciplina de Análisis: Ordena en un esquema lógico lo que se ha implicado con los requisitos.
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=10&rect=58,64,554,265|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.10]]
+- ==Artefactos del Análisis==
+	- Modelo de Análisis
+	- Clase del análisis
+		- Representa una abstracción de una o varias clases y/o subsistemas del diseño del sistema.
+		- Clase de Interfaz
+			- Se utilizan para modelar la interacción entre el sistema y sus actores. Esta interacción a menudo implica recibir (y presentar) información y peticiones de (y hacia) los usuarios y los sistemas externos.
+		- Clase de Entidad
+			- Usadas para modelar información de vida larga y que es a menudo persistente. Reflejan la información de un modo que beneficia a los desarrolladores al diseñar e implementar el sistema, incluyendo persistencia
+		- Clase de Control
+			- Se usan para encapsular el control de un CU en concreto, y para representar derivaciones y cálculos complejos, que no pueden asociarse con ninguna información concreta. Los aspectos dinámicos del sistema se modelan con clases de control
+	- Realización de caso de uso-análisis
+	- Paquete del análisis
+		- Paquetes de Servicio
+	- Descripción de la Arquitectura (Vista del modelo de análisis)
+- ==FLUJO DE TRABAJO DE DISEÑO==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=13&rect=43,501,535,720|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.13]]
+	- Diseño. Actividad mental de disponer las cosas para que al desarrollarse, se alcance la situación deseada. En otras palabras, es la disposición de estructuras temporales que son necesarias para que un algo se desarrolle según nuestros deseos
+	- Disciplina de Diseño: Encuentra una forma de sistema, código o arquitectura, que al momento de su puesta en ejecución da lugar a lo delineado en el análisis, siempre teniendo en foco los requisitos a cumplir.
+	- El diseño es la etapa de un sistema que describe como se implementará el sistema, en un nivel lógico sobre el código real. 
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=13&rect=47,160,550,323|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.13]]
+	- Artefactos del Diseño
+		- Modelo del Diseño
+			- Es un modelo de objetos que describe la realización física de los casos de uso centrándose en los requisitos funcionales como en los no funcionales. Las abstracciones del modelo de diseño tienen una correspondencia directa con los elementos físicos del ambiente de implementación.
+		- Clase del Diseño
+			- Es una abstracción sin costuras con una clase o construcción similar en la implementación del sistema. A diferencia de la clase de análisis, se especifica el lenguaje de programación, visibilidad de atributos y operaciones; se implementan las relaciones con atributos; y se pueden usar estereotipos del lenguaje de programación elegido.
+		- Realización de CU-diseño
+			- Es una colaboración en término de clases de diseño que describe como se realiza un caso de uso específico. Una realización de CU-diseño, tiene una traza directa a la correspondiente realización del caso de uso análisis. Se describe utilizando Diagrama de Clases, de secuencia, y flujo de sucesos-diseño (narración de sucesos)
+		- Subsistema de diseño
+			- Un subsistema es un paquete de elementos que se tratan como una unidad. Los subsistemas tienen un conjunto de interfaces que describen su relación con el resto del sistema y las circunstancias en que se puede utilizar. Son una forma de organizar los artefactos del modelo de diseño en piezas más manejables. Los subsistemas pueden representar productos software reutilizados, o sistemas heredados encapsulados.
+				- Subsistemas de Servicio
+					- Se usan en un nivel inferior de la jerarquía de subsistemas. La identificación de subsistemas de servicio se basa en los paquetes de servicio del modelo de análisis, y normalmente existe una traza uno a uno. Un subsistema de servicio ofrece servicios en término de interfaces y operaciones, y suele dar lugar a un componente ejecutable en la implementación.
+		- Interfaz
+			- Las interfaces se utilizan para especificar las operaciones que proporcionan las clases y los subsistemas del diseño. Se dice que una clase de diseño o un subsistema de diseño “realizan” o implementan una interfaz. Las interfaces constituyen una forma de separar la especificación de la funcionalidad en términos de operaciones de sus implementaciones en términos de métodos.
+		- Descripción de la arquitectura (vista del modelo de diseño)
+			- Se consideran significativos para la arquitectura los siguientes artefactos del modelo de diseño
+				- La descomposición del modelo de diseño en subsistemas, sus interfaces, y las dependencias entre ellos.
+				- Clases de diseño fundamentales como clases activas y clases centrales.
+				- Realizaciones de caso de uso-diseño que describan alguna funcionalidad importante y crítica.
+		- Modelo de despliegue
+			- El modelo de despliegue es un modelo de objetos que describe la distribución física del sistema en términos de cómo se distribuye la funcionalidad entre los nodos de cómputo.
+		- Descripción de la arquitectura (vista del modelo de despliegue)
+			- La descripción de la arquitectura contiene una vista de la arquitectura del modelo de despliegue que muestra sus artefactos relevantes para la arquitectura.
+-  ==FLUJO DE TRABAJO DE IMPLEMENTACIÓN==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=16&rect=61,505,557,724|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.16]]
+	- Disciplina de Implementación
+		- Transforma en código maquina lo diseñado. También asume la redacción de los manuales de usuario y todos los demás artefactos que se definan como parte del sistema en explotación más que del proyecto
+- ==FLUJO DE TRABAJO DE PRUEBAS==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=18&rect=61,468,518,722|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.18]]
+	- Disciplina de Pruebas
+		- Define los esquemas de evaluación con los que se determinará si lo desarrollado cumple con los requisitos identificados.
+# Unidad 3
+- Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces.
+- Un patrón de diseño es una solución a un problema de diseño. Para que una solución sea considerada un patrón debe poseer ciertas características. Una de ellas es que debe haber comprobado su efectividad, resolviendo problemas similares en ocasiones anteriores. Otra es que debe ser reusable, lo que significa que es aplicable a diferentes problemas de diseño en distintas circunstancias.
+- ==PATRONES GRASP==
+	- GRASP (General Responsibility Assignment Software Patterns) son patrones generales de software para asignación de responsabilidades
+	- En cuanto a las responsabilidades UML define una responsabilidad como “un contrato u obligación de un clasificador”.
+	- Conocer:
+		- Conocer los datos privados encapsulados.
+		- Conocer los objetos relacionados.
+		- Conocer las cosas que puede derivar o calcular.
+	- Hacer
+		- Hacer algo él mismo, como crear un objeto o hacer un cálculo.
+		- Iniciar una acción en otros objetos.
+		- Controlar y coordinar actividades en otros objetos.
+- ==Los patrones GRASP son==
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=20&rect=69,87,565,262|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.20]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,550,564,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+		- Problema: ¿Quién debería ser el responsable de la creación de una nueva instancia de alguna clase?
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=70,313,563,545|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+		- Solución: 
+			- Representa el sistema global, dispositivo o subsistema (controlador de fachada).
+			- Representa un escenario de caso de uso en el que tiene lugar el evento del sistema, a menudo denominado {NombreDelCasoDeUso} Manejador, {NombreDelCasoDeUso} Coordinador o {NombreDelCasoDeUso} Sesion (controlador de sesión o de caso de uso)
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=21&rect=67,99,588,308|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.21]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,598,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+		- Problema: ¿Cómo soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilización?
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=69,447,565,590|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+		- Problema: ¿Cómo manejar las alternativas basadas en el tipo? ¿Cómo crear componentes software conectables (pluggable)?
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=71,237,564,439|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=22&rect=70,86,566,231|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.22]]
+	- ![[Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1).pdf#page=23&rect=69,509,565,740|Diseno_de_Sistemas_-_Resumen_Completo_v1.1 (1), p.23]]
+- ==PATRONES GoF (Gang of Four)==
+	- Singleton (Instancia única)
+		- El patrón singleton está diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
+		- El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con atributos como protegido o privado).
+			- Contexto/Problema: Se admite exactamente una instancia de una clase —es un “singleton”—. Los objetos necesitan un único punto de acceso global. 
+			- Solución: Defina un método estático de la clase que devuelva el singleton.
+	- DTO (Data Transfer Object)
+		- Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ellas? 
+		- Solución: Crear pseudo-entidades a medida de las necesidades. Es decir, definir clases con los atributos necesarios para representar los datos que se desean intercambiar entre las diferentes capas
+	- Estrategia (Strategy)
+		- Problema: ¿Cómo diseñar diversos algoritmos o políticas que están relacionadas? ¿Cómo diseñar que estos algoritmos o políticas puedan cambiar?
+		- Solución: Defina cada algoritmo/política/estrategia en una clase independiente con 1 interfaz común
+		- El patrón estrategia permite mantener un conjunto de algoritmos de los que el objeto cliente puede elegir aquel que le conviene e intercambiarlo según sus necesidades
+	- Adaptador (Adapter)
+		- Problema: ¿Cómo resolver interfaces incompatibles, o proporcionar una interfaz estable para componentes parecidos con diferentes interfaces?
+		- Solución: Convierta la interfaz original de un componente en otra interfaz mediante un objeto adaptador intermedio.
+		- El Adaptador se utiliza para conectarse con sistemas externos. Suele utilizarse en conjunto con el Patrón DTO, y uno de los usos principales es el de impresión de Factura, Ticket, etc. Cabe aclarar que también puede usarse sin el patrón DTO.
+	- Patrón Factoría
+		- Problema: ¿Quién debe ser el responsable de la creación de objetos cuando existen consideraciones especiales, como una lógica de creación compleja, el deseo de separar las responsabilidades de la creación para mejorar la cohesión, etc.?
+		- Solucion: Asignar la responsabilidad a un objeto de fabricación pura denominado factoría que maneje la creación.
+	- Plantilla (Template)
+		- Un método plantilla es un patrón de diseño que define una estructura algorítmica en la súper clase, delegando la implementación a las subclases. Es decir, define una serie de pasos, en donde los pasos serán redefinidos en las subclases.
+		- Se define una estructura de herencia en la cual la superclase sirve de plantilla de los métodos en las subclases, es decir, la superclase define métodos abstractos y las subclases los implementan. Una de las ventajas de este método es que evita la repetición de código, por tanto la aparición de errores.
+		- Este patrón se vuelve de especial utilidad cuando es necesario realizar un algoritmo que sea común para muchas clases, pero con pequeñas variaciones entre una y otras.
+	- Composite (Objeto Compuesto)
+		- Composite permite tratar un grupo de objetos como una sola pieza, en realidad, como un único objeto. Logra que tanto el objeto compuesto como los objetos componentes sean tratados por igual. Es útil cuando se desea desconocer la diferencia entre el uso de objetos compuestos y objetos componentes
+		- Contexto/Problema: ¿Cómo tratar un grupo o una estructura compuesta del mismo modo (polimórficamente) que un objeto no compuesto (atómico)? 
+		- Solución: Defina las clases para los objetos compuestos y atómicos de manera que implementen el mismo interfaz.
+	- Observador (Observer o Spider)
+		- El patrón Observador define una dependencia del tipo uno-a-muchos entre objetos, de manera que cuando uno de los objetos cambia su estado, el observador se encarga de notificar este cambio a todos los otros dependientes.
+		- El objetivo de este patrón es desacoplar la clase de los objetos clientes del objeto, y evitar bucles de actualización (espera activa o polling).
+		-  El objeto de datos, llamémoslo "Sujeto" a partir de ahora, contiene atributos mediante los cuales cualquier objeto observador o vista se puede suscribir a él pasándole una referencia a sí mismo. El Sujeto mantiene así una lista de las referencias a sus observadores
+		- Los observadores a su vez están obligados a implementar unos métodos determinados mediante los cuales el Sujeto es capaz de notificar a sus observadores "suscritos" los cambios que sufre para que todos ellos tengan la oportunidad de refrescar el contenido representado. 
+			- Contexto/Problema: Diferentes tipos de objetos suscriptores están interesados en el cambio de estado o eventos de un objeto emisor, y quieren reaccionar cada uno a su manera cuando el emisor genere un evento. Además, el emisor quiere mantener bajo acoplamiento con los suscriptores. ¿Qué hacemos? 
+			- Solución: Defina una interfaz “suscriptor” u “oyente” (listener). Los suscriptores implementan esta interfaz. El emisor dinámicamente puede registrar suscriptores que están interesados en un evento, y notificarles cuando ocurre un evento.
+	- Comando
+		- Este patrón permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además se facilita la parametrización de los métodos (por eso se llama siempre con ejecutar() )
+		- Contexto/Problema: ¿Cómo gestionar las solicitudes o tareas que necesitan funciones como ordenar (estableciendo prioridades), poner en cola, retrasar, anotar en registro o deshacer? 
+		- Solución: Defina una clase por cada tarea que implemente una interfaz común
+# Unidad 4
+- ==DISEÑO ORIENTADO A OBJETOS (DOO)==
+	- La habilidad más importante en DOO es la asignación eficiente de responsabilidades a los componentes de software, ya que esto permite:
+		- Solidez
+		- Capacidad de mantenimiento
+		- Reusabilidad de los componentes de software
+	- ==¿Qué son el Análisis y el Diseño Orientado a Objetos?==
+		- Durante el Análisis orientado a objetos, se procura identificar y describir los ojetos dentro del dominio del problema.
+		- Durante del Diseño orientado a objetos, se procura definir los objetos lógicos del software que finalmente serán implementados en un lenguaje de programación orientado a objetos.
+	- ==Principios del Diseño Orientado a Objetos==
+		- Identificar a los objetos adecuados.
+		- Favorecer el bajo acoplamiento.
+		- Favorecer la reutilización de código.
+-  ==MODELO DE ENTIDAD – RELACIÓN (MER)==
+	- El Modelo de Entidad Relación es un modelo de datos basado en una percepción del mundo real que consiste en un conjunto de objetos básicos llamados entidades y relaciones entre estos objetos, implementándose en forma gráfica a través del Diagrama Entidad Relación.
+	- Las Entidades son objetos o cosas del mundo real, del mismo tipo. Tienen atributos, que comprenden valores. Los atributos deben ser:
+		- No compuestos: Ej: Domicilio, tiene número, calle, etc. Debería dividirse en varios atributos
+		- No multivalente: Es decir, no debe tener permitir distintos tipos de valores
+		- No nulo
+		- Determinante (ID, llave o clave primaria): Es una tributo especial único entre todas las instancias, que identifica unívocamente a cada instancia. El ID puede ser:
+			- Simple: Formado por un solo atributo. Ej: Legajo
+			- Compuesto: Formado por 2 o más atributos. Ej: Tipo y Nro. Documento
+		- Una entidad se representa con un Rectángulo.
+		- Se denomina Clave principal o primaria al atributo o conjunto mínimo de atributos (uno o más campos) que permiten identificar en forma única cada instancia de la entidad, es decir, a cada registro de la tabla. Las claves principales se utilizan cuando se necesita hacer referencia a registros específicos de una tabla desde otra tabla. En un principio se puede identificar más de un atributo que cumpla las condiciones para ser clave, los mismos se denominan Claves candidatas
+		- Si la clave primaria se determina mediante un solo atributo de la entidad, entonces se dice que la misma es una Clave simple. En caso de estar conformada por más de un atributo, la misma se conoce como Clave compuesta
+		- La Clave foránea (también llamada externa o secundaria) es un atributo que es clave primaria en otra entidad con la cual se relaciona
+	- Relación
+		- Es una conexión. Hay una relación cuando al menos una instancia de una entidad se vincula con una instancia en la otra. Las relaciones se representan con un rombo.
+		- Evitamos relaciones n-arias y usamos binarias.
+		- Los tipos de relaciones son:
+			- 1 a 1: A una instancia de un objeto le corresponde una instancia en el otro.
+			- 1 a N: Debe haber al menos 1 atributo en común (clave foránea), en la entidad de cardinalidad N.
+			- N a N: Se desprende obligatoriamente una clase asociativa, que tiene como clave primaria los ID’s de las 2 relaciones.
+	- Formas Normales
+		- 1FN: Se define una clave única, no nula, para una tabla
+		- 2FN: Todos los atributos no llave dependen totalmente de la llave compuesta (Solo se aplica a claves compuestas)
+		- 3FN: Los atributos no llave no dependen entre sí
+- ==FRAMEWORKS==
+	- En el desarrollo de software, un framework es una estructura conceptual y tecnológica de soporte definida, normalmente con artefactos o módulos de software concretos, con base en la cual otro proyecto desoftware puede ser organizado y desarrollado. Típicamente, puede incluir soporte de programas, bibliotecas y un lenguaje interpretado entre otros programas para ayudar a desarrollar y unir los diferentes componentes de un proyecto.
+	- Representa una arquitectura de software que modela las relaciones generales de las entidades del dominio. Provee una estructura y una metodología de trabajo la cual extiende o utiliza las aplicaciones del dominio.
+# Unidad 5
+- UML es un lenguaje de modelado para Visualizar, Especificar, Construir y Documentar los artefactos de un sistema con gran cantidad de software.
+- Un lenguaje de modelado es un lenguaje cuyo vocabulario y reglas se centran en la representación conceptual y física de un sistema.
+- ==Bloques Básicos de construcción UML==: Son 3, elementos, relaciones y diagramas
+	- Elementos
+		- Estructurales o Clasificadores: Son las partes estáticas de los modelos
+			- Clase: Es una descripción de un conjunto de objetos que comparten los mismos atributos, operaciones, relaciones y semántica
+			- Interfaz: Es una colección de operaciones que especifican un servicio de una clase o componente. Una interfaz describe el comportamiento visible externo de ese elemento
+			- Colaboración: Define una interacción y es una sociedad de roles y otros elementos que colaboran para proporcionar un comportamiento cooperativo mayor que la suma de los comportamientos de sus elementos
+			- Caso de uso
+			- Clase Activa: Es una clase cuyos objetos tienen uno o más procesos o hilos de ejecución y, por tanto, pueden dar origen a actividades de control
+			- Componente: Es una parte modular del diseño del sistema que oculta su implementación tras un conjunto de interfaces externas.
+			- Artefacto: Es una parte física y reemplazable de un sistema que contiene información física. Representa típicamente el empaquetamiento físico de código o información en tiempo de ejecución.
+			- Nodo: Es un elemento físico que existe en tiempo de ejecución y representa un recurso computacional, que por lo general dispone de algo de memoria y/o capacidad de procesamiento.
+		- De Comportamiento: Son las partes dinámicas de los modelos
+			- Interacción: Es un comportamiento que comprende un conjunto de mensajes intercambiados entre un conjunto de objetos, dentro de un contexto particular, para alcanzar un propósito específico.
+			- Máquina de Estados: Es un comportamiento que especifica las secuencias de estados por las que pasa un objetos durante su vida en respuesta a eventos. Puede incluir transiciones, eventos, acciones.
+			- Actividad: Es un comportamiento que especifica la secuencia de pasos que ejecuta un proceso.
+		- De Agrupación:
+			- Paquete: Es puramente conceptual (sólo existe en tiempo de desarrollo).
+		- De Anotación: Son las partes explicativas de los modelos UML
+			-  Nota: Muestra comentarios
+- Relaciones
+	- Dependencia: Es una relación semántica entre 2 elementos, en la cual un cambio al elemento independiente puede afectar a la semántica del elemento dependiente
+	- Asociación: Es una relación estructural entre clases que describe un conjunto de enlaces, los cuales son conexiones entre objetos. Algunos tipos especiales de asociación son la composición y agregación.
+	- Generalización: Es una relación de especialización, en la cual el elemento especializado (hijo) se basa en la especificación del elemento generalizado (padre). El hijo comparte la estructura y el comportamiento del padre
+	- Realización: Es una relación semántica entre clasificadores, en donde un clasificador especifica un contrato que otro clasificador garantiza que cumplirá.
+	- Extensión: Un caso de uso extiende a otro cuando sin alterar a este, se incorpora su funcionalidad como parte integral del primero. Se denota con una relación que apunta del caso extendido al caso base y la conexión se hace o bien al principio del flujo de eventos principal del caso base o en alguno de los puntos de extensión que este haya definido.
+	- Inclusión: Un caso de uso concreto incluye a un fragmento de caso de uso, cuando como parte de su descripción breve o su flujo de eventos, se hace referencia al texto del fragmento; de forma tal que lo dicho en el fragmento pasa a ser parte de la especificación del caso de uso.
+- Diagramas de…
+	- Clases: Muestra un conjunto de clases, interfaces y colaboraciones, así como sus relaciones. Abarcan la vista de diseño estática de un sistema
+	- Casos de Uso: Muestra un conjunto de CU, sus actores y relaciones. Abarcan la vista de casos de uso estática de un sistema.
+	- Objetos: Muestra un conjunto de objetos y sus relaciones. Representan instantáneas estáticas de instancias de los elementos de un diagrama de clases.
+	- Componentes: Representa la encapsulación de una clase, juntos con sus interfaces, puertos y estructura interna. Abarcan la vista de implementación estática del diseño de un sistema
+	- De interacción (Secuencia y Comunicación/Colaboración): Cubren la vista dinámica de un sistema. Muestran el flujo de mensajes entre objetos
+	- Estados: Muestra una máquina de estados. Abarca la vista dinámica de un objeto.
+	- Actividades: Muestra la estructura de un proceso. Abarca la vista dinámica.
+	- Despliegue: Muestra la configuración de nodos de procesamiento en tiempo de ejecución y los artefactos que residen en ellos. Abarcan la vista de despliegue estática de una arquitectura
+	- Paquetes: Muestra la descomposición del propio modelo en unidades organizativas y sus dependencias
+	- Tiempos: Es un diagrama de interacción que muestra las tiempos reales en el sistema.
+	- Visión Global de Interacciones: Es un híbrido entre un diagrama de actividades y uno de secuencia.
+- ==ARQUITECTURA==
+	- Vista de Casos de Uso: Comprende los casos de uso que describen el comportamiento del sistema tal y como es percibido por los usuarios finales, analistas y encargados de las pruebas. Esta vista no especifica realmente la organización de un sistema software.
+		- Aspectos Estáticos -> Diagrama de Casos de Uso
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Diseño: Comprende las clases, interfaces y colaboraciones que forman el vocabulario del problema y su solución. Esta vista soporta principalmente los requisitos funcionales del sistema.
+		- Aspectos Estáticos -> Diagramas de Clases y Objetos
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Interacción: Muestra el flujo de control entre sus diversas partes. Abarca el rendimiento, escalabilidad y capacidad de procesamiento del sistema. Los aspectos son los mismos que en la vista de diseño.
+	- Vista de Implementación: Comprende los artefactos que se utilizan para ensamblar y poner en producción el sistema físico.
+		- Aspectos Estáticos -> Diagramas de Artefactos
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+	- Vista de Despliegue: Contiene los nodos que forman la topología hardware sobre la que se ejecuta el sistema. Esta vista se ocupa de la distribución, entrega e instalación de las partes que constituyen el sistema físico.
+		- Aspectos Estáticos -> Diagramas de Despliegue
+		- Aspectos Dinámicos -> Diagramas de Interacción, Estados y Actividades
+- ==VISTA ESTÁTICA==
+	- La vista estática es la base de UML. Los elementos de la vista estática de un modelo son todo tipo de conceptos encontrados en los sistemas. Esta vista captura la estructura del objeto, e incluye todo lo concerniente a las estructuras de datos tradicionales, así como la organización de las operaciones sobre los datos. Los datos y las operaciones son cuantificados en clases.
+	- La vista estática describe entidades de comportamiento, pero no contiene los detalles de su comportamiento dinámico. Los trata como elementos para ser nombrados, poseídos por las clases e invocados. Hay 2 elementos clave en esta vista:
+		- Clasificadores
+			- Un clasificador es un concepto discreto en el modelo, que tiene identidad, estado, comportamiento y relaciones. Algunos clasificadores son las clases, actores, rol, componente, caso de uso, nodo, señal, interfaz, etc.
+		- Relaciones
+			- Asociación: Lleva la información entre objetos en un sistema. Sin asociaciones, habrían sólo clases aisladas. Una clase se puede asociar a sí misma, o hacia otra clase. Los extremos de la asociación pueden tener multiplicidad, es decir, cuántas instancias de una clase se pueden relacionar con una instancia de otra. Si una asociación puede tener atributos por sí misma, surge una clase asociativa. Durante el análisis, las asociaciones representan relaciones lógicas entre objetos. La asociación se representa con una línea continua. Hay 2 subtipos:
+				- Agregación: Es una asociación que representa una relación todo-parte. Se muestra adornado con un diamante hueco en el extremo de la trayectoria unida a la clase agregada
+				- Composición: Es una asociación más fuerte, en la cual el compuesto es el responsable único de gestionar sus partes. Se muestra con un diamante relleno adornando el extremo compuesto.
+			- Generalización: Es una relación taxonómica entre una descripción más general (padre) y una descripción más específica (hijo), que se construye sobre ella y la extiende. La descripción más específica es completamente consistente con la más general, y puede contener información adicional. En el caso de clases, se habla de superclase y subclase. Una generalización se dibuja como una flecha que va desde el padre al hijo, con un triángulo hueco en el extremo del padre. La generalización tiene 2 propósitos:
+				- Principio de sustitución (del padre por el hijo, que es más especializado), lo que posibilita el polimorfismo
+				- Permitir la herencia
+			- Realización: Conecta un elemento del modelo con otro que especifica su comportamiento, pero no su estructura o implementación. Se indica con una flecha de línea discontinua con una punta hueca cerrada
+			- Dependencia: Indica que un elemento conoce la existencia de otro. Se denota con una línea punteada y con flecha. En el diagrama de clases sirve para describir la visibilidad global entre atributos.

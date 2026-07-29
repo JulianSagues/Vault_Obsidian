@@ -1,0 +1,29 @@
+- Hacer en Diagrama de Clases / MER / Flujo / Secuencia: 
+	- Asociación Simple
+	- Agregación
+	- Composición
+	- Generalización / Herencia
+	- Dependencia
+	- Relación Recursiva / Autorreferenciada
+- Hacer un flujo (ambas partes o separadas)
+- Hacer un diagrama de clases
+- Hacer un diagrama de CU
+	- Extension
+	- Inclusion
+- Hacer una secuencia
+- Hacer una lista (del eje3)
+- Aplicar patron OID
+- Aplicar patrones del eje1
+	- Configuracion
+	- Estado
+	- Proceso
+- Diferenciar entre precondicion, postcondicion, estado inicial y estado inicial
+- Diferenciar entre inclusion y extension
+- Llamada a un agente externo
+	- Flujo
+	- Secuencia
+	- CU
+- Diferentes formas de ingresar datos en flujo
+- Primitivas en flujo
+- Aplicar patrones GRASP o GOF a una situcion concreta o cuando aplicarlos
+- 

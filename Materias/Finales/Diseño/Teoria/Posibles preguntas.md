@@ -4,29 +4,29 @@
 	- Composición
 	- Generalización / Herencia
 	- Dependencia
-	- Relación Recursiva / Autorreferenciada
+	- Relación Recursiva
 - Hacer un flujo (ambas partes o separadas)
 - Hacer un diagrama de clases
 - Hacer un diagrama de CU
-	- Extension
-	- Inclusion
+	- Extensión
+	- Inclusión
 - Hacer una secuencia
 - Hacer una lista (del eje3)
-- Aplicar patron OID
+- Aplicar patrón OID
 - Aplicar patrones del eje1
-	- Configuracion
+	- Configuración
 	- Estado
 	- Proceso
-- Diferenciar entre precondicion, postcondicion, estado inicial y estado inicial
-- Diferenciar entre inclusion y extension
+- Diferenciar entre precondición, postcondición, estado inicial y estado inicial
+- Diferenciar entre inclusión y extensión
 - Llamada a un agente externo
 	- Flujo
 	- Secuencia
 	- CU
 - Diferentes formas de ingresar datos en flujo
 - Primitivas en flujo
-- Aplicar patrones GRASP o GOF a una situcion concreta o cuando aplicarlos
-- Que hacer en una relacion muchos a muchos en:
+- Aplicar patrones GRASP o GOF a una situación concreta o cuando aplicarlos
+- Que hacer en una relación muchos a muchos en:
 	- Diagrama de clases
 	- Mer
 - Que hacer en una relacion 1 a 1

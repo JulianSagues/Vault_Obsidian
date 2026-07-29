@@ -29,5 +29,5 @@
 - Que hacer en una relación muchos a muchos en:
 	- Diagrama de clases
 	- Mer
-- Que hacer en una relacion 1 a 1
+- Que hacer en una relación 1 a 1
 - Identificar el error en un diagrama cualquiera

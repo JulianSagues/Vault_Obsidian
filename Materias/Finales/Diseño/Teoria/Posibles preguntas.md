@@ -26,4 +26,8 @@
 - Diferentes formas de ingresar datos en flujo
 - Primitivas en flujo
 - Aplicar patrones GRASP o GOF a una situcion concreta o cuando aplicarlos
-- 
+- Que hacer en una relacion muchos a muchos en:
+	- Diagrama de clases
+	- Mer
+- Que hacer en una relacion 1 a 1
+- Identificar el error en un diagrama cualquiera

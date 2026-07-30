@@ -17,7 +17,7 @@
 	- Configuración
 	- Estado
 	- Proceso
-- Diferenciar entre precondición, postcondición, estado inicial y estado inicial
+- Diferenciar entre precondición, postcondición, estado inicial y estado final
 - Diferenciar entre inclusión y extensión
 - Llamada a un agente externo
 	- Flujo

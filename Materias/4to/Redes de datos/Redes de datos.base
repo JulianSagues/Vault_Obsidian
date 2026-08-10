@@ -1,3 +1,9 @@
 views:
   - type: cards
     name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/4to/Redes de datos")
+        - or:
+            - file.basename == "Material"
+            - file.basename == "Notas"

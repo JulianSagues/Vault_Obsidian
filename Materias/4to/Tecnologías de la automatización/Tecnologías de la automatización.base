@@ -1,3 +1,9 @@
 views:
-  - type: table
+  - type: cards
     name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/4to/Tecnologías de la automatización")
+        - or:
+            - file.basename == "Material"
+            - file.basename == "Notas"

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAlertTriangle",
-      "LiBookOpen",
-      "LiPenBox",
-      "☑",
-      "LiPersonStanding"
+      "LiSquareCode",
+      "LiBotGlyph",
+      "LiLock",
+      "LiNetwork",
+      "LiAlertTriangle"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -117,5 +117,17 @@
   "Materias/Finales/Diseño": {
     "iconName": "LiAlertTriangle",
     "iconColor": "#eb0000"
+  },
+  "Materias/4to/Redes de datos": {
+    "iconName": "LiNetwork",
+    "iconColor": "#1ac9d5"
+  },
+  "Materias/4to/Seguridad ofensiva avanzada": {
+    "iconName": "LiLock",
+    "iconColor": "#e60000"
+  },
+  "Materias/4to/Tecnologías de la automatización": {
+    "iconName": "LiSquareCode",
+    "iconColor": "#86ba17"
   }
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDatabaseZap",
       "LiSquareCode",
       "LiBotGlyph",
       "LiLock",
-      "LiNetwork",
-      "LiAlertTriangle"
+      "LiNetwork"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -129,5 +129,9 @@
   "Materias/4to/Tecnologías de la automatización": {
     "iconName": "LiSquareCode",
     "iconColor": "#86ba17"
+  },
+  "Materias/4to/Base de datos avanzada": {
+    "iconName": "LiDatabaseZap",
+    "iconColor": "#e6c005"
   }
 }

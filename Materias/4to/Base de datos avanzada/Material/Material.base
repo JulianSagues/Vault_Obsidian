@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("Materias/4to/Base de datos avanzada/Material")
+        - file.basename != "Material"

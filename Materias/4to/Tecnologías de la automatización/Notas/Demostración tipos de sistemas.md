@@ -1,0 +1,18 @@
+- Sistema Lineal
+	- Homogeneidad
+		- La entrada multiplicada por un escalar produce una la salida del sistema multiplicada por el mismo escalar.
+	- Superposición o aditividad
+		- Si dos entradas son sumadas y pasadas a través del sistema lineal, la salida será equivalente a la suma de las dos salidas evaluadas individualmente
+- Sistema invariante
+	- tiene la propiedad de que cierta entrada siempre dará la misma salida, independientemente del momento en que fue aplicada al sistema.
+- Sistema lineal invariante
+- Sistema causal
+	- no depende de valores futuros de las entradas para determinar la salida
+- Sistema inversible
+	- distintas entradas producen distintas salidas
+- Sistema sin memoria
+	- su salida para cada valor de su variable independiente depende sólo de la entrada en ese mismo instante de tiempo
+- Sistema en serie
+	- la salida de un bloque se convierte en la entrada del siguiente, formando una cadena lineal de bloques
+- Sistema en paralelo
+	- tiene bloques que reciben la misma entrada simultáneamente, y sus salidas se combinan, generalmente sumándose, para formar la salida total del sistema

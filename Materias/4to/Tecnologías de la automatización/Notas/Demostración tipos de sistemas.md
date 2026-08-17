@@ -3,15 +3,20 @@
 		- La entrada multiplicada por un escalar produce una la salida del sistema multiplicada por el mismo escalar.
 	- Superposición o aditividad
 		- Si dos entradas son sumadas y pasadas a través del sistema lineal, la salida será equivalente a la suma de las dos salidas evaluadas individualmente
+	- ![[Demostración tipos de sistemas.png]]
 - Sistema invariante
 	- tiene la propiedad de que cierta entrada siempre dará la misma salida, independientemente del momento en que fue aplicada al sistema.
+	- ![[Demostración tipos de sistemas-1.png]]
 - Sistema lineal invariante
 - Sistema causal
 	- no depende de valores futuros de las entradas para determinar la salida
+	- ![[Demostración tipos de sistemas-2.png]]
 - Sistema inversible
 	- distintas entradas producen distintas salidas
+	- ![[Demostración tipos de sistemas-3.png]]
 - Sistema sin memoria
 	- su salida para cada valor de su variable independiente depende sólo de la entrada en ese mismo instante de tiempo
+	- ![[Demostración tipos de sistemas-4.png]]
 - Sistema en serie
 	- la salida de un bloque se convierte en la entrada del siguiente, formando una cadena lineal de bloques
 - Sistema en paralelo

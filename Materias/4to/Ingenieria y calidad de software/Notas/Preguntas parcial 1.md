@@ -338,17 +338,45 @@
 	3) Colaboración con el Cliente sobre Negociación de cambios
 	4) Respuesta ante el cambio sobre seguimiento de un plan
 4) Dentro de los principios del Manifiesto Agil, explique el concepto de feedback en ágil (Principios nros.1 y 6)
+	1) Principio 1: Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continuada de software con valor 
+	2) Principio 6: El método más eficiente y efectivo de comunicar información al equipo de desarrollo y entre sus miembros es la conversación cara a cara
 5) Dentro del principio nro 9, cuál es la formula para mejorar la agilidad?
+	1) Atención continua + Excelencia Técnica + Buen Diseño = Mejora de la agilidad
 6) Cuáles son sus elementos claves?
-7) Cuáles son sus elementos claves?
-8) Cuadro comparativo entre Gestión Tradicional vs Agil
-9) Agil vs. Tradicional: cuándo es bueno elegir cada uno?
-10) Cuáles son las premisas de Gestión Agil y Tradicional. Indique cual es predictiva y cual adaptativa.
-11) Explique la conversión del triángulo de restricciones de Tradicional a Ágil (armar gráfica)
-12) Qué implicaciones tiene pasar de organizaciones tradicionales a ágiles
-13) Cómo elegimos un framework?
-14) Qué tipo de modelo es Scrum?
-15) Defina: empowerment y feedback constante
+	1) Poca Documentación 
+	2) Simplicidad 
+	3) Análisis como una actividad constante 
+	4) Diseño evolutivo 
+	5) Testeos diarios
+7) Cuadro comparativo entre Gestión Tradicional vs Agil
+	1) ![[Preguntas parcial 1-3.png]]
+8) Agil vs. Tradicional: cuándo es bueno elegir cada uno?
+	1) Ágil: 
+		1) Acuerdo iterativo adaptable a los cambios, son buenos cuando consiguen entregar de forma repetible un valor innovador 
+	2) Tradicional: 
+		1) Búsqueda de un acuerdo previamente negociado, son buenos cuando consiguen desarrollar de forma repetible los productos especificados en el tiempo y con los costes previstos
+9) Cuáles son las premisas de Gestión Agil y Tradicional. Indique cual es predictiva y cual adaptativa.
+	1) La gestión tradicional es predictiva y se ha desarrollado sobre las premisas: 
+		1) El plan crea estimaciones de costos/cronogramas 
+		2) Todos los proyectos mantienen características y comportamientos regulares 
+		3) El objetivo de la ejecución de un proyecto es lograr el producto provisto en el tiempo planificado 
+	4) La gestión ágil es adaptativa sus premisas son las siguientes:
+		1) La visión crea estimaciones de las funcionalidades 
+		2) No hay una forma única y válida para gestionar cualquier tipo de proyecto 
+		3) Hay proyectos que tienen como objetivo valor para el producto, y no funcionalidad, fecha y costes
+10) Explique la conversión del triángulo de restricciones de Tradicional a Ágil (armar gráfica)
+	1) ![[Preguntas parcial 1-4.png]]
+11) Qué implicaciones tiene pasar de organizaciones tradicionales a ágiles
+	1) ![[Preguntas parcial 1-5.png]]
+12) Cómo elegimos un framework?
+	1) Hay que tener en cuenta muchos factores para elegir uno ya que todos tienen sus fortalezas y debilidades. los factores a tener en cuenta son el tamaño de la empres, estructura del equipo, recursos disponibles, necesidades de las partes interesadas, estructura de su cartera de productos y la prioridad para el cliente en el desarrollo del proyecto
+13) Qué tipo de modelo es Scrum?
+	1) Scrum es un modelo ágil o modelo de referencia no centrado en las prácticas de programación, sino en las prácticas de gestión
+14) Defina: empowerment y feedback constante
+	1) Empowerment: 
+		1) Otorgar autonomía para tomar decisiones al equipo de desarrollo y genera un clima de sinergia grupal 
+	2) Feedback constante 
+		1) Permite el desarrollo incremental y el crecimiento adaptativo de la programación
 ### **Unidad 2.2: Scrum: ceremonias, roles y artefactos**
 1) Nombre cuáles son los valores o principios que son base de toda la actividad en Scrum (ver gráfica)
 2) Explique el framework Scrum identificando: roles, compromisos/ceremonias/eventos, artefactos y como es su flujo/proceso. Identifique cada uno de ellos ( usar el resumen)

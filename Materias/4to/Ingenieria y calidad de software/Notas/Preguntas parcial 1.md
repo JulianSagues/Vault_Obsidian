@@ -79,13 +79,51 @@
 14) En qué se diferencian los “requisitos de usuario” DRU de los “requisitos del software” ERS?
 	1) La principal diferencia entre la DRU y la ERS es que en DRU se emplea lenguaje natural mientras que la ERS emplea modelos o notaciones formales. La diferencia radica en el nivel de detalles de ambos documentos
 15) Tipos de requerimientos según la función de calidad: definición, satisfacción del cliente, ejemplos
+	1) Requerimientos Normales> ligados con la satisfacción
+		1) Ej. Tipos de gráficos, funciones específicas del sistema, y niveles de rendimientos definidos.
+	2) Requerimientos esperados> el cliente puede no declararlos explícitamente y su ausencia es motivo de insatisfacción
+		1) Ej. Fácil interacción, operación general correcta y confiable, facilidad de instalación
+	3) Requerimientos Emocionantes o Innovadores>suelen ser muy satisfactorias
+		1) Ej. Pantallas sensible al tacto, correo de voz visual.
 16) Que debe especificar un proceso de Ingeniería de software?
+	1) Secuencia de actividades 
+	2) Productos que deben crearse 
+	3) Asignación de tareas 
+	4) Criterios para controlar el proceso
 17) Nombre 5 características de los productos de sw
+	1) Mantenible 
+	2) Confiabilidad
+	3) Eficiencia
+	4) Utilización adecuada (el sw debe contar con una interfaz de usuario adecuada y su documentación) 
+	5) Entendible 
+	6) Visible 
+	7) Soportable 
+	8) Aceptable 
+	9) Seguridad 
+	10) Robusto 
+	11) Escalable 
+	12) Rápido
 18) Cuáles son los retos de la Ingeniería de software? Explíquelos brevemente
+	1) De lo heredado: 
+		1) El reto es mantener y actualizar el sw tal que se eviten los costos excesivos y que los servicios esenciales del negocio sigan funcionando 
+	2) De la heterogeneidad: 
+		1) Desarrollar técnicas para construir un sw confiable, que sea lo suficientemente flexible 
+	3) De la entrega: 
+		1) El resto es reducir los tiempos de entrega para sistemas grandes y complejos sin comprometer la calidad del sistema
 19) En que consiste en la Interfaz Usuaria: calidad percibida, calidad externa y calidad en el uso?
+	1) Calidad percibida: Conjunto de características de un producto que aportan gran satisfacción a unos usuarios específicos. 
+	2) Calidad externa: Instante en el cual un producto satisface las necesidades establecidas e implícitas cuando este es un utilizado bajo ciertas condiciones específicas.
+	3) Calidad en el uso: La efectividad, eficiencia y satisfacción con el cuál ciertos usuarios pueden alcanzar ciertas metas en entornos concretos
 20) Defina la usabilidad e indique a que hace referencia?
+	1) Es la forma en la que se alcanzan los objetivos con efectividad, eficiencia y satisfacción. Esta hace referencia a la rapidez y facilidad con que las personas llevan a cabo sus tareas propias a través del uso del producto objeto de interés.
 21) A qué hace referencia la usabilidad y en que puntos descansa?
+	1) La usabilidad, hace referencia, a la rapidez y facilidad con que las personas llevan cabo sus tareas propias a través del uso del producto objeto de interés, idea que descansa en cuatro puntos:
+		1)  Una aproximación al usuario: enfocarse en los usuarios. Se tienen que conocer, entender y trabajar con las personas que representan a los usuarios actuales o potenciales del producto.
+		2) Un amplio conocimiento del contexto de uso: Las personas utilizan los productos para incrementar su propia productividad. Un producto se considera fácil de aprender y usar en términos del tiempo que toma el usuario para llevar a cabo su objetivo, el número de pasos que tiene que realizar para ello, y el éxito que tiene en predecir la acción apropiada para llevar a cabo
+		3) El producto ha de satisfacer las necesidades del usuario: Los usuarios son gente ocupada intentando llevar a cabo una tarea. Se va a relacionar usabilidad con productividad y calidad.
+		4) Son los usuarios, y no los diseñadores y los desarrolladores, los que determinan cuando un producto es fácil de usar
 22) Cuándo se considera la usabilidad?
+	1) Independientemente del método de desarrollo del sistema, debe considerarse a lo largo de todo el proyecto, para así no hacer cambios drásticos en etapas futuras del sistema
 23) Cuales son las ventajas de las GUI? (Somerville págs. 327 a 347)
 24) Nombre los principios de diseño de interfaces usuarias (Somerville)
 25) Cuales son los 5 estilos primarios de interaccion con el usuario según Shneiderman? (Somerville)

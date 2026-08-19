@@ -151,11 +151,27 @@
 	1) Proceso en el cual se pone a prueba el rendimiento de la interfaz y cómo se utiliza con el fin de verificar que se cumplen los requerimientos del usuario
 ### 1.2-Disciplinas de la ingeniería de **software**
 1) Identifique los objetivos a tener en cuenta cuando queremos implementar u optar por un servicio
-de ingeniería de software
+	1) Diseñar programas adaptados a las necesidades y exigencias de los clientes 
+	2) Desarrollar, desplegar, implementar y mantener los sistemas 
+	3) Solucionar problemas de programación 
+	4) Estar presente en todas las fases del ciclo de vida de un producto 
+	5) Estimar y contabilizar los costes de un proyecto y evaluar los tiempos de desarrollo 
+	6) Realizar el seguimiento del presupuesto y cumplir los plazos de entrega. 
+	7) Liderar equipos de trabajo de desarrollo de software de ingeniería de software
 2) Nombre las disciplinas de software usadas por un ingeniero de software
+	1) Modelado de negocios 
+	2) Requerimientos 
+	3) Análisis y diseño 
+	4) Pruebas 
+	5) Administración y configuración del cambio
+	6) Administración de proyectos 
+	7) Ambientes 
+	8) Implementación
 3) Qué es un principio?
-4) Nombre los siete principios de la ingeniería de software y analice por qué existe cada principio (el
-para qué o por qué)
+	1) Un principio es una ley importante y es requerida en un sistema de pensamiento.
+4) Nombre los siete principios de la ingeniería de software y analice por qué existe cada principio (el para qué o por qué)
+	1) La razón que exista todo 
+	2) ¿Esto agrega valor real al sistema? - Mantenerlo sencillo - Algo sencillo pero bien codificado hace el sw más fácil de usar y mantener - Mantener la visión - Es importante tener claro a donde se tiene que llegar para dar las pautas necesarias - Otros consumirán lo que usted produce - El código que creamos va a ser leído y mantenido por otras personas, hay que construir el sistema pensando en la audiencia - Abrace el futuro - Tener en cuenta el rápido avance de la tecnología para un sw mantenible en el tiempo - Planee por adelantado la reutilización - Reutilizar código es beneficioso, pero es un gran reto tener un alto nivel de este, por lo que es muy importante la planificación inicial - Pensar - No hay que largarse a trabajar de una sin antes haber pensado cómo se va a trabajar
 5) Defina qué es Clean Code? Qué reduce, evita y qué prioriza?
 6) Cuáles son las buenas prácticas de Codigo Limpio? Describalas brevemente. Piensa en un
 ejemplo.

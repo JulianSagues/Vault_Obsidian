@@ -171,9 +171,41 @@
 	1) Un principio es una ley importante y es requerida en un sistema de pensamiento.
 4) Nombre los siete principios de la ingeniería de software y analice por qué existe cada principio (el para qué o por qué)
 	1) La razón que exista todo 
-	2) ¿Esto agrega valor real al sistema? - Mantenerlo sencillo - Algo sencillo pero bien codificado hace el sw más fácil de usar y mantener - Mantener la visión - Es importante tener claro a donde se tiene que llegar para dar las pautas necesarias - Otros consumirán lo que usted produce - El código que creamos va a ser leído y mantenido por otras personas, hay que construir el sistema pensando en la audiencia - Abrace el futuro - Tener en cuenta el rápido avance de la tecnología para un sw mantenible en el tiempo - Planee por adelantado la reutilización - Reutilizar código es beneficioso, pero es un gran reto tener un alto nivel de este, por lo que es muy importante la planificación inicial - Pensar - No hay que largarse a trabajar de una sin antes haber pensado cómo se va a trabajar
+		1) ¿Esto agrega valor real al sistema?
+	2) Mantenerlo sencillo
+		1) Algo sencillo pero bien codificado hace el sw más fácil de usar y mantener 
+	3) Mantener la visión 
+		1) Es importante tener claro a donde se tiene que llegar para dar las pautas necesarias 
+	4) Otros consumirán lo que usted produce 
+		1) El código que creamos va a ser leído y mantenido por otras personas, hay que construir el sistema pensando en la audiencia 
+	5) Abrace el futuro 
+		1) Tener en cuenta el rápido avance de la tecnología para un sw mantenible en el tiempo 
+	6) Planee por adelantado la reutilización 
+		1) Reutilizar código es beneficioso, pero es un gran reto tener un alto nivel de este, por lo que es muy importante la planificación inicial 
+	7) Pensar
+		1) No hay que largarse a trabajar de una sin antes haber pensado cómo se va a trabajar
 5) Defina qué es Clean Code? Qué reduce, evita y qué prioriza?
-6) Cuáles son las buenas prácticas de Codigo Limpio? Describalas brevemente. Piensa en un
-ejemplo.
+	1) El código limpio o sostenible es aquel que es fácil de entender por un humano y, por lo tanto, fácil de modificar, extender y probar en el tiempo
+	2) Un código limpio evita complejidades innecesarias y se organiza de manera que su propósito sea evidente al leerlo. Esto implica nombrar variables y funciones de forma descriptiva, mantener funciones cortas y enfocadas en una sola tarea, y estructurar el código de manera lógica y coherente.
+	3) Su valor radica en que reduce la probabilidad de errores y facilita la colaboración en proyectos de software. Un código claro y bien organizado es más fácil de modificar, actualizar y depurar, lo que ahorra tiempo y recursos a largo plazo. Además, fomenta la creación de software más robusto y adaptable a cambios futuros.
+6) Cuáles son las buenas prácticas de Codigo Limpio? Describalas brevemente. Piensa en un ejemplo.
+	1) La legibilidad es clave 
+	2) Un código claro y comprensible facilita el mantenimiento y el trabajo en equipo. 
+	3) Usar nombres descriptivos en variables y funciones para que su propósito sea evidente sin comentarios adicionales. 
+	4) Funciones pequeñas y específicas 
+	5) Las funciones deben realizar una sola tarea bien definida para mejorar su reutilización y prueba. 
+	6) Dividir una función compleja en varias funciones más pequeñas con responsabilidades específicas. 
+	7) Nombres significativos 
+	8) Los nombres de variables, funciones y clases deben reflejar su propósito.
+	9) En lugar de XW19, usar cantidadProductosVendidos para mejorar la claridad. 
+	10) Eliminar código muerto 
+	11) Eliminar código innecesario o no utilizado para reducir la complejidad y evitar confusiones. 
+	12) Eliminar funciones obsoletas que ya no se llaman en el sistema.
+	13) Principio de la menor sorpresa 
+	14) El código debe comportarse de manera predecible y seguir convenciones establecidas. 
+	15) Respetar los estándares de nombres y estructuras comunes en el lenguaje de programación utilizado. 
+	16) Modularidad y encapsulamiento 
+	17) Organizar el código en componentes independientes y proteger detalles internos. 
+	18) Crear módulos separados para lógica de negocio y acceso a datos, evitando la dependencia directa. Escribir pruebas Las pruebas unitarias garantizan que el código funciona correctamente y previenen errores. Implementar pruebas automáticas para verificar la funcionalidad de cada componente antes de su despliegue. Refactorización continua Mejorar el código sin alterar su comportamiento externo para mantener la calidad a largo plazo. Simplificar una función compleja eliminando redundancias y mejorando su estructura
 7) Nombre y explique las reglas vinculadas al “Código limpio” (90/90, Navaja de Oakham, YAGNI,
 DRY, ley de Demeter, optimización prematura, etc.)

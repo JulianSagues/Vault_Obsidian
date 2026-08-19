@@ -190,22 +190,73 @@
 	3) Su valor radica en que reduce la probabilidad de errores y facilita la colaboración en proyectos de software. Un código claro y bien organizado es más fácil de modificar, actualizar y depurar, lo que ahorra tiempo y recursos a largo plazo. Además, fomenta la creación de software más robusto y adaptable a cambios futuros.
 6) Cuáles son las buenas prácticas de Codigo Limpio? Describalas brevemente. Piensa en un ejemplo.
 	1) La legibilidad es clave 
-	2) Un código claro y comprensible facilita el mantenimiento y el trabajo en equipo. 
-	3) Usar nombres descriptivos en variables y funciones para que su propósito sea evidente sin comentarios adicionales. 
-	4) Funciones pequeñas y específicas 
-	5) Las funciones deben realizar una sola tarea bien definida para mejorar su reutilización y prueba. 
-	6) Dividir una función compleja en varias funciones más pequeñas con responsabilidades específicas. 
-	7) Nombres significativos 
-	8) Los nombres de variables, funciones y clases deben reflejar su propósito.
-	9) En lugar de XW19, usar cantidadProductosVendidos para mejorar la claridad. 
-	10) Eliminar código muerto 
-	11) Eliminar código innecesario o no utilizado para reducir la complejidad y evitar confusiones. 
-	12) Eliminar funciones obsoletas que ya no se llaman en el sistema.
-	13) Principio de la menor sorpresa 
-	14) El código debe comportarse de manera predecible y seguir convenciones establecidas. 
-	15) Respetar los estándares de nombres y estructuras comunes en el lenguaje de programación utilizado. 
-	16) Modularidad y encapsulamiento 
-	17) Organizar el código en componentes independientes y proteger detalles internos. 
-	18) Crear módulos separados para lógica de negocio y acceso a datos, evitando la dependencia directa. Escribir pruebas Las pruebas unitarias garantizan que el código funciona correctamente y previenen errores. Implementar pruebas automáticas para verificar la funcionalidad de cada componente antes de su despliegue. Refactorización continua Mejorar el código sin alterar su comportamiento externo para mantener la calidad a largo plazo. Simplificar una función compleja eliminando redundancias y mejorando su estructura
-7) Nombre y explique las reglas vinculadas al “Código limpio” (90/90, Navaja de Oakham, YAGNI,
-DRY, ley de Demeter, optimización prematura, etc.)
+		1) Un código claro y comprensible facilita el mantenimiento y el trabajo en equipo. 
+		2) Usar nombres descriptivos en variables y funciones para que su propósito sea evidente sin comentarios adicionales. 
+	3) Funciones pequeñas y específicas 
+		1) Las funciones deben realizar una sola tarea bien definida para mejorar su reutilización y prueba. 
+		2) Dividir una función compleja en varias funciones más pequeñas con responsabilidades específicas. 
+	4) Nombres significativos 
+		1) Los nombres de variables, funciones y clases deben reflejar su propósito.
+		2) En lugar de XW19, usar cantidadProductosVendidos para mejorar la claridad. 
+	5) Eliminar código muerto 
+		1) Eliminar código innecesario o no utilizado para reducir la complejidad y evitar confusiones. 
+		2) Eliminar funciones obsoletas que ya no se llaman en el sistema.
+	6) Principio de la menor sorpresa 
+		1) El código debe comportarse de manera predecible y seguir convenciones establecidas. 
+		2) Respetar los estándares de nombres y estructuras comunes en el lenguaje de programación utilizado. 
+	7) Modularidad y encapsulamiento 
+		1) Organizar el código en componentes independientes y proteger detalles internos. 
+		2) Crear módulos separados para lógica de negocio y acceso a datos, evitando la dependencia directa. 
+	8) Escribir pruebas 
+		1) Las pruebas unitarias garantizan que el código funciona correctamente y previenen errores. 
+		2) Implementar pruebas automáticas para verificar la funcionalidad de cada componente antes de su despliegue. 
+	9) Refactorización continua 
+		1) Mejorar el código sin alterar su comportamiento externo para mantener la calidad a largo plazo. 
+		2) Simplificar una función compleja eliminando redundancias y mejorando su estructura
+7) Nombre y explique las reglas vinculadas al “Código limpio” (90/90, Navaja de Oakham, YAGNI, DRY, ley de Demeter, optimización prematura, etc.)
+	1) Reglas vinculadas al código limpio: 
+		1) Regla del noventa-noventa 90/90: 
+			1) El primer 90% del código ocupa el 90% del tiempo de desarrollo, el 10% restante ocupa otro 90% de tiempo de desarrollo 
+			2) Esto quiere decir que no hay que subestimar el ultimo 10% ya que puede ser extremadamente laborioso y consumir tanto tiempo como el primer 90% 
+		2) La navaja de Oakham 
+			1) Las entidades no deben multiplicarse sin necesidad 
+			2) Siempre es importante pensar primero en los beneficios de añadir otro método/clase/herramienta/proceso 
+		3) No lo vas a necesitas YAGNI
+			1) Implementar solo lo que necesitamos, y más tarde, si es necesario, extendemos una funcionalidad o creamos una nueva 
+		4) Diseño grande por adelantado
+			1) No empezar a desarrollar una funcionalidad sin primero pensar en la arquitectura de la aplicación y diseñar todo el sistema hasta detalles 
+		5) No te repitas DRY
+			1) No repetir lo mismo en diferentes lugares 
+			2) Reutilización de código 
+		6) Evitar la optimización prematura 
+			1) No llevar a cabo la optimización en las primeras etapas del desarrollo, puede hacer más daño que bien 
+	2) Principio del menor asombro 
+		1) El código debe ser intuitivo y obvio, no intentar sorprender a otro desarrollador cuando revise el código
+		2) Evitar los efectos secundarios, y si no se puede, documentarlos.
+	3) Ley de Demeter
+		1) Dividir las áreas de responsabilidad entre las clases y encapsular la lógica dentro de una clase, método o estructura. 
+		2) Aplicando esto, la aplicación se vuelve más flexible, comprensible y fácil de mantener
+8) Explique en que consiste SOLID, cuáles son y para qué sirven estos principios. Arme un cuadro de Clean Code y SOLID, indicando: definción, que aseguran, que cuida (marco), objetivo central, alcance y beneficios.
+	1) La aplicación de los principios SOLID está muy relacionada con la comprensión y el uso de patrones de diseño, que nos permitirán mantener una alta cohesión y un bajo acoplamiento de sw. Se debe: 
+		1) Crear un sw eficaz 
+		2) Escribir código limpio y flexible a cambios 
+		3) Permitir escalabilidad
+	2) ![[Preguntas parcial 1-1.png]]
+9) En qué ayudan las buenas prácticas?
+	1) Cuando se aplican juntos, estos principios ayudan a un desarrollador a crear un código que es fácil de mantener y extender en el tiempo. 
+	2) Las buenas prácticas que pueden ayudar a escribir un mejor código: más limpio, mantenible y escalable
+10) Defina el Espaguetti Code. Dé ejemplo de porqué está escrito mal el código
+11) Nombre las características comunes del Código espagueti
+12) Nombre/identifique soluciones o estrategias comprobadas para prevenir y corregir el código
+espagueti:
+13) Por qué es complejo el software? Mencione los motivos
+14) Qué se puede proponer para mejorar el desarrollo de software?
+15) En que consiste el Desarrollo Distribuido o Global de Sw (DGS)? Qué escenarios puede tener?
+(ver cuadro)
+16) Nombra por lo menos 3 desafíos del Desarrollo Global de Sw
+17) Cuáles son las características más importantes donde hay trabajo remoto…
+18) Qué es el outsourcing y porqué se recurre a él? Cuál es el punto clave?
+19) Cuáles son los dos tipos diferentes de outsourcing?
+20) Indique de qué se tratan los modelos de delivery global (Ver cuadro comparativo, su término, tener
+en cuenta la descripción y ubicación geográfica)
+21) Cuáles son actualmente los Modelos de Outosurcing de proyectos IT?

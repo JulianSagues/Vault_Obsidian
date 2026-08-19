@@ -26,15 +26,58 @@
 4) Defina: Ingeniería de software
 	1) Es una disciplina que comprende todos los aspectos de la producción de sw, desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza.
 5) Indique cuál es el objetivo de la ingeniería de software mediante un proceso.
+	1)  el objetivo de la ingeniería de software es lograr productos de software de calidad (tanto en su forma final como durante su elaboración), mediante un proceso apoyado por métodos y herramientas.
 6) Cuáles son las diferencias entre ingeniería de sistemas, la de software y la de componentes?
+	1) La Ingeniería en Sistemas se involucran en las especificaciones del sistema, diseño, definición de su arquitectura, desarrollo , implementación y en la integración para crear el sistema de información final. Se enfoca en la gestión de la información.
+	2) La Ingeniería de Software se centra en el desarrollo de software, desde la definición de los requerimientos hasta su mantenimiento.
+	3) La Ingeniería de Componentes es una metodología dentro de la Ingeniería de Software que se basa en la creación y reutilización de componentes de software independientes.
 7) Cuál es el objetivo de la Ing. De Software basado en la Tecnología multicapa? Y cuál es el fundamento de la ingeniería de software?
+	1) El fundamento de la ingeniería de sw es la capa de proceso 
+	2) Este proceso define un marco de trabajo para un conjunto de áreas clave 
+	3) Desde lo anterior, el objetivo de la ingeniería de sw es lograr productos de sw de calidad, tanto es su forma final como en su elaboración, mediante un proceso apoyado por métodos y herramientas
 8) Cuales problemas se identifican en los requerimientos?
+	1) Los usuarios no saben lo que quieren
+	2) Un sistema tiene muchos usuarios y ninguno tiene una visión de conjunto
+	3) No saben cómo hacer más eficiente la operación en su conjunto
+	4) No saben qué aportes de su trabajo pueden transformarse en sw
+	5) No saben detallar lo que saben de forma precisa
 9) Cuáles son las leyes & Lemas de los requerimientos y que indican?
+	1) Ley de Ziv
+		1) Los requisitos nunca se entienden completamente
+	2) Ley de Humphrey
+		1) Los usuarios no saben realmente el sw que quieren hasta que lo ven funcionando
+	3) Lema de Wegner
+		1) Un sistema interactivo nunca puede ser ni especificado ni testeado por completo
 10) Qué tipos de requerimientos hay según la función de calidad e indique como se ligan con satisfacción del cliente
+	1) Requerimientos normales
+		1) Ligado con la satisfacción, si estos requerimientos están presentes, el cliente queda satisfecho
+	2) Requerimientos esperados
+		1) Su ausencia es motivo de insatisfacción, pueden no estar declarados explícitamente
+	3) Requerimientos emocionantes o innovadores
+		1) Suelen ser muy satisfactores, va más allá de las expectativas del cliente
 11) Nombre qué técnicas de validación de requerimientos pueden usarse
+	1) Revisiones de requerimientos 
+		1) Los requerimientos son analizados sistemáticamente por un equipo de revisores 
+	2) Construcción de prototipos 
+		1) Se muestra un modelo ejecutable del sistema a los usuarios finales y a los clientes 
+	3) Generación de casos de prueba 
+		1) Los requerimientos deben poder probarse, si las pruebas son parte del proceso de validación, se pueden revelar problemas en los requerimientos. 
+	4) Análisis de consistencia automática 
+		1) Si los requerimientos se expresan como un modelo del sistema en una notación estructurada o formal, para poder hallar inconsistencias.
 12) Qué son los requerimientos funcionales, no funcionales y los del dominio? Qué son las restricciones del diseño? (ver cuadro)
+	1) Requerimientos funcionales 
+		1) Definen funciones del sistema que será capaz de realizar 
+	2) Requerimientos no funcionales
+		1) Son restricciones o limitaciones de los servicios o funciones ofrecidos por el sistema 
+	3) Requerimientos del dominio 
+		1) Provienen del dominio de aplicación del sistema y reflejan las características de ese dominio. Pueden ser funcionales o no funcionales 
+	4) Restricciones del Diseño 
+		1) Son condicionantes existentes para el diseño, sin anticiparlo. Son todos aquellos factores externos o del entorno a los que debe adaptarse el sistema, es decir, son requerimientos adicionales (compatibilidades, seguridad, plazos de tiempo y dinero, normas, estándares, etc.).
 13) Cuadro de incumplimiento en los requerimientos funcionales y No funcionales: explíquelo
+	1) ![[Preguntas parcial 1.png]]
+	2) Los requisitos funcionales especifican qué funciones debe tener un sistema, si estos no se completan, se le quitarán funcionalidades a este, por tanto el sistema será degradado. Los requisitos no funcionales plantean restricciones o limitaciones de las funciones,si estos no se cumplen el sistema será inútil
 14) En qué se diferencian los “requisitos de usuario” DRU de los “requisitos del software” ERS?
+	1) La principal diferencia entre la DRU y la ERS es que en DRU se emplea lenguaje natural mientras que la ERS emplea modelos o notaciones formales. La diferencia radica en el nivel de detalles de ambos documentos
 15) Tipos de requerimientos según la función de calidad: definición, satisfacción del cliente, ejemplos
 16) Que debe especificar un proceso de Ingeniería de software?
 17) Nombre 5 características de los productos de sw

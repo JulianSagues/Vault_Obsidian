@@ -379,8 +379,12 @@
 		1) Permite el desarrollo incremental y el crecimiento adaptativo de la programación
 ### **Unidad 2.2: Scrum: ceremonias, roles y artefactos**
 1) Nombre cuáles son los valores o principios que son base de toda la actividad en Scrum (ver gráfica)
+	1) ![[Preguntas parcial 1-6.png]]
 2) Explique el framework Scrum identificando: roles, compromisos/ceremonias/eventos, artefactos y como es su flujo/proceso. Identifique cada uno de ellos ( usar el resumen)
+	1) ![[Preguntas parcial 1-7.png]]
+	2) ![[Preguntas parcial 1-8.png]]
 3) Qué es un MVP?
+	1) MVP se refiere al producto mínimo viable (en inglés, “minimum viable product”), o sea, un producto con las características esenciales para satisfacer a los clientes.
 4) Según la gráfica: qué comprende un “Sprint cero”?
 5) Los roles scrum que buscan? (gráfica con tres círculos donde buscan el balance)
 6) 69) Qué es la deuda técnica? De 3 ejemplos de las formas.

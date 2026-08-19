@@ -246,15 +246,65 @@
 	1) Cuando se aplican juntos, estos principios ayudan a un desarrollador a crear un código que es fácil de mantener y extender en el tiempo. 
 	2) Las buenas prácticas que pueden ayudar a escribir un mejor código: más limpio, mantenible y escalable
 10) Defina el Espaguetti Code. Dé ejemplo de porqué está escrito mal el código
+	1) El código espagueti se refiere a una estructura de código desorganizada y difícil de seguir, donde la lógica se retuerce de forma impredecible, lo que dificulta su comprensión y mantenimiento.
+	2) No está asociado a un lenguaje o entorno en particular, el problema es “COMO ESTÁ ESCRITO EL CODIGO”, surgido de una o más situaciones como por ejemplo:
+		1) Desarrollo rápido o bajo presión, improvisando y sacrifican la calidad del código por la velocidad, llevando a soluciones rápidas y hacks (soluciones rápidas y sucias). 
+		2) Falta de experiencia, diseñando código no escalable ni adaptable. 
+		3) Añadir nuevas funciones sin refactorizar, puede generar dependencias complejas y una lógica difícil de gestionar. 
+		4) Falta de planificación, codificar sin haber pensado en la arquitectura ni diseño. 
+		5) Mala comunicación en los equipos, la falta de comunicación o de prácticas de codificación estandarizadas, puede resultar en bases de código inconsistentes y desordenadas. 
+		6) Legacy Code o Código Heredado: el código se escribió para abordar algún caso excepcional que no se conocía durante el diseño/desarrollo original.
 11) Nombre las características comunes del Código espagueti
-12) Nombre/identifique soluciones o estrategias comprobadas para prevenir y corregir el código
-espagueti:
+	1) Funciones largas y monolíticas
+	2) Falta de control
+	3) Lógica duplicada
+	4) Exceso de variables globales
+12) Nombre/identifique soluciones o estrategias comprobadas para prevenir y corregir el código espagueti:
+	1) Estrategias comprobadas para prevenir y corregir el código espagueti:
+		1) Seguir las mejores prácticas
+			1) Adoptar estándares y directrices de codificación (Ej. PHP: PSR, Java: Java Code Conventions) 
+			2) Utilizar convenciones de: Nomenclatura (Ej. En Java: clases en PascalCase, métodos y variables en camelCase), Indentación (4 espacios), Comentarios (Ej: Java: usar Javadoc /…*/, en .Net: /// para XML ), Componentes (Ej. En ReactJS: uso de funciones en lugar de clases), 
+		3) Aprovechar patrones establecidos 
+			1) Usar MVC, Singleton o Factory para estructurar el código de forma lógica. 
+		4) Refactorizar periódicamente 
+			1) Para limpiar, clarificar, estructurar, simplificar y eliminar la lógica redundante, sin cambiar su funcionalidad.
+		5) Utilizar el control de versiones 
+			1) Para garantizan el seguimiento de los cambios, lo que facilita la reversión a un estado limpio. 
+		6) Priorizar las revisiones de código 
+			1) Las revisiones por pares ayudan a identificar y solucionar posibles problemas de forma temprana, mejorando la calidad general del código. 
+		7) Aprovechar la programación modular 
+			1) Dividir el código en módulos pequeños, reutilizables e independientes para mejorar la legibilidad y el mantenimiento. 
+		8) Invertir en capacitación 
+			1) Capacitar a tu equipo sobre las mejores prácticas, los principios de diseño y la importancia de una codificación limpia.
 13) Por qué es complejo el software? Mencione los motivos
+	1) ¨La complejidad del SW es una propiedad esencial y no accidental¨ 
+		1) Complejidad accidental: Se debe a la manera en que intentamos solucionar el problema 
+		2) Complejidad esencial: Es inherente al problema en sí mismo
 14) Qué se puede proponer para mejorar el desarrollo de software?
-15) En que consiste el Desarrollo Distribuido o Global de Sw (DGS)? Qué escenarios puede tener?
-(ver cuadro)
+	1) Aplicar métodos, técnicas y herramientas de desarrollo 
+	2) Adoptar estándares de desarrollo
+	3) Utilizar la experiencia acumulada 
+	4) Documentación 
+	5) Aplicar estándares, lecciones aprendidas y buenas prácticas
+15) En que consiste el Desarrollo Distribuido o Global de Sw (DGS)? Qué escenarios puede tener? (ver cuadro)
+	1) El desarrollo distribuido de Sw se da cuando los stakeholders del proyecto se encuentran distribuidos entre varios sitios remotos. Este se da con sub equipos y equipos en lugares geográficos distintos, haciendo uso de las tecnologías de comunicación 
+	2) El modelo del global delivery hace referencia a realizar el delivery en procesos de negocio. Se basa en una estrategia horaria, contando con oficinas a lo largo del planeta para dar soporte o estar funcionando las 24 horas. Esto se consigue gracias al bajo costo de las comunicaciones y teniendo los modelos bajo el mismo gerenciamiento y usando los mismos procesos. 
+	3) Escenarios: 
+		1) Mismo lugar 
+		2) Mismo país 
+		3) Otro país
 16) Nombra por lo menos 3 desafíos del Desarrollo Global de Sw
+	1) Diferencias culturales y prácticas de negocio del cliente 
+	2) Participación apropiada de usuarios y personal de campo 
+	3) Conciencia de trabajo local y comunicación informal 
+	4) Relación de confianza laboral 
+	5) Gestión de conflictos y discusiones abiertas de interés 
+	6) Entendimiento común de los requisitos 
+	7) Reuniones efectivas 
+	8) Demoras
 17) Cuáles son las características más importantes donde hay trabajo remoto…
+	1) Dispersión geográfica, cultural y escala de valores 
+	2) Diferentes culturas de empresas, husos horarios, idiomas, procesos de trabajo, entendimiento de roles, formas de trabajo, experiencias, visiones del producto/servicio, etc.
 18) Qué es el outsourcing y porqué se recurre a él? Cuál es el punto clave?
 19) Cuáles son los dos tipos diferentes de outsourcing?
 20) Indique de qué se tratan los modelos de delivery global (Ver cuadro comparativo, su término, tener

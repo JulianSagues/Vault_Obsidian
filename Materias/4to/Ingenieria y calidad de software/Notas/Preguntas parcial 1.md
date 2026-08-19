@@ -386,10 +386,22 @@
 3) Qué es un MVP?
 	1) MVP se refiere al producto mínimo viable (en inglés, “minimum viable product”), o sea, un producto con las características esenciales para satisfacer a los clientes.
 4) Según la gráfica: qué comprende un “Sprint cero”?
+	1) ![[Preguntas parcial 1-9.png]]
 5) Los roles scrum que buscan? (gráfica con tres círculos donde buscan el balance)
-6) 69) Qué es la deuda técnica? De 3 ejemplos de las formas.
+	1) Product owner, busca que se haga lo correcto, prioriza por valor el backlog 
+	2) Scrum Master, vela por el proceso, que se haga rápido, elimina impedimentos S
+	3) crum Team, Planifican y convierten el sprint backlog en el incremento de valor. Hace bien lo pedido, con calidad y buenas prácticas. Que no haya deuda técnica
+6) Qué es la deuda técnica? De 3 ejemplos de las formas.
+	1) Es la suma de todas las cosas que no hemos hecho anteriormente y que había que haber hecho para tener un software decente y de calidad. Es el costo del trabajo adicional causado por la elección de la solución más rápida en lugar de la más efectiva. Ejemplos: Definición inicial del proyecto insuficiente, lógica de negocios que no debe estar, algoritmos y funciones difíciles de leer y entender, falta de unit tests bugs no resueltos env arios sprints
 7) Qué tipos de deuda técnica hay (S.McConnell)?
+	1) Intencional: Surge de una decisión consciente de optimizar el presente en lugar del futuro 
+	2) No Intencional: Ocurre cuando se comete un error inevitable
+	3) Se puede gestionar de dos maneras: 
+		1) Mantener una lista de deudas dentro de un sistema de seguimiento 
+		2) Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum
 8) De qué forma un líder puede gestionar la deuda técnica?
+	1) Mantener una lista de deudas dentro de un sistema de seguimiento: Cada vez que contraigas una deuda, ingresa las tareas necesarias para saldar esa deuda en tu sistema de seguimiento junto con un esfuerzo y cronograma estimados. Usa el backlog de la deuda para hacer un seguimiento del progreso de tu deuda técnica. Cualquier deuda no resuelta de más de 90 días debe considerarse crítica. 
+	2) Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum: Trata cada deuda como una US de Scrum y estima el esfuerzo y el cronograma para saldar cada deuda al igual que las otras US
 9) Cuáles son las metas de un equipo auto-organizado?
 10) Cuáles objetivos se agregan en Scrum 2020?
 11) Ver el objetivo y responsabilidades de los roles (cuadro)

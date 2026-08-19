@@ -306,7 +306,24 @@
 	1) Dispersión geográfica, cultural y escala de valores 
 	2) Diferentes culturas de empresas, husos horarios, idiomas, procesos de trabajo, entendimiento de roles, formas de trabajo, experiencias, visiones del producto/servicio, etc.
 18) Qué es el outsourcing y porqué se recurre a él? Cuál es el punto clave?
+	1) Es un sistema de contratación en el que una empresa recurre a otra para realizar tareas especializadas. La organización confía la ejecución de ciertas actividades a proveedores estrenos que son expertos en su campo
 19) Cuáles son los dos tipos diferentes de outsourcing?
-20) Indique de qué se tratan los modelos de delivery global (Ver cuadro comparativo, su término, tener
-en cuenta la descripción y ubicación geográfica)
+	1) Total: 
+		1) Se transfieren las infraestructuras y el personal al proveedor y se hace cargo de todas las fases de implementación y asume el riesgo de la propiedad de los recursos
+	2) Selectivo: 
+		1) Con este tipo se permite al cliente cubrir ciertas necesidades minimizando riesgos respecto al outsourcing total.
+20) Indique de qué se tratan los modelos de delivery global (Ver cuadro comparativo, su término, tener en cuenta la descripción y ubicación geográfica)
+	1) ONSITE 
+		1) Se trabaja físicamente en las instalaciones del cliente
+	2) ONSHORE 
+		1) El trabajo se subcontrata a empresas dentro del mismo país
+	3) OFFSHORE 
+		1) El trabajo se envía a empresas en otros países, generalmente con costos laborales menores 
+	4) NEARSHORE 
+		1) Se subcontrata a países vecinos o con zonas horarias similares 
+	5) OFFSITE 
+		1) El personal trabaja fuera de las instalaciones del cliente, puede ser dentro o fuera del país 
+	6) HÍBRIDO 
+		1) Combina onshore y offshore
 21) Cuáles son actualmente los Modelos de Outosurcing de proyectos IT?
+	1) ![[Preguntas parcial 1-2.png]]

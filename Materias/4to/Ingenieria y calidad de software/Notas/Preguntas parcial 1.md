@@ -125,7 +125,39 @@
 22) Cuándo se considera la usabilidad?
 	1) Independientemente del método de desarrollo del sistema, debe considerarse a lo largo de todo el proyecto, para así no hacer cambios drásticos en etapas futuras del sistema
 23) Cuales son las ventajas de las GUI? (Somerville págs. 327 a 347)
+	1) Son relativamente fáciles de aprender y utilizar: los usuarios que no tienen experiencia previa en computación pueden aprender a usar la interfaz tras una breve sesión de capacitación.  
+	2) Permiten trabajar con pantallas múltiples (ventanas): el usuario puede pasar de una tarea a otra sin perder de vista la información generada durante la primera actividad. 
+	3) Acceso rápido e interacción inmediata: es posible interactuar con rapidez y acceder de manera directa a cualquier punto de la pantalla.
 24) Nombre los principios de diseño de interfaces usuarias (Somerville)
+	1) Familiaridad del usuario: La interfaz debe utilizar términos y conceptos tomados de la experiencia de las personas que más utilizan el sistema.  
+	2) Consistencia: Siempre que sea posible, la interfaz debe ser consistente; es decir, las operaciones comparables se activan de la misma forma.  
+	3) Mínima sorpresa: El comportamiento del sistema no debe provocar sorpresas a los usuarios (acciones comparables deben tener efectos comparables).  
+	4) Recuperabilidad (o Recuperación): La interfaz debe incluir mecanismos para permitir a los usuarios recuperarse de los errores (por ejemplo, confirmación de acciones destructivas o función para deshacer).  
+	5) Guía al usuario (o Asistencia al usuario): Cuando ocurren errores, la interfaz debe proveer retroalimentación significativa y características de ayuda sensible al contexto.  
+	6) Diversidad de usuarios: La interfaz debe proveer características de interacción apropiadas para los diferentes tipos de usuarios del sistema (desde novatos hasta expertos, e incluso contemplando discapacidades).
 25) Cuales son los 5 estilos primarios de interaccion con el usuario según Shneiderman? (Somerville)
+	1) Manipulación directa: El usuario interactúa con objetos en la pantalla 
+	2) Selección de menús: El usuario selecciona un comando preestablecido
+	3) Rellenado de formularios: El usuario completa un formulario
+	4) Lenguaje de comandos: El usuario utiliza comandos especiales y parámetros 
+	5) Lenguaje natural: El usuario se comunica naturalmente
 26) Cuales son los 5 lineamientos claves para la utilización efectiva del color en las interfaces de usuario? (Somerville)
+	1) Limitar el número de colores y respetar aquellos colores ya definidos
+	2) Utilizar colores diferentes para denotar cambios de estado 
+	3) Utilizar colores para apoyar la tarea del usuario 
+	4) Utilizar colores de forma consistente y uniforme 
+	5) Elegir cuidadosamente los pares de colores
 27) En que consiste la evaluación de la interfaz? Que comprende? (Somerville)
+	1) Proceso en el cual se pone a prueba el rendimiento de la interfaz y cómo se utiliza con el fin de verificar que se cumplen los requerimientos del usuario
+### 1.2-Disciplinas de la ingeniería de **software**
+1) Identifique los objetivos a tener en cuenta cuando queremos implementar u optar por un servicio
+de ingeniería de software
+2) Nombre las disciplinas de software usadas por un ingeniero de software
+3) Qué es un principio?
+4) Nombre los siete principios de la ingeniería de software y analice por qué existe cada principio (el
+para qué o por qué)
+5) Defina qué es Clean Code? Qué reduce, evita y qué prioriza?
+6) Cuáles son las buenas prácticas de Codigo Limpio? Describalas brevemente. Piensa en un
+ejemplo.
+7) Nombre y explique las reglas vinculadas al “Código limpio” (90/90, Navaja de Oakham, YAGNI,
+DRY, ley de Demeter, optimización prematura, etc.)

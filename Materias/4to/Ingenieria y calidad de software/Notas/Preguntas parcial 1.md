@@ -327,3 +327,92 @@
 		1) Combina onshore y offshore
 21) Cuáles son actualmente los Modelos de Outosurcing de proyectos IT?
 	1) ![[Preguntas parcial 1-2.png]]
+### **Unidad 2.1: Introducción a la gestión ágil de proyectos de desarrollo de software**
+1) Defina qué es agilidad? Qué colaboración requiere la agilidad?
+	1) Es la habilidad de responder de forma versátil al cambio para maximizar los benficios. Se requiere de la colaboración interna del equipo y externa del cliente.
+2) Por qué razones surge agil?
+	1) Las metodologías ágiles surgen como una extensión a las metodologías tradicionales para mejorar el desarrollo de sistemas, según el tipo de proyecto y empresa, añadiendo y mejorando (optimizando) las practicas de desarrollo de empresa.
+3) Manifiesto por el desarrollo ágil de SW: nombre sus valores ágiles (valores ágiles sobre tradicionales)
+	1) Individuos e interacciones sobre Procesos y Herramientas
+	2) Software funcionando sobre Documentación exhaustiva 
+	3) Colaboración con el Cliente sobre Negociación de cambios
+	4) Respuesta ante el cambio sobre seguimiento de un plan
+4) Dentro de los principios del Manifiesto Agil, explique el concepto de feedback en ágil (Principios nros.1 y 6)
+5) Dentro del principio nro 9, cuál es la formula para mejorar la agilidad?
+6) Cuáles son sus elementos claves?
+7) Cuáles son sus elementos claves?
+8) Cuadro comparativo entre Gestión Tradicional vs Agil
+9) Agil vs. Tradicional: cuándo es bueno elegir cada uno?
+10) Cuáles son las premisas de Gestión Agil y Tradicional. Indique cual es predictiva y cual adaptativa.
+11) Explique la conversión del triángulo de restricciones de Tradicional a Ágil (armar gráfica)
+12) Qué implicaciones tiene pasar de organizaciones tradicionales a ágiles
+13) Cómo elegimos un framework?
+14) Qué tipo de modelo es Scrum?
+15) Defina: empowerment y feedback constante
+### **Unidad 2.2: Scrum: ceremonias, roles y artefactos**
+1) Nombre cuáles son los valores o principios que son base de toda la actividad en Scrum (ver gráfica)
+2) Explique el framework Scrum identificando: roles, compromisos/ceremonias/eventos, artefactos y como es su flujo/proceso. Identifique cada uno de ellos ( usar el resumen)
+3) Qué es un MVP?
+4) Según la gráfica: qué comprende un “Sprint cero”?
+5) Los roles scrum que buscan? (gráfica con tres círculos donde buscan el balance)
+6) 69) Qué es la deuda técnica? De 3 ejemplos de las formas.
+7) Qué tipos de deuda técnica hay (S.McConnell)?
+8) De qué forma un líder puede gestionar la deuda técnica?
+9) Cuáles son las metas de un equipo auto-organizado?
+10) Cuáles objetivos se agregan en Scrum 2020?
+11) Ver el objetivo y responsabilidades de los roles (cuadro)
+12) En Scrum nombre los resultado si mantenemos los valores en cada persona que trabaja en el equipo que desarrolla el proyecto? (reviews, backlog saneado, equipo de alto rendimiento, etc.)
+13) Explique las características de un equipo agil (auto-organizado, autónomo, multidisciplinario, cross funcional, autogestionado o empowerment, autogestionado.)
+14) Scrum: cuadro de Eventos, nombre y explique cada evento o ceremonia y sus objetivos (reutilizar para la preguntas que siguen)
+15) Defina qué es un Sprint y cuánto puede durar
+16) Indique la definición de backlog
+17) Indique cómo se puede trabajar en la ejecución de un Sprint (push y pull)
+18) Qué preguntas se responden dentro de la Sprint Planning? (gráfica de qué y cómo)
+19) Cómo hacemos un Sprint Planning? Ver las gráficas: de 3 pasos(objetivos, Sprint backlog y Plan) y la de los roles (PO, equipo y SM)
+20) Que debe hacer el Scrum Master para que no haya bloqueos
+21) Cuál es el único compromiso que asume el equipo?
+22) Qué preguntas se responden en una Daily, en qué se centra su dirección y cuál es su propósito?
+23) Para qué sirve una Sprint Review o demo?
+24) Qué es una agenda o guión de una Review?
+25) Qué es una retrospectiva? Cuál es su propósito?
+26) Defina una User Story y qué representa. Cómo es su estructura? Cuál es la jerarquía que tiene en un backlog? Indique qué es una Epica y un Storyboard (PRACTICA)
+27) Explique en que consiste INVEST (PRACTICA)
+28) Explique las técnicas usadas para priorizar las US (MoSCoW, pares, Kano y 100 puntos) PRACTICA
+29) Explique las dependencias entre US - PRACTICA
+30) Explique que son los criterios de aceptación y sus formatos/Gherkin (PRACTICA)
+31) Explique cual es el método para medir la calidad de un criterio de aceptación (SMART)(PRACTICA)
+32) Indique cuales son las reglas de escritura para los criterios de aceptación(PRACTICA)
+33) Explique en que consiste el user story mapping. De qué se compone le mapa? (PRACTICA)
+34) Que representan los Story Points? Sobre que tratan?
+35) Cómo sabes como vamos al estimar?
+36) Qué no hay que hacer en Scrum?
+37) Defina Scrum. Qué permite y porqué se dice que es un framework (ppts más adelante)
+38) Cuál es la función de los artefactos en Scrum? Y cuál es el compromiso que contienen?
+39) Defina cada uno de los artefactos.
+40) Time-box: definición, propósitos, aplicaciones/ejemplos y riesgos
+41) Compara la definicion y flexibilidad del time-box en Agil, los deadlines tradicionales y un cronograma de Gantt
+42) Defina el refinamiento
+43) Que formas hay de estimar? (cuadro)
+44) Que es el refinamiento?
+45) Qué es y que diferencia hay entre un PBI y una UCuales son los items del PBI?
+46) Qué es el Slicing? Cómo se hace?
+47) Defina los criterios de aceptación vs DoD vs DoR
+### **2.3-Desarrollo y Métricas Agiles**
+1) Cómo se eligen las métricas en un proyecto ágil?
+2) En Kanban, que significa WIP y que se mide?
+3) Qué es XP?
+4) Qué responsabilidades tiene un arquitecto?
+5) Completar: Los arquitectos deben identificar e involucrar activamente a los interesados de modo de….
+6) Cuáles son las tres etapas del proceso de arquitectura de software?
+7) Qué cuestionamientos se deben hacer para precisar el funcionamiento final del sw?
+8) Nombre ejemplos de con qué trabaja un arquitecto (ver gráfica de colores)
+9) Nombre las responsabilidades que posee un Arquitecto de software
+10) Nombre las funciones de un Arquitecto de software. Cuál es la fundamental del rol?
+11) Según el tamaño de un sistema, que tipos de arquitectos especializados pueden intervenir? ¿Cuál es su especialización?
+12) Qué plantean y para qué sirven las métricas?
+13) Cómo se calcula el avance de un “proyecto” ágil?
+14) Cuáles son las métricas agiles principales y su definición
+15) Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?
+16) Describa las tres magnitudes que miden la gestión de proyectos agiles
+17) Explique en qué consiste y qué mide: velocidad, velocidad absoluta y relativa, trabajo, tiempo, tiempo real e ideal, tiempo teórico o de tarea, trabajo ya realizado, trabajo pendiente de realizar, unidades de trabajo y puntos de función.
+18) En qué consisten las métricas: Lead Time y Cycle time

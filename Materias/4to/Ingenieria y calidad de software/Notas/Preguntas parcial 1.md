@@ -449,27 +449,52 @@
 	4) No existen sub-equipos: En el equipo de desarrollo
 	5) Están comprometidos: Con lograr el objetivo del Sprint y entregar un incremento de alta calidad
 14) Scrum: cuadro de Eventos, nombre y explique cada evento o ceremonia y sus objetivos (reutilizar para la preguntas que siguen)
+	1) ![[Preguntas parcial 1-11.png]]
+	2) ![[Pasted image 20260820095548.png]]
 15) Defina qué es un Sprint y cuánto puede durar
+	1) Es el periodo de tiempo durante el que se desarrolla un incremento de funcionalidad. Un sprint dura menos de 30 dias
 16) Indique la definición de backlog
+	1) Listado con los requisitos del sistema, donde se indica: contenido, priorización y disponibilidad.
 17) Indique cómo se puede trabajar en la ejecución de un Sprint (push y pull)
+	1) Se puede trabajar de varias formas: 
+		1) se autoasigna a las tareas (notar que en una tarea puede haber más de una persona para aumentar su calidad, para aprender entre pares, etc.) o se asignan en el desarrollo según capacidades/skills o roles en algunos casos, o disponibilidades.
+	2) Cuando se planifica, se hace PUSH porque se empujan todo el trabajo que es capaz de desarrollar.
+	3) Cuando el desarrollador se sienta con el tester o QA, y lo acompaña a resolver los problemas, esperando la validación se hace PULL, ya que vamos marcando el ritmo según la capacidad del tester de validar los desarrollos
 18) Qué preguntas se responden dentro de la Sprint Planning? (gráfica de qué y cómo)
+	1) ![[Pasted image 20260820095822.png]]
 19) Cómo hacemos un Sprint Planning? Ver las gráficas: de 3 pasos(objetivos, Sprint backlog y Plan) y la de los roles (PO, equipo y SM)
+	1) ![[Pasted image 20260820095859.png]]
 20) Que debe hacer el Scrum Master para que no haya bloqueos
+	1) El Scrun Master debe trabajar con el Equipo y asegurarse que: 
+		1) Si hay un trabajo pendiente que esté bien preparado con sus prioridades y dependencias en orden. Esto puede ser un gran desafío que podría descarrilar el proceso si no se administra adecuadamente. 
+		2) Haya una buena comprensión de la velocidad y capacidad del equipo, tal que refleje licencias, vacaciones, I&D y las reuniones de Equipo. 
+		3) Se capture lo definido en la Planning y se guarde en una herramienta de gestión de proyectos y colaborativa. De esa manera, tanto la decisión como la razón son fáciles de ver para todos.
 21) Cuál es el único compromiso que asume el equipo?
+	1) El Equipo se compromete a desarrollar PBIs del sprint para transformarlas en un incremento de producto potencialmente entregable.
 22) Qué preguntas se responden en una Daily, en qué se centra su dirección y cuál es su propósito?
+	1) QUÉ: Primera parte de la reunión. Se realiza en un timebox de alrededor de 2 horas (si la iteración es de 2 semanas): 
+	2) CÓMO: Segunda parte de la reunión. Se realiza en un timebox de alrededor de 2 horas (si la iteración es de 2 semanas). El equipo planifica la iteración, elabora la táctica que le permitirá conseguir el mejor resultado posible con el mínimo esfuerzo.
 23) Para qué sirve una Sprint Review o demo?
+	1) Comprensión del producto: Todo el Equipo llega a escuchar la intención, el razonamiento y la implementación de la funcionalidad
+	2) Formación de equipos: Los lazos creados mediante esta práctica nos unen más y nos hacen un grupo más integrado a pesar de la distancia. 
+	3) Afianza a cliente: el cliente comprende el avance y entrega del producto, dando DONE a aquello que satisfaga los requerimientos y la definición de DONE. El cliente mejora su confianza.
 24) Qué es una agenda o guión de una Review?
+	1) La guía o guión de la demo (guide, demo guide notes or demo’s script) es una buena práctica que muchos toman y es algo muy simple, es como una agenda ordenada donde se hace una lista de los issues a presentar (con estado DONE) y los que no se llegaron a presentar con su estado basado en el Sprint Backlog.
 25) Qué es una retrospectiva? Cuál es su propósito?
-26) Defina una User Story y qué representa. Cómo es su estructura? Cuál es la jerarquía que tiene en un backlog? Indique qué es una Epica y un Storyboard (PRACTICA)
-27) Explique en que consiste INVEST (PRACTICA)
-28) Explique las técnicas usadas para priorizar las US (MoSCoW, pares, Kano y 100 puntos) PRACTICA
-29) Explique las dependencias entre US - PRACTICA
-30) Explique que son los criterios de aceptación y sus formatos/Gherkin (PRACTICA)
-31) Explique cual es el método para medir la calidad de un criterio de aceptación (SMART)(PRACTICA)
-32) Indique cuales son las reglas de escritura para los criterios de aceptación(PRACTICA)
-33) Explique en que consiste el user story mapping. De qué se compone le mapa? (PRACTICA)
+	1) La Retrospectiva es una reunión con una duración fija que se realiza al final de cada Sprint para que el Equipo reflexione sobre su progreso, se den retroalimentación y para inspeccionar y mejorar.
+26) ==Defina una User Story y qué representa. Cómo es su estructura? Cuál es la jerarquía que tiene en un backlog? Indique qué es una Epica y un Storyboard (PRACTICA)==
+27) ==Explique en que consiste INVEST (PRACTICA)==
+28) ==Explique las técnicas usadas para priorizar las US (MoSCoW, pares, Kano y 100 puntos) PRACTICA==
+29) ==Explique las dependencias entre US - PRACTICA==
+30) ==Explique que son los criterios de aceptación y sus formatos/Gherkin (PRACTICA)==
+31) ==Explique cual es el método para medir la calidad de un criterio de aceptación (SMART)(PRACTICA)==
+32) ==Indique cuales son las reglas de escritura para los criterios de aceptación(PRACTICA)==
+33) ==Explique en que consiste el user story mapping. De qué se compone le mapa? (PRACTICA)==
 34) Que representan los Story Points? Sobre que tratan?
+	1) los story points representan todo lo que pueda afectar el esfuerzo necesario para completar un ítem
+	2) Los Story Points tratan sobre incertidumbre, complejidad o riesgo. Estos son factores que influyen en el esfuerzo, pero cada uno de ellos por sí solo no es suficiente para determinar el esfuerzo.
 35) Cómo sabes como vamos al estimar?
+	1) Aun cuando un elemento no está del todo claro, se puede estimar. La forma como se haga dependerá de muchos factores, pero es mejor hacerlo conforme sea la situación.
 36) Qué no hay que hacer en Scrum?
 37) Defina Scrum. Qué permite y porqué se dice que es un framework (ppts más adelante)
 38) Cuál es la función de los artefactos en Scrum? Y cuál es el compromiso que contienen?

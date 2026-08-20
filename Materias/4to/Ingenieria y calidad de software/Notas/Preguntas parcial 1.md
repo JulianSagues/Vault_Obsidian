@@ -496,9 +496,24 @@
 35) Cómo sabes como vamos al estimar?
 	1) Aun cuando un elemento no está del todo claro, se puede estimar. La forma como se haga dependerá de muchos factores, pero es mejor hacerlo conforme sea la situación.
 36) Qué no hay que hacer en Scrum?
+	1) Dejar de respetar el framework acordado con el PO: no hacer demos, saltarse las Daily o Stand-ups, no hacer Retrospectivas, no cumplir DoD, por ejemplo.
+	2) Ser poco específico
+	3) No comunicarse/no disponer de un Product Owner o BA que conozca el negocio
+	4) Dejar de actualizar los tableros/herramientas que gestionan información
+	5) No estar disponible para que se comuniquen conmigo 
+	6) Contar con un Scrum Master que esté asignado a varios clientes/proyectos. 
+	7) Particionar/asignar por % o a varios proyectos a los team member del Scrum Team (salvo excepciones: arquitecto, DBA, DevOps, especialista, etc.) 
+	8) No aplicar buenas prácticas 
+	9) Sacrificar la calidad del software
 37) Defina Scrum. Qué permite y porqué se dice que es un framework (ppts más adelante)
+	1) Se trata de un marco de trabajo o framework que sirve para gestionar proyectos basado en las entregas de en corto plazo de producto definitivo. Este nos permite organizar un equipo que logre un ritmo sostenible y cíclico de trabajo a través de múltiples iteraciones, entregando productos parciales o incrementos de valor al cliente.
 38) Cuál es la función de los artefactos en Scrum? Y cuál es el compromiso que contienen?
+	1) Su función es aumentar la transparencia, clave para inspeccionar y adaptar en los eventos.
+	2) Cada artefacto tiene un compromiso que asegura que genera transparencia.
+		1) ![[Pasted image 20260820101415.png]]
 39) Defina cada uno de los artefactos.
+	1) Product Backlog 
+	2) Es una lista ordenada que es la fuente de trabajo para todo el Scrum Team. Los items pueden considerarse “Ready” para el siguiente Sprint gracias al refinamiento. El refinamiento consiste en trabajar los PBIs en elementos más pequeños y manejables. Los atributos de los PBIs quedan abiertos al contexto del equipo.
 40) Time-box: definición, propósitos, aplicaciones/ejemplos y riesgos
 41) Compara la definicion y flexibilidad del time-box en Agil, los deadlines tradicionales y un cronograma de Gantt
 42) Defina el refinamiento

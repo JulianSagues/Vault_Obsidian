@@ -573,6 +573,7 @@
 12) Qué plantean y para qué sirven las métricas?
 	1) Plantean el para qué medimos y qué valor agregan. Sirven para apalancar la mejora continua, ayudando a la organizaciones a enfocar a las personas en lo más importante y en generar valor.
 13) Cómo se calcula el avance de un “proyecto” ágil?
+	1) Se calcula mediante metricas
 14) Cuáles son las métricas agiles principales y su definición
 15) Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?
 16) Describa las tres magnitudes que miden la gestión de proyectos agiles

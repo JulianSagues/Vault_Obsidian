@@ -558,11 +558,20 @@
 	2) Diseño de la arquitectura 
 	3) Validación
 7) Qué cuestionamientos se deben hacer para precisar el funcionamiento final del sw?
+	1) Costo - Duración de desarrollo - Cantidad de usuarios - Grado de aislamiento
 8) Nombre ejemplos de con qué trabaja un arquitecto (ver gráfica de colores)
+	1) ![[Preguntas parcial 1-12.png]]
 9) Nombre las responsabilidades que posee un Arquitecto de software
+	1) Articular la visión arquitectónica 
+	2) Conceptuar y experimentar con diferentes alternativas tecnológicas 
+	3) Crear modelos, componentes y documentos de especificación de interfaces 
+	4) Validar la arquitectura contra los requerimientos y presunciones del impacto de la alternativa seleccionada sobre la estrategia tecnológica de la organización.
 10) Nombre las funciones de un Arquitecto de software. Cuál es la fundamental del rol?
+	1) Debe ser una persona con amplios conocimientos técnicos. gran experiencia en programación, liderazgo y que ejerza lo siguiente: Gestión de los requisitos no funcionales y definición de la Arquitectura Software / Selección de la Tecnología y por lo tanto, es responsable del riesgo técnico. / Mejora continua de la Arquitectura.
 11) Según el tamaño de un sistema, que tipos de arquitectos especializados pueden intervenir? ¿Cuál es su especialización?
+	1) ![[Preguntas parcial 1-13.png]]
 12) Qué plantean y para qué sirven las métricas?
+	1) Plantean el para qué medimos y qué valor agregan. Sirven para apalancar la mejora continua, ayudando a la organizaciones a enfocar a las personas en lo más importante y en generar valor.
 13) Cómo se calcula el avance de un “proyecto” ágil?
 14) Cuáles son las métricas agiles principales y su definición
 15) Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?

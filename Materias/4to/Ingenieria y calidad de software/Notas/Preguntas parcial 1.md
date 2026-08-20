@@ -513,22 +513,50 @@
 		1) ![[Pasted image 20260820101415.png]]
 39) Defina cada uno de los artefactos.
 	1) Product Backlog 
-	2) Es una lista ordenada que es la fuente de trabajo para todo el Scrum Team. Los items pueden considerarse “Ready” para el siguiente Sprint gracias al refinamiento. El refinamiento consiste en trabajar los PBIs en elementos más pequeños y manejables. Los atributos de los PBIs quedan abiertos al contexto del equipo.
+		1) Es una lista ordenada que es la fuente de trabajo para todo el Scrum Team. Los items pueden considerarse “Ready” para el siguiente Sprint gracias al refinamiento. El refinamiento consiste en trabajar los PBIs en elementos más pequeños y manejables. Los atributos de los PBIs quedan abiertos al contexto del equipo.
+	2) Sprint Backlog 
+		1) El Sprint Backlog contiene el Sprint Goal, los PBIs seleccionados y el plan para lograrlo. Debe tener el detalle suficiente para que los Developers puedan inspeccionar su trabajo y saber si están alcanzando el Sprint Goal marcado
+	3) Incremento 
+		1) Cada incremento debe ser un paso hacia el Product Goal que nos hayamos fijado. Debemos asegurar que un nuevo incremento funciona con el resto. Durante el Sprint, se pueden generar muchos incrementos, y que estos se presentarán juntos en la Sprint Review al finalizar el Sprint.
 40) Time-box: definición, propósitos, aplicaciones/ejemplos y riesgos
+	1) ![[Pasted image 20260820101638.png]]
 41) Compara la definicion y flexibilidad del time-box en Agil, los deadlines tradicionales y un cronograma de Gantt
+	1) ![[Pasted image 20260820101655.png]]
 42) Defina el refinamiento
+	1) El refinamiento es una reorganización del Product Backlog, es decir, una actualización del mismo
 43) Que formas hay de estimar? (cuadro)
+	1) ![[Pasted image 20260820101741.png]]
 44) Que es el refinamiento?
+	1) El refinamiento es una reorganización del Product Backlog, es decir, una actualización del mismo
 45) Qué es y que diferencia hay entre un PBI y una UCuales son los items del PBI?
+	1) Una historia de usuario es una explicación general e informal de una función de software escrita desde la perspectiva del usuario final o cliente
+	2) Las PBIs son elementos de alto nivel que describe una funcionalidad general que pueden incluir historias de usuario, pero también pueden abarcar otros tipos de elementos, como tareas técnicas o mejoras de infraestructura.
+		1) Pueden incluir especificaciones, solicitudes de nuevas funciones, correcciones de errores o requisitos de cambio.
+	3) La PBI es un elemento de alto nivel que describe una funcionalidad general (en este caso, “crear un sistema de registro de usuarios”). 
+	4) Las historias de usuario son más específicas y detalladas. Cada historia de usuario se enfoca en una tarea o característica particular que contribuye a la PBI general.
 46) Qué es el Slicing? Cómo se hace?
+	1) Slicing permite descomponer el trabajo en ítems más pequeños
+	2) ![[Pasted image 20260820102133.png]]
 47) Defina los criterios de aceptación vs DoD vs DoR
+	1) ![[Pasted image 20260820102208.png]]
 ### **2.3-Desarrollo y Métricas Agiles**
 1) Cómo se eligen las métricas en un proyecto ágil?
+	1) Las métricas se eligen: según el Proyecto y qué se necesita medir/reportar al management del Proyecto y cliente, que nos permita medir la calidad, el cumplimiento de objetivos, hallar errores, y oportunidades de mejora. y que se puedan realimentar y actualizar.
 2) En Kanban, que significa WIP y que se mide?
+	1) WIP disminuye el multitasking limitando la cantidad de tareas.
 3) Qué es XP?
+	1) Es la integración de las prácticas de métodos tradicionales resumiendo o utilizando lo más práctico y eficaz,. sin olvidar la añadidura de características importantes mencionadas en el manifiesto ágil.
 4) Qué responsabilidades tiene un arquitecto?
+	1) Tiene la responsabilidad de investigar, evaluar y seleccionar las mejores alternativas tecnológicas para atender las necesidades específicas del negocio a un costo razonable.
 5) Completar: Los arquitectos deben identificar e involucrar activamente a los interesados de modo de….
+	1) Comprender las restricciones reales del sistema 
+	2) Administrar las expectativas de los interesados 
+	3) Negociar las prioridades del sistema 
+	4) Tomar decisiones de compromiso
 6) Cuáles son las tres etapas del proceso de arquitectura de software?
+	1) Definir los requerimientos 
+	2) Diseño de la arquitectura 
+	3) Validación
 7) Qué cuestionamientos se deben hacer para precisar el funcionamiento final del sw?
 8) Nombre ejemplos de con qué trabaja un arquitecto (ver gráfica de colores)
 9) Nombre las responsabilidades que posee un Arquitecto de software

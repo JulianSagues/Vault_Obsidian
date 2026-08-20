@@ -3,6 +3,8 @@
 
 Fecha: 18/08/2026
 
+
+
 Sistema operativo: W11, Fedora linux y kali linux virtualizado en VMware
 
 Herramientas: Todas las disponibles en Kali Linux, tambien se cuenta con una antena para auditar redes de 2.4Ghz

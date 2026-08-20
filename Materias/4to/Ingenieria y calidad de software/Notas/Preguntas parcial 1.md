@@ -403,10 +403,51 @@
 	1) Mantener una lista de deudas dentro de un sistema de seguimiento: Cada vez que contraigas una deuda, ingresa las tareas necesarias para saldar esa deuda en tu sistema de seguimiento junto con un esfuerzo y cronograma estimados. Usa el backlog de la deuda para hacer un seguimiento del progreso de tu deuda técnica. Cualquier deuda no resuelta de más de 90 días debe considerarse crítica. 
 	2) 4Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum: Trata cada deuda como una US de Scrum y estima el esfuerzo y el cronograma para saldar cada deuda al igual que las otras US
 9) Cuáles son las metas de un equipo auto-organizado?
+	1) ![[Preguntas parcial 1-10.png]]
 10) Cuáles objetivos se agregan en Scrum 2020?
+	1) Scrum se basa en la inteligencia colectiva de las personas que lo utilizan, en lugar de proporcionar a las personas instrucciones detalladas, las reglas de Scrum guían sus relaciones e interacciones. 
+		1) Menos prescriptivo, lenguaje más simple y eliminación de terminología específica del software. 
+		2) No más preguntas en la Daily Scrum, se propone la estructura según el Objetivo del Producto 
+			1) El Objetivo del producto sirve como objetivo y describe un estado futuro del producto. 
+			2) el Product Goal & Sprint Goal: se entrega valor derivado del objetivo del producto y ayuda ha enmarcar el Sprint Goal, sus Sprint Reviews y le da sentido a lo que se hace.
+		4) Las "funciones o roles" se reemplaza por "responsabilidades". 
+		5) Los “componentes” se reemplaza por “artefactos”.
 11) Ver el objetivo y responsabilidades de los roles (cuadro)
+	1) Developer: 
+		1) Objetivo: Son las personas que se encargan de generar el incremento usable, haciendo las cosas útiles. 
+		2) Responsabilidades: Crear el Sprint Backlog / Velar por la calidad / Adaptarse cada día para alcanzar el Sprint goal / Ser responsables y profesionales 
+	2) Product Owner 
+		1) Objetivo: Maximizar el valor del Scrum Team / Entrega un backlog priorizado de lo que desea en el sprint backlog / Debe mantener el Product Backlog 
+		2) Responsabilidad: Mantener el product backlog 
+	3) Scrum Master 
+		1) Objetivo: Hacer que el Scrum Team y la organización entiendan Scrum / Es un líder servicial 
+		2) Responsabilidades:
+			1) El Scrum Master sirve al Scrum Team de varias maneras: 
+				1) Les enseña a ser autogestionados y multifuncionales (se mantiene) 
+				2) Acompaña para crear productos de alto valor (se mantiene) 
+				3) Elimina impedimentos (se mantiene) 
+				4) Se aclara que, los eventos deben ser productos y útiles, ajustándose al time-box. En la versión de 2017 la explicación era más ambigua. 
+			2) El Scrum Master sirve al Product Owner de varias maneras: 
+				1) Enseñando al PO a definir el Product Goal y a mantener el Product Backlog (se mantiene con matices). 
+				2) Haciendo ver la importancia de que los PBIs sean claros (se mantiene).
+				3) Hacer entender que planificamos en un entorno complejo y con empirismo (se mantiene). 
+				4) Facilitando la colaboración entre las partes interesadas (se aclara con respecto a 2017). 
+			3) El Scrum Master sirve a la organización de varias maneras: 
+				1) Liderando y organizando la implantación de Scrum en la organización (se mantiene). Planificando y asesorando la implantación de Scrum (se mantiene con matices).
+				2) Ayudando a entender a las partes interesadas como trabaja el empirismo para resolver problemas complejos. (se aclara) 
+				3) Eliminar barreras entre los interesados y el Scrum Team
 12) En Scrum nombre los resultado si mantenemos los valores en cada persona que trabaja en el equipo que desarrolla el proyecto? (reviews, backlog saneado, equipo de alto rendimiento, etc.)
+	1) Reviews 
+	2) un Backlog saneado 
+	3) Equipo de alto rendimiento
+	4) Sprints cortos 
+	5) Time-box, en los que las cosas tienen un tiempo limitado para hacerse, como el review o los sprints
 13) Explique las características de un equipo agil (auto-organizado, autónomo, multidisciplinario, cross funcional, autogestionado o empowerment, autogestionado.)
+	1) Autoorganización: El equipo decide cómo convertir los ítems del Product Backlog en soluciones que funcionan 
+	2) Cross-funcional: Tienen todas las habilidades necesarias para crear el incremento del producto 
+	3) No hay títulos: Todo el mundo es un desarrollador, nadie tiene un título especial 
+	4) No existen sub-equipos: En el equipo de desarrollo
+	5) Están comprometidos: Con lograr el objetivo del Sprint y entregar un incremento de alta calidad
 14) Scrum: cuadro de Eventos, nombre y explique cada evento o ceremonia y sus objetivos (reutilizar para la preguntas que siguen)
 15) Defina qué es un Sprint y cuánto puede durar
 16) Indique la definición de backlog

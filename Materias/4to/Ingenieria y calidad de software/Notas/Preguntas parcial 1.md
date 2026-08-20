@@ -401,7 +401,7 @@
 		2) Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum
 8) De qué forma un líder puede gestionar la deuda técnica?
 	1) Mantener una lista de deudas dentro de un sistema de seguimiento: Cada vez que contraigas una deuda, ingresa las tareas necesarias para saldar esa deuda en tu sistema de seguimiento junto con un esfuerzo y cronograma estimados. Usa el backlog de la deuda para hacer un seguimiento del progreso de tu deuda técnica. Cualquier deuda no resuelta de más de 90 días debe considerarse crítica. 
-	2) Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum: Trata cada deuda como una US de Scrum y estima el esfuerzo y el cronograma para saldar cada deuda al igual que las otras US
+	2) 4Mantener la lista de deudas como parte de un trabajo pendiente del producto de Scrum: Trata cada deuda como una US de Scrum y estima el esfuerzo y el cronograma para saldar cada deuda al igual que las otras US
 9) Cuáles son las metas de un equipo auto-organizado?
 10) Cuáles objetivos se agregan en Scrum 2020?
 11) Ver el objetivo y responsabilidades de los roles (cuadro)

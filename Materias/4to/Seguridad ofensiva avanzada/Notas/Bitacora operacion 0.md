@@ -42,3 +42,11 @@ Fecha: 17/08/2026
 	- Una evaluación ofensiva sin autorización explícita y delimitación estricta constituye un delito informático. El alcance garantiza que las pruebas no degraden servicios productivos, no expongan datos de terceros y mantengan un objetivo estrictamente constructivo
 ## Dossier 03
 Fecha: 17/08/2026
+- **Pregunta 1**: Diferencia entre amenaza, vulnerabilidad, impacto y riesgo con palabras propias.
+- **Pregunta 2**: Tres activos digitales de una institución educativa y justificación de su valor.
+- **Pregunta 3**: Ejemplo de un evento observable que no constituya un incidente.
+- **Pregunta 4**: Un ejemplo de control preventivo, uno detectivo y uno correctivo.
+- **Pregunta 5**: Por qué un exploit o payload solo debe analizarse en entornos autorizados.
+    
+- **Pregunta 6**: Dos indicadores de compromiso (IoC) y qué información aportan al análisis.
+- **Caso práctico integrador**: Breve desarrollo donde relaciones un activo, amenaza, vulnerabilidad, impacto y riesgo.

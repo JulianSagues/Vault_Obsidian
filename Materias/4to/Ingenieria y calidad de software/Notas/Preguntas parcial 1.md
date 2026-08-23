@@ -646,7 +646,7 @@
 	1) Las métricas se eligen: según el Proyecto y qué se necesita medir/reportar al management del Proyecto y cliente, que nos permita medir la calidad, el cumplimiento de objetivos, hallar errores, y oportunidades de mejora. y que se puedan realimentar y actualizar.
 
 2) **En Kanban, que significa WIP y que se mide?**
-	1) WIP disminuye el multitasking limitando la cantidad de tareas.
+	1) WIP (Work In Progress) mide el lead time (tiempo medio para completar un elemento, a veces llamado "tiempo de ciclo"), optimiza el proceso para que el lead time sea tan pequeño y predecible como sea posible.
 
 3) **Qué es XP?**
 	1) Es la integración de las prácticas de métodos tradicionales resumiendo o utilizando lo más práctico y eficaz,. sin olvidar la añadidura de características importantes mencionadas en el manifiesto ágil.

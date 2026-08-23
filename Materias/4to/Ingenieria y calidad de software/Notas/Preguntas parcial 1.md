@@ -653,35 +653,44 @@
 
 4) **Qué responsabilidades tiene un arquitecto?**
 	1) Tiene la responsabilidad de investigar, evaluar y seleccionar las mejores alternativas tecnológicas para atender las necesidades específicas del negocio a un costo razonable.
-	2) 
-5) Completar: Los arquitectos deben identificar e involucrar activamente a los interesados de modo de….
+
+5) **Completar: Los arquitectos deben identificar e involucrar activamente a los interesados de modo de….**
 	1) Comprender las restricciones reales del sistema 
 	2) Administrar las expectativas de los interesados 
 	3) Negociar las prioridades del sistema 
 	4) Tomar decisiones de compromiso
-6) Cuáles son las tres etapas del proceso de arquitectura de software?
+
+6) **Cuáles son las tres etapas del proceso de arquitectura de software?**
 	1) Definir los requerimientos 
 	2) Diseño de la arquitectura 
 	3) Validación
-7) Qué cuestionamientos se deben hacer para precisar el funcionamiento final del sw?
+
+7) **Qué cuestionamientos se deben hacer para precisar el funcionamiento final del sw?**
 	1) Costo - Duración de desarrollo - Cantidad de usuarios - Grado de aislamiento
-8) Nombre ejemplos de con qué trabaja un arquitecto (ver gráfica de colores)
+
+8) **Nombre ejemplos de con qué trabaja un arquitecto (ver gráfica de colores)**
 	1) ![[Preguntas parcial 1-12.png]]
-9) Nombre las responsabilidades que posee un Arquitecto de software
+
+9) **Nombre las responsabilidades que posee un Arquitecto de software**
 	1) Articular la visión arquitectónica 
 	2) Conceptuar y experimentar con diferentes alternativas tecnológicas 
 	3) Crear modelos, componentes y documentos de especificación de interfaces 
 	4) Validar la arquitectura contra los requerimientos y presunciones del impacto de la alternativa seleccionada sobre la estrategia tecnológica de la organización.
-10) Nombre las funciones de un Arquitecto de software. Cuál es la fundamental del rol?
+
+10) **Nombre las funciones de un Arquitecto de software. Cuál es la fundamental del rol?**
 	1) Debe ser una persona con amplios conocimientos técnicos. gran experiencia en programación, liderazgo y que ejerza lo siguiente: Gestión de los requisitos no funcionales y definición de la Arquitectura Software / Selección de la Tecnología y por lo tanto, es responsable del riesgo técnico. / Mejora continua de la Arquitectura.
-11) Según el tamaño de un sistema, que tipos de arquitectos especializados pueden intervenir? ¿Cuál es su especialización?
+
+11) **Según el tamaño de un sistema, que tipos de arquitectos especializados pueden intervenir? ¿Cuál es su especialización?**
 	1) ![[Preguntas parcial 1-13.png]]
-12) Qué plantean y para qué sirven las métricas?
+
+12) **Qué plantean y para qué sirven las métricas?**
 	1) Plantean el para qué medimos y qué valor agregan. Sirven para apalancar la mejora continua, ayudando a la organizaciones a enfocar a las personas en lo más importante y en generar valor.
-13) Cómo se calcula el avance de un “proyecto” ágil?
+
+13) **Cómo se calcula el avance de un “proyecto” ágil?**
 	1) Se calcula mediante metricas
-14) Cuáles son las métricas agiles principales y su definición
-15) Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?
-16) Describa las tres magnitudes que miden la gestión de proyectos agiles
-17) Explique en qué consiste y qué mide: velocidad, velocidad absoluta y relativa, trabajo, tiempo, tiempo real e ideal, tiempo teórico o de tarea, trabajo ya realizado, trabajo pendiente de realizar, unidades de trabajo y puntos de función.
-18) En qué consisten las métricas: Lead Time y Cycle time
+
+14) **Cuáles son las métricas agiles principales y su definición**
+15) **Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?**
+16) **Describa las tres magnitudes que miden la gestión de proyectos agiles**
+17) **Explique en qué consiste y qué mide: velocidad, velocidad absoluta y relativa, trabajo, tiempo, tiempo real e ideal, tiempo teórico o de tarea, trabajo ya realizado, trabajo pendiente de realizar, unidades de trabajo y puntos de función.**
+18) **En qué consisten las métricas: Lead Time y Cycle time**

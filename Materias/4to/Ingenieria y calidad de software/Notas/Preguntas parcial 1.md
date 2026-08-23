@@ -690,7 +690,36 @@
 	1) Se calcula mediante metricas
 
 14) **Cuáles son las métricas agiles principales y su definición**
+	1) ==Valor (outcome o resultado)== 
+		1) ==cualitativas/cuantitativas== 
+	2) ==Eficiencia (output o salida) y Desperdicio== 
+	3) ==Estimación==
+		1) ==Velocidad==
+	4) ==Equipo y Cultura== 
+	5) ==Cambio==
+	6) ==Deuda Técnica==
+		1) ==calidad del producto==
+
 15) **Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?**
 16) **Describa las tres magnitudes que miden la gestión de proyectos agiles**
+	1) Tiempo: El desarrollo ágil emplea la técnica “timeboxing” para gestión de tiempo. En el caso de Scrum, la unidad de tiempo para cada incremento de producto es el Sprint.
+	2) Velocidad (Continuando con lo anterior): Velocidad es la magnitud que viene determinada por la cantidad de trabajo realizada en un periodo de tiempo (Timebox). Los equipos que miden el trabajo con tiempo ideal, hablan de “Velocidad”
+	3) Trabajo: Medir el trabajo puede ser necesario por dos razones: para registrar el ya hecho, o para estimar anticipadamente, el que hay que realizar. En ambos casos se necesita una unidad, y un criterio objetivo de cómo se cuantifica.
+
 17) **Explique en qué consiste y qué mide: velocidad, velocidad absoluta y relativa, trabajo, tiempo, tiempo real e ideal, tiempo teórico o de tarea, trabajo ya realizado, trabajo pendiente de realizar, unidades de trabajo y puntos de función.**
+	1) Velocidad es la magnitud que viene determinada por la cantidad de trabajo realizada en un periodo de tiempo (Timebox) Los equipos que miden el trabajo con tiempo ideal, hablan de “Velocidad”.
+	2) Velocidad absoluta: cantidad de producto construido en un sprint. Se expresa en la misma unidad en la que se realizan las estimaciones (puntos de función, horas o días reales o teóricos).
+	3) Velocidad relativa: Cantidad de producto construido en una unidad de tiempo de trabajo
+	4) Trabajo: Medir el trabajo puede ser necesario por dos razones: para registrar el ya hecho, o para estimar anticipadamente, el que hay que realizar. En ambos casos se necesita una unidad, y un criterio objetivo de cómo se cuantifica.
+	5) Tiempo: El desarrollo ágil emplea la técnica “timeboxing” para gestión de tiempo. En el caso de Scrum, la unidad de tiempo para cada incremento de producto es el Sprint.
+	6) Tiempo real o tiempo de trabajo: Tiempo efectivo para realizar un trabajo. Se suele medir en horas o días
+	7) Tiempo ideal: se refiere al tiempo de trabajo necesario, en “condiciones ideales”, esto es, sin ninguna interrupción, pausa, distracción o atención a tareas ajenas a la tarea del sprint que se tiene asignada.
+	8) Tiempo teórico o tiempo de tarea: Tiempo que sería necesario para realizar un trabajo en “condiciones ideales”: si no se produjera ninguna interrupción, llamadas telefónicas, descansos, reuniones, etc
+	9) Trabajo ya realizado: Para medirlo basta contabilizar lo ya realizado, empleando las unidades con las que se opere: líneas de código, horas trabajadas (reales o teóricas)
+	10) Trabajo pendiente de realizar: Scrum mide el trabajo pendiente para: 
+		1) Estimar el esfuerzo y la duración prevista para cada tarea. 
+		2) Determinar el avance del proyecto, y en especial de cada sprint
+	11) Unidades de trabajo: Las unidades para medir el trabajo pueden estar relacionadas directamente con el producto, como los tradicionales puntos de función de COCOMO; o indirectamente, a través del tiempo necesario para realizarlo.
+	12) Puntos de función o puntos de funcionalidad: Unidad de medida relativa para determinar la cantidad de trabajo necesaria para construir una funcionalidad o historia de usuario del product backlog
+
 18) **En qué consisten las métricas: Lead Time y Cycle time**

@@ -701,6 +701,20 @@
 		1) ==calidad del producto==
 
 15) **Cómo usar métricas ágiles para optimizar la entrega y cuáles son los antipatrones ante los que hay que estar alerta?**
+	1) El Sprint Burndown chart hace visible el trabajo del equipo Scrum: es una representación gráfica de la velocidad a la que se completa el trabajo y cuánto trabajo queda por hacer.
+		1) Antipatrones ante los que estar alerta 
+			1) El equipo termina antes de tiempo todos los sprints porque no están asumiendo trabajo suficiente. 
+			2) El equipo no cumple las previsiones sprint tras sprint porque están asumiendo demasiado trabajo. 
+			3) La línea de evolución marca caídas pronunciadas en lugar de una evolución más gradual debido a que el trabajo no se ha dividido granularmente. 
+			4) El propietario del producto añade o cambia el alcance en mitad del sprint.
+	2) Los diagramas de evolución de épicas y versiones sirven para realizar el seguimiento del progreso del desarrollo a lo largo de una muestra más amplia de trabajo que en la evolución de sprints, y guía el desarrollo de los equipos de scrum y kanban.
+	3) Antipatrones ante los que estar alerta
+	4) Las previsiones de epicas o versiones no se actualizan a medida que el equipo avanza por el trabajo. 
+	5) No se observa progreso después de varias iteraciones.
+	6) Cuando el PO no entiende completamente el problema a solucionar. 
+	7) El alcance aumenta con mayor rapidez que la capacidad de atenderlo el equipo. 
+	8) El equipo no está lanzando versiones incrementales a lo largo del desarrollo de las epicas
+	9) a velocidad es la cantidad media de trabajo que un equipo de scrum lleva a cabo durante un sprint, medida en puntos de historia u horas, y es muy útil para los pronósticos
 16) **Describa las tres magnitudes que miden la gestión de proyectos agiles**
 	1) Tiempo: El desarrollo ágil emplea la técnica “timeboxing” para gestión de tiempo. En el caso de Scrum, la unidad de tiempo para cada incremento de producto es el Sprint.
 	2) Velocidad (Continuando con lo anterior): Velocidad es la magnitud que viene determinada por la cantidad de trabajo realizada en un periodo de tiempo (Timebox). Los equipos que miden el trabajo con tiempo ideal, hablan de “Velocidad”
@@ -723,3 +737,5 @@
 	12) Puntos de función o puntos de funcionalidad: Unidad de medida relativa para determinar la cantidad de trabajo necesaria para construir una funcionalidad o historia de usuario del product backlog
 
 18) **En qué consisten las métricas: Lead Time y Cycle time**
+	1) lead time (tiempo medio para completar un elemento, a veces llamado "tiempo de ciclo")
+	2) Cycle time: el tiempo total desde "en progreso" hasta "terminado

@@ -708,13 +708,25 @@
 			3) La línea de evolución marca caídas pronunciadas en lugar de una evolución más gradual debido a que el trabajo no se ha dividido granularmente. 
 			4) El propietario del producto añade o cambia el alcance en mitad del sprint.
 	2) Los diagramas de evolución de épicas y versiones sirven para realizar el seguimiento del progreso del desarrollo a lo largo de una muestra más amplia de trabajo que en la evolución de sprints, y guía el desarrollo de los equipos de scrum y kanban.
-	3) Antipatrones ante los que estar alerta
-	4) Las previsiones de epicas o versiones no se actualizan a medida que el equipo avanza por el trabajo. 
-	5) No se observa progreso después de varias iteraciones.
-	6) Cuando el PO no entiende completamente el problema a solucionar. 
-	7) El alcance aumenta con mayor rapidez que la capacidad de atenderlo el equipo. 
-	8) El equipo no está lanzando versiones incrementales a lo largo del desarrollo de las epicas
-	9) a velocidad es la cantidad media de trabajo que un equipo de scrum lleva a cabo durante un sprint, medida en puntos de historia u horas, y es muy útil para los pronósticos
+		1) Antipatrones ante los que estar alerta
+			1) Las previsiones de epicas o versiones no se actualizan a medida que el equipo avanza por el trabajo. 
+			2) No se observa progreso después de varias iteraciones.
+			3) Cuando el PO no entiende completamente el problema a solucionar. 
+			4) El alcance aumenta con mayor rapidez que la capacidad de atenderlo el equipo. 
+			5) El equipo no está lanzando versiones incrementales a lo largo del desarrollo de las epicas
+	3) La velocidad es la cantidad media de trabajo que un equipo de scrum lleva a cabo durante un sprint, medida en puntos de historia u horas, y es muy útil para los pronósticos
+		1) Antipatrones ante los que estar alerta 
+			1) Si la velocidad experimenta muchas variaciones en un largo periodo de tiempo, revisa las prácticas de estimación del equipo.
+	4) Los gráficos de control se centran en el tiempo de ciclo de los problemas individuales: el tiempo total desde "en progreso" hasta "terminado".
+		1) Antipatrones ante los que estar alerta 
+			1) Los gráficos de control pueden parecer demasiado variables al principio. No te preocupes demasiado con cada dato que se salga de la norma. Busca tendencias. Estas son dos áreas a las que estar atentos: 
+			2) Aumento de la duración del ciclo: El aumento de la duración del ciclo mina la agilidad lograda con tanto esfuerzo por parte del equipo. En la retrospectiva del equipo, dedica tiempo a entender el motivo de este aumento. Una excepción: Si la definición que hace el equipo de "finalizado" ha aumentado, la duración del ciclo probablemente aumente también. 
+			3) Duración del ciclo heterogénea: El objetivo es tener una duración del ciclo homogénea de los elementos de trabajo que tengan valores de punto de historia similares. Filtra el gráfico de control para cada valor de punto de historia en busca de homogeneidad. Si la duración del ciclo es heterogénea en valores de punto de historia grandes y pequeños, dedica tiempo en la retrospectiva a examinar los aspectos que se han pasado por alto y a mejorar las estimaciones futuras.
+	5) El diagrama de flujo acumulado es un recurso clave para los equipos de kanban. Ayuda a garantizar la coherencia del ritmo de trabajo en todo el equipo. Con el número de tickets en el eje de ordenadas, el tiempo en el eje de abscisas y colores para indicar los distintos estados del workflow, indica visualmente las limitaciones y los cuellos de botella conjuntamente con los límites del trabajo en curso
+		1) Antipatrones ante los que estar alerta 
+			1) Las incidencias que causan bloqueos crean enormes copias de seguridad en algunas partes del proceso y muy escasas en otros. 
+			2) Crecimiento incontrolado del backlog a lo largo del tiempo. Esto da como resultado que los propietarios del producto no cierren incidencias obsoletas o que las incidencias con prioridad más baja no se traten nunca
+
 16) **Describa las tres magnitudes que miden la gestión de proyectos agiles**
 	1) Tiempo: El desarrollo ágil emplea la técnica “timeboxing” para gestión de tiempo. En el caso de Scrum, la unidad de tiempo para cada incremento de producto es el Sprint.
 	2) Velocidad (Continuando con lo anterior): Velocidad es la magnitud que viene determinada por la cantidad de trabajo realizada en un periodo de tiempo (Timebox). Los equipos que miden el trabajo con tiempo ideal, hablan de “Velocidad”

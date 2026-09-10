@@ -16,6 +16,12 @@
       "icon": "lucide-a-arrow-down",
       "name": "Git: Pull",
       "mode": "any"
+    },
+    {
+      "id": "oz-clear-unused-images:clear-images-obsidian",
+      "icon": "lucide-trash",
+      "name": "Clear Unused Images: Clear Unused Images",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
@@ -24,11 +30,14 @@
   "pageHeader": [],
   "macros": [],
   "explorer": [],
+  "textToolbarCommands": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [],
+    "editorMenuItems": [],
+    "fileMenuItems": []
   },
-  "spacing": 8,
+  "spacing": 0,
   "advancedToolbar": {
     "rowHeight": 48,
     "rowCount": 1,
@@ -38,5 +47,6 @@
     "mappedIcons": [],
     "tooltips": false,
     "heightOffset": 0
-  }
+  },
+  "spacingReset": true
 }

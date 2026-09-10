@@ -379,3 +379,60 @@ La disponibilidad de red en un CPD depende del **diseño físico (topología)** 
 
 ## Conclusión general
 Reducir el riesgo no es solo agregar equipamiento o corregir fallas puntuales: requiere una **estrategia integral** que combine redundancia física, configuraciones seguras, monitoreo permanente, mantenimiento preventivo y buenos procedimientos de administración.
+# Expo9: Planes de Contingencia: BCP y DRP
+
+## Idea central
+La preparación ante contingencias es lo que diferencia a una empresa que sobrevive un incidente crítico de una que cesa operaciones. Dos planes clave: **BCP** (continuidad del negocio) y **DRP** (recuperación ante desastres).
+
+## Plan de Continuidad del Negocio (BCP)
+**Definición:** estrategia global, logística y organizativa que garantiza que los procesos críticos sigan funcionando antes, durante e inmediatamente después de una interrupción. Incluye procesos manuales si la tecnología no está disponible.
+
+**Características:**
+- **Enfoque corporativo integral:** abarca todo el negocio (logística, cadena de suministro, RRHH, operaciones diarias).
+- **Naturaleza proactiva:** tácticas preventivas para evitar la paralización.
+- **Estructura de "paraguas":** contiene varios planes dentro, como el plan de reanudación del negocio (BRP), emergencia de ocupantes (OEP), planes de comunicación, gestión de crisis y **el propio DRP**.
+- **BIA (Análisis de Impacto en el Negocio):** exige entender amenazas, estimar probabilidad de cada evento y definir el personal mínimo indispensable.
+
+## Plan de Recuperación ante Desastres (DRP)
+**Definición:** documento técnico con el paso a paso para recuperar sistemas, datos e infraestructura afectados tras un incidente.
+
+**Características:**
+- **Enfoque específico:** solo sistemas de TI.
+- **Naturaleza reactiva:** se activa después del desastre.
+- **Depende de inventarios y backups:** hardware/software clasificado por prioridad (crítico/importante/sin importancia); backups deben guardarse fuera de la empresa.
+- **Roles técnicos:** ej. "Gestor de activos", "Supervisor de DRP".
+- **Criterios estrictos de activación:** no cualquier caída activa el DRP (ej. reiniciar un servidor en 20 min es un incidente, no un desastre).
+- **Escalabilidad por niveles (Tiers):**
+  - **Tier 1 (misión crítica):** RTO casi inmediato (ej. base de datos de clientes, pasarela de pagos).
+  - **Tier 2 (importantes):** pueden esperar 12-24 hs (ej. correo interno).
+  - **Tier 3 (secundarios):** pueden estar caídos días sin afectar operación crítica.
+
+## BCP vs. DRP: diferencias clave
+| | BCP | DRP |
+|---|---|---|
+| Enfoque | Proactivo, estratégico | Reactivo, técnico |
+| Alcance | Todo el negocio | Infraestructura TI |
+| Objetivo | Que el negocio siga operando | Levantar los sistemas caídos |
+| Jerarquía | Plan "paraguas" | Módulo dentro del BCP |
+
+**Caso práctico (ciberataque):** el DRP guía a los técnicos en la recuperación de infraestructura y backups; en simultáneo, el BCP define cómo comunicar la crisis a clientes y qué procesos alternativos usan los empleados (ej. registros en papel) mientras TI soluciona el problema.
+
+## Indicadores críticos: RPO y RTO
+Se definen mediante un **BIA**, equilibrando costo de recuperación vs. impacto financiero de la inactividad.
+
+- **RPO (Recovery Point Objective):** cantidad máxima de datos que la empresa tolera perder (ej. RPO de 4hs = tolera perder hasta 4hs de info desde el último backup). Se calcula según tasa de cambio de datos, criticidad y requisitos regulatorios.
+- **RTO (Recovery Time Objective):** tiempo máximo tolerable sin que funcionen los sistemas. Se fija por debajo del **MTPD** (Período Máximo Tolerable de Interrupción), considerando costo por hora de caída (ingresos perdidos, penalidades, reputación).
+
+**Normas relacionadas:**
+- **ISO 22301:** requisitos para un Sistema de Gestión de Continuidad del Negocio (SGCN), exige definir/documentar/probar RTO y RPO.
+- **NIST SP 800-34 Rev. 1:** guía federal de planificación de contingencias.
+- **Regulaciones sectoriales** (NIS2, DORA, HIPAA): exigen objetivos específicos según el rubro (financiero, salud), sin valores numéricos universales pero sí realistas y probados.
+
+## Conclusión
+La **resiliencia empresarial** es la capacidad de absorber un evento disruptivo, adaptarse y recuperarse sin colapsar. BCP y DRP deben funcionar coordinados:
+- **BCP:** escudo proactivo que protege al negocio completo con métodos alternativos.
+- **DRP:** motor técnico que restaura la infraestructura tecnológica.
+
+Juntos permiten que la empresa sepa cuánto daño puede tolerar (datos, tiempo, costos) y tenga planes de acción para minimizar impacto económico y reputacional.
+
+-----

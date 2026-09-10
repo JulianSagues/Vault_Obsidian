@@ -136,7 +136,7 @@ Administradas por operadores de telecomunicaciones. Dividen la cobertura en **ce
 
 ## Conclusión
 Las redes inalámbricas ofrecen **movilidad y flexibilidad** que el cable no iguala, organizadas según alcance (WPAN, WLAN, WWAN). Todas se basan en la **radiofrecuencia**, un recurso limitado que debe gestionarse bien para evitar interferencias. El salto de **4G a 5G** es clave sobre todo por la **reducción drástica de latencia**, habilitando aplicaciones críticas (telemedicina, vehículos conectados). A futuro se espera la convivencia de 4G/5G y la llegada del **6G**.
-# Expo3: Medios de Conexión Satelital
+# Expo4: Medios de Conexión Satelital
 
 ## Idea central
 Cuando la fibra o las redes móviles no son viables (geografía extrema, catástrofes), el **internet satelital** conecta usuarios con la red mundial mediante satélites en órbita. En la última década pasó de ser lento y caro a una alternativa competitiva.
@@ -538,46 +538,138 @@ Permiso Efectivo = Permisos de Recurso Compartido (SMB) ∩ Permisos NTFS
 ## Conclusión
 Dominar las opciones de red, grupos de trabajo, resolución de hosts y la articulación entre permisos SMB/NTFS es clave para administrar de forma segura y eficiente la infraestructura de TI, garantizando integridad, confidencialidad y disponibilidad de los datos.
 
-# Taller 13: Analizadores de Protocolos y Herramientas de Diagnóstico de Red
+# Taller 13: Analizadores de Protocolos y Herramientas de Diagnóstico
 
-## 1. Analizadores de Protocolos (Packet Sniffers)
+## Idea central
+El troubleshooting de red requiere herramientas que inspeccionen el tráfico a través de las capas del modelo OSI para identificar problemas como pérdida de paquetes, latencia, bucles de enrutamiento o puertos bloqueados.
 
-Herramientas como **Wireshark** o **tcpdump** capturan y decodifican paquetes en tiempo real.
+## Software Analizador de Protocolos (Packet Sniffers)
+Aplicaciones como **Wireshark** o **tcpdump** capturan, decodifican y analizan paquetes en tiempo real.
 
-- **Modo promiscuo**: la NIC captura todo el tráfico del medio, no solo el propio.
-- **Disección de capas**: desglosa la trama desde Ethernet (Cap. 2) hasta HTTP/DNS/SMB (Cap. 7).
-- **Filtros de captura (BPF)** vs **filtros de visualización**: los primeros deciden qué se registra (`port 80`), los segundos qué se busca en lo ya capturado (`tcp.analysis.retransmission`).
-- Usos: detectar retransmisiones TCP, medir RTT, auditoría de seguridad.
+- **Modo Promiscuo:** la NIC captura todos los paquetes del medio, incluso los que no son para su MAC.
+- **Disección de capas:** desglosa la trama capa por capa (Ethernet → IP → TCP/UDP → aplicación: HTTP, DNS, SMB).
+- **Filtros de captura (BPF)** vs **filtros de visualización:** los de captura eligen qué tráfico grabar (ej: `port 80`); los de visualización buscan patrones en capturas ya hechas (ej: `tcp.analysis.retransmission`).
+- **Usos:** detectar retransmisiones TCP, medir RTT, auditoría de seguridad, decodificar errores de configuración.
 
-## 2. Herramientas de diagnóstico por capa
+## Herramientas y protocolos de diagnóstico
 
-|Herramienta|Capa OSI|Protocolo/Mecanismo|Objetivo|
+**A. `ipconfig` / `ifconfig` / `ip addr`** — configuración local de interfaz:
+- `ipconfig /all`: IP, máscara, gateway, MAC, DHCP, DNS.
+- `ipconfig /release` y `/renew`: libera/solicita nueva IP por DHCP.
+- `ipconfig /flushdns`: limpia caché DNS local.
+
+**B. `ping` (ICMP Echo)** — verifica alcance a nivel Capa 3 usando Echo Request/Reply. Evalúa **RTT**, % de pérdida y **TTL** (identifica SO remoto y cantidad de saltos).
+
+**C. `tracert` / `traceroute`** — mapea la ruta hacia un destino incrementando el TTL progresivamente; cada router intermedio devuelve **ICMP Time Exceeded**, revelando su IP y latencia. Útil para localizar el punto de corte/congestión en la WAN.
+
+**D. `telnet` / `Test-NetConnection` / `nc`** — verifica si un puerto TCP está escuchando (handshake de 3 vías: SYN, SYN-ACK, ACK).
+
+**E. `whois`** — consulta bases de RIR (LACNIC, ARIN, RIPE): bloques IP asignados, ASN, propietario y contacto técnico.
+
+**F. `netstat` / `ss`** — muestra conexiones activas, puertos en LISTENING/ESTABLISHED y tabla de rutas local. `netstat -ano` lista conexiones con IP local/remota, estado y PID.
+
+**G. `nslookup` / `dig`** — consulta DNS para registros A, AAAA, MX, CNAME, PTR, para diferenciar falla de DNS de falla de conectividad IP.
+
+## Tabla resumen
+
+| Herramienta | Capa OSI | Mecanismo | Objetivo |
 |---|---|---|---|
-|Wireshark/tcpdump|2-7|Captura pcap|Análisis profundo de paquetes|
-|ipconfig/ifconfig|2-3|DHCP / SO|Ver IP, máscara, gateway, MAC, DNS|
-|ping|3|ICMP Echo Req/Reply|Conectividad y latencia (RTT, TTL)|
-|tracert/traceroute|3|ICMP Time Exceeded|Mapear ruta salto a salto|
-|telnet/Test-NetConnection|4-7|TCP 3-way handshake|Ver si un puerto está abierto|
-|netstat/ss|4|Sockets del SO|Puertos en escucha, conexiones activas|
-|nslookup/dig|7|DNS (puerto 53)|Diagnosticar resolución de nombres|
-|whois|7|WHOIS (puerto 43)|Titularidad de bloques IP/dominios|
+| Wireshark/tcpdump | 2-7 | Captura promiscua (pcap) | Análisis profundo de paquetes |
+| ipconfig/ifconfig | 2-3 | DHCP/sockets del SO | Verificar IP, MAC, DNS local |
+| ping | 3 | ICMP Echo | Conectividad básica y RTT |
+| tracert/traceroute | 3 | ICMP Time Exceeded/UDP | Mapear ruta y cuellos de botella |
+| telnet/TestNetConnection | 4-7 | TCP 3-way handshake | Verificar puerto abierto |
+| netstat/ss | 4 | Inspección de sockets | Auditar puertos y procesos |
+| nslookup/dig | 7 | DNS (UDP/TCP 53) | Diagnosticar resolución de nombres |
+| whois | 7 | WHOIS (TCP 43) | Titularidad de IP/dominios |
 
-**Detalles clave:**
+## Metodología de diagnóstico escalonado (Bottom-Up)
+1. **Físico/Enlace:** revisar cable/WiFi y `ipconfig`.
+2. **Red Local:** `ping` al gateway (descarta falla de switch/LAN).
+3. **Red WAN:** `ping`/`tracert` a IP pública externa (ej. 8.8.8.8) para validar salida a Internet.
+4. **DNS:** `nslookup` o ping por nombre de dominio.
+5. **Transporte/Aplicación:** `telnet` o Wireshark para validar que el servicio remoto acepte conexiones.
 
-- `ipconfig /all` (todo), `/release` y `/renew` (DHCP), `/flushdns` (limpia caché DNS).
-- `ping`: usa ICMP tipo 8 (Request) y tipo 0 (Reply). Mide RTT, % perdidos y TTL (permite inferir SO y saltos).
-- `tracert`: envía paquetes con TTL creciente (1, 2, 3...); cada router que descarta el paquete devuelve ICMP Time Exceeded (tipo 11), revelando su IP. Máximo 30 saltos.
-- `telnet`/`Test-NetConnection`: valida el handshake TCP (SYN, SYN-ACK, ACK) para saber si un puerto está abierto, cerrado o filtrado por firewall.
-- `netstat -ano`: conexiones activas con IP local/remota, estado (LISTENING, ESTABLISHED) y PID.
-- `nslookup`/`dig`: consulta registros A, AAAA, MX, CNAME, PTR para aislar fallas DNS de fallas IP.
-- `whois`: consulta a RIRs (LACNIC, ARIN, RIPE) por rangos IP, ASN y datos de contacto.
+## Conclusión
+Combinar analizadores de protocolos (Wireshark) con utilidades de consola (ping, tracert, ipconfig, telnet, whois) y aplicar una metodología sistemática (Bottom-Up) permite aislar rápido la causa raíz de fallas de red, minimizando el downtime.
 
-## 3. Metodología Bottom-Up de diagnóstico
+---
+# 🔥 RESUMEN EXPRESS - Todo el Parcial
 
-1. **Física/Enlace**: cable/Wi-Fi + `ipconfig`.
-2. **Red local**: `ping` al gateway.
-3. **Red WAN**: `ping`/`tracert` a IP pública (ej. 8.8.8.8).
-4. **DNS**: `nslookup` o ping por nombre.
-5. **Transporte/Aplicación**: `telnet` o Wireshark para validar el servicio.
+## 1. Arquitecturas (Centralizada / Descentralizada / Distribuida)
+- **Centralizada:** todo en 1 servidor. Simple pero si cae, cae todo.
+- **Descentralizada:** varios servidores independientes por sede. Autonomía pero puede duplicar datos.
+- **Distribuida:** procesamiento repartido en muchos nodos (Google, Netflix, AWS). Alta disponibilidad y escalabilidad, pero compleja de administrar.
 
-**Idea central para el parcial:** combinar analizadores gráficos (Wireshark) con utilidades de consola, siguiendo el orden bottom-up, para aislar la causa raíz de una falla de red rápidamente.
+## 2. Medios Cableados
+- **Par trenzado (UTP/STP):** cobre, barato, fácil, usado en LAN, conector RJ-45. UTP sin blindaje, STP con blindaje.
+- **Coaxial:** cobre + malla metálica. Hoy casi solo en TV/cable, reemplazado por par trenzado/fibra en LAN.
+- **Fibra óptica:** luz, altísima velocidad y distancia, inmune a interferencias. Monomodo (larga distancia) vs Multimodo (corta, dentro de edificios).
+
+## 3. Redes Inalámbricas (Radiofrecuencia)
+- **Alcance:** WPAN (Bluetooth, ~10m) < WLAN (WiFi, edificio) < WMAN (ciudad) < WWAN (celular, km).
+- **Bluetooth:** 2,4 GHz. Topologías: punto a punto, piconet, scatternet, broadcast, mesh (descentralizada).
+- **WiFi:** 2.4/5/6 GHz (más frecuencia = más velocidad, menos alcance). Modo infraestructura (con punto de acceso) vs ad-hoc (P2P).
+- **4G/5G:** celdas + estación base. 4G latencia <50ms; 5G latencia ~1ms, habilita IoT.
+
+## 4. Conexión Satelital
+- **3 segmentos:** Espacial (satélite/repetidor), Terrestre (Gateway), Usuario (VSAT).
+- **Órbitas:** GEO (36.000km, alta latencia 500-700ms, TV) / MEO (GPS) / **LEO (Starlink, baja latencia 20-40ms, la revolución actual)**.
+- **Bandas:** C (grande, resiste lluvia) / Ku (chica, sufre lluvia) / Ka (mucho ancho de banda, muy sensible al clima).
+
+## 5. Gestión de CPD
+- **ITSM = BMS (edificio general) + DCIM (infraestructura técnica del DC).**
+- **Mantenimiento:** preventivo (programado) vs correctivo (programado/no programado).
+- **5 subsistemas de un DC:** espacio, energía, refrigeración, cableado, seguridad.
+- **PUE:** energía total / energía de servidores. Cuanto más bajo (cerca de 1) mejor eficiencia. Media global ~1,6.
+- **Tier (Uptime Institute):** clasifica tolerancia a fallos del DC.
+
+## 6. Implementación de Data Center
+- **Tipos:** On-premise, Edge (baja latencia), Colocation (alquilás espacio, tu hardware), Managed (alquilás todo), Modular (contenedores), Hyperscale (AWS/Azure/Google).
+- **Niveles Tier I-IV:** I=básico, II=redundancia parcial, III=mantenible sin cortar servicio, IV=tolerante a fallos total.
+- **DCA** (técnico) vs **DCM** (gerente/ejecutivo).
+
+## 7. Riesgos Físicos y Lógicos en el CPD
+- **Topologías (riesgo físico):**
+  - Bus: 1 corte tira toda la red.
+  - Estrella: switch = punto único de falla.
+  - Anillo: 1 corte rompe el círculo entero.
+  - Malla: tolerante a cortes, pero mucho cableado = sobrecalentamiento y error humano.
+- **Riesgos lógicos:** Broadcast storms, fallas STP, saturación tabla CAM (switch se vuelve hub), ARP Spoofing, mala segmentación VLAN, config sin respaldo.
+
+## 8. BCP y DRP (Planes de contingencia)
+- **BCP:** plan estratégico y **proactivo**, protege TODO el negocio (procesos, personas, comunicación).
+- **DRP:** plan técnico y **reactivo**, solo recupera sistemas de TI. Está **dentro** del BCP.
+- **Tiers del DRP:** Tier 1 (crítico, minutos), Tier 2 (12-24hs), Tier 3 (días).
+- **RPO:** cuántos datos toleras perder. **RTO:** cuánto tiempo tolerás estar caído.
+
+## 9. Benchmarks de Hardware
+- Miden rendimiento de CPU (Cinebench), GPU (3DMark), RAM (AIDA64), almacenamiento (CrystalDiskMark).
+- **Sintéticos** (pruebas específicas) vs **de uso real** (PCMark).
+- En CPD: **SPEC** (CPU/energía) y **TPC** (transacciones DB).
+
+## 10. Taller 11 - IPv6
+- 128 bits (vs 32 de IPv4). Notación hexadecimal, se comprime con `::` (una sola vez).
+- Prefijo estándar **/48** para organización, **/64** para hosts.
+- **EUI-64:** genera Interface ID desde la MAC.
+- Transición: **Dual Stack, Tunneling (6to4/Teredo), NAT64/DNS64**.
+
+## 11. Taller 12 - Redes y Recursos Compartidos (Windows)
+- **Workgroup:** P2P, sin servidor central, cada PC gestiona su seguridad (SAM).
+- **nslookup/ping/tracert:** para resolver IPs y rutas.
+- **UNC:** `\\IP\Recurso` para acceder a compartidos.
+- **Permisos:** Lectura / Cambiar / Control Total.
+- **Carpetas ocultas:** agregar `$` al nombre (ej: `Backup$`).
+- **Regla clave:** Permiso Efectivo = SMB ∩ NTFS (el más restrictivo gana).
+
+## 12. Taller 13 - Diagnóstico de Red
+- **Wireshark/tcpdump:** analizan paquetes (modo promiscuo).
+- **ping:** conectividad + latencia (Capa 3, ICMP).
+- **tracert:** ruta completa salto a salto (TTL incremental).
+- **telnet/Test-NetConnection:** verifica si un puerto está abierto.
+- **netstat:** conexiones y puertos activos.
+- **nslookup/dig:** resolución DNS. **whois:** dueño de un bloque IP.
+- **Método Bottom-Up:** Física → LAN (ping gateway) → WAN (ping 8.8.8.8) → DNS → Aplicación.
+
+---
+💡 **Si tuvieras que priorizar por tiempo:** IPv6 (cálculos), topologías físicas/lógicas del CPD, BCP vs DRP (RPO/RTO), y las herramientas de diagnóstico (ping/tracert/nslookup) son los temas más "preguntables" con ejercicios concretos. El resto es más memoria de definiciones.

@@ -537,3 +537,47 @@ Permiso Efectivo = Permisos de Recurso Compartido (SMB) ∩ Permisos NTFS
 
 ## Conclusión
 Dominar las opciones de red, grupos de trabajo, resolución de hosts y la articulación entre permisos SMB/NTFS es clave para administrar de forma segura y eficiente la infraestructura de TI, garantizando integridad, confidencialidad y disponibilidad de los datos.
+
+# Taller 13: Analizadores de Protocolos y Herramientas de Diagnóstico de Red
+
+## 1. Analizadores de Protocolos (Packet Sniffers)
+
+Herramientas como **Wireshark** o **tcpdump** capturan y decodifican paquetes en tiempo real.
+
+- **Modo promiscuo**: la NIC captura todo el tráfico del medio, no solo el propio.
+- **Disección de capas**: desglosa la trama desde Ethernet (Cap. 2) hasta HTTP/DNS/SMB (Cap. 7).
+- **Filtros de captura (BPF)** vs **filtros de visualización**: los primeros deciden qué se registra (`port 80`), los segundos qué se busca en lo ya capturado (`tcp.analysis.retransmission`).
+- Usos: detectar retransmisiones TCP, medir RTT, auditoría de seguridad.
+
+## 2. Herramientas de diagnóstico por capa
+
+|Herramienta|Capa OSI|Protocolo/Mecanismo|Objetivo|
+|---|---|---|---|
+|Wireshark/tcpdump|2-7|Captura pcap|Análisis profundo de paquetes|
+|ipconfig/ifconfig|2-3|DHCP / SO|Ver IP, máscara, gateway, MAC, DNS|
+|ping|3|ICMP Echo Req/Reply|Conectividad y latencia (RTT, TTL)|
+|tracert/traceroute|3|ICMP Time Exceeded|Mapear ruta salto a salto|
+|telnet/Test-NetConnection|4-7|TCP 3-way handshake|Ver si un puerto está abierto|
+|netstat/ss|4|Sockets del SO|Puertos en escucha, conexiones activas|
+|nslookup/dig|7|DNS (puerto 53)|Diagnosticar resolución de nombres|
+|whois|7|WHOIS (puerto 43)|Titularidad de bloques IP/dominios|
+
+**Detalles clave:**
+
+- `ipconfig /all` (todo), `/release` y `/renew` (DHCP), `/flushdns` (limpia caché DNS).
+- `ping`: usa ICMP tipo 8 (Request) y tipo 0 (Reply). Mide RTT, % perdidos y TTL (permite inferir SO y saltos).
+- `tracert`: envía paquetes con TTL creciente (1, 2, 3...); cada router que descarta el paquete devuelve ICMP Time Exceeded (tipo 11), revelando su IP. Máximo 30 saltos.
+- `telnet`/`Test-NetConnection`: valida el handshake TCP (SYN, SYN-ACK, ACK) para saber si un puerto está abierto, cerrado o filtrado por firewall.
+- `netstat -ano`: conexiones activas con IP local/remota, estado (LISTENING, ESTABLISHED) y PID.
+- `nslookup`/`dig`: consulta registros A, AAAA, MX, CNAME, PTR para aislar fallas DNS de fallas IP.
+- `whois`: consulta a RIRs (LACNIC, ARIN, RIPE) por rangos IP, ASN y datos de contacto.
+
+## 3. Metodología Bottom-Up de diagnóstico
+
+1. **Física/Enlace**: cable/Wi-Fi + `ipconfig`.
+2. **Red local**: `ping` al gateway.
+3. **Red WAN**: `ping`/`tracert` a IP pública (ej. 8.8.8.8).
+4. **DNS**: `nslookup` o ping por nombre.
+5. **Transporte/Aplicación**: `telnet` o Wireshark para validar el servicio.
+
+**Idea central para el parcial:** combinar analizadores gráficos (Wireshark) con utilidades de consola, siguiendo el orden bottom-up, para aislar la causa raíz de una falla de red rápidamente.

@@ -1,7 +1,7 @@
 {
-  "deleteOption": "permanent",
+  "deleteOption": "system-trash",
   "logsModal": true,
   "excludedFolders": "",
-  "ribbonIcon": false,
+  "ribbonIcon": true,
   "excludeSubfolders": false
 }

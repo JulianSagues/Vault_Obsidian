@@ -436,3 +436,104 @@ La **resiliencia empresarial** es la capacidad de absorber un evento disruptivo,
 Juntos permiten que la empresa sepa cuánto daño puede tolerar (datos, tiempo, costos) y tenga planes de acción para minimizar impacto económico y reputacional.
 
 -----
+# Taller 11: Protocolo IPv6
+
+## Idea central
+IPv6 (IPng) fue creado por el IETF para reemplazar a IPv4 ante el agotamiento de direcciones. Pasa de **32 a 128 bits**, permitiendo ~3,4×10³⁸ direcciones (conectividad global prácticamente ilimitada).
+
+## Características principales
+- **Direccionamiento:** 128 bits, ~10²⁸ veces más direcciones que IPv4.
+- **Formato:** 8 grupos de 4 dígitos hexadecimales separados por `:`.
+- **Reglas de compresión:**
+  1. Se pueden omitir ceros a la izquierda en cada bloque.
+  2. Una serie de bloques de ceros consecutivos se puede reemplazar **una sola vez** por `::`.
+     - Ej: `FF05:0:0:0:0:0:0:B3` → `FF05::B3`
+- **Encabezado optimizado:** simplificado, con cabeceras de extensión opcionales → procesamiento más ágil en routers.
+- **QoS:** mejor gestión de recursos para tráfico en tiempo real (video, voz).
+- **Sin broadcast:** usa **Unicast, Multicast y Anycast**.
+- **Autoconfiguración:** soporte nativo de **SLAAC** (sin estado) + seguridad integrada con **IPsec**.
+
+## Cálculo y subredes
+- **Asignación estándar /48:** se recomienda dar a cada organización un prefijo /48, reservando 16 bits (64-48) para hasta **65.536 subredes** (2¹⁶), manteniendo el prefijo /64 para hosts.
+- **Interface ID (EUI-64):** genera automáticamente los últimos 64 bits desde la MAC (48 bits):
+  1. Se divide la MAC en dos mitades de 3 bytes.
+  2. Se inserta `FF:FE` en el medio.
+  3. Se invierte el 7° bit (Universal/Local) del primer octeto.
+
+## Conversión y transición desde IPv4
+- **IPv4-Mapped:** `::FFFF:w.x.y.z` — primeros 80 bits en cero, siguientes 16 en `FFFF`, últimos 32 = la IPv4.
+  - Ej: `192.168.1.1` → `::FFFF:C0A8:0101`
+- **Mecanismos de transición:**
+  - **Dual Stack:** el nodo corre IPv4 e IPv6 simultáneamente.
+  - **Tunneling:** encapsula paquetes IPv6 dentro de IPv4 (ej: 6to4, Teredo) para pasar por infraestructura vieja.
+  - **Traducción (NAT64/DNS64):** traduce entre hosts que solo hablan IPv6 y servidores solo IPv4.
+
+## Conclusión
+IPv6 amplía masivamente el direccionamiento, moderniza el ruteo, mejora la eficiencia de procesamiento y optimiza el QoS para el tráfico actual de Internet.
+# Taller 12: Redes y Recursos Compartidos en Sistemas Operativos
+
+## 1. Panel de Control - Opciones de Red (Windows)
+- **Centro de redes y recursos compartidos:** vista global del estado de conectividad (Privada/Pública/Dominio), diagnóstico y acceso rápido a configuración.
+- **Configuración del adaptador:** gestiona interfaces (Ethernet, WiFi, VPN): IP estática/DHCP, máscara, gateway, DNS, protocolos (IPv4/IPv6/QoS).
+- **Uso compartido avanzado:** activa/desactiva detección de redes, compartir archivos/impresoras, carpetas públicas, protección por contraseña.
+- **Firewall de Windows Defender:** filtra tráfico entrante/saliente por puertos y protocolos (ej. SMB 445/139, ICMP).
+- **Opciones de Internet:** proxy, zonas de seguridad, TLS/SSL.
+
+## 2. Grupo de Trabajo (Workgroup)
+**Definición:** agrupación lógica de equipos en una LAN bajo arquitectura **Peer-to-Peer (P2P)**, sin servidor central de autenticación.
+
+**Permite:**
+- Localizar equipos en la red.
+- Compartir carpetas, archivos, discos e impresoras directamente.
+- Administración **descentralizada**: cada máquina gestiona su propia base de cuentas (SAM).
+
+**Configuración:**
+1. `Win + R` → `sysdm.cpl` → Enter.
+2. Pestaña "Nombre de equipo" → **Cambiar...**
+3. En "Miembro de" → seleccionar **Grupo de trabajo** e ingresar nombre (ej: WORKGROUP).
+4. Guardar y reiniciar.
+
+## 3. Determinar IP de un servidor remoto
+- **`nslookup`:** consulta al DNS para resolver registros A (IPv4) o AAAA (IPv6).
+- **`ping`:** envía ICMP Echo Request, resuelve nombre→IP y mide latencia.
+- **`tracert`:** muestra la IP destino y todos los saltos (routers intermedios) hasta llegar al host.
+
+## 4. Mecanismos para compartir archivos en LAN
+Se usan protocolos **SMB/CIFS** (Windows/Linux) o **NFS** (Linux/Unix):
+1. Verificar perfil de red **Privada**, activar detección de redes y uso compartido.
+2. Publicar el directorio (crear/seleccionar carpeta y compartirla).
+3. Configurar permisos de acceso.
+4. Acceder vía **ruta UNC**: `\\IP_Servidor\Recurso` o `\\NombreEquipo\Recurso`.
+
+## 5. Compartir carpetas: básico vs. avanzado
+- **Básico:** Propiedades → Compartir → Compartir... (permisos simples de lectura o lectura/escritura).
+- **Avanzado:** control total del recurso:
+  - **Share Name:** alias de red independiente del nombre físico.
+  - **Límite de conexiones simultáneas.**
+  - **Permisos de red:** Lectura, Cambiar, Control Total.
+  - **Caché sin conexión:** disponibilidad offline de archivos.
+
+| Nivel | Lectura | Creación/Edición | Eliminación/Permisos |
+|---|---|---|---|
+| Lectura | Sí | No | No |
+| Cambiar | Sí | Sí | Sí (elimina archivos/carpetas) |
+| Control Total | Sí | Sí | Sí + modifica permisos de red |
+
+## 6. Carpetas ocultas (recursos administrativos)
+Para que no aparezca listada al explorar la red:
+1. Clic derecho en carpeta → Propiedades → Compartir → **Uso compartido avanzado**.
+2. Marcar "Compartir esta carpeta".
+3. Agregar **`$`** al final del nombre del recurso (ej: `Reportes$`, `Backup$`).
+4. Configurar permisos y Aceptar.
+
+**Acceso:** el usuario debe conocer la ruta UNC exacta: `\\192.168.1.100\Reportes$`
+
+## 7. Interacción entre permisos SMB y NTFS
+**Regla del permiso más restrictivo:**
+Permiso Efectivo = Permisos de Recurso Compartido (SMB) ∩ Permisos NTFS
+- **SMB (Recurso Compartido):** solo aplica al tráfico por red (puerto TCP 445), no afecta sesiones locales.
+- **NTFS (pestaña Seguridad):** aplica siempre (local y remoto), soporta herencia, atributos y auditoría.
+- **Recomendación:** dar permisos amplios en SMB (ej. Control Total a usuarios autenticados) y manejar la seguridad fina con **NTFS**, siguiendo el principio de mínimo privilegio.
+
+## Conclusión
+Dominar las opciones de red, grupos de trabajo, resolución de hosts y la articulación entre permisos SMB/NTFS es clave para administrar de forma segura y eficiente la infraestructura de TI, garantizando integridad, confidencialidad y disponibilidad de los datos.

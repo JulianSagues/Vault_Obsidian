@@ -91,3 +91,291 @@ Transmite información mediante **pulsos de luz** por un núcleo de vidrio (no u
 
 ## Conclusión
 No hay un medio "mejor" en todos los casos: **par trenzado** = bajo costo y fácil instalación (LAN); **coaxial** = perdió protagonismo en LAN pero sigue en TV/RF; **fibra óptica** = máxima capacidad y distancia, clave en redes troncales y data centers. La elección depende de distancia, velocidad, presupuesto y ambiente.
+# Expo3: Redes por Radiofrecuencia
+
+## ¿Qué es la radiofrecuencia?
+Tecnología inalámbrica que usa **ondas electromagnéticas (ondas de radio)** para transmitir información. El **transmisor** convierte datos en ondas de radio; el **receptor** las reconvierte en información. El espectro útil va de **300 Hz a 300 GHz**.
+
+## Elementos de la comunicación
+- **Modulación de frecuencia:** convierte señales en ondas (AM, FM, PM).
+- **Antena:** envía/recibe ondas; su diseño y ubicación afecta alcance y calidad.
+- **Codificación/decodificación de canales:** mejora estabilidad y anti-interferencia.
+- **Gestión de energía:** ajusta potencia para no interferir con otras señales.
+- **Gestión de bandas de frecuencia:** administra el espectro para evitar desperdicio e interferencias.
+
+## Clasificación según alcance
+| Tipo | Alcance | Ejemplo |
+|---|---|---|
+| **WPAN** (personal) | ~10 m | Bluetooth |
+| **WLAN** (local) | Edificio/oficina | WiFi doméstico |
+| **WMAN** (metropolitana) | Tamaño de ciudad | 2G/3G/4G/5G |
+| **WWAN** (amplia) | Muchos km | Redes celulares 4G/5G |
+
+## Bluetooth (WPAN)
+Conecta dispositivos a **corta distancia** (ej: celular-parlante), reemplazando cables simples. Usa banda de **2,4 GHz** (compartida, buen equilibrio alcance/penetración).
+
+**Topologías Bluetooth:**
+1. **Punto a punto:** conexión directa 1 a 1.
+2. **Piconet:** varios dispositivos comparten canal, uno actúa como central.
+3. **Scatternet:** dos o más piconets conectadas entre sí.
+4. **Broadcast:** un dispositivo transmite a muchos (1 a muchos).
+5. **Bluetooth mesh:** comunicación de muchos a muchos, **descentralizada** (red en malla).
+
+## WiFi (WLAN)
+Transmite ondas de radio en frecuencias de **2.4 GHz, 5 GHz y 6 GHz**. A mayor frecuencia → más velocidad pero menos alcance (2,4 GHz llega más lejos, 6 GHz es más rápido pero de menor rango). Usa protocolos **IEEE 802.11**.
+
+**Modos de conexión:**
+- **Infraestructura:** conecta equipos inalámbricos a una red cableada mediante un **Punto de Acceso** (o router).
+- **Ad-hoc:** dispositivos conectados entre sí sin punto de acceso, de igual a igual (**Peer to Peer**), útil para compartir info puntualmente a baja velocidad.
+
+## Redes celulares 4G y 5G (WWAN)
+Administradas por operadores de telecomunicaciones. Dividen la cobertura en **celdas**, cada una atendida por una **estación base** conectada a una red central. Al moverse el usuario entre celdas, la conexión se **transfiere automáticamente**. No usan una única frecuencia (a diferencia de WiFi/Bluetooth).
+
+- **4G (LTE):** mejora la transmisión de datos móviles. Celdas de **5 a 100 km**, latencia **menor a 50 ms**.
+- **5G:** evolución del 4G. Mayor velocidad, **menor latencia** (hasta ~1 ms) y mayor capacidad de dispositivos conectados → habilita **IoT**. Aprovecha infraestructura ya existente de 4G.
+
+## Conclusión
+Las redes inalámbricas ofrecen **movilidad y flexibilidad** que el cable no iguala, organizadas según alcance (WPAN, WLAN, WWAN). Todas se basan en la **radiofrecuencia**, un recurso limitado que debe gestionarse bien para evitar interferencias. El salto de **4G a 5G** es clave sobre todo por la **reducción drástica de latencia**, habilitando aplicaciones críticas (telemedicina, vehículos conectados). A futuro se espera la convivencia de 4G/5G y la llegada del **6G**.
+# Expo3: Medios de Conexión Satelital
+
+## Idea central
+Cuando la fibra o las redes móviles no son viables (geografía extrema, catástrofes), el **internet satelital** conecta usuarios con la red mundial mediante satélites en órbita. En la última década pasó de ser lento y caro a una alternativa competitiva.
+
+## Arquitectura de una red satelital
+1. **Segmento Espacial (satélite):** actúa como repetidor: recibe la señal, la amplifica, cambia su frecuencia y la retransmite.
+2. **Segmento Terrestre (Gateway/Telepuerto):** instalaciones conectadas al backbone de Internet mundial por fibra de alta capacidad.
+3. **Segmento de Usuario (VSAT):** antena parabólica (necesita línea de vista al cielo) + módem satelital que decodifica la señal para los equipos del cliente.
+
+## Funcionamiento
+1. El usuario envía la solicitud → antena → **uplink** (enlace ascendente) al satélite.
+2. El satélite amplifica y retransmite hacia el **gateway**, conectado a Internet.
+3. La respuesta vuelve por el camino inverso: Internet → gateway → satélite → **downlink** (enlace descendente) → usuario.
+4. Todo ocurre en milisegundos, permitiendo conectividad donde no llegan redes terrestres.
+
+## Clasificación de satélites según órbita
+| Tipo | Distancia | Latencia | Características |
+|---|---|---|---|
+| **GEO** | ~35.786 km | 500-700 ms | Fijos respecto a la Tierra; 3-4 satélites cubren casi todo el planeta; ideal para TV/broadcast; alta latencia afecta tiempo real |
+| **MEO** | 2.000-35.786 km | Media | Usado en GPS/Galileo; ej. O3b (cruceros, islas); antenas deben rastrear el satélite |
+| **LEO** | 160-2.000 km | 20-40 ms | La revolución actual (Starlink, OneWeb, Kuiper); baja latencia similar a banda ancha; requiere miles de satélites (constelación) y antenas **Phased Array** |
+
+## Bandas de frecuencia
+- **Banda C (4-8 GHz):** antenas grandes (2-3m); resiste bien la lluvia; usada en zonas tropicales.
+- **Banda Ku (12-18 GHz):** estándar en TV satelital y VSAT corporativo; antenas chicas (60-90cm); sufre **atenuación por lluvia (Rain Fade)**.
+- **Banda Ka (26-40 GHz):** mucho ancho de banda, cientos de Mbps (HTS, LEO); muy sensible al clima, requiere ajuste dinámico de potencia.
+
+## Ventajas y desafíos
+- **Ventajas:** cobertura en zonas extremas (océanos, desiertos, montañas); despliegue rápido (horas, sin obras civiles); independencia terrestre (útil ante desastres).
+- **Desafíos:** costo por GB más alto que terrestre (aunque LEO lo está bajando); sensibilidad climática; necesidad de línea de vista sin obstrucciones.
+
+## Casos de uso
+- Aviación y marítimo (WiFi a bordo).
+- Comunidades rurales (escuelas, hospitales sin ISP rentable).
+- Respaldo corporativo/failover ante corte de fibra.
+
+## Situación en Argentina
+Según **ENACOM**, las conexiones satelitales crecieron **7.180%**: de 2.992 (fines 2023) a 217.812 (mediados 2025), por desregulación de cielos y nuevos proveedores. Hay un convenio público-privado (+U$S21 millones) con **Starlink** para llevar internet satelital a escuelas estatales.
+
+**Proveedores en el mercado argentino:**
+- **Starlink (SpaceX):** líder en LEO.
+- **Amazon Leo (Project Kuiper):** próximo a llegar, acuerdo con DirecTV.
+- **Orbith:** usuarios finales y mayorista para ISPs rurales.
+- **Hughes / Eutelsat OneWeb:** combinan GEO (Júpiter 3) con distribución LEO; enlaces corporativos.
+- **ARSAT:** estatal, gestiona satélites geoestacionarios ARSAT-1 y ARSAT-2 desde Benavídez.
+
+## Conclusión
+Gracias a la banda Ka y las constelaciones LEO, la brecha de rendimiento entre satélite y redes terrestres se achicó drásticamente. A futuro se espera integración entre redes satelitales y 5G terrestre para un ecosistema global sin interrupciones.
+# Expo5:Gestión de Centros de Procesamiento de Datos (CPD)
+
+## Idea central
+Un CPD es la infraestructura física y lógica que aloja los sistemas críticos (servidores, almacenamiento, redes, energía, climatización, seguridad). Gestionarlo bien implica 4 bloques: **operación diaria, recursos/capacidad, seguridad/continuidad y gobernanza**. Una mala gestión = interrupciones, sobrecostos y riesgo legal.
+
+## 1. Operaciones diarias y mantenimiento
+
+**ITSM (IT Service Management):** enfoque integral que acompaña todo el proceso: planificar, desplegar y dar soporte. Integra dos plataformas:
+- **BMS (Building Management System):** gestiona el edificio completo (temperatura, humedad, seguridad), interfaz general.
+- **DCIM (Data Center Infrastructure Management):** exclusivo del data center, más técnico: gestión de activos TI, monitoreo de red y rendimiento.
+
+**Mantenimiento:**
+- **Preventivo:** revisiones periódicas programadas para detectar fallas antes de que ocurran.
+- **Correctivo:** actúa cuando ya hay falla. Se divide en:
+  - *No programado:* falla inesperada, solución inmediata.
+  - *Programado:* la reparación puede esperar recursos disponibles.
+
+**Gestión de Activos y Cambios:** proceso estructurado para manejar cambios en TI (reactivos o proactivos), buscando minimizar incidentes y alinearse con objetivos/normas. Sigue 4 pasos:
+1. **Planificación y evaluación** (riesgos, criterios de éxito).
+2. **Aprobación del cambio** (por la CCB - Junta de Control del Cambio).
+3. **Implementación** (coordinada, comunicación transparente).
+4. **Supervisión y revisión** (pruebas post-implementación, feedback documentado).
+
+## 2. Recursos y capacidad
+Un datacenter necesita **5 subsistemas** para ser considerado tal (si falta uno, es "una sala con servidores"):
+1. Espacio físico y racks (white space).
+2. Alimentación eléctrica (UPS, generadores, PDU).
+3. Refrigeración (CRAC/CRAH, contención de pasillos).
+4. Cableado estructurado (cobre y fibra organizados).
+5. Seguridad física y monitoreo (control de acceso, CCTV, sensores).
+
+## 3. Seguridad, ciberseguridad y continuidad
+Deben protegerse contra intrusiones, incendios, catástrofes naturales, cortes de luz, errores humanos y ataques.
+
+- **Seguridad física:** control de acceso autenticado (mínimo privilegio necesario), personal de seguridad 24hs (disuasión), CCTV en accesos, protección de equipos de energía/refrigeración/redes, resistencia a inundaciones/incendios, ubicación geográfica óptima.
+- **Seguridad lógica:** normas estrictas de supervisión y auditoría; pruebas y revisión de código antes de desplegar apps, ya que un malware puede comprometer no solo el CPD sino a todos los clientes alojados.
+
+## 4. Gobernanza, métricas y tendencias
+
+**PUE (Power Usage Effectiveness):** ratio entre energía total consumida y la energía usada realmente por los servidores. Estándar creado por The Green Grid (2007) para medir eficiencia energética.
+- Cuanto más bajo, mejor: en 2024, los mejores CPD llegaron a **1,09**; la media global es **~1,6**; los de última generación logran **<1,4**.
+- **Niveles de medición:**
+  - **PUE1:** suministro principal (UPS), mediciones mensuales manuales.
+  - **PUE2:** unidades de distribución (PDU), lecturas diarias automatizadas.
+  - **PUE3:** equipos informáticos, mediciones cada ≤15 min (mayor precisión).
+
+**Normativas:** regulan aspectos físicos (accesos, incendios, redundancia eléctrica) y lógicos (ciberseguridad, gestión de usuarios, encriptación). Buscan asegurar disponibilidad, seguridad y continuidad del negocio, no solo cumplir un requisito legal.
+
+**Clasificación Tier (ANSI/TIA-942):** desarrollada por el **Uptime Institute**, determina la capacidad del CPD para tolerar fallos y mantener disponibilidad (niveles/tiers).
+
+## Conclusión
+Un CPD resiliente combina los 4 bloques (operación, capacidad, seguridad, gobernanza). Tendencias futuras: **IA aplicada al DCIM** (mantenimiento predictivo), **edge computing** (reducir latencia acercando el procesamiento al usuario) y mayor exigencia de **sustentabilidad** (PUE como KPI regulatorio).
+# Expo6: Implementación de Data Center
+
+## 1. Qué es un Data Center
+Instalación física diseñada para alojar sistemas informáticos, servidores, redes y almacenamiento. Garantiza operaciones digitales continuas y seguras mediante: **almacenamiento**, **procesamiento** y **conectividad**.
+
+## 2. Planificación y análisis de requisitos
+- **Capacidad:** definida según volumen actual y crecimiento proyectado.
+- **Tráfico de red:** ancho de banda, QoS, conectividad con ISPs.
+- **Seguridad y normativa:** control de acceso, cámaras, firewalls, IDS, cumplimiento legal/ambiental.
+- **Ubicación:** bajo riesgo de desastres naturales, energía confiable, múltiples proveedores de internet.
+- **Diseño arquitectónico:** espacios, disposición de equipos y soporte (refrigeración, energía, red).
+- **Infraestructura eléctrica:** sistemas redundantes (UPS y generadores).
+- **Refrigeración:** aire acondicionado, refrigeración líquida o por inmersión.
+- **Disposición de servidores:** racks y cableado con separación de pasillos fríos/calientes.
+- **Infraestructura de red:** switches/routers/firewalls redundantes, capacidad de redirigir tráfico ante fallas.
+
+## 3. Construcción del Data Center
+Etapas principales:
+1. **Obra civil:** pisos técnicos elevados (cableado y flujo de aire), recubrimientos ignífugos y sellado contra humedad.
+2. **Instalación eléctrica y refrigeración:** UPS, generadores, aire de precisión; separación física de pasillos fríos/calientes.
+3. **Cableado estructurado y montaje:** armado de racks, tendido ordenado de fibra/cobre en bandejas.
+4. **Medidas de seguridad:** firewalls, IDS, protección antimalware, cifrado, control de accesos.
+5. **Pruebas y validación:** pruebas de estrés, cargas térmicas/eléctricas, simulacros de corte de energía.
+6. **Implementación tecnológica:** sistemas operativos, apps de gestión, **DCIM**, sistemas de backup y recuperación.
+
+## 4. Clasificación de Data Centers
+Una empresa puede usar varios tipos combinados:
+- **On-premise:** infraestructura propia, gestión total por la empresa.
+- **Edge:** instalaciones pequeñas cerca del usuario, baja latencia (IoT, streaming, gaming, IA/ML).
+- **Colocation:** el cliente es dueño del hardware pero alquila espacio (edificio, energía, refrigeración, seguridad) a un tercero.
+- **Managed:** el cliente alquila espacio **y** servidores/hardware al proveedor.
+- **Modular:** instalaciones portátiles en contenedores, ideales para recuperación de desastres o despliegues temporales.
+- **Hyperscale:** instalaciones masivas (AWS, Azure, Google Cloud), miles/millones de servidores, base de la nube pública.
+
+## 5. Niveles (Tiers) — Uptime Institute
+| Nivel | Características |
+|---|---|
+| **I** | Capacidad básica: 1 fuente de energía, refrigeración constante, 1 generador. |
+| **II** | Componentes redundantes (energía y refrigeración), permite mantenimiento sin cortar del todo. |
+| **III** | Mantenible simultáneamente: rutas y componentes redundantes, sin parar operaciones durante mantenimiento. |
+| **IV** | Sistemas independientes y físicamente aislados, **tolerante a fallos**: las operaciones siguen aunque falle un componente. |
+
+## 6. Gestión y mantenimiento
+Requiere estrategia integral de seguridad (controles administrativos + informáticos, firewalls, protocolos de ciberseguridad).
+
+- **Administrador de Data Center:** mantiene, instala/actualiza software y hardware, organiza el espacio físico.
+- **DCA (Data Center Administrator):** especialista técnico en infraestructura física/virtual, hardware y software.
+- **DCM (Data Center Manager):** responsable ejecutivo de operaciones globales, personal, seguridad y mantenimiento.
+
+**Tendencia actual:** prácticas eco-sustentables (impulsadas por el crecimiento de IA): virtualización, energías renovables, hardware de bajo consumo.
+
+## Conclusión
+Los Data Centers son el núcleo de la era digital (nube, IA, big data). Un diseño bien planificado, ingeniería precisa y gestión profesional garantizan escalabilidad, disponibilidad y resiliencia a largo plazo — invertir en esta infraestructura es una decisión estratégica, no solo técnica.
+
+# Expo7: Benchmarks de Hardware
+
+## Idea central
+Los benchmarks son **pruebas estandarizadas** que miden el rendimiento de componentes o de un equipo completo, bajo condiciones específicas. Un solo benchmark **no representa el rendimiento total**: hay que combinar varias pruebas y relacionarlas con el uso real.
+
+## ¿Para qué sirven?
+- Comparar rendimiento entre equipos.
+- Elegir el hardware adecuado para una tarea (programación, video, gaming).
+- Detectar problemas de rendimiento o fallas de hardware.
+- Verificar si una actualización (drivers, RAM, SSD) mejoró el equipo.
+- Identificar **cuellos de botella**.
+- Evaluar servidores antes de ponerlos en producción.
+
+## Componentes evaluados y herramientas
+| Componente | Qué mide | Herramientas |
+|---|---|---|
+| **CPU** | Cálculos e instrucciones (single-core y multi-core) | Cinebench, Geekbench, PassMark |
+| **GPU** | Procesamiento gráfico paralelo (juegos, render 3D) | 3DMark, FurMark |
+| **RAM** | Velocidad lectura/escritura, ancho de banda, latencia | AIDA64, MemTest86 |
+| **Almacenamiento** | Velocidad lectura/escritura secuencial y aleatoria | CrystalDiskMark, AS SSD Benchmark |
+| **Sistema completo** | Rendimiento general | PCMark |
+
+## Tipos de benchmarks
+- **Sintéticos:** operaciones repetitivas diseñadas específicamente para medir hardware (Cinebench, 3DMark, CrystalDiskMark). Fáciles de comparar, pero no siempre reflejan el uso real.
+- **De uso real:** tareas habituales (editar video, renderizar, compilar). Ej: PCMark. Reflejan mejor la experiencia real, pero son más difíciles de reproducir exactamente.
+
+## Factores que influyen en el resultado
+- Temperatura y refrigeración del equipo.
+- Programas en segundo plano.
+- Drivers actualizados o no.
+- Configuración del sistema operativo.
+
+Por esto, equipos con specs similares pueden dar resultados distintos → se recomienda repetir pruebas en condiciones parecidas.
+
+## Aplicación en un CPD
+Los benchmarks verifican que los servidores funcionen bien **antes de entrar en producción**. Se usan estándares reconocidos:
+- **SPEC:** incluye *SPEC CPU* (procesador) y *SPECpower* (relación rendimiento/consumo energético, clave en un data center).
+- **TPC:** incluye *TPC-C* (simula transacciones de base de datos) y *TPC-H* (consultas sobre grandes volúmenes de datos).
+
+También ayudan a evaluar almacenamiento, detectar equipos de bajo rendimiento y planificar ampliaciones (rendimiento, energía, refrigeración).
+
+## Ventajas y desventajas
+| Ventajas | Desventajas |
+|---|---|
+| Comparación objetiva de hardware | Un sintético no siempre refleja el uso diario |
+| Detectan fallas | Los resultados varían según configuración |
+| Facilitan decisiones de compra | El calor durante la prueba puede bajar el rendimiento |
+| Comprueban mejoras tras actualizaciones | Comparar versiones distintas del mismo benchmark da conclusiones erróneas |
+| Útiles para planificar infraestructura | Interpretarlos bien requiere conocimiento técnico |
+
+## Buenas prácticas para mediciones confiables
+- Cerrar programas de fondo y pausar descargas.
+- Usar siempre la **misma versión** del benchmark.
+- Repetir la prueba varias veces y descartar valores atípicos.
+- Dejar que el equipo vuelva a temperatura base entre pruebas.
+- Combinar benchmarks **sintéticos + de uso real**.
+- Documentar la configuración (drivers, SO, perfil de energía) junto a los resultados.
+
+## Conclusión
+Los benchmarks son clave para medir, comparar y decidir sobre hardware/servidores, pero **ningún benchmark aislado** representa el rendimiento real: conviene combinar pruebas y considerar el uso real del sistema.
+# Expo8: Análisis Integral de Riesgos en el CPD: Vulnerabilidades Topológicas y Lógicas
+
+## Idea central
+La disponibilidad de red en un CPD depende del **diseño físico (topología)** y de la **correcta configuración lógica** de los dispositivos. Una falla en cualquiera de los dos puede comprometer la continuidad del servicio.
+
+## Riesgos Físicos (según topología)
+
+- **Bus (ducto):** todos conectados a un mismo cable principal. **Diseño más frágil**: un corte en el ducto o falla de terminadores provoca rebote de señal, colisiones y caída total de la red.
+- **Estrella:** todos conectan a un equipo central (switch). **Riesgo:** punto único de falla — si el switch pierde energía, se daña o se corta su enlace troncal, toda esa sección del CPD queda aislada.
+- **Anillo:** dispositivos en círculo cerrado, acceso controlado por paso de **token**. Un corte en cualquier tramo rompe el anillo completo y detiene el token, dejando toda la red inoperante.
+- **Malla:** interconexión múltiple entre dispositivos. Muy tolerante a cortes individuales, pero el riesgo pasa a ser la **complejidad**: exceso de cableado que obstruye el flujo de aire frío (sobrecalentamiento) y mayor probabilidad de error humano al desconectar cables durante mantenimiento.
+
+## Riesgos Lógicos
+
+- **Tormentas de difusión (Broadcast Storms):** en topologías con caminos redundantes o switches mal configurados, un paquete de broadcast circula sin fin si no hay mecanismo anti-bucles → satura el ancho de banda y puede colapsar la red sin ningún daño físico.
+- **Fallas del protocolo Spanning Tree (STP):** STP bloquea caminos lógicamente para evitar bucles. Si está mal configurado, deshabilitado o se conecta un dispositivo incompatible, se generan bucles de capa 2 → derivan en tormentas de difusión.
+- **Saturación de la tabla CAM del switch:** un atacante (o falla) inunda el switch con MACs falsas, agotando su tabla de direccionamiento. El switch termina comportándose como un **hub**, retransmitiendo todo el tráfico a todos los puertos → compromete rendimiento y confidencialidad.
+- **ARP Spoofing (envenenamiento de ARP):** como ARP no autentica, un dispositivo malicioso puede asociar su MAC a la IP de otro equipo (ej. el gateway) para interceptar, modificar o descartar tráfico, sin fallas físicas visibles.
+- **Segmentación lógica insuficiente (VLANs):** si no hay buena segmentación por VLAN, o hay errores de "VLAN hopping" en puertos troncales, un dispositivo comprometido en un segmento puede acceder a recursos de otro segmento que debería estar aislado.
+- **Punto único de falla en configuración lógica:** si rutas estáticas, tablas de enrutamiento o reglas de firewall están en un solo dispositivo sin respaldo, un error de configuración o actualización fallida puede tirar toda la red aunque el hardware esté intacto.
+
+## Análisis de riesgos
+- Los **riesgos físicos** son la mayor amenaza cuando afectan componentes críticos: bus, estrella y anillo tienen puntos cuya falla interrumpe **toda** la comunicación. La elección de topología define directamente la tolerancia a fallos.
+- Los **riesgos lógicos** (mala configuración, falta de protecciones, ataques internos) pueden causar degradación del servicio, pérdida de confidencialidad o inoperatividad total, **sin necesidad de falla física**.
+- Conclusión: la seguridad del CPD depende tanto de la infraestructura como de la calidad de sus configuraciones.
+
+## Conclusión general
+Reducir el riesgo no es solo agregar equipamiento o corregir fallas puntuales: requiere una **estrategia integral** que combine redundancia física, configuraciones seguras, monitoreo permanente, mantenimiento preventivo y buenos procedimientos de administración.

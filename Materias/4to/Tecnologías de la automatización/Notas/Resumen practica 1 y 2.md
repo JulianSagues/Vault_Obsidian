@@ -321,3 +321,79 @@ Para destrabar lazos cruzados, se mueven los nodos compensando la rama desplazad
 3.  **Despejar cruces:** Si un lazo interno está cruzado con otro, desplazar un punto de suma o de ramificación aplicando la propiedad de movimiento correspondiente.
 4.  **Reevaluar:** Tras mover un nodo, volver al paso 1 (siempre aparecen nuevos bloques en serie o paralelo tras un desplazamiento).
 5.  **Lazo principal:** Reducir el último lazo exterior (realimentación principal) hasta obtener el bloque unitario final $G_{eq}(s)$.
+---
+## 8,Análisis de Estabilidad: Representación Externa e Interna
+
+La estabilidad es una especificación básica y fundamental que debe garantizarse en el diseño de cualquier sistema de control. Un sistema dinámico LTI se puede analizar desde su representación externa (relación entrada-salida) o desde su representación interna (evolución de los estados).
+
+---
+
+### 1. Representación Externa (Dominio de Laplace)
+
+Desde el punto de vista externo, un sistema es estable si, ante una entrada acotada, produce una salida también acotada independientemente de su estado inicial (Estabilidad BIBO). Este análisis recae sobre la Función de Transferencia $G(s) = \frac{Y(s)}{U(s)} = \frac{N(s)}{D(s)}$.
+
+#### A. Análisis de Polos
+Los polos del sistema son las raíces de la ecuación característica $D(s) = 0$. Su ubicación en el plano complejo $s$ determina directamente la estabilidad absoluta y relativa del sistema:
+
+*   **Sistema Estable:** Todas las raíces de la ecuación característica se encuentran en el semiplano izquierdo de la variable compleja $s$ (tienen parte real negativa). Esto produce respuestas naturales que son exponenciales decrecientes o sinusoides amortiguadas que tienden a extinguirse.
+*   **Sistema Inestable:** Al menos un polo se ubica en el semiplano derecho (parte real positiva). Esto genera respuestas exponenciales crecientes o sinusoides de amplitud creciente con el tiempo.
+*   **Sistema Críticamente Estable:** Existe un único polo en el origen ($s=0$) y todos los demás se encuentran en el semiplano izquierdo. (Más de un polo en el origen vuelve al sistema inestable).
+*   **Sistema Marginalmente Estable:** Existe una única pareja de polos complejos conjugados sobre el eje imaginario (sin parte real) y el resto de los polos en el semiplano negativo. La respuesta es una oscilación de amplitud constante (comportamiento oscilatorio sostenido).
+
+#### B. Criterio de Routh-Hurwitz
+Es un método algebraico que determina si las raíces de un polinomio característico $a_0 s^n + a_1 s^{n-1} + \dots + a_n = 0$ están en el semiplano izquierdo, sin necesidad de calcular explícitamente dichas raíces.
+
+**Paso 1: Condiciones de Cardano-Vieta**
+Para que un polinomio tenga todas sus raíces con parte real negativa, es condición necesaria (pero no suficiente) que todos sus coeficientes existan (ninguno sea nulo) y que todos tengan el mismo signo. Si esta condición falla, el sistema es inestable de inmediato.
+
+**Paso 2: Construcción del Arreglo de Routh**
+Se ordenan los coeficientes en filas y columnas. Las dos primeras filas se arman alternando los coeficientes del polinomio original:
+$$
+\begin{array}{c|cccc}
+s^n & a_0 & a_2 & a_4 & a_6 \\
+s^{n-1} & a_1 & a_3 & a_5 & a_7 \\
+s^{n-2} & b_1 & b_2 & b_3 & \dots \\
+s^{n-3} & c_1 & c_2 & c_3 & \dots \\
+\vdots & \vdots & \vdots & \vdots & 
+\end{array}
+$$
+Los coeficientes de las filas subsiguientes se calculan mediante determinantes cruzados con los elementos de las dos filas inmediatamente superiores:
+$$ b_1 = \frac{a_1 a_2 - a_0 a_3}{a_1}, \quad b_2 = \frac{a_1 a_4 - a_0 a_5}{a_1} $$
+$$ c_1 = \frac{b_1 a_3 - a_1 b_2}{b_1}, \quad c_2 = \frac{b_1 a_5 - a_1 b_3}{b_1} $$
+El proceso se repite hasta obtener $n+1$ filas (hasta que los elementos restantes sean cero).
+
+**Paso 3: Criterio de Estabilidad**
+El sistema es estable si y solo si **todos los elementos de la primera columna tienen el mismo signo** (generalmente positivo). 
+Si existen cambios de signo en esa columna, el sistema es inestable. El **número de cambios de signo es exactamente igual al número de raíces con parte real positiva**.
+
+---
+
+### 2. Representación Interna (Espacio de Estados)
+
+Desde la representación interna ($\mathbf{\dot{x}}(t) = A\mathbf{x}(t)$), la estabilidad está relacionada con el comportamiento de las soluciones de las ecuaciones diferenciales de estado. Si todas las soluciones convergen a un punto de equilibrio, el sistema es estable.
+
+#### A. Análisis de Autovalores
+La dinámica natural del sistema está dictada por la matriz del sistema $A$. Para analizar la estabilidad, se calculan los autovalores $\lambda$ de dicha matriz resolviendo la ecuación:
+$$ \det(\lambda I - A) = 0 $$
+*   Si **todos** los autovalores resultantes tienen parte real negativa, el sistema es estable (las soluciones tienden al equilibrio cuando $t \to \infty$).
+*   Si **algún** autovalor tiene parte real positiva, el sistema es inestable.
+
+#### B. Plano de Fase y Puntos de Equilibrio
+El plano de fase es una herramienta gráfica (comúnmente usada para sistemas de 2 variables de estado) que representa la evolución temporal de $x_2(t)$ en función de $x_1(t)$. La familia de trayectorias trazadas permite determinar visualmente la estabilidad del sistema en torno a sus puntos de equilibrio.
+
+*   **Punto de Equilibrio ($x_e$):** Es un vector constante donde la ecuación dinámica se anula ($\mathbf{\dot{x}} = 0$). Para un sistema lineal sin entradas, el origen $(0,0)$ es el único punto de equilibrio.
+*   **Criterio Gráfico:** Si las trayectorias del plano de fase convergen hacia el punto de equilibrio, el sistema es estable. Si se alejan, es inestable.
+
+**Clasificación de Puntos Críticos según los Autovalores de A:**
+
+| Autovalores ($\lambda_1, \lambda_2$) | Matriz $A$ | Clasificación del Punto Crítico | Comportamiento Geométrico |
+| :--- | :--- | :--- | :--- |
+| **Reales y distintos, menores a 0** | Cualquiera | **Nodo Estable** | Las trayectorias tienden (convergen) al origen. |
+| **Reales y distintos, mayores a 0** | Cualquiera | **Nodo Inestable** | Las trayectorias se alejan (divergen) del origen. |
+| **Dobles negativos** ($\lambda_1 = \lambda_2 < 0$) | Diagonal | **Nodo Estelar Estable** | Todas las trayectorias convergen al origen en línea recta. |
+| **Dobles positivos** ($\lambda_1 = \lambda_2 > 0$) | Diagonal | **Nodo Estelar Inestable** | Todas las trayectorias escapan del origen en línea recta. |
+| **Dobles negativos** ($\lambda_1 = \lambda_2 < 0$) | No diagonal | **Nodo Tangente Estable** | Las trayectorias convergen al origen curvándose tangencialmente a un eje. |
+| **Dobles positivos** ($\lambda_1 = \lambda_2 > 0$) | No diagonal | **Nodo Tangente Inestable** | Las trayectorias divergen curvándose tangencialmente a un eje. |
+| **Complejos con parte real nula** ($\text{Re}=0$) | Cualquiera | **Centro** | Todas las soluciones son periódicas; las órbitas son curvas cerradas (elipses) que rodean el origen. |
+| **Complejos con parte real negativa** ($\text{Re}<0$) | Cualquiera | **Foco Estable** | Las órbitas se cierran en espiral convergiendo hacia el origen cuando $t \to \infty$. |
+| **Complejos con parte real positiva** ($\text{Re}>0$) | Cualquiera | **Foco Inestable** | Las espirales corresponden a soluciones que se alejan hacia afuera del punto crítico. |

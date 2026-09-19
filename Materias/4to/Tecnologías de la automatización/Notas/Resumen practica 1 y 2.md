@@ -116,56 +116,90 @@ $$G(s) = C(sI - A)^{-1}B + D$$
 
 ## 4. Métodos de Resolución Temporal Completa
 
-Resolver el sistema implica encontrar las funciones matemáticas del tiempo continuo $x_1(t), x_2(t)$ e $y(t)$ a partir de:
-* Matrices dinámicas $A, B, C$.
-* Condiciones iniciales $\mathbf{x}_0 = [x_1(0), x_2(0)]^T$ (energía almacenada en $t=0$).
-* Señal de entrada $u(t)$ (estímulo externo para $t \ge 0$).
+Resolver el sistema implica encontrar las funciones matemáticas en el tiempo continuo $x_1(t)$, $x_2(t)$ e $y(t)$. Para lograrlo, partimos de tres datos clave:
+1. Las **matrices dinámicas** $A, B, C$ (y $D$ si existe).
+2. Las **condiciones iniciales** $\mathbf{x}_0 = \begin{bmatrix} x_1(0) \\ x_2(0) \end{bmatrix}$ (es decir, la energía o memoria que ya tiene almacenada el sistema en $t=0$).
+3. La **señal de entrada** $u(t)$ (el estímulo externo que arranca en $t \ge 0$).
 
 ---
 
 ### Método A: Desarmado en Sistema de Ecuaciones Diferenciales (Laplace Escalar)
-Se utiliza cuando se prefiere manipular ecuaciones algebraicas escalares en lugar de matrices.
+Se utiliza cuando se prefiere manipular ecuaciones algebraicas escalares en lugar de matrices[cite: 4].
 
-1. **Desdoblar la matriz:** Realizar el producto matricial fila por fila para obtener el sistema de ecuaciones:
-   $$\begin{cases} 
-   x_1'(t) = a_{11}x_1(t) + a_{12}x_2(t) + b_1 u(t) \\ 
-   x_2'(t) = a_{21}x_1(t) + a_{22}x_2(t) + b_2 u(t) 
-   \end{cases}$$
-   $$y(t) = c_1 x_1(t) + c_2 x_2(t)$$
+**1. Desdoblar la matriz:** 
+Realizamos el producto matricial fila por fila para transformar la representación matricial en un sistema de ecuaciones tradicional[cite: 4]:
+$$
+\begin{cases} 
+\dot{x}_1(t) = a_{11}x_1(t) + a_{12}x_2(t) + b_1 u(t) \\ 
+\dot{x}_2(t) = a_{21}x_1(t) + a_{22}x_2(t) + b_2 u(t) 
+\end{cases}
+$$
+*(Nota: la salida queda como $y(t) = c_1 x_1(t) + c_2 x_2(t)$)*[cite: 4].
 
-2. **Aplicar la Transformada de Laplace con condiciones iniciales:**
-   Recordar la propiedad de la derivada: $\mathcal{L}\{x'(t)\} = s X(s) - x(0)$.
-   $$\begin{cases} 
-   s X_1(s) - x_1(0) = a_{11}X_1(s) + a_{12}X_2(s) + b_1 U(s) \\ 
-   s X_2(s) - x_2(0) = a_{21}X_1(s) + a_{22}X_2(s) + b_2 U(s) 
-   \end{cases}$$
+**2. Aplicar la Transformada de Laplace:**
+Usando la propiedad de la derivada $\mathcal{L}\{\dot{x}(t)\} = s X(s) - x(0)$, pasamos las ecuaciones al dominio de $s$[cite: 4]:
+$$
+\begin{cases} 
+s X_1(s) - x_1(0) = a_{11}X_1(s) + a_{12}X_2(s) + b_1 U(s) \\ 
+s X_2(s) - x_2(0) = a_{21}X_1(s) + a_{22}X_2(s) + b_2 U(s) 
+\end{cases}
+$$
 
-3. **Despejar las funciones en $s$:** Agrupar los términos de $X_1(s)$ y $X_2(s)$ a la izquierda y pasar los valores numéricos $x_i(0)$ y la entrada $U(s)$ a la derecha. Resolver por sustitución o regla de Cramer.
+**3. Agrupar y Despejar (Fórmula General Escalar):** 
+Pasamos todos los términos que contengan $X_1(s)$ y $X_2(s)$ hacia la izquierda del igual y factorizamos. El sistema lineal general a resolver (por sustitución o regla de Cramer) queda conformado así[cite: 4]:
+$$
+\begin{cases} 
+(s - a_{11})X_1(s) - a_{12}X_2(s) = x_1(0) + b_1 U(s) \\ 
+-a_{21}X_1(s) + (s - a_{22})X_2(s) = x_2(0) + b_2 U(s) 
+\end{cases}
+$$
 
-4. **Calcular la salida:** Reemplazar las expresiones obtenidas en la ecuación de salida:
-   $$Y(s) = c_1 X_1(s) + c_2 X_2(s)$$
+**4. Calcular la salida en $s$:** 
+Reemplazamos las funciones $X_1(s)$ y $X_2(s)$ despejadas en la ecuación de salida[cite: 4]:
+$$ Y(s) = c_1 X_1(s) + c_2 X_2(s) $$
 
-5. **Antitransformar:** Llevar $X_1(s), X_2(s)$ e $Y(s)$ al dominio del tiempo usando fracciones simples y tablas básicas:
-   * $\mathcal{L}^{-1}\left\{\frac{1}{s}\right\} = 1(t)$ (Escalón)
-   * $\mathcal{L}^{-1}\left\{\frac{1}{s + a}\right\} = e^{-at}$ (Exponencial)
+**5. Antitransformar al tiempo:** 
+Aplicamos fracciones simples y tablas básicas a $X_1(s), X_2(s)$ e $Y(s)$ para volver al dominio del tiempo ($t$)[cite: 4]:
+$$ \mathcal{L}^{-1}\left\{\frac{1}{s}\right\} = 1(t) \quad \text{(Escalón)} $$
+$$ \mathcal{L}^{-1}\left\{\frac{1}{s + a}\right\} = e^{-at} \quad \text{(Exponencial)} $$
 
 ---
 
 ### Método B: Resolución Matricial Directa (Fórmula General)
-Es el método estándar en ingeniería porque no requiere despejes manuales término a término.
+Es el método estándar en ingeniería porque no requiere despejes manuales término a término; resuelve el sistema en bloque[cite: 4].
 
-En el dominio de Laplace, el sistema completo se despeja directamente:
+**El despeje paso a paso en Laplace:**
+Aplicamos Laplace directamente a la ecuación matricial $\mathbf{\dot{x}}(t) = A\mathbf{x}(t) + B u(t)$[cite: 4]:
 $$s \mathbf{X}(s) - \mathbf{x}_0 = A \mathbf{X}(s) + B U(s)$$
+Agrupamos las $\mathbf{X}(s)$ a la izquierda multiplicando por la matriz Identidad $I$[cite: 4]:
 $$(sI - A) \mathbf{X}(s) = \mathbf{x}_0 + B U(s)$$
-$$\mathbf{X}(s) = \underbrace{(sI - A)^{-1} \mathbf{x}_0}_{\text{Respuesta a Entrada Cero (REC)}} + \underbrace{(sI - A)^{-1} B \, U(s)}_{\text{Respuesta a Estado Cero (RECero)}}$$
 
-Y la salida en el dominio de Laplace:
-$$Y(s) = C \mathbf{X}(s) = C(sI - A)^{-1} \mathbf{x}_0 + C(sI - A)^{-1} B \, U(s)$$
+**Fórmulas de Cálculo General Matricial:**
 
-#### Diferencia conceptual entre términos:
-* **Respuesta a Entrada Cero ($u(t) = 0$):** El sistema se mueve libremente disipando la energía que tenía guardada en sus condiciones iniciales $\mathbf{x}_0$.
-* **Respuesta a Estado Cero ($\mathbf{x}_0 = \mathbf{0}$):** El sistema arranca totalmente descargado/en reposo y reacciona únicamente empujado por la señal externa $u(t)$.
+*   **Matriz Resolvente $\Phi(s)$:**
+    $$ \Phi(s) = (sI - A)^{-1} = \frac{\text{Adj}(sI - A)}{\det(sI - A)} $$
 
+*   **Vector de Estados en $s$:**
+    Multiplicando ambos lados por la resolvente, obtenemos la fórmula general del estado[cite: 4]:
+    $$ \mathbf{X}(s) = \underbrace{\Phi(s) \mathbf{x}_0}_{\text{Respuesta a Entrada Cero}} + \underbrace{\Phi(s) B \, U(s)}_{\text{Respuesta a Estado Cero}} $$
+
+*   **Salida en $s$:**
+    Pre-multiplicando el vector de estados por la matriz $C$[cite: 4]:
+    $$ Y(s) = C \mathbf{X}(s) + D U(s) $$
+    $$ Y(s) = \underbrace{C \Phi(s) \mathbf{x}_0}_{\text{Salida Libre}} + \underbrace{\left[ C \Phi(s) B + D \right] U(s)}_{\text{Salida Forzada}} $$
+
+*   **Función de Transferencia $G(s)$:**
+    Si el sistema arranca con condiciones iniciales nulas ($\mathbf{x}_0 = \mathbf{0}$), la relación entrada-salida es[cite: 4]:
+    $$ G(s) = \frac{Y(s)}{U(s)} = C(sI - A)^{-1}B + D $$
+
+*   **Matriz de Transición de Estados $\Phi(t)$:**
+    Es la versión temporal de la matriz resolvente. Se calcula antitransformando celda por celda[cite: 4]:
+    $$ \Phi(t) = \mathcal{L}^{-1}\{\Phi(s)\} = e^{At} $$
+    *(Verificación obligatoria de parcial: al evaluar $\Phi(0)$ debe dar exactamente la matriz Identidad $I$)*[cite: 4].
+
+**Diferencia conceptual clave entre los términos:**
+* **Respuesta a Entrada Cero ($u(t) = 0$):** El sistema se mueve de forma "libre", disipando únicamente la energía que ya tenía guardada en sus condiciones iniciales $\mathbf{x}_0$[cite: 4]. No hay estímulo externo.
+* **Respuesta a Estado Cero ($\mathbf{x}_0 = \mathbf{0}$):** El sistema arranca totalmente descargado (en reposo absoluto) y reacciona empujado exclusivamente por la señal de entrada $u(t)$[cite: 4].
 ---
 
 ## 5. Matriz de Transición de Estados ($\Phi(t)$ o $e^{At}$)

@@ -124,20 +124,20 @@ Resolver el sistema implica encontrar las funciones matemáticas en el tiempo co
 ---
 
 ### Método A: Desarmado en Sistema de Ecuaciones Diferenciales (Laplace Escalar)
-Se utiliza cuando se prefiere manipular ecuaciones algebraicas escalares en lugar de matrices[cite: 4].
+Se utiliza cuando se prefiere manipular ecuaciones algebraicas escalares en lugar de matrices.
 
 **1. Desdoblar la matriz:** 
-Realizamos el producto matricial fila por fila para transformar la representación matricial en un sistema de ecuaciones tradicional[cite: 4]:
+Realizamos el producto matricial fila por fila para transformar la representación matricial en un sistema de ecuaciones tradicional:
 $$
 \begin{cases} 
 \dot{x}_1(t) = a_{11}x_1(t) + a_{12}x_2(t) + b_1 u(t) \\ 
 \dot{x}_2(t) = a_{21}x_1(t) + a_{22}x_2(t) + b_2 u(t) 
 \end{cases}
 $$
-*(Nota: la salida queda como $y(t) = c_1 x_1(t) + c_2 x_2(t)$)*[cite: 4].
+*(Nota: la salida queda como $y(t) = c_1 x_1(t) + c_2 x_2(t)$)*.
 
 **2. Aplicar la Transformada de Laplace:**
-Usando la propiedad de la derivada $\mathcal{L}\{\dot{x}(t)\} = s X(s) - x(0)$, pasamos las ecuaciones al dominio de $s$[cite: 4]:
+Usando la propiedad de la derivada $\mathcal{L}\{\dot{x}(t)\} = s X(s) - x(0)$, pasamos las ecuaciones al dominio de $s$:
 $$
 \begin{cases} 
 s X_1(s) - x_1(0) = a_{11}X_1(s) + a_{12}X_2(s) + b_1 U(s) \\ 
@@ -146,7 +146,7 @@ s X_2(s) - x_2(0) = a_{21}X_1(s) + a_{22}X_2(s) + b_2 U(s)
 $$
 
 **3. Agrupar y Despejar (Fórmula General Escalar):** 
-Pasamos todos los términos que contengan $X_1(s)$ y $X_2(s)$ hacia la izquierda del igual y factorizamos. El sistema lineal general a resolver (por sustitución o regla de Cramer) queda conformado así[cite: 4]:
+Pasamos todos los términos que contengan $X_1(s)$ y $X_2(s)$ hacia la izquierda del igual y factorizamos. El sistema lineal general a resolver (por sustitución o regla de Cramer) queda conformado así:
 $$
 \begin{cases} 
 (s - a_{11})X_1(s) - a_{12}X_2(s) = x_1(0) + b_1 U(s) \\ 
@@ -155,51 +155,46 @@ $$
 $$
 
 **4. Calcular la salida en $s$:** 
-Reemplazamos las funciones $X_1(s)$ y $X_2(s)$ despejadas en la ecuación de salida[cite: 4]:
+Reemplazamos las funciones $X_1(s)$ y $X_2(s)$ despejadas en la ecuación de salida:
 $$ Y(s) = c_1 X_1(s) + c_2 X_2(s) $$
 
 **5. Antitransformar al tiempo:** 
-Aplicamos fracciones simples y tablas básicas a $X_1(s), X_2(s)$ e $Y(s)$ para volver al dominio del tiempo ($t$)[cite: 4]:
+Aplicamos fracciones simples y tablas básicas a $X_1(s), X_2(s)$ e $Y(s)$ para volver al dominio del tiempo ($t$):
 $$ \mathcal{L}^{-1}\left\{\frac{1}{s}\right\} = 1(t) \quad \text{(Escalón)} $$
 $$ \mathcal{L}^{-1}\left\{\frac{1}{s + a}\right\} = e^{-at} \quad \text{(Exponencial)} $$
 
 ---
 
 ### Método B: Resolución Matricial Directa (Fórmula General)
-Es el método estándar en ingeniería porque no requiere despejes manuales término a término; resuelve el sistema en bloque[cite: 4].
+Es el método estándar en ingeniería porque no requiere despejes manuales término a término; resuelve el sistema en bloque.
 
 **El despeje paso a paso en Laplace:**
-Aplicamos Laplace directamente a la ecuación matricial $\mathbf{\dot{x}}(t) = A\mathbf{x}(t) + B u(t)$[cite: 4]:
+Aplicamos Laplace directamente a la ecuación matricial $\mathbf{\dot{x}}(t) = A\mathbf{x}(t) + B u(t)$:
 $$s \mathbf{X}(s) - \mathbf{x}_0 = A \mathbf{X}(s) + B U(s)$$
-Agrupamos las $\mathbf{X}(s)$ a la izquierda multiplicando por la matriz Identidad $I$[cite: 4]:
+Agrupamos las $\mathbf{X}(s)$ a la izquierda multiplicando por la matriz Identidad $I$:
 $$(sI - A) \mathbf{X}(s) = \mathbf{x}_0 + B U(s)$$
 
 **Fórmulas de Cálculo General Matricial:**
 
-*   **Matriz Resolvente $\Phi(s)$:**
-    $$ \Phi(s) = (sI - A)^{-1} = \frac{\text{Adj}(sI - A)}{\det(sI - A)} $$
-
+*   **Matriz Resolvente $\Phi(s)$:**$$ \Phi(s) = (sI - A)^{-1} = \frac{\text{Adj}(sI - A)}{\det(sI - A)} $$
 *   **Vector de Estados en $s$:**
-    Multiplicando ambos lados por la resolvente, obtenemos la fórmula general del estado[cite: 4]:
-    $$ \mathbf{X}(s) = \underbrace{\Phi(s) \mathbf{x}_0}_{\text{Respuesta a Entrada Cero}} + \underbrace{\Phi(s) B \, U(s)}_{\text{Respuesta a Estado Cero}} $$
-
+    Multiplicando ambos lados por la resolvente, obtenemos la fórmula general del estado:$$ \mathbf{X}(s) = \underbrace{\Phi(s) \mathbf{x}_0}_{\text{Respuesta a Entrada Cero}} + \underbrace{\Phi(s) B \, U(s)}_{\text{Respuesta a Estado Cero}} $$
 *   **Salida en $s$:**
-    Pre-multiplicando el vector de estados por la matriz $C$[cite: 4]:
-    $$ Y(s) = C \mathbf{X}(s) + D U(s) $$
+    Pre-multiplicando el vector de estados por la matriz $C$:$$ Y(s) = C \mathbf{X}(s) + D U(s) $$
     $$ Y(s) = \underbrace{C \Phi(s) \mathbf{x}_0}_{\text{Salida Libre}} + \underbrace{\left[ C \Phi(s) B + D \right] U(s)}_{\text{Salida Forzada}} $$
 
 *   **Función de Transferencia $G(s)$:**
-    Si el sistema arranca con condiciones iniciales nulas ($\mathbf{x}_0 = \mathbf{0}$), la relación entrada-salida es[cite: 4]:
+    Si el sistema arranca con condiciones iniciales nulas ($\mathbf{x}_0 = \mathbf{0}$), la relación entrada-salida es:
     $$ G(s) = \frac{Y(s)}{U(s)} = C(sI - A)^{-1}B + D $$
 
 *   **Matriz de Transición de Estados $\Phi(t)$:**
-    Es la versión temporal de la matriz resolvente. Se calcula antitransformando celda por celda[cite: 4]:
+    Es la versión temporal de la matriz resolvente. Se calcula antitransformando celda por celda:
     $$ \Phi(t) = \mathcal{L}^{-1}\{\Phi(s)\} = e^{At} $$
-    *(Verificación obligatoria de parcial: al evaluar $\Phi(0)$ debe dar exactamente la matriz Identidad $I$)*[cite: 4].
+    *(Verificación obligatoria de parcial: al evaluar $\Phi(0)$ debe dar exactamente la matriz Identidad $I$)*.
 
 **Diferencia conceptual clave entre los términos:**
-* **Respuesta a Entrada Cero ($u(t) = 0$):** El sistema se mueve de forma "libre", disipando únicamente la energía que ya tenía guardada en sus condiciones iniciales $\mathbf{x}_0$[cite: 4]. No hay estímulo externo.
-* **Respuesta a Estado Cero ($\mathbf{x}_0 = \mathbf{0}$):** El sistema arranca totalmente descargado (en reposo absoluto) y reacciona empujado exclusivamente por la señal de entrada $u(t)$[cite: 4].
+* **Respuesta a Entrada Cero ($u(t) = 0$):** El sistema se mueve de forma "libre", disipando únicamente la energía que ya tenía guardada en sus condiciones iniciales $\mathbf{x}_0$. No hay estímulo externo.
+* **Respuesta a Estado Cero ($\mathbf{x}_0 = \mathbf{0}$):** El sistema arranca totalmente descargado (en reposo absoluto) y reacciona empujado exclusivamente por la señal de entrada $u(t)$.
 ---
 
 ## 5. Matriz de Transición de Estados ($\Phi(t)$ o $e^{At}$)
@@ -266,17 +261,63 @@ Bajo cualquier cambio de base $T$:
 
 ---
 
-## 7. Tabla Resumen de Fórmulas y Procedimientos
+## 7.Álgebra y Reducción de Diagramas de Bloques
 
-| Objetivo | Fórmula / Procedimiento Clave | Resultado Obtenido |
-| :--- | :--- | :--- |
-| **Modelar en FCC** | Denominador cambiado de signo en última fila de $A$; $B = [0 \dots 1]^T$; $C = [b_0 \dots b_n]$ | Matrices $A, B, C$ |
-| **Modelar en FCO** | Traspuesta de FCC: $A_{FCO} = A_{FCC}^T$, $B_{FCO} = C_{FCC}^T$, $C_{FCO} = B_{FCC}^T$ | Matrices $A, B, C$ |
-| **Modelar en FCD** | Polos en diagonal de $A$; $B = [1 \dots 1]^T$; $C = [d_1 \dots d_n]$ (residuos) | Matrices $A, B, C$ |
-| **Modelar en FCJ** | Bloques de Jordan en $A$ con $1$ arriba; $B$ con $1$ solo al final del bloque | Matrices $A, B, C$ |
-| **Hallar $G(s)$** | $G(s) = C(sI - A)^{-1}B + D$ | Cociente de polinomios |
-| **Polinomio Característico** | $P(s) = \det(sI - A) = 0$ | Raíces = Polos del sistema |
-| **Transición de Estados** | $\Phi(t) = \mathcal{L}^{-1}\left[ (sI - A)^{-1} \right]$, verificar que $\Phi(0) = I$ | Matriz de exponenciales |
-| **Evolución Libre ($u=0$)** | $\mathbf{x}(t) = \Phi(t) \cdot \mathbf{x}_0$ | Vector de funciones temporales |
-| **Respuesta Completa** | $\mathbf{X}(s) = (sI - A)^{-1}\mathbf{x}_0 + (sI - A)^{-1}B U(s)$ | Estados en Laplace |
-| **Cambio de Base ($T$)** | $\tilde{A} = T^{-1}AT, \quad \tilde{B} = T^{-1}B, \quad \tilde{C} = CT$ | Sistema equivalente $(\tilde{A}, \tilde{B}, \tilde{C})$ |
+El álgebra de bloques es un conjunto de propiedades matemáticas que permiten simplificar sistemas interconectados hasta reducirlos a un único bloque que representa la **Función de Transferencia Equivalente** global.
+
+### 1. Conexiones Básicas
+
+```mermaid
+graph LR
+    subgraph Cascada [Conexión en Cascada / Serie]
+        direction LR
+        in1((u)) --> G1_c["G1(s)"] --> G2_c["G2(s)"] --> out1((y))
+    end
+
+    subgraph Paralelo [Conexión en Paralelo]
+        direction LR
+        in2((u)) --> G1_p["G1(s)"]
+        in2 --> G2_p["G2(s)"]
+        G1_p -->|"+"| Sum_p((+))
+        G2_p -->|"±"| Sum_p
+        Sum_p --> out2((y))
+    end
+
+    subgraph Lazo [Lazo Cerrado / Realimentación]
+        direction LR
+        in3((u)) -->|"+"| Sum_lc((+))
+        Sum_lc --> G_lc["G(s)"]
+        G_lc --> out3((y))
+        G_lc --> H_lc["H(s)"]
+        H_lc -->|"∓"| Sum_lc
+    end
+```
+
+*   **Bloques en Serie (Cascada):** Representa la multiplicación de sus respectivas funciones de transferencia.
+$$ G_{eq}(s) = G_1(s) \cdot G_2(s) $$
+
+*   **Bloques en Paralelo:** Se da cuando una misma señal se ramifica hacia varios bloques y sus salidas convergen en un punto de suma.
+$$ G_{eq}(s) = G_1(s) \pm G_2(s) $$
+
+*   **Lazo Cerrado (Realimentación):** Estructura donde la salida se realimenta y se compara con la entrada.
+$$ G_{eq}(s) = \frac{G(s)}{1 \mp G(s)H(s)} $$
+    *   *Regla de signos:* El signo en el denominador es **opuesto** al signo con el que la señal de realimentación entra al comparador. (Realimentación negativa $\implies 1 + GH$; Realimentación positiva $\implies 1 - GH$).
+
+### 2. Propiedades de Movimiento (Desplazamiento de Nodos)
+
+Para destrabar lazos cruzados, se mueven los nodos compensando la rama desplazada para no alterar la señal matemáticamente.
+
+| Movimiento u Operación | Bloque Compensador en la rama movida | Explicación conceptual |
+| :--- | :---: | :--- |
+| **Mover Bifurcación DESPUÉS de un bloque $G$** | **$\frac{1}{G(s)}$** | La señal se tomó tras pasar por $G$ (se multiplicó). Se divide por $G$ para restaurar su valor original. |
+| **Mover Bifurcación ANTES de un bloque $G$** | **$G(s)$** | La señal se tomó antes de pasar por $G$ (le falta multiplicación). Se agrega $G$ en la derivación. |
+| **Mover Suma DESPUÉS de un bloque $G$** | **$G(s)$** | La señal entra a sumarse después de que la rama principal pasó por $G$. Debe multiplicarse por $G$ para tener el mismo peso. |
+| **Mover Suma ANTES de un bloque $G$** | **$\frac{1}{G(s)}$** | La señal ingresa antes de $G$, por lo que terminará siendo multiplicada. Se pre-divide por $G$ para cancelar ese efecto. |
+
+### 3. Procedimiento de Reducción
+
+1.  **Reducciones inmediatas:** Agrupar todos los bloques que estén estrictamente en serie o estrictamente en paralelo.
+2.  **Lazos menores:** Buscar mallas de realimentación internas sin cruces y reducirlas con la fórmula de lazo cerrado.
+3.  **Despejar cruces:** Si un lazo interno está cruzado con otro, desplazar un punto de suma o de ramificación aplicando la propiedad de movimiento correspondiente.
+4.  **Reevaluar:** Tras mover un nodo, volver al paso 1 (siempre aparecen nuevos bloques en serie o paralelo tras un desplazamiento).
+5.  **Lazo principal:** Reducir el último lazo exterior (realimentación principal) hasta obtener el bloque unitario final $G_{eq}(s)$.

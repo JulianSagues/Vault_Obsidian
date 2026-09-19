@@ -397,3 +397,23 @@ El plano de fase es una herramienta gráfica (comúnmente usada para sistemas de
 | **Complejos con parte real nula** ($\text{Re}=0$) | Cualquiera | **Centro** | Todas las soluciones son periódicas; las órbitas son curvas cerradas (elipses) que rodean el origen. |
 | **Complejos con parte real negativa** ($\text{Re}<0$) | Cualquiera | **Foco Estable** | Las órbitas se cierran en espiral convergiendo hacia el origen cuando $t \to \infty$. |
 | **Complejos con parte real positiva** ($\text{Re}>0$) | Cualquiera | **Foco Inestable** | Las espirales corresponden a soluciones que se alejan hacia afuera del punto crítico. |
+#### C. Procedimiento para el Cálculo y Trazado del Gráfico (Trayectorias)
+
+Para desarrollar el diagrama del plano de fase y graficar correctamente la evolución del sistema, se deben seguir los siguientes pasos metodológicos[cite: 1]:
+
+**1. Definir el conjunto de ecuaciones del sistema:**
+Expresar el comportamiento dinámico en términos de sus ecuaciones diferenciales de primer orden (las variables de estado $\dot{x}_1$ y $\dot{x}_2$)[cite: 1].
+
+**2. Identificar puntos críticos o de equilibrio:**
+Resolver el sistema igualando las derivadas a cero ($\mathbf{\dot{x}} = 0$)[cite: 1]. El resultado determina el punto de equilibrio donde el sistema no cambia con el tiempo (típicamente el origen $(0,0)$ en sistemas LTI autónomos)[cite: 1].
+
+**3. Resolver el sistema de ecuaciones temporales:**
+Encontrar las funciones $x_1(t)$ y $x_2(t)$ que dan solución a las ecuaciones diferenciales, partiendo de las condiciones iniciales dadas (generalmente aplicando la matriz resolvente de Laplace o transformada inversa)[cite: 1].
+
+**4. Trazar las trayectorias en el plano de fase:**
+Para graficar la curva en los ejes coordenados (eje horizontal de abscisas para $x_1$, eje vertical de ordenadas para $x_2$), se puede proceder de dos maneras[cite: 1]:
+*   **Método Tabular (Evaluación punto a punto):** Armar una tabla evaluando las soluciones $x_1(t)$ y $x_2(t)$ para distintos instantes de tiempo incrementales ($t=0, t_1, t_2, \dots$)[cite: 1]. Luego, volcar esos pares de coordenadas $(x_1, x_2)$ en el plano y unirlos con una curva indicando con una flecha el sentido de avance del tiempo[cite: 1].
+*   **Método Analítico (Eliminación del tiempo):** Para sistemas desacoplados (donde $x_1(t) = x_1(0)e^{\lambda_1 t}$ y $x_2(t) = x_2(0)e^{\lambda_2 t}$), se despeja el parámetro temporal $t$ (o el término $e^t$) de la primera ecuación y se lo sustituye en la segunda. Esto genera una única función matemática $x_2 = f(x_1)$ que se puede trazar directamente sobre el plano.
+
+**5. Analizar y determinar la estabilidad:**
+Observar la gráfica resultante prestando atención a las cercanías del punto de equilibrio[cite: 1]. Si al avanzar el tiempo ($t \to \infty$) las trayectorias convergen hacia el punto de equilibrio, el sistema es **estable**; si se alejan, es **inestable**[cite: 1].

@@ -49,22 +49,22 @@ A partir de $G(s) = \frac{b_1 s + b_2}{s^2 + a_1 s + a_2}$. (El coeficiente de l
 *   **FCC (Forma Canónica Controlable):**
     *   $A$: Última fila tiene los coeficientes del denominador cambiados de signo ($-a_2, -a_1$). Arriba de esa fila, un $0$ y un $1$.
     *   $B$: Columna de ceros que termina con un $1$ abajo ($0, 1$).
-    *   $C$: Fila con los coeficientes del numerador tal cual, ordenados de menor a mayor potencia de $s$ ($b_2, b_1$).
+    *   $C$: Fila con los coeficientes del numerador tal cual, ordenados de menor a mayor potencia de $s$ ($b_2, b_1$).$$A = \begin{bmatrix} 0 & 1 \\ -a_0 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} b_0 & b_1 \end{bmatrix}$$
 *   **FCO (Forma Canónica Observable):**
     *   Es la transpuesta de la FCC ($A_{FCO} = A_{FCC}^T$, $B_{FCO} = C_{FCC}^T$, $C_{FCO} = B_{FCC}^T$).
     *   $A$: Primera columna tiene los coeficientes del denominador cambiados de signo ($-a_2, -a_1$). A la derecha, un $0$ y un $1$.
     *   $B$: Columna con los coeficientes del numerador ($b_2, b_1$).
-    *   $C$: Fila con un $0$ y un $1$ ($0, 1$).
+    *   $C$: Fila con un $0$ y un $1$ ($0, 1$).$$A = \begin{bmatrix} 0 & -a_0 \\ 1 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} b_0 \\ b_1 \end{bmatrix}, \quad C = \begin{bmatrix} 0 & 1 \end{bmatrix}$$
 *   **FCD (Forma Canónica Diagonal):**
     *   Se aplica cuando todos los polos son distintos. Requiere separar $G(s)$ en fracciones simples para sacar los polos ($p_1, p_2$) y los residuos de los numeradores ($c_1, c_2$).
     *   $A$: Diagonal principal con los polos ($p_1, p_2$), el resto en $0$.
     *   $B$: Columna de puros $1$.
-    *   $C$: Fila con los residuos de las fracciones parciales ($c_1, c_2$).
+    *   $C$: Fila con los residuos de las fracciones parciales ($c_1, c_2$).$$A = \begin{bmatrix} p_1 & 0 \\ 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} d_1 & d_2 \end{bmatrix}$$
 *   **FCJ (Forma de Jordan):**
     *   Se usa si hay polos múltiples repetidos (ej: $(s-2)^2$).
     *   $A$: Diagonal con el polo repetido. Justo arriba de la diagonal, se coloca un $1$.
     *   $B$: Columna de puros $1$.
-    *   $C$: Residuos calculados con el método de multiplicidad.
+    *   $C$: Residuos calculados con el método de multiplicidad.$$A = \begin{bmatrix} p_1 & \mathbf{1} & 0 \\ 0 & p_1 & 0 \\ 0 & 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} \mathbf{0} \\ \mathbf{1} \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} d_1 & d_2 & d_3 \end{bmatrix}$$
 
 ---
 

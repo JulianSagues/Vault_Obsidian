@@ -1,150 +1,174 @@
-# Machete Definitivo de Sistemas de Control (Guías 1 a 4)
+# Machete Definitivo: Sistemas de Control (Guías 1 a 4)
+
+---
 
 ## GUÍA 1: Propiedades de los Sistemas
 
-Para saber qué tipo de sistema tenés, se evalúa su función matemática algebraicamente.
+Para clasificar un sistema a partir de su función matemática:
 
-*   **Linealidad:** Debe cumplir dos condiciones simultáneas.
-    *   **Homogeneidad:** Si multiplicás la entrada por una constante $a$, la salida debe multiplicarse por esa misma $a$. Es decir, $f(a \cdot x) = a \cdot f(x)$.
-    *   **Superposición:** La función de una suma de entradas debe ser igual a las funciones separadas sumadas. $f(x_1 + x_2) = f(x_1) + f(x_2)$.
-*   **Invarianza en el Tiempo (TI):** Un retardo en la entrada provoca exactamente el mismo retardo en la salida, sin alterar la fórmula. Si $y(t) = f(x(t))$, entonces la entrada desplazada $x(t-t_0)$ debe dar $y(t-t_0)$.
-*   **Causalidad:** Un sistema es causal si la salida actual no depende de valores futuros de la entrada. Si la fórmula dice $y(t) = x(t+1)$, es no causal porque "adivina" el futuro.
-*   **Memoria:** Si la salida $y(t)$ depende de un instante distinto a $t$ (ejemplo $x(t-1)$), tiene memoria. Si solo depende de la entrada en ese mismo instante $x(t)$, es sin memoria.
-*   **Inversibilidad:** Si distintas entradas producen distintas salidas y podés despejar matemáticamente la entrada original a partir de la salida.
+*   **Linealidad:** Debe cumplir simultáneamente:
+    *   *Homogeneidad:* $f(a \cdot x) = a \cdot f(x)$.
+    *   *Superposición:* $f(x_1 + x_2) = f(x_1) + f(x_2)$.
+*   **Invarianza en el Tiempo (TI):** Si la entrada se retarda un tiempo $t_0$, la salida se desplaza en la misma magnitud sin alterar su forma:
+    $$ \mathcal{T}\{x(t - t_0)\} = y(t - t_0) $$
+*   **Causalidad:** La salida actual no depende de valores futuros de la entrada ($y(t)$ no depende de $x(t+\tau)$ con $\tau > 0$).
+*   **Memoria:** Si la salida $y(t)$ depende de instantes previos (ej: $x(t-1)$), tiene memoria. Si depende solo del instante actual $t$, es sin memoria.
+*   **Inversibilidad:** Distintas entradas producen distintas salidas y existe una operación inversa tal que $\mathcal{T}^{-1}\{y(t)\} = x(t)$.
 
 ---
 
-## GUÍA 2: Representación Interna, Externa y Formas Canónicas
+## GUÍA 2: Representación Interna, Externa y Realización
 
-### 1. Representación Interna (Matrices)
-Modela la dinámica interna del sistema en el tiempo mediante ecuaciones de estado y salida.
-$$ \dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B u(t) $$
+### 1. Representación Interna (Espacio de Estados)
+Ecuaciones diferenciales de primer orden vectorizadas:
+$$ \mathbf{\dot{x}}(t) = A\mathbf{x}(t) + B u(t) $$
 $$ y(t) = C\mathbf{x}(t) + D u(t) $$
-**Variables:**
-*   $\mathbf{x}(t)$: Vector de variables de estado (ej. $x_1, x_2$). Son las variables internas del sistema.
-*   $\dot{\mathbf{x}}(t)$: Vector de derivadas. Es la velocidad de cambio de los estados.
-*   $u(t)$: La señal de entrada o estímulo externo.
-*   $y(t)$: La señal de salida.
-*   $A$: Matriz dinámica (relaciona los estados entre sí).
-*   $B$: Matriz de entrada (cómo afecta $u$ a los estados).
-*   $C$: Matriz de salida o lectura (cómo se combinan los estados para formar $y$).
-*   $D$: Matriz de transmisión directa (suele ser $0$ en sistemas estrictamente propios).
+
+Para un sistema de segundo orden ($n=2$):
+$$ \begin{bmatrix} \dot{x}_1(t) \\ \dot{x}_2(t) \end{bmatrix} = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} + \begin{bmatrix} b_1 \\ b_2 \end{bmatrix} u(t) $$
+$$ y(t) = \begin{bmatrix} c_1 & c_2 \end{bmatrix} \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} + [d] u(t) $$
 
 ### 2. Representación Externa (Función de Transferencia)
-Relaciona entrada y salida en el dominio de Laplace, asumiendo condiciones iniciales nulas.
+Relación entrada-salida en Laplace con condiciones iniciales nulas:
 $$ G(s) = \frac{Y(s)}{U(s)} = \frac{N(s)}{D(s)} $$
-**Variables:**
-*   $s$: Variable compleja de Laplace.
-*   $N(s)$: Polinomio numerador. Al igualarlo a cero obtenés los **ceros** del sistema.
-*   $D(s)$: Polinomio denominador (Ecuación característica). Al igualarlo a cero obtenés los **polos** del sistema.
 
-**Fórmula de pasaje (De Interna a Externa):**
-$$ G(s) = C(sI - A)^{-1}B + D $$
-*   $I$: Matriz Identidad (unos en la diagonal, ceros en el resto).
-*   $(sI - A)^{-1}$: Matriz Resolvente ($\Phi(s)$). A la matriz identidad por $s$ le restás $A$, y a eso le calculás la inversa.
+*   **Pasaje de Interna a Externa:**
+    $$ G(s) = C(sI - A)^{-1}B + D $$
+    Donde la matriz resolvente es:
+    $$ (sI - A)^{-1} = \frac{\text{Adj}(sI - A)}{\det(sI - A)} $$
 
-### 3. Armado Práctico de Formas Canónicas
-A partir de $G(s) = \frac{b_1 s + b_2}{s^2 + a_1 s + a_2}$. (El coeficiente de la mayor potencia del denominador $s^n$ debe ser siempre $1$).
+### 3. Realización (De Externa a Interna)
+Dado el sistema general de orden 2:
+$$ G(s) = \frac{b_1 s + b_2}{s^2 + a_1 s + a_2} $$
 
 *   **FCC (Forma Canónica Controlable):**
-    *   $A$: Última fila tiene los coeficientes del denominador cambiados de signo ($-a_2, -a_1$). Arriba de esa fila, un $0$ y un $1$.
-    *   $B$: Columna de ceros que termina con un $1$ abajo ($0, 1$).
-    *   $C$: Fila con los coeficientes del numerador tal cual, ordenados de menor a mayor potencia de $s$ ($b_2, b_1$).$$A = \begin{bmatrix} 0 & 1 \\ -a_0 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} b_0 & b_1 \end{bmatrix}$$
+    $$ A = \begin{bmatrix} 0 & 1 \\ -a_2 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} b_2 & b_1 \end{bmatrix} $$
+
 *   **FCO (Forma Canónica Observable):**
-    *   Es la transpuesta de la FCC ($A_{FCO} = A_{FCC}^T$, $B_{FCO} = C_{FCC}^T$, $C_{FCO} = B_{FCC}^T$).
-    *   $A$: Primera columna tiene los coeficientes del denominador cambiados de signo ($-a_2, -a_1$). A la derecha, un $0$ y un $1$.
-    *   $B$: Columna con los coeficientes del numerador ($b_2, b_1$).
-    *   $C$: Fila con un $0$ y un $1$ ($0, 1$).$$A = \begin{bmatrix} 0 & -a_0 \\ 1 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} b_0 \\ b_1 \end{bmatrix}, \quad C = \begin{bmatrix} 0 & 1 \end{bmatrix}$$
+    $$ A = \begin{bmatrix} 0 & -a_2 \\ 1 & -a_1 \end{bmatrix}, \quad B = \begin{bmatrix} b_2 \\ b_1 \end{bmatrix}, \quad C = \begin{bmatrix} 0 & 1 \end{bmatrix} $$
+
 *   **FCD (Forma Canónica Diagonal):**
-    *   Se aplica cuando todos los polos son distintos. Requiere separar $G(s)$ en fracciones simples para sacar los polos ($p_1, p_2$) y los residuos de los numeradores ($c_1, c_2$).
-    *   $A$: Diagonal principal con los polos ($p_1, p_2$), el resto en $0$.
-    *   $B$: Columna de puros $1$.
-    *   $C$: Fila con los residuos de las fracciones parciales ($c_1, c_2$).$$A = \begin{bmatrix} p_1 & 0 \\ 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} d_1 & d_2 \end{bmatrix}$$
+    A partir de la descomposición en fracciones simples con polos distintos $p_1 \neq p_2$:
+    $$ G(s) = \frac{c_1}{s - p_1} + \frac{c_2}{s - p_2} $$
+    $$ A = \begin{bmatrix} p_1 & 0 \\ 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} 1 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} c_1 & c_2 \end{bmatrix} $$
+
 *   **FCJ (Forma de Jordan):**
-    *   Se usa si hay polos múltiples repetidos (ej: $(s-2)^2$).
-    *   $A$: Diagonal con el polo repetido. Justo arriba de la diagonal, se coloca un $1$.
-    *   $B$: Columna de puros $1$.
-    *   $C$: Residuos calculados con el método de multiplicidad.$$A = \begin{bmatrix} p_1 & \mathbf{1} & 0 \\ 0 & p_1 & 0 \\ 0 & 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} \mathbf{0} \\ \mathbf{1} \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} d_1 & d_2 & d_3 \end{bmatrix}$$
+    Para polos múltiples repetidos (ej: polo doble $p_1$ y polo simple $p_2$):
+    $$ A = \begin{bmatrix} p_1 & 1 & 0 \\ 0 & p_1 & 0 \\ 0 & 0 & p_2 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \\ 1 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} d_1 & d_2 & d_3 \end{bmatrix} $$
 
 ---
 
-## RESOLUCIÓN TEMPORAL (Hallar $x(t)$ e $y(t)$)
+## RESOLUCIÓN TEMPORAL
 
-### 1. Método Externo (Escalar)
-Busca la salida $y(t)$ usando Laplace.
-$$ Y(s) = G(s) \cdot U(s) $$
-1.  Multiplicar la función de transferencia $G(s)$ por la entrada $U(s)$. (Ej: escalón unitario $\implies U(s) = 1/s$).
-2.  Descomponer el resultado en fracciones simples.
-3.  Aplicar Antitransformada de Laplace a cada término para obtener $y(t)$.
+### 1. Método Escalar (Por Sustitución Analítica)
+Para un sistema con condiciones iniciales $x_1(0), x_2(0)$ y entrada $u(t)$:
+$$
+\begin{cases} 
+\dot{x}_1(t) = a_{11}x_1(t) + a_{12}x_2(t) + b_1 u(t) \\ 
+\dot{x}_2(t) = a_{21}x_1(t) + a_{22}x_2(t) + b_2 u(t) 
+\end{cases}
+$$
+1.  **Transformar por Laplace:**
+    $$ sX_1(s) - x_1(0) = a_{11}X_1(s) + a_{12}X_2(s) + b_1U(s) $$
+    $$ sX_2(s) - x_2(0) = a_{21}X_1(s) + a_{22}X_2(s) + b_2U(s) $$
+2.  **Agrupar en sistema algebraico:**
+    $$ (s - a_{11})X_1(s) - a_{12}X_2(s) = x_1(0) + b_1U(s) $$
+    $$ -a_{21}X_1(s) + (s - a_{22})X_2(s) = x_2(0) + b_2U(s) $$
+3.  **Sustitución y despeje:** Despejar $X_2(s)$ de una ecuación y sustituir en la otra para aislar $X_1(s)$ (o viceversa).
+4.  **Antitransformación:** Expandir en fracciones simples y aplicar $\mathcal{L}^{-1}$ para obtener $x_1(t)$ y $x_2(t)$.
+5.  **Salida temporal:** $y(t) = c_1 x_1(t) + c_2 x_2(t) + d \cdot u(t)$.
 
-### 2. Método Interno (Matricial)
-Calcula cómo evolucionan todas las variables de estado ($x_1(t), x_2(t)$).
-$$ \mathbf{X}(s) = (sI - A)^{-1} \mathbf{x}_0 + (sI - A)^{-1} B U(s) $$
-*   $\mathbf{x}_0$: Vector de condiciones iniciales en $t=0$.
-*   **Primer término:** Respuesta Libre (movimiento solo por condiciones iniciales).
-*   **Segundo término:** Respuesta Forzada (movimiento provocado por la entrada $U(s)$).
+### 2. Método Interno Matricial (Resolvente)
+$$ \mathbf{X}(s) = \underbrace{(sI - A)^{-1} \mathbf{x}_0}_{\text{Respuesta a Entrada Cero}} + \underbrace{(sI - A)^{-1} B U(s)}_{\text{Respuesta a Estado Cero}} $$
 
-**Pasos de cálculo:**
-1.  Armar la matriz $(sI - A)$ y calcularle la inversa: $(sI - A)^{-1}$. Para matrices $2\times2$, se permuta la diagonal principal, se cambia el signo a la secundaria, y se divide todo por el determinante.
-2.  Multiplicar la matriz resultante por $\mathbf{x}_0$.
-3.  Multiplicar la matriz por $B$ y luego por $U(s)$.
-4.  Sumar los resultados y aplicar Antitransformada de Laplace elemento por elemento para obtener el vector $\mathbf{x}(t)$.
-5.  Reemplazar $\mathbf{x}(t)$ en la ecuación $y(t) = C\mathbf{x}(t)$ para sacar la salida final.
+*   **Fórmula directa para resolvente $2 \times 2$:**
+    Si $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, entonces $(sI - A) = \begin{bmatrix} s-a & -b \\ -c & s-d \end{bmatrix}$:
+    $$ (sI - A)^{-1} = \frac{1}{(s-a)(s-d) - bc} \begin{bmatrix} s-d & b \\ c & s-a \end{bmatrix} $$
+*   **Vector temporal:**
+    $$ \mathbf{x}(t) = \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} = \mathcal{L}^{-1}\{\mathbf{X}(s)\} $$
+    $$ y(t) = C\mathbf{x}(t) + D u(t) $$
 
 ---
 
 ## GUÍA 3: Álgebra de Bloques
 
-*   **Bloques en Serie (Cascada):** Se multiplican. $G_1 \cdot G_2$.
-*   **Bloques en Paralelo:** Se suman algebraicamente. $G_1 \pm G_2$.
-*   **Lazo Cerrado (Realimentación):** Camino de ida $G$, camino de vuelta $H$.
-    $$ G_{eq} = \frac{G}{1 \mp G \cdot H} $$
-    *Regla:* El signo del denominador es **opuesto** al signo con el que la rama de retroalimentación $H$ entra al comparador.
-*   **Movimiento de nodos (para destrabar lazos cruzados):**
-    *   Mover **bifurcación** para DESPUÉS de un bloque $G$: Multiplicar la rama por $\frac{1}{G}$.
-    *   Mover **bifurcación** para ANTES de un bloque $G$: Multiplicar la rama por $G$.
-    *   Mover **sumador** para DESPUÉS de un bloque $G$: Multiplicar la rama entrante por $G$.
-    *   Mover **sumador** para ANTES de un bloque $G$: Multiplicar la rama entrante por $\frac{1}{G}$.
+*   **Serie:** $G_{eq}(s) = G_1(s) \cdot G_2(s)$
+*   **Paralelo:** $G_{eq}(s) = G_1(s) \pm G_2(s)$
+*   **Lazo Cerrado:**
+    $$ G_{eq}(s) = \frac{G(s)}{1 \mp G(s)H(s)} $$
+    *(Signo opuesto: si la realimentación entra con $-$, en el denominador se suma $+$; si entra con $+$, se resta $-$)*.
+
+*   **Reglas de Desplazamiento de Nodos:**
+    *   Bifurcación tras un bloque $G(s)$: Colocar $\frac{1}{G(s)}$ en la rama derivada.
+    *   Bifurcación antes de un bloque $G(s)$: Colocar $G(s)$ en la rama derivada.
+    *   Sumador tras un bloque $G(s)$: Multiplicar la rama entrante por $G(s)$.
+    *   Sumador antes de un bloque $G(s)$: Multiplicar la rama entrante por $\frac{1}{G(s)}$.
 
 ---
 
 ## GUÍA 4: Estabilidad y Plano de Fase
 
-### 1. Parámetros de Sistemas de 2do Orden
+### 1. Sistema Estándar de 2do Orden
 $$ G(s) = \frac{K \omega_n^2}{s^2 + 2\xi\omega_n s + \omega_n^2} $$
-**Variables:**
-*   $K$: Ganancia en estado estacionario.
-*   $\omega_n$: Frecuencia natural no amortiguada.
-*   $\xi$: Coeficiente de amortiguamiento. Define la forma de la respuesta:
-    *   $\xi > 1$: Sobreamortiguado (estable, raíces reales, sin oscilaciones).
-    *   $\xi = 1$: Críticamente amortiguado (estable, raíces reales iguales).
-    *   $0 < \xi < 1$: Subamortiguado (estable, raíces complejas, oscilaciones decrecientes).
-    *   $\xi = 0$: Marginalmente estable (oscilación sostenida continua).
-    *   $\xi < 0$: Inestable (oscilaciones de amplitud creciente o crecimiento exponencial puro).
+Polos del sistema:
+$$ s_{1,2} = -\xi\omega_n \pm \omega_n \sqrt{\xi^2 - 1} $$
 
-### 2. Estabilidad Externa (Criterio de Routh-Hurwitz)
-Determina la estabilidad sin calcular las raíces del denominador $D(s) = 0$.
+*   $\xi > 1$: Sobreamortiguado (2 polos reales negativos distintos).
+*   $\xi = 1$: Críticamente amortiguado (2 polos reales negativos iguales).
+*   $0 < \xi < 1$: Subamortiguado (polos complejos conjugados con parte real negativa).
+*   $\xi = 0$: Marginalmente estable (polos imaginarios puros $\pm j\omega_n$).
+*   $\xi < 0$: Inestable (polos con parte real positiva).
 
-**Procedimiento:**
-1.  Verificar la Condición de Cardano: Todos los coeficientes del polinomio deben existir (no ser nulos) y tener el mismo signo. Si no se cumple, es inestable.
-2.  Armar el arreglo tabular con los coeficientes alternados en las dos primeras filas ($s^n$ y $s^{n-1}$).
-3.  Calcular las filas inferiores multiplicando cruzado (tipo determinante negativo) y dividiendo por el primer elemento de la fila anterior.
-    $$ b_1 = \frac{a_1 a_2 - a_0 a_3}{a_1} $$
-4.  **Veredicto:** El sistema es estable si **todos** los elementos de la primera columna tienen el mismo signo. El número de cambios de signo indica exactamente cuántas raíces inestables (parte real positiva) tiene el sistema.
+### 2. Criterio de Estabilidad de Routh-Hurwitz
+Para el polinomio denominador $D(s) = a_0 s^n + a_1 s^{n-1} + a_2 s^{n-2} + a_3 s^{n-3} + \dots = 0$:
 
-### 3. Estabilidad Interna (Plano de Fase y Autovalores)
-Para sistemas autónomos $\dot{\mathbf{x}} = A\mathbf{x}$ (sin entrada externa $u(t)$).
+| Potencia | Columna 1 | Columna 2 | Columna 3 |
+| :--- | :--- | :--- | :--- |
+| $s^n$ | $a_0$ | $a_2$ | $a_4$ |
+| $s^{n-1}$ | $a_1$ | $a_3$ | $a_5$ |
+| $s^{n-2}$ | $b_1$ | $b_2$ | $\dots$ |
+| $s^{n-3}$ | $c_1$ | $c_2$ | $\dots$ |
+
+Cálculo de pivotes:
+$$ b_1 = \frac{a_1 a_2 - a_0 a_3}{a_1}, \quad b_2 = \frac{a_1 a_4 - a_0 a_5}{a_1}, \quad c_1 = \frac{b_1 a_3 - a_1 b_2}{b_1} $$
+
+*Condición:* Estable si todos los términos de la primera columna ($a_0, a_1, b_1, c_1, \dots$) tienen el mismo signo positivo.
+
+### 3. Estabilidad Interna: Plano de Fase y Autovalores
+Para sistemas autónomos de orden 2: $\mathbf{\dot{x}} = A\mathbf{x}$.
 
 **A. Punto de Equilibrio ($x_e$):**
-Se igualan las derivadas a cero ($\dot{x}_1 = 0, \dot{x}_2 = 0$) y se resuelve el sistema algebraico. En sistemas lineales LTI sin términos independientes, el único punto crítico es el origen $(0,0)$.
+Se anulan las variaciones temporales:
+$$ \mathbf{\dot{x}} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \implies \begin{cases} a_{11}x_1 + a_{12}x_2 = 0 \\ a_{21}x_1 + a_{22}x_2 = 0 \end{cases} \implies \mathbf{x}_e = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \quad (\text{si } \det(A) \neq 0) $$
 
 **B. Autovalores ($\lambda$):**
-Se calculan resolviendo la ecuación determinante $\det(\lambda I - A) = 0$.
+$$ \det(\lambda I - A) = 0 \implies \lambda^2 - \text{tr}(A)\lambda + \det(A) = 0 $$
 
 **C. Clasificación del Punto Crítico:**
-*   **Nodo Estable:** Autovalores reales, distintos y negativos ($\lambda < 0$). Las trayectorias convergen al origen.
-*   **Nodo Inestable:** Autovalores reales, distintos y positivos ($\lambda > 0$). Las trayectorias divergen.
-*   **Punto de Silla / Ensilladura:** Autovalores reales de signos opuestos.
-*   **Centro:** Autovalores complejos puros (sin parte real, $\lambda = \pm qi$). Trayectorias cerradas, oscilación sostenida.
-*   **Foco Estable:** Autovalores complejos con parte real negativa. Trayectorias en espiral que convergen al origen.
-*   **Foco Inestable:** Autovalores complejos con parte real positiva. Trayectorias en espiral que se alejan del origen.
+*   **Nodo Estable:** $\lambda_1, \lambda_2 \in \mathbb{R}$ con $\lambda_1 \neq \lambda_2 < 0$. Trayectorias directas al origen.
+*   **Nodo Inestable:** $\lambda_1, \lambda_2 \in \mathbb{R}$ con $\lambda_1 \neq \lambda_2 > 0$. Trayectorias directas que escapan del origen.
+*   **Punto de Silla:** $\lambda_1, \lambda_2 \in \mathbb{R}$ con $\lambda_1 \cdot \lambda_2 < 0$ (signos opuestos).
+*   **Centro:** $\lambda_{1,2} = \pm j\beta$ (imaginarios puros). Órbitas cerradas elípticas.
+*   **Foco Estable:** $\lambda_{1,2} = \alpha \pm j\beta$ con $\alpha < 0$. Espirales convergentes al origen.
+*   **Foco Inestable:** $\lambda_{1,2} = \alpha \pm j\beta$ con $\alpha > 0$. Espirales divergentes.
+
+### 4. Construcción Práctica del Plano de Fase (Paso a Paso)
+
+El plano de fase es el gráfico de $x_2$ (eje vertical) vs. $x_1$ (eje horizontal), donde el tiempo $t$ es el parámetro implícito.
+
+1.  **Obtener las funciones temporales:** Disponer de las soluciones temporales analíticas $x_1(t)$ y $x_2(t)$ calculadas a partir de una condición inicial dada $\mathbf{x}_0 = [x_1(0), x_2(0)]^T$.
+2.  **Marcar el punto de equilibrio:** Ubicar el punto crítico $\mathbf{x}_e = (0,0)$ en el plano cartesiano.
+3.  **Construir la tabla de valores de estado:** Evaluar $x_1(t)$ y $x_2(t)$ para instantes de tiempo incrementales partiendo desde $t=0$:
+
+| Tiempo ($t$) | Estado $x_1(t)$ | Estado $x_2(t)$ | Coordenada $(x_1, x_2)$ |
+| :--- | :--- | :--- | :--- |
+| $t = 0$ | $x_1(0)$ | $x_2(0)$ | $(x_1(0), x_2(0))$ (Inicio) |
+| $t = t_1$ | $x_1(t_1)$ | $x_2(t_1)$ | $(x_1(t_1), x_2(t_1))$ |
+| $t = t_2$ | $x_1(t_2)$ | $x_2(t_2)$ | $(x_1(t_2), x_2(t_2))$ |
+| $t \to \infty$ | $\lim_{t\to\infty} x_1(t)$ | $\lim_{t\to\infty} x_2(t)$ | Punto final asintótico |
+
+4.  **Trazar la trayectoria:** Unir secuencialmente los pares ordenados $(x_1, x_2)$ con una curva suave.
+5.  **Indicar el sentido temporal:** Añadir flechas sobre la curva orientadas desde $t=0$ hacia $t \to \infty$.
+6.  **Dictamen de estabilidad visual:**
+    *   *Estable:* Si la trayectoria y las flechas convergen hacia $\mathbf{x}_e = (0,0)$.
+    *   *Inestable:* Si la trayectoria y las flechas se alejan de $\mathbf{x}_e$.

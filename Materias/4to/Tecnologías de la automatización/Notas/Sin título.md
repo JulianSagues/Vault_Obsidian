@@ -167,8 +167,8 @@ El plano de fase es el gráfico de $x_2$ (eje vertical) vs. $x_1$ (eje horizonta
 | $t = t_2$ | $x_1(t_2)$ | $x_2(t_2)$ | $(x_1(t_2), x_2(t_2))$ |
 | $t \to \infty$ | $\lim_{t\to\infty} x_1(t)$ | $\lim_{t\to\infty} x_2(t)$ | Punto final asintótico |
 
-4.  **Trazar la trayectoria:** Unir secuencialmente los pares ordenados $(x_1, x_2)$ con una curva suave.
-5.  **Indicar el sentido temporal:** Añadir flechas sobre la curva orientadas desde $t=0$ hacia $t \to \infty$.
-6.  **Dictamen de estabilidad visual:**
+1.  **Trazar la trayectoria:** Unir secuencialmente los pares ordenados $(x_1, x_2)$ con una curva suave.
+2.  **Indicar el sentido temporal:** Añadir flechas sobre la curva orientadas desde $t=0$ hacia $t \to \infty$.
+3.  **Dictamen de estabilidad visual:**
     *   *Estable:* Si la trayectoria y las flechas convergen hacia $\mathbf{x}_e = (0,0)$.
     *   *Inestable:* Si la trayectoria y las flechas se alejan de $\mathbf{x}_e$.

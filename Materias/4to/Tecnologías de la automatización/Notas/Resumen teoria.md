@@ -120,6 +120,89 @@ $$y = \begin{bmatrix} 1 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatri
 
 ---
 
+# 4. Forma Canónica de Jordan (FCJ) - Polos Múltiples
+
+---
+
+## 1. Planteo Teórico y Deducción Literal del Examen
+
+### Enunciado Base
+Dada la función de transferencia donde $N(s)$ es el numerador y $a \in \mathbb{R} \; (a \neq 0)$:
+$$\frac{Y(s)}{U(s)} = \frac{N(s)}{(s + a)^2}$$
+
+Se solicita definir las variables $x_i$ para obtener la **Forma Canónica de Jordan** y armar el sistema de ecuaciones de estado y salida.
+
+---
+
+### ¿Por qué se utiliza la Forma Canónica de Jordan?
+Cuando un sistema posee polos repetidos (en este caso, un polo doble en $s = -a$), **no es posible desacoplar completamente el sistema en ramas independientes en paralelo** (no existe una base de autovectores linealmente independientes para diagonalizar la matriz $A$). 
+
+La estructura desacoplada degenera en un **Bloque de Jordan**, donde los estados asociados a la misma raíz se encadenan entre sí mediante un integrador de acoplamiento. Esto se traduce en un elemento unitario ($1$) en la superdiagonal de la matriz $A$.
+
+---
+
+### Paso 1: Expansión en Fracciones Simples para Raíces Múltiples
+Para un denominador con multiplicidad 2, la descomposición estándar de Heaviside se formula como:
+$$\frac{Y(s)}{U(s)} = \frac{N(s)}{(s + a)^2} = \frac{d_1}{(s + a)^2} + \frac{d_2}{s + a}$$
+
+Donde $d_1$ y $d_2$ son los residuos calculados analíticamente:
+* $d_1 = \left. (s + a)^2 \frac{N(s)}{(s + a)^2} \right|_{s = -a} = N(-a)$
+* $d_2 = \left. \frac{d}{ds} \left[ (s + a)^2 \frac{N(s)}{(s + a)^2} \right] \right|_{s = -a} = N'(-a)$
+
+---
+
+### Paso 2: Distribuir la entrada $U(s)$
+Multiplicamos toda la expresión por la entrada $U(s)$:
+$$Y(s) = d_1 \left[ \frac{1}{(s + a)^2} U(s) \right] + d_2 \left[ \frac{1}{s + a} U(s) \right]$$
+
+Notar la relación de dependencia entre ambos factores dinámicos:
+$$\frac{1}{(s + a)^2} U(s) = \frac{1}{s + a} \cdot \left[ \frac{1}{s + a} U(s) \right]$$
+
+---
+
+### Paso 3: Definición Formal de las Variables de Estado ($x_i$)
+En la Forma de Jordan, el segundo estado procesa la entrada externa $U(s)$, mientras que el primer estado se alimenta de la salida del segundo (encadenamiento en cascada sobre la misma raíz):
+
+* **Segundo estado ($X_2(s)$):** Bloque de primer orden que recibe la entrada directa:
+  $$X_2(s) \triangleq \frac{1}{s + a} U(s)$$
+
+* **Primer estado ($X_1(s)$):** Bloque de segundo orden, que equivale a pasar $X_2(s)$ por un polo idéntico:
+  $$X_1(s) \triangleq \frac{1}{(s + a)^2} U(s) = \frac{1}{s + a} X_2(s)$$
+
+---
+
+### Paso 4: Despeje Temporal de las Ecuaciones de Estado
+1. **Para la variable $X_1(s)$:**
+   $$(s + a) X_1(s) = X_2(s)$$
+   $$s X_1(s) + a X_1(s) = X_2(s)$$
+   Antitransformando al dominio del tiempo ($s X_1(s) \to \dot{x}_1(t)$):
+   $$\dot{x}_1(t) + a x_1(t) = x_2(t)$$
+   Despejando $\dot{x}_1(t)$:
+   $$\mathbf{\dot{x}_1(t) = -a x_1(t) + 1 \cdot x_2(t) + 0 \cdot u(t)}$$
+
+2. **Para la variable $X_2(s)$:**
+   $$(s + a) X_2(s) = U(s)$$
+   $$s X_2(s) + a X_2(s) = U(s)$$
+   Antitransformando al dominio del tiempo ($s X_2(s) \to \dot{x}_2(t)$):
+   $$\dot{x}_2(t) + a x_2(t) = u(t)$$
+   Despejando $\dot{x}_2(t)$:
+   $$\mathbf{\dot{x}_2(t) = 0 \cdot x_1(t) - a x_2(t) + 1 \cdot u(t)}$$
+
+---
+
+### Paso 5: Ecuación de Salida en el Tiempo
+Retomamos la expresión distribuida del Paso 2:
+$$Y(s) = d_1 X_1(s) + d_2 X_2(s)$$
+
+Antitransformando directamente:
+$$\mathbf{y(t) = d_1 x_1(t) + d_2 x_2(t) + 0 \cdot u(t)}$$
+
+---
+
+### Paso 6: Estructuración Matricial Final (FCJ)
+$$\begin{bmatrix} \dot{x}_1(t) \\ \dot{x}_2(t) \end{bmatrix} = \begin{bmatrix} -a & 1 \\ 0 & -a \end{bmatrix} \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} + \begin{bmatrix} 0 \\ 1 \end{bmatrix} u(t)$$
+
+$$y(t) = \begin{bmatrix} d_1 & d_2 \end{bmatrix} \begin{bmatrix} x_1(t) \\ x_2(t) \end{bmatrix} + [0] u(t)$$
 ## 4. Comparativa Rápida
 
 | Forma   | Matriz $A$                                           | Matriz $B$                                 | Matriz $C$                                |

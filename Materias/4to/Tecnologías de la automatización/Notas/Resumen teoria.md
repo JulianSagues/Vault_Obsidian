@@ -401,7 +401,7 @@ $$y(t) = 1 - e^{+|K|t} \quad (t \ge 0)$$
 
 ## 1. Enunciado Base y Función General
 
-Función de transferencia de segundo orden sujeta a una entrada escalón de amplitud general $C > 0$ ($U(s) = \frac{C}{s}$)[cite: 1]:
+Función de transferencia de segundo orden sujeta a una entrada escalón de amplitud general $C > 0$ ($U(s) = \frac{C}{s}$):
 
 $$G(s) = \frac{Y(s)}{U(s)} = \frac{1}{s^2 + a_1 s + a_0} = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}$$
 
@@ -413,14 +413,14 @@ $$s_{1,2} = -\zeta\omega_n \pm \omega_n\sqrt{\zeta^2 - 1}$$
 
 ---
 
-## 2. Caso A: Sobreamortiguado Estable ($\zeta > 1$ o $p_1 \neq p_2 > 0$)[cite: 1]
+## 2. Caso A: Sobreamortiguado Estable ($\zeta > 1$ o $p_1 \neq p_2 > 0$)
 
 ### Naturaleza de los Polos
-Discriminante $\zeta^2 - 1 > 0$. Dos raíces reales, distintas y ubicadas en el semiplano izquierdo[cite: 1]:
-$$s_1 = -p_1, \quad s_2 = -p_2 \quad (p_1 > 0, \; p_2 > 0, \; p_1 \neq p_2)$$[cite: 1]
+Discriminante $\zeta^2 - 1 > 0$. Dos raíces reales, distintas y ubicadas en el semiplano izquierdo:
+$$s_1 = -p_1, \quad s_2 = -p_2 \quad (p_1 > 0, \; p_2 > 0, \; p_1 \neq p_2)$$
 
-La función queda factorizada como en el examen[cite: 1]:
-$$G(s) = \frac{1}{(s + p_1)(s + p_2)} \implies Y(s) = \frac{C}{s(s + p_1)(s + p_2)}$$[cite: 1]
+La función queda factorizada como en el examen:
+$$G(s) = \frac{1}{(s + p_1)(s + p_2)} \implies Y(s) = \frac{C}{s(s + p_1)(s + p_2)}$$
 
 ### Fracciones Simples y Salida Temporal $y(t)$
 $$Y(s) = \frac{A}{s} + \frac{B}{s + p_1} + \frac{D}{s + p_2}$$
@@ -434,7 +434,7 @@ $$\mathbf{y(t) = \frac{C}{p_1 p_2} + B\,e^{-p_1 t} + D\,e^{-p_2 t}} \quad (t \ge
 
 ### Estabilidad y Salida Estacionaria
 * **Modo dinámico:** Suma de dos exponenciales puramente decrecientes sin oscilaciones.
-* **Estabilidad:** Como $p_1 > 0$ y $p_2 > 0$, $\lim_{t \to \infty} e^{-p_1 t} = 0$ y $\lim_{t \to \infty} e^{-p_2 t} = 0$. El sistema es **asintóticamente estable**[cite: 1].
+* **Estabilidad:** Como $p_1 > 0$ y $p_2 > 0$, $\lim_{t \to \infty} e^{-p_1 t} = 0$ y $\lim_{t \to \infty} e^{-p_2 t} = 0$. El sistema es **asintóticamente estable**.
 * **Salida estacionaria:**
   $$\mathbf{y(\infty) = \lim_{t \to \infty} y(t) = \frac{C}{p_1 p_2}}$$
 
@@ -443,7 +443,7 @@ $$\mathbf{y(t) = \frac{C}{p_1 p_2} + B\,e^{-p_1 t} + D\,e^{-p_2 t}} \quad (t \ge
 ## 3. Caso B: Críticamente Amortiguado ($\zeta = 1$ o $p_1 = p_2 = \omega_n > 0$)
 
 ### Naturaleza de los Polos
-Discriminante $\zeta^2 - 1 = 0$. Dos raíces reales e idénticas (polo doble negativo en el semiplano izquierdo)[cite: 1]:
+Discriminante $\zeta^2 - 1 = 0$. Dos raíces reales e idénticas (polo doble negativo en el semiplano izquierdo):
 $$s_1 = s_2 = -\omega_n$$
 
 $$Y(s) = \frac{C\,\omega_n^2}{s(s + \omega_n)^2} = \frac{A}{s} + \frac{B}{s + \omega_n} + \frac{D}{(s + \omega_n)^2}$$
@@ -518,11 +518,11 @@ $$\mathbf{y(t) = C\left[1 - \cos(\omega_n t)\right]} \quad (t \ge 0)$$
 
 ## 7. Tabla Comparativa Resumen
 
-| Régimen                       | Condición de Parámetros                   | Ubicación de Polos                               | Forma de $y(t)$                                | $y(\infty)$                  | Estabilidad             |
-| :---------------------------- | :---------------------------------------- | :----------------------------------------------- | :--------------------------------------------- | :--------------------------- | :---------------------- |
-| **Sobreamortiguado**[cite: 1] | $\zeta > 1$ ($p_1 \neq p_2 > 0$)[cite: 1] | Reales distintos en semiplano izquierdo[cite: 1] | Exponenciales puras decrecientes[cite: 1]      | $\frac{C}{p_1 p_2}$[cite: 1] | Asintóticamente estable |
-| **Críticamente amortiguado**  | $\zeta = 1$ ($p_1 = p_2 = \omega_n > 0$)  | Real doble en semiplano izquierdo                | Exponencial y rampa atenuada                   | $C$                          | Asintóticamente estable |
-| **Subamortiguado**            | $0 < \zeta < 1$                           | Complejos conjugados con $\text{Re}(s) < 0$      | Senoide amortiguada con envolvente decreciente | $C$                          | Asintóticamente estable |
-| **No amortiguado**            | $\zeta = 0$                               | Imaginarios puros ($s = \pm j\omega_n$)          | Cosenoide pura sostenida                       | No existe                    | Marginalmente estable   |
-| **Inestable oscilatorio**     | $-1 < \zeta < 0$                          | Complejos conjugados con $\text{Re}(s) > 0$      | Senoide con envolvente exponencial creciente   | $\pm\infty$                  | Inestable               |
-| **Inestable aperiódico**      | $\zeta \le -1$ (o $p_1 < 0$)              | Reales con al menos una raíz positiva            | Exponencial creciente al infinito              | $\pm\infty$                  | Inestable               |
+| Régimen                      | Condición de Parámetros                  | Ubicación de Polos                          | Forma de $y(t)$                                | $y(\infty)$         | Estabilidad             |
+| :--------------------------- | :--------------------------------------- | :------------------------------------------ | :--------------------------------------------- | :------------------ | :---------------------- |
+| **Sobreamortiguado**         | $\zeta > 1$ ($p_1 \neq p_2 > 0$)         | Reales distintos en semiplano izquierdo     | Exponenciales puras decrecientes               | $\frac{C}{p_1 p_2}$ | Asintóticamente estable |
+| **Críticamente amortiguado** | $\zeta = 1$ ($p_1 = p_2 = \omega_n > 0$) | Real doble en semiplano izquierdo           | Exponencial y rampa atenuada                   | $C$                 | Asintóticamente estable |
+| **Subamortiguado**           | $0 < \zeta < 1$                          | Complejos conjugados con $\text{Re}(s) < 0$ | Senoide amortiguada con envolvente decreciente | $C$                 | Asintóticamente estable |
+| **No amortiguado**           | $\zeta = 0$                              | Imaginarios puros ($s = \pm j\omega_n$)     | Cosenoide pura sostenida                       | No existe           | Marginalmente estable   |
+| **Inestable oscilatorio**    | $-1 < \zeta < 0$                         | Complejos conjugados con $\text{Re}(s) > 0$ | Senoide con envolvente exponencial creciente   | $\pm\infty$         | Inestable               |
+| **Inestable aperiódico**     | $\zeta \le -1$ (o $p_1 < 0$)             | Reales con al menos una raíz positiva       | Exponencial creciente al infinito              | $\pm\infty$         | Inestable               |

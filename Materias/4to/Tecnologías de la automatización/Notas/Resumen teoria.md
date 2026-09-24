@@ -171,193 +171,358 @@ $$y = \begin{bmatrix} d_1 & d_2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bm
 | **Matriz $C$**         | $\begin{bmatrix} b_0 & b_1 \end{bmatrix}$            | $\begin{bmatrix} 0 & 1 \end{bmatrix}$                | $\begin{bmatrix} c_1 & c_2 \end{bmatrix}$          | $\begin{bmatrix} d_1 & d_2 \end{bmatrix}$        |
 
 ---
-# Análisis de Respuesta Temporal, Polos y Estabilidad (Puntos 2 de Examen)
-
-Resolución analítica en formato general para los tres modelos de examen, desarrollada paso a paso sin saltear etapas algebraicas.
+# Ejercicio 2 (Modelo 1): Análisis Completo del Plano Complejo
 
 ---
 
-## 1. Modelo 1: Selección de Polos en el Plano Complejo y Respuesta Temporal
+## 1. Enunciado Base
+En el plano complejo $s$ se identifican polos potenciales sobre el eje real:
+* Semiplano izquierdo (reales negativos): $-a, -b, -c$ (con constantes $a, b, c > 0$).
+* Eje imaginario (origen): polo en $s = 0$.
+* Semiplano derecho (reales positivos): $+d, +e, +f$ (con constantes $d, e, f > 0$).
 
-### Enunciado General
-En el plano complejo $s$ se presentan raíces sobre el eje real:
-* Semiplano izquierdo (reales negativos): $-a, -b, -c$ (con constantes reales positivas $a, b, c > 0$).
-* Eje imaginario (origen): polo en $0$.
-* Semiplano derecho (reales positivos): $d, e, f$ (con constantes reales positivas $d, e, f > 0$).
+Entrada de prueba: Función escalón unitario $u(t) = 1(t) \iff U(s) = \frac{1}{s}$.
 
 ---
 
-### Inciso a: Selección de polos y expresión de $Y(s)$
+## 2. Caso A: Selección en el Semiplano Izquierdo (Sistema Estable)
 
-#### 1. Justificación teórica del polo
-* **Condición de estabilidad asintótica:** Todos los polos de la función de transferencia deben poseer parte real estrictamente negativa ($\text{Re}(p_i) < 0$).
-* **Selección:** Se escoge un polo ubicado en el semiplano izquierdo (por ejemplo, en $s = -a$, con $a > 0$). Los polos en el origen o en el semiplano derecho ($d, e, f$) se descartan por inducir comportamientos marginalmente estables o divergentes.
+### Selección del polo
+Se elige un polo sobre el eje real negativo: $s = -p$ (por ejemplo, $s = -a$, con $a > 0$).
 
-#### 2. Definición de la función de transferencia de primer orden
-Adoptando ganancia estática unitaria:
+### Función de Transferencia $G(s)$
+Adoptando ganancia estática unitaria para la forma canónica:
 $$G(s) = \frac{a}{s + a}$$
 
-#### 3. Salida en el dominio de Laplace ante escalón unitario
-* Entrada: $U(s) = \frac{1}{s}$
-* Salida:
-  $$Y(s) = G(s) \cdot U(s) = \frac{a}{s + a} \cdot \frac{1}{s} = \frac{a}{s(s + a)}$$
+### Cálculo de la salida $Y(s)$
+$$Y(s) = G(s) \cdot U(s) = \frac{a}{s + a} \cdot \frac{1}{s} = \frac{a}{s(s + a)}$$
 
----
-
-### Inciso b: Obtención de $y(t)$ y valor final $y(\infty)$
-
-#### 1. Expansión en fracciones simples
+### Expansión en fracciones simples y residuos
 $$\frac{a}{s(s + a)} = \frac{A}{s} + \frac{B}{s + a}$$
-
-Cálculo de residuos:
 * $A = \lim_{s \to 0} \left[ s \cdot \frac{a}{s(s + a)} \right] = \frac{a}{0 + a} = 1$
 * $B = \lim_{s \to -a} \left[ (s + a) \cdot \frac{a}{s(s + a)} \right] = \frac{a}{-a} = -1$
 
-Sustituyendo:
 $$Y(s) = \frac{1}{s} - \frac{1}{s + a}$$
 
-#### 2. Antitransformación de Laplace
-Aplicando $\mathcal{L}^{-1}$ a cada término:
-* $\mathcal{L}^{-1}\left\{\frac{1}{s}\right\} = 1$
-* $\mathcal{L}^{-1}\left\{\frac{1}{s + a}\right\} = e^{-at}$
+### Respuesta temporal $y(t)$
+Aplicando Transformada Inversa de Laplace ($\mathcal{L}^{-1}$):
+$$y(t) = 1 - e^{-at} \quad (t \ge 0)$$
 
-$$\mathbf{y(t) = 1 - e^{-at}} \quad (t \ge 0)$$
-
-#### 3. Cálculo del valor en régimen permanente $y(\infty)$
-Evaluando el límite cuando $t \to \infty$:
-$$y(\infty) = \lim_{t \to \infty} (1 - e^{-at})$$
-Dado que $a > 0$, el exponente tiende a $-\infty$ y la exponencial decae a cero:
-$$\mathbf{y(\infty) = 1 - 0 = 1}$$
+### Análisis de estabilidad y valor en régimen permanente $y(\infty)$
+* **Modo dinámico:** El término transitorio es $e^{-at}$. Como $a > 0$, el exponente es negativo y tiende asintóticamente a cero:
+  $$\lim_{t \to \infty} e^{-at} = 0$$
+* **Estabilidad:** El sistema es **asintóticamente estable** y cumple el criterio **BIBO** (salida acotada ante entrada acotada).
+* **Salida estacionaria:**
+  $$y(\infty) = \lim_{t \to \infty} (1 - e^{-at}) = 1 - 0 = 1$$
 
 ---
 
-### Inciso c: Conclusiones de estabilidad
-1. La respuesta transitoria está gobernada por el modo exponencial $e^{-at}$. Como el polo se ubicó en el semiplano izquierdo ($\text{Re}(s) = -a < 0$), este modo se extingue asintóticamente con el tiempo.
-2. Ante una entrada escalón acotada, la salida converge a un valor finito acotado ($y(\infty) = 1$), verificando que el sistema es **asintóticamente estable** y cumple el criterio **BIBO**. Si se hubiese elegido un polo derecho ($+d$), la solución presentaría el término $e^{+dt}$, haciendo divergir la salida al infinito.
+## 3. Caso B: Selección sobre el Eje Imaginario / Origen (Marginalmente Estable)
 
----
----
+### Selección del polo
+Se elige el polo ubicado en el origen: $s = 0$.
 
-## 2. Modelo 2: Lazo Cerrado con Integrador y Ganancia $K$
+### Función de Transferencia $G(s)$
+El sistema degenera en un integrador puro:
+$$G(s) = \frac{1}{s}$$
 
-### Diagrama en Bloques
-* Rama de ida directa: integrador puro $\left[\frac{1}{s}\right]$ en cascada con ganancia $[K]$.
-* Rama de realimentación: unitaria negativa directa ($H(s) = 1$).
+### Cálculo de la salida $Y(s)$
+$$Y(s) = G(s) \cdot U(s) = \frac{1}{s} \cdot \frac{1}{s} = \frac{1}{s^2}$$
 
----
+### Respuesta temporal $y(t)$
+Aplicando Transformada Inversa de Laplace:
+$$y(t) = t \quad (t \ge 0)$$
 
-### Paso Previo: Reducción algebraica a lazo cerrado
-1. Ganancia directa: $G(s) = \frac{1}{s} \cdot K = \frac{K}{s}$
-2. Ganancia de realimentación: $H(s) = 1$
-3. Función de transferencia equivalente:
-   $$G_{lc}(s) = \frac{Y(s)}{U(s)} = \frac{G(s)}{1 + G(s)H(s)} = \frac{\frac{K}{s}}{1 + \frac{K}{s} \cdot 1} = \frac{\frac{K}{s}}{\frac{s + K}{s}} = \mathbf{\frac{K}{s + K}}$$
-
----
-
-### Inciso a: Respuesta temporal $y(t)$ ante escalón unitario
-1. Entrada: $U(s) = \frac{1}{s}$
-2. Salida en Laplace:
-   $$Y(s) = \frac{K}{s + K} \cdot \frac{1}{s} = \frac{K}{s(s + K)}$$
-3. Descomposición en fracciones simples:
-   $$\frac{K}{s(s + K)} = \frac{A}{s} + \frac{B}{s + K}$$
-   * $A = \lim_{s \to 0} \left[ \frac{K}{s + K} \right] = \frac{K}{K} = 1$
-   * $B = \lim_{s \to -K} \left[ \frac{K}{s} \right] = \frac{K}{-K} = -1$
-   $$Y(s) = \frac{1}{s} - \frac{1}{s + K}$$
-4. Antitransformando al dominio del tiempo:
-   $$\mathbf{y(t) = 1 - e^{-Kt}} \quad (t \ge 0)$$
+### Análisis de estabilidad y valor en régimen permanente $y(\infty)$
+* **Modo dinámico:** La salida es una rampa lineal que crece indefinidamente con el tiempo.
+* **Estabilidad:** Para entrada escalón, la salida no permanece acotada. El sistema es **inestable en sentido BIBO** ante esta entrada (el polo de la planta en el origen coincide con el polo de la señal de entrada, generando un polo doble en $s=0$).
+* **Salida estacionaria:**
+  $$y(\infty) = \lim_{t \to \infty} (t) = +\infty \quad \text{(No acotada)}$$
 
 ---
 
-### Inciso b: Determinación del polo, demostración de estabilidad y $y(\infty)$
+## 4. Caso C: Selección en el Semiplano Derecho (Sistema Inestable)
 
-#### 1. Determinación del polo
-El polo del sistema es la raíz de su denominador:
+### Selección del polo
+Se elige un polo sobre el eje real positivo: $s = +p$ (por ejemplo, $s = +d$, con $d > 0$).
+
+### Función de Transferencia $G(s)$
+$$G(s) = \frac{d}{s - d}$$
+
+### Cálculo de la salida $Y(s)$
+$$Y(s) = G(s) \cdot U(s) = \frac{d}{s - d} \cdot \frac{1}{s} = \frac{d}{s(s - d)}$$
+
+### Expansión en fracciones simples y residuos
+$$\frac{d}{s(s - d)} = \frac{A}{s} + \frac{B}{s - d}$$
+* $A = \lim_{s \to 0} \left[ s \cdot \frac{d}{s(s - d)} \right] = \frac{d}{0 - d} = -1$
+* $B = \lim_{s \to d} \left[ (s - d) \cdot \frac{d}{s(s - d)} \right] = \frac{d}{d} = 1$
+
+$$Y(s) = -\frac{1}{s} + \frac{1}{s - d}$$
+
+### Respuesta temporal $y(t)$
+Aplicando Transformada Inversa de Laplace:
+$$y(t) = -1 + e^{+dt} \quad (t \ge 0)$$
+
+### Análisis de estabilidad y valor en régimen permanente $y(\infty)$
+* **Modo dinámico:** El término $e^{+dt}$ posee exponente positivo. Conforme $t$ avanza, la función exponencial diverge:
+  $$\lim_{t \to \infty} e^{+dt} = +\infty$$
+* **Estabilidad:** El sistema es **inestable**. Una entrada acotada genera una salida no acotada.
+* **Salida estacionaria:**
+  $$y(\infty) = \lim_{t \to \infty} (-1 + e^{+dt}) = +\infty \quad \text{(Divergente)}$$
+
+---
+
+## 5. Tabla Resumen del Ejercicio del Plano Complejo
+
+| Ubicación del Polo      | Polo $s_1$         | Respuesta Temporal $y(t)$ | Valor Final $y(\infty)$ | Condición de Estabilidad            |
+| :---------------------- | :----------------- | :------------------------ | :---------------------- | :---------------------------------- |
+| **Semiplano Izquierdo** | $s = -a$ ($a > 0$) | $1 - e^{-at}$             | $1$                     | Asintóticamente estable (BIBO)      |
+| **Origen**              | $s = 0$            | $t$ (rampa)               | $+\infty$               | Inestable ante escalón              |
+| **Semiplano Derecho**   | $s = +d$ ($d > 0$) | $-1 + e^{+dt}$            | $+\infty$               | Inestable (divergencia exponencial) |
+
+---
+# Ejercicio 2 (Modelo 2): Análisis Completo del Lazo Cerrado con Ganancia K
+
+---
+
+## 1. Topología del Diagrama en Bloques
+* **Trayectoria directa:** Integrador puro $\left[\frac{1}{s}\right]$ en cascada con bloque de ganancia ajustable $[K]$.
+* **Trayectoria de realimentación:** Lazo unitario negativo directo ($H(s) = 1$).
+* **Entrada:** Escalón unitario $u(t) = 1(t) \iff U(s) = \frac{1}{s}$.
+
+---
+
+## 2. Reducción Analítica a Lazo Cerrado
+1. Ganancia directa de la trayectoria de ida:
+   $$G(s) = \frac{1}{s} \cdot K = \frac{K}{s}$$
+2. Función de transferencia a lazo cerrado:
+   $$G_{lc}(s) = \frac{Y(s)}{U(s)} = \frac{G(s)}{1 + G(s)H(s)} = \frac{\frac{K}{s}}{1 + \frac{K}{s} \cdot 1}$$
+3. Resolviendo algebraicamente el cociente:
+   $$G_{lc}(s) = \frac{\frac{K}{s}}{\frac{s + K}{s}} = \mathbf{\frac{K}{s + K}}$$
+
+### Determinación del Polo a Lazo Cerrado
+El polo del sistema es la raíz del polinomio del denominador:
 $$s + K = 0 \implies \mathbf{s = -K}$$
 
-#### 2. Demostración analítica de estabilidad
-A partir de la solución temporal obtenida:
-$$y(t) = 1 - e^{-Kt}$$
-* **Caso $K > 0$ (polo en semiplano izquierdo, $s = -K < 0$):**
-  El exponente temporal resulta estrictamente negativo. Al evaluar el límite temporal:
-  $$\lim_{t \to \infty} e^{-Kt} = 0 \implies \lim_{t \to \infty} y(t) = 1$$
-  El término transitorio desaparece y la salida permanece acotada. El sistema es **asintóticamente estable**.
-* **Caso $K < 0$ (polo en semiplano derecho, $s = -K > 0$):**
-  Definiendo $K = -|K|$, la ecuación resulta $y(t) = 1 - e^{+|K|t}$.
-  $$\lim_{t \to \infty} (1 - e^{+|K|t}) = -\infty$$
-  La salida diverge y el sistema es **inestable**.
-* **Caso $K = 0$ (polo en el origen):**
-  Se pierde la acción del lazo cerrado.
-
-* **Conclusión formal:** El polo debe ubicarse en el semiplano izquierdo ($s = -K < 0$), lo que exige la condición obligatoria de diseño:
-  $$\mathbf{K > 0}$$
-
-#### 3. Cálculo de la salida final $y(\infty)$
-Cumpliéndose la condición de estabilidad ($K > 0$):
-$$\mathbf{y(\infty) = \lim_{t \to \infty} (1 - e^{-Kt}) = 1 - 0 = 1}$$
-
----
----
-
-## 3. Modelo 3: Sistema Sobreamortiguado de Segundo Orden con Entrada Escalón $C$
-
-### Enunciado General
-Dada la función de transferencia con polos reales y distintos ($p_1 \neq p_2$):
-$$\frac{Y(s)}{U(s)} = \frac{1}{(s + p_1)(s + p_2)}$$
-
-Sujeta a una entrada escalón de amplitud general $C > 0$:
-$$U(s) = \frac{C}{s}$$
+El valor y signo del parámetro de ganancia $K$ determinan la posición del polo en el plano $s$ y su régimen dinámico.
 
 ---
 
-### Inciso a: Obtención analítica de la salida $y(t)$
+## 3. Caso A: Ganancia Positiva ($K > 0$) - Régimen Estable
 
-#### 1. Planteo general en Laplace
-$$Y(s) = \frac{1}{(s + p_1)(s + p_2)} \cdot \frac{C}{s} = \frac{C}{s(s + p_1)(s + p_2)}$$
+### Ubicación del Polo
+Al ser $K > 0$, el polo se sitúa sobre el eje real negativo (semiplano izquierdo):
+$$s = -K < 0$$
 
-#### 2. Descomposición literal en fracciones simples
-Planteamos la suma de términos de primer orden:
+### Salida en Laplace $Y(s)$
+$$Y(s) = G_{lc}(s) \cdot U(s) = \frac{K}{s + K} \cdot \frac{1}{s} = \frac{K}{s(s + K)}$$
+
+### Expansión en fracciones simples y residuos
+$$\frac{K}{s(s + K)} = \frac{A}{s} + \frac{B}{s + K}$$
+* Coeficiente $A$:
+  $$A = \lim_{s \to 0} \left[ s \cdot \frac{K}{s(s + K)} \right] = \frac{K}{0 + K} = 1$$
+* Coeficiente $B$:
+  $$B = \lim_{s \to -K} \left[ (s + K) \cdot \frac{K}{s(s + K)} \right] = \frac{K}{-K} = -1$$
+
+$$Y(s) = \frac{1}{s} - \frac{1}{s + K}$$
+
+### Respuesta temporal $y(t)$
+Aplicando Transformada Inversa de Laplace ($\mathcal{L}^{-1}$):
+$$y(t) = 1 - e^{-Kt} \quad (t \ge 0)$$
+
+### Estabilidad y valor en régimen permanente $y(\infty)$
+* **Comportamiento dinámico:** El término transitorio es $e^{-Kt}$. Dado que $K > 0$, el exponente es estrictamente negativo y decrece asintóticamente hacia cero:
+  $$\lim_{t \to \infty} e^{-Kt} = 0$$
+* **Estabilidad:** El sistema es **asintóticamente estable** y satisface el criterio **BIBO** (salida acotada ante entrada escalón acotada).
+* **Salida estacionaria:**
+  $$y(\infty) = \lim_{t \to \infty} (1 - e^{-Kt}) = 1 - 0 = 1$$
+
+---
+
+## 4. Caso B: Ganancia Nula ($K = 0$) - Polo en el Origen
+
+### Ubicación del Polo
+$$K = 0 \implies s = 0$$
+
+### Función de Transferencia y Salida en Laplace
+Con $K = 0$, la ganancia de lazo directo es nula ($G(s) = 0$):
+$$G_{lc}(s) = 0 \implies Y(s) = 0 \cdot \frac{1}{s} = 0$$
+$$y(t) = 0 \quad (t \ge 0)$$
+
+*(En caso de considerar la apertura del lazo antes del integrador sin realimentación, el sistema actuaría como integrador puro $\frac{1}{s}$, produciendo ante un escalón $Y(s) = \frac{1}{s^2} \implies y(t) = t$, lo que generaría una rampa no acotada).*
+
+* **Estabilidad:** Sistema nulo o **marginalmente inestable ante escalón**.
+
+---
+
+## 5. Caso C: Ganancia Negativa ($K < 0$) - Régimen Inestable
+
+### Ubicación del Polo
+Definiendo $K = -|K|$ con $|K| > 0$, el polo queda ubicado en el semiplano derecho:
+$$s = -K = -(-|K|) = +|K| > 0$$
+
+### Salida en Laplace $Y(s)$
+$$Y(s) = \frac{-|K|}{s(s - |K|)}$$
+
+### Expansión en fracciones simples
+$$\frac{-|K|}{s(s - |K|)} = \frac{A}{s} + \frac{B}{s - |K|}$$
+* Coeficiente $A$:
+  $$A = \lim_{s \to 0} \left[ \frac{-|K|}{s - |K|} \right] = \frac{-|K|}{-|K|} = 1$$
+* Coeficiente $B$:
+  $$B = \lim_{s \to |K|} \left[ \frac{-|K|}{s} \right] = \frac{-|K|}{|K|} = -1$$
+
+$$Y(s) = \frac{1}{s} - \frac{1}{s - |K|}$$
+
+### Respuesta temporal $y(t)$
+Aplicando Transformada Inversa de Laplace:
+$$y(t) = 1 - e^{+|K|t} \quad (t \ge 0)$$
+
+### Estabilidad y valor en régimen permanente $y(\infty)$
+* **Comportamiento dinámico:** El término $e^{+|K|t}$ posee exponente positivo. Conforme $t \to \infty$, dicho término crece de forma exponencial sin límite:
+  $$\lim_{t \to \infty} e^{+|K|t} = +\infty$$
+* **Estabilidad:** El sistema es **inestable**. Una entrada acotada produce una salida divergente.
+* **Salida estacionaria:**
+  $$y(\infty) = \lim_{t \to \infty} (1 - e^{+|K|t}) = -\infty \quad \text{(Divergente)}$$
+
+---
+
+## 6. Cuadro Resumen del Lazo Cerrado con Ganancia K
+
+| Condición de $K$ | Posición del Polo | Respuesta Temporal $y(t)$ | Salida Estacionaria $y(\infty)$ | Clasificación de Estabilidad |
+| :--- | :--- | :--- | :--- | :--- |
+| **$K > 0$** | $s = -K < 0$ (Semiplano Izquierdo) | $1 - e^{-Kt}$ | $1$ | Asintóticamente estable (BIBO) |
+| **$K = 0$** | $s = 0$ (Eje imaginario / Origen) | $0$ (o rampa $t$ a lazo abierto) | $0$ (o $+\infty$) | Lazo inoperativo / Marginal |
+| **$K < 0$** | $s = +\|K\| > 0$ (Semiplano Derecho) | $1 - e^{+\|K\|t}$ | $-\infty$ | Inestable (divergencia exponencial) |
+
+---
+# Ejercicio 2 (Modelo 3): Análisis Completo del Sistema de 2do Orden (Todos los Regímenes)
+
+---
+
+## 1. Enunciado Base y Función General
+
+Función de transferencia de segundo orden sujeta a una entrada escalón de amplitud general $C > 0$ ($U(s) = \frac{C}{s}$)[cite: 1]:
+
+$$G(s) = \frac{Y(s)}{U(s)} = \frac{1}{s^2 + a_1 s + a_0} = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}$$
+
+Salida en el dominio de Laplace:
+$$Y(s) = G(s) \cdot \frac{C}{s} = \frac{C\,\omega_n^2}{s(s^2 + 2\zeta\omega_n s + \omega_n^2)}$$
+
+Las raíces del polinomio característico (polos del sistema) son:
+$$s_{1,2} = -\zeta\omega_n \pm \omega_n\sqrt{\zeta^2 - 1}$$
+
+---
+
+## 2. Caso A: Sobreamortiguado Estable ($\zeta > 1$ o $p_1 \neq p_2 > 0$)[cite: 1]
+
+### Naturaleza de los Polos
+Discriminante $\zeta^2 - 1 > 0$. Dos raíces reales, distintas y ubicadas en el semiplano izquierdo[cite: 1]:
+$$s_1 = -p_1, \quad s_2 = -p_2 \quad (p_1 > 0, \; p_2 > 0, \; p_1 \neq p_2)$$[cite: 1]
+
+La función queda factorizada como en el examen[cite: 1]:
+$$G(s) = \frac{1}{(s + p_1)(s + p_2)} \implies Y(s) = \frac{C}{s(s + p_1)(s + p_2)}$$[cite: 1]
+
+### Fracciones Simples y Salida Temporal $y(t)$
 $$Y(s) = \frac{A}{s} + \frac{B}{s + p_1} + \frac{D}{s + p_2}$$
+* Coeficiente estacionario $A$:
+  $$A = \lim_{s \to 0} \left[ s \cdot \frac{C}{s(s + p_1)(s + p_2)} \right] = \frac{C}{p_1 p_2}$$
+* Coeficientes transitorios:
+  $$B = \frac{C}{p_1(p_1 - p_2)}, \qquad D = \frac{C}{p_2(p_2 - p_1)}$$
 
-Cálculo del coeficiente estacionario $A$:
-$$A = \lim_{s \to 0} \left[ s \cdot \frac{C}{s(s + p_1)(s + p_2)} \right] = \frac{C}{(0 + p_1)(0 + p_2)} = \frac{C}{p_1 p_2}$$
-
-Dejamos expresados $B$ y $D$ como los coeficientes asociados a los modos transitorios:
-$$B = \lim_{s \to -p_1} \left[ \frac{C}{s(s + p_2)} \right] = \frac{C}{p_1(p_1 - p_2)}$$
-$$D = \lim_{s \to -p_2} \left[ \frac{C}{s(s + p_1)} \right] = \frac{C}{p_2(p_2 - p_1)}$$
-
-Sustituyendo en $Y(s)$:
-$$Y(s) = \frac{C}{p_1 p_2} \cdot \frac{1}{s} + B \cdot \frac{1}{s + p_1} + D \cdot \frac{1}{s + p_2}$$
-
-#### 3. Antitransformación al dominio del tiempo
-Aplicando la transformada inversa de Laplace directa:
+Antitransformando mediante Laplace:
 $$\mathbf{y(t) = \frac{C}{p_1 p_2} + B\,e^{-p_1 t} + D\,e^{-p_2 t}} \quad (t \ge 0)$$
 
+### Estabilidad y Salida Estacionaria
+* **Modo dinámico:** Suma de dos exponenciales puramente decrecientes sin oscilaciones.
+* **Estabilidad:** Como $p_1 > 0$ y $p_2 > 0$, $\lim_{t \to \infty} e^{-p_1 t} = 0$ y $\lim_{t \to \infty} e^{-p_2 t} = 0$. El sistema es **asintóticamente estable**[cite: 1].
+* **Salida estacionaria:**
+  $$\mathbf{y(\infty) = \lim_{t \to \infty} y(t) = \frac{C}{p_1 p_2}}$$
+
 ---
 
-### Inciso b: Análisis de Polos, Régimen Sobreamortiguado y Estado Estacionario
+## 3. Caso B: Críticamente Amortiguado ($\zeta = 1$ o $p_1 = p_2 = \omega_n > 0$)
 
-#### 1. Justificación de sistema sobreamortiguado
-Un sistema de segundo orden es **sobreamortiguado** cuando sus polos son **reales y distintos** (sin parte imaginaria), garantizando una respuesta temporal puramente exponencial, monótona y sin componentes oscilatorias. Esto se satisface formalmente dado que el denominador presenta la estructura $(s + p_1)(s + p_2)$ con la condición explícita $p_1 \neq p_2$.
+### Naturaleza de los Polos
+Discriminante $\zeta^2 - 1 = 0$. Dos raíces reales e idénticas (polo doble negativo en el semiplano izquierdo)[cite: 1]:
+$$s_1 = s_2 = -\omega_n$$
 
-#### 2. Condición analítica sobre los polos para asegurar estabilidad
-Los polos del sistema corresponden a las raíces del denominador:
-$$(s + p_1)(s + p_2) = 0 \implies s_1 = -p_1, \quad s_2 = -p_2$$
+$$Y(s) = \frac{C\,\omega_n^2}{s(s + \omega_n)^2} = \frac{A}{s} + \frac{B}{s + \omega_n} + \frac{D}{(s + \omega_n)^2}$$
+Con residuos: $A = C, \quad B = -C, \quad D = -C\,\omega_n$.
 
-Analizando los modos dinámicos en la solución temporal $y(t)$:
-* Los términos transitorios son $B\,e^{-p_1 t}$ y $D\,e^{-p_2 t}$.
-* Para que el sistema sea asintóticamente estable, ambos términos deben decaer a cero conforme el tiempo tiende a infinito ($t \to \infty$):
-  $$\lim_{t \to \infty} e^{-p_1 t} = 0 \iff p_1 > 0$$
-  $$\lim_{t \to \infty} e^{-p_2 t} = 0 \iff p_2 > 0$$
+### Respuesta Temporal $y(t)$
+Antitransformando mediante Laplace:
+$$\mathbf{y(t) = C\left[1 - e^{-\omega_n t}(1 + \omega_n t)\right]} \quad (t \ge 0)$$
 
-* **Conclusión formal:** Los polos $s_1$ y $s_2$ deben ubicarse estrictamente en el **semiplano izquierdo** ($\text{Re}(s) < 0$), lo que exige que los coeficientes satisfagan:
-  $$\mathbf{p_1 > 0, \quad p_2 > 0 \quad (con \;\; p_1 \neq p_2)}$$
+### Estabilidad y Salida Estacionaria
+* **Modo dinámico:** Respuesta aperiódica monótona (la más rápida sin presentar sobrepico).
+* **Estabilidad:** Como $\omega_n > 0$, tanto $e^{-\omega_n t}$ como la rampa amortiguada $t\,e^{-\omega_n t}$ tienden a cero. El sistema es **asintóticamente estable**.
+* **Salida estacionaria:**
+  $$\mathbf{y(\infty) = C(1 - 0) = C}$$
 
-#### 3. Salida en estado estacionario $y(\infty)$
-Bajo la condición de estabilidad demostrada ($p_1 > 0$ y $p_2 > 0$):
-$$y(\infty) = \lim_{t \to \infty} y(t) = \lim_{t \to \infty} \left[ \frac{C}{p_1 p_2} + B\,e^{-p_1 t} + D\,e^{-p_2 t} \right]$$
+---
 
-Al tender las exponenciales a cero:
-$$\mathbf{y(\infty) = \frac{C}{p_1 p_2}}$$
+## 4. Caso C: Subamortiguado ($0 < \zeta < 1$)
 
-*(Verificación por Teorema del Valor Final)*:
-$$y(\infty) = \lim_{s \to 0} \left[ s \cdot Y(s) \right] = \lim_{s \to 0} \left[ s \cdot \frac{C}{s(s + p_1)(s + p_2)} \right] = \frac{C}{p_1 p_2}$$
+### Naturaleza de los Polos
+Discriminante $\zeta^2 - 1 < 0$. Dos raíces complejas conjugadas con parte real negativa:
+$$s_{1,2} = -\zeta\omega_n \pm j\omega_d = -\sigma \pm j\omega_d$$
+Donde $\sigma = \zeta\omega_n > 0$ es la atenuación y $\omega_d = \omega_n\sqrt{1 - \zeta^2}$ es la frecuencia amortiguada.
+
+### Respuesta Temporal $y(t)$
+Completando cuadrados y antitransformando por Laplace:
+$$\mathbf{y(t) = C\left[ 1 - \frac{e^{-\zeta\omega_n t}}{\sqrt{1 - \zeta^2}}\sin(\omega_d t + \phi) \right]} \quad (t \ge 0)$$
+Con $\phi = \arccos(\zeta)$.
+
+### Estabilidad y Salida Estacionaria
+* **Modo dinámico:** Oscilaciones sinusoidales contenidas dentro de una envolvente exponencial decreciente $\pm \frac{C}{\sqrt{1 - \zeta^2}} e^{-\zeta\omega_n t}$.
+* **Estabilidad:** Como $\zeta\omega_n > 0$, la envolvente decae a cero. El sistema es **asintóticamente estable**.
+* **Salida estacionaria:**
+  $$\mathbf{y(\infty) = C(1 - 0) = C}$$
+
+---
+
+## 5. Caso D: No Amortiguado / Oscilatorio Puro ($\zeta = 0$)
+
+### Naturaleza de los Polos
+Polos imaginarios puros sobre el eje vertical ($s_{1,2} = \pm j\omega_n$):
+$$Y(s) = \frac{C\,\omega_n^2}{s(s^2 + \omega_n^2)} = \frac{C}{s} - C\,\frac{s}{s^2 + \omega_n^2}$$
+
+### Respuesta Temporal $y(t)$
+$$\mathbf{y(t) = C\left[1 - \cos(\omega_n t)\right]} \quad (t \ge 0)$$
+
+### Estabilidad y Salida Estacionaria
+* **Modo dinámico:** Oscilación armónica sostenida permanente de frecuencia $\omega_n$ entre $0$ y $2C$.
+* **Estabilidad:** **Marginalmente estable** (la salida es acotada pero no converge a un valor constante).
+* **Salida estacionaria:**
+  $$\mathbf{y(\infty) \quad \text{No existe (oscilación continua)}}$$
+
+---
+
+## 6. Caso E: Regímenes Inestables ($\zeta < 0$ o polos con parte real positiva)
+
+### 1. Oscilatorio Inestable (Subamortiguado Inestable, $-1 < \zeta < 0$)
+* **Polos:** Complejos conjugados en el semiplano derecho ($\text{Re}(s) = +|\zeta|\omega_n > 0$).
+* **Respuesta Temporal:**
+  $$y(t) = C\left[ 1 - \frac{e^{+|\zeta|\omega_n t}}{\sqrt{1 - \zeta^2}}\sin(\omega_d t + \phi) \right]$$
+* **Estabilidad:** La envolvente crece exponencialmente al infinito, provocando oscilaciones de amplitud divergente. **Inestable**.
+* **Salida estacionaria:** $y(\infty) \to \pm\infty$.
+
+### 2. Aperiódico Inestable (Sobreamortiguado Inestable, $\zeta \le -1$ o $p_1 < 0$)
+* **Polos:** Raíces reales con al menos un polo positivo en el semiplano derecho ($s_1 = -p_1 > 0 \implies p_1 < 0$).
+* **Respuesta Temporal:**
+  $$y(t) = \frac{C}{p_1 p_2} + B\,e^{+|p_1|t} + D\,e^{-p_2 t}$$
+* **Estabilidad:** El término $e^{+|p_1|t}$ diverge monótonamente al infinito conforme $t \to \infty$. **Inestable**.
+* **Salida estacionaria:** $y(\infty) \to \pm\infty$.
+
+---
+
+## 7. Tabla Comparativa Resumen
+
+| Régimen | Condición de Parámetros | Ubicación de Polos | Forma de $y(t)$ | $y(\infty)$ | Estabilidad |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sobreamortiguado**[cite: 1] | $\zeta > 1$ ($p_1 \neq p_2 > 0$)[cite: 1] | Reales distintos en semiplano izquierdo[cite: 1] | Exponenciales puras decrecientes[cite: 1] | $\frac{C}{p_1 p_2}$[cite: 1] | Asintóticamente estable |
+| **Críticamente amortiguado** | $\zeta = 1$ ($p_1 = p_2 = \omega_n > 0$) | Real doble en semiplano izquierdo | Exponencial y rampa atenuada | $C$ | Asintóticamente estable |
+| **Subamortiguado** | $0 < \zeta < 1$ | Complejos conjugados con $\text{Re}(s) < 0$ | Senoide amortiguada con envolvente decreciente | $C$ | Asintóticamente estable |
+| **No amortiguado** | $\zeta = 0$ | Imaginarios puros ($s = \pm j\omega_n$) | Cosenoide pura sostenida | No existe | Marginalmente estable |
+| **Inestable oscilatorio** | $-1 < \zeta < 0$ | Complejos conjugados con $\text{Re}(s) > 0$ | Senoide con envolvente exponencial creciente | $\pm\infty$ | Inestable |
+| **Inestable aperiódico** | $\zeta \le -1$ (o $p_1 < 0$) | Reales con al menos una raíz positiva | Exponencial creciente al infinito | $\pm\infty$ | Inestable |

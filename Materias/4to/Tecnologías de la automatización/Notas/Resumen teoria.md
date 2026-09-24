@@ -518,11 +518,11 @@ $$\mathbf{y(t) = C\left[1 - \cos(\omega_n t)\right]} \quad (t \ge 0)$$
 
 ## 7. Tabla Comparativa Resumen
 
-| Régimen | Condición de Parámetros | Ubicación de Polos | Forma de $y(t)$ | $y(\infty)$ | Estabilidad |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sobreamortiguado**[cite: 1] | $\zeta > 1$ ($p_1 \neq p_2 > 0$)[cite: 1] | Reales distintos en semiplano izquierdo[cite: 1] | Exponenciales puras decrecientes[cite: 1] | $\frac{C}{p_1 p_2}$[cite: 1] | Asintóticamente estable |
-| **Críticamente amortiguado** | $\zeta = 1$ ($p_1 = p_2 = \omega_n > 0$) | Real doble en semiplano izquierdo | Exponencial y rampa atenuada | $C$ | Asintóticamente estable |
-| **Subamortiguado** | $0 < \zeta < 1$ | Complejos conjugados con $\text{Re}(s) < 0$ | Senoide amortiguada con envolvente decreciente | $C$ | Asintóticamente estable |
-| **No amortiguado** | $\zeta = 0$ | Imaginarios puros ($s = \pm j\omega_n$) | Cosenoide pura sostenida | No existe | Marginalmente estable |
-| **Inestable oscilatorio** | $-1 < \zeta < 0$ | Complejos conjugados con $\text{Re}(s) > 0$ | Senoide con envolvente exponencial creciente | $\pm\infty$ | Inestable |
-| **Inestable aperiódico** | $\zeta \le -1$ (o $p_1 < 0$) | Reales con al menos una raíz positiva | Exponencial creciente al infinito | $\pm\infty$ | Inestable |
+| Régimen                       | Condición de Parámetros                   | Ubicación de Polos                               | Forma de $y(t)$                                | $y(\infty)$                  | Estabilidad             |
+| :---------------------------- | :---------------------------------------- | :----------------------------------------------- | :--------------------------------------------- | :--------------------------- | :---------------------- |
+| **Sobreamortiguado**[cite: 1] | $\zeta > 1$ ($p_1 \neq p_2 > 0$)[cite: 1] | Reales distintos en semiplano izquierdo[cite: 1] | Exponenciales puras decrecientes[cite: 1]      | $\frac{C}{p_1 p_2}$[cite: 1] | Asintóticamente estable |
+| **Críticamente amortiguado**  | $\zeta = 1$ ($p_1 = p_2 = \omega_n > 0$)  | Real doble en semiplano izquierdo                | Exponencial y rampa atenuada                   | $C$                          | Asintóticamente estable |
+| **Subamortiguado**            | $0 < \zeta < 1$                           | Complejos conjugados con $\text{Re}(s) < 0$      | Senoide amortiguada con envolvente decreciente | $C$                          | Asintóticamente estable |
+| **No amortiguado**            | $\zeta = 0$                               | Imaginarios puros ($s = \pm j\omega_n$)          | Cosenoide pura sostenida                       | No existe                    | Marginalmente estable   |
+| **Inestable oscilatorio**     | $-1 < \zeta < 0$                          | Complejos conjugados con $\text{Re}(s) > 0$      | Senoide con envolvente exponencial creciente   | $\pm\infty$                  | Inestable               |
+| **Inestable aperiódico**      | $\zeta \le -1$ (o $p_1 < 0$)              | Reales con al menos una raíz positiva            | Exponencial creciente al infinito              | $\pm\infty$                  | Inestable               |
